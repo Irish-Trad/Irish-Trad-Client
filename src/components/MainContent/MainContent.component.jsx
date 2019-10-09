@@ -1,5 +1,9 @@
 import React from "react";
 
-const MainContent = () => <main>This is the main content section</main>;
+import { MainContentContainer } from "./MainContent.styles";
+
+const MainContent = () => (
+  <MainContentContainer>This is the main content section</MainContentContainer>
+);
 
 export default MainContent;
