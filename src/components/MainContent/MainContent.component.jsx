@@ -1,9 +1,9 @@
 import React from "react";
 
-import { MainContentContainer } from "./MainContent.styles";
+import { StyledMainContent } from "./MainContent.styles";
 
 const MainContent = () => (
-  <MainContentContainer>This is the main content section</MainContentContainer>
+  <StyledMainContent>This is the main content section</StyledMainContent>
 );
 
 export default MainContent;
