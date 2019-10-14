@@ -1,7 +1,13 @@
 import React from "react";
 
-import { StyledFooter } from "./Footer.styles";
+import { StyledFooter, StyledAnchor } from "./Footer.styles";
 
-const Footer = () => <StyledFooter>This is the footer</StyledFooter>;
+const Footer = () => (
+  <StyledFooter>
+    <StyledAnchor href="mailto:contact@irish-bouzouki.net">
+      contact@irish-bouzouki.net
+    </StyledAnchor>
+  </StyledFooter>
+);
 
 export default Footer;
