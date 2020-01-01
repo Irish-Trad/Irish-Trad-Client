@@ -1,15 +1,16 @@
 import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
-import Header from "./components/Header/Header.component";
-import MainContent from "./components/MainContent/MainContent.component";
-import Footer from "./components/Footer/Footer.component";
-
-const App = () => (
-  <div>
-    <Header />
-    <MainContent />
-    <Footer />
-  </div>
-);
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>Updating Website - Check Back Soon</p>
+      </header>
+    </div>
+  );
+}
 
 export default App;
