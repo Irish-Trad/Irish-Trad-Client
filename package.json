@@ -1,7 +1,6 @@
 {
-  "name": "irish-bouzouki",
+  "name": "irish-trad.net",
   "version": "0.1.0",
-  "homepage": "http://itsmarkodowd.github.io/REACT-Irish-Bouzouki",
   "private": true,
   "dependencies": {
     "react": "^16.10.2",
@@ -10,8 +9,6 @@
     "styled-components": "^4.4.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -31,8 +28,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.1.1"
   }
 }
