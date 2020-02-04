@@ -2,10 +2,10 @@ import React from "react";
 
 const ClefToTab = () => (
   //  <!-- Main Section -->
-  <main class="w3-content w3-container w3-white">
+  <main>
     {/* <!-- Content --> */}
-    <h1 class="w3-center w3-padding">Cleft to Tablature</h1>
-    <div class="w3-center">
+    <h1>Cleft to Tablature</h1>
+    <div>
       <a href="#clef-to-tab-GDAE">
         <button>GDAE</button>
       </a>
@@ -55,7 +55,7 @@ const ClefToTab = () => (
       musicians your own work.
     </p>
 
-    <div class="w3-center">
+    <div>
       <a href="../img/high-quality/GDAE_Clef_To_TAB.jpg" target="_blank">
         <img
           id="clef-to-tab-GDAE"

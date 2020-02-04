@@ -1,6 +1,15 @@
 import React from "react";
 
-import { Container, H1, H2, Text, Link } from "./Homepage.styles";
+import {
+  Container,
+  H1,
+  Figure,
+  Img,
+  Figcaption,
+  H2,
+  Text,
+  Link
+} from "./Homepage.styles";
 
 const Homepage = () => (
   <Container>
@@ -11,14 +20,14 @@ const Homepage = () => (
       diagrams and scales apply to all of these instruments as they are tuned to
       a standard GDAE or alternative GDAD tuning.
     </Text>
-    <figure>
-      <img
+    <Figure>
+      <Img
         src="../assets/low-quality/2243E.jpg"
         alt="Ozark 2243E Irish Bouzouki"
         title="Ozark 2243E Irish Bouzouki"
       />
-      <figcaption>Pictured: Ozark 2243E Irish Bouzouki</figcaption>
-    </figure>
+      <Figcaption>Pictured: Ozark 2243E Irish Bouzouki</Figcaption>
+    </Figure>
     <Text>
       The Irish Bouzouki is a popular stringed instrument used for accompaniment
       during traditional Irish sessions. Due to the Irish Bouzouki's scale

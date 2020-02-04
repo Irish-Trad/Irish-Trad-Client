@@ -15,6 +15,12 @@ export const H2 = styled.h2``;
 
 export const Text = styled.p``;
 
+export const Figure = styled.figure``;
+
+export const Img = styled.img``;
+
+export const Figcaption = styled.figcaption``;
+
 export const Link = styled.a`
   text-decoration: none;
   color: black;

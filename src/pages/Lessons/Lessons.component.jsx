@@ -1,79 +1,73 @@
 import React from "react";
 
+import { MainContainer, H1, H2, Text, Container, Link } from "./Lessons.styles";
+
 const Lessons = () => (
-  // <!-- Main Section -->
-  <main class="w3-content w3-container w3-white">
-    {/* <!-- Content --> */}
-    <h1>Lessons</h1>
-
-    <h2>Preparation:</h2>
-
-    <div>
-      <a href="../pages/lessons/stringing-the-instrument.html">
+  <MainContainer>
+    <H1>Lessons</H1>
+    <H2>Preparation:</H2>
+    <Container>
+      <Link href="../pages/lessons/stringing-the-instrument.html">
         How to string your instrument
-      </a>
-      <p>
+      </Link>
+      <Text>
         Knowing how to string your instrument is an essential skill every
         musician needs to learn. It can be a daunting task for beginners because
         of uncertainty and fear of damaging the instrument. This section covers
         how to string the instrument and the different options available when
         buying strings.
-      </p>
-
-      <a href="../pages/lessons/tuning-the-instrument.html">
+      </Text>
+      <Link href="../pages/lessons/tuning-the-instrument.html">
         How to tune your instrument
-      </a>
-      <p>
+      </Link>
+      <Text>
         When playing with other musicians it is vital that your instrument is in
         tune. This section covers how to use a chromatic tuner and the different
         tuning configurations available to the Irish Bouzouki.
-      </p>
-
-      <a href="../pages/lessons/how-to-read-tablature.html">
+      </Text>
+      <Link href="../pages/lessons/how-to-read-tablature.html">
         How to read tablature
-      </a>
-      <p>
+      </Link>
+      <Text>
         Tablature is a form of music notation structured towards fretted
         instruments. It is regarded as one of the quickest methods for teaching
         beginners how to start making music. This section covers how to read
         tablature.
-      </p>
-    </div>
-
-    <h2>Useful Websites:</h2>
-
-    <div>
-      <a
+      </Text>
+    </Container>
+    <H2>Useful Websites:</H2>
+    <Container>
+      <Link
         href="https://thesession.org/"
         target="_blank"
         rel="noopener noreferrer"
       >
         The Session
-      </a>
-      <p>The best resource for Irish traditional sheet music.</p>
-
-      <a
+      </Link>
+      <Text>The best resource for Irish traditional sheet music.</Text>
+      <Link
         href="http://irish-music.net/"
         target="_blank"
         rel="noopener noreferrer"
       >
         Irish-Music
-      </a>
-      <p>
+      </Link>
+      <Text>
         Useful website that provides links to many resources for traditional
         Irish instruments.
-      </p>
-
-      <a
+      </Text>
+      <Link
         href="http://mandolessons.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
         Mando Lessons
-      </a>
-      <p>Mandolin focused website providing high quality video lessons.</p>
-    </div>
-  </main>
+      </Link>
+      <Text>
+        Mandolin focused website providing high quality video lessons.
+      </Text>
+    </Container>
+  </MainContainer>
 );
 
 export default Lessons;
