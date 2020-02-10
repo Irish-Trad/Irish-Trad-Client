@@ -1,11 +1,12 @@
 import React from "react";
 
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Homepage from "./pages/Homepage";
+import NotFound from "./pages/NotFound";
 import Chords from "./pages/Chords";
 import ClefToTab from "./pages/ClefToTab";
 import Lessons from "./pages/Lessons";
@@ -30,17 +31,7 @@ const App = () => (
         <Route exact path="/lessons/how-to-string" component={HowToString} />
         <Route exact path="/lessons/how-to-tune" component={HowToTune} />
         <Route exact path="/terminology" component={Terminology} />
-        <Route
-          path="*"
-          render={() => (
-            <div>
-              <h1>404 - No Page Found</h1>
-              <Link to={"/"}>
-                <button>Click Here to Return Home</button>
-              </Link>
-            </div>
-          )}
-        />
+        <Route path="*" component={NotFound} />
       </Switch>
       <Footer />
     </Router>
