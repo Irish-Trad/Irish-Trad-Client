@@ -7,7 +7,12 @@ export const MainContainer = styled.main`
 `;
 
 export const H1 = styled.h1`
-  align-self: center;
+  text-align: center;
+  font-family: meathflfregular;
+  font-size: 58px;
+  margin: 10px;
 `;
 
 export const Text = styled.p``;
+
+export const Bold = styled.b``;
