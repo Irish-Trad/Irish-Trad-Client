@@ -1,1 +1,1 @@
-export { default } from "./HowToTune.component";
+export { default } from './HowToTune.component'

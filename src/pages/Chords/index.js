@@ -1,1 +1,1 @@
-export { default } from "./Chords.component";
+export { default } from './Chords.component'

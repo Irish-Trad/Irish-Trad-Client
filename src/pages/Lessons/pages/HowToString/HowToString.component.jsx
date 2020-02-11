@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react'
 
-const HowToString = () => <div>HowToString</div>;
+const HowToString = () => <div>HowToString</div>
 
-export default HowToString;
+export default HowToString

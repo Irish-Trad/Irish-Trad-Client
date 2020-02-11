@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 import {
   Container,
@@ -9,7 +9,7 @@ import {
   H2,
   Text,
   Link
-} from "./Homepage.styles";
+} from './Homepage.styles'
 
 const Homepage = () => (
   <Container>
@@ -34,7 +34,7 @@ const Homepage = () => (
       length and overall pitch this tends to be in the form of chordal
       accompaniment however the instrument is also capable of performing melody
       lines. It is a relatively young instrument and a lot of its history &amp;
-      origin can be found on Wikipedia:{" "}
+      origin can be found on Wikipedia:{' '}
       <Link href="https://en.wikipedia.org/wiki/Irish_Bouzouki">
         Wikipedia - Irish Bouzouki
       </Link>
@@ -52,7 +52,7 @@ const Homepage = () => (
     <Text>
       Irish-Bouzouki.net will not be hosting any copyrighted tunes or songs but
       instead provides all the information and musical theory required to bring
-      a player to the level where they can use a website such as{" "}
+      a player to the level where they can use a website such as{' '}
       <Link href="https://thesession.org/">The Session</Link> to play any of the
       tunes available there.
     </Text>
@@ -81,6 +81,6 @@ const Homepage = () => (
       range of the Irish Bouzouki).
     </Text>
   </Container>
-);
+)
 
-export default Homepage;
+export default Homepage

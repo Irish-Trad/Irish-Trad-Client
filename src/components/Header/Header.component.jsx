@@ -1,23 +1,21 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 
 import {
   HeaderContainer,
   Logo,
   NavBar,
   StyledLink,
-  BarsIcon
-} from "./Header.styles";
-
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+  StyledIcon
+} from './Header.styles'
 
 const Header = () => {
-  const [hidden, toggleHidden] = useState(false);
+  const [hidden, toggleHidden] = useState(false)
 
   return (
     <HeaderContainer>
       <Logo>
         <StyledLink to="/">Irish-Trad.net</StyledLink>
-        <BarsIcon onClick={() => toggleHidden(!hidden)} icon={faBars} />
+        <StyledIcon onClick={() => toggleHidden(!hidden)} icon="bars" />
       </Logo>
       {hidden ? (
         <NavBar>
@@ -28,7 +26,7 @@ const Header = () => {
         </NavBar>
       ) : null}
     </HeaderContainer>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

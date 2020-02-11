@@ -1,1 +1,1 @@
-export { default } from "./HowToReadTab.component";
+export { default } from './HowToReadTab.component'

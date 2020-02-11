@@ -1,1 +1,1 @@
-export { default } from "./Terminology.component";
+export { default } from './Terminology.component'

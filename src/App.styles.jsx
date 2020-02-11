@@ -1,3 +1,3 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-export const AppContainer = styled.main``;
+export const AppContainer = styled.main``

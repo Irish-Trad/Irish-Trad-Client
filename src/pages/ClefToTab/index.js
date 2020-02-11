@@ -1,1 +1,1 @@
-export { default } from "./ClefToTab.component";
+export { default } from './ClefToTab.component'

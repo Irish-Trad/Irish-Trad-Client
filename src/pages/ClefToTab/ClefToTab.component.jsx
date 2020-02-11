@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const ClefToTab = () => (
   //  <!-- Main Section -->
@@ -78,6 +78,6 @@ const ClefToTab = () => (
       </a>
     </div>
   </main>
-);
+)
 
-export default ClefToTab;
+export default ClefToTab

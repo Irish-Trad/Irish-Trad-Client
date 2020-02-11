@@ -1,1 +1,1 @@
-export { default } from "./HowToString.component";
+export { default } from './HowToString.component'

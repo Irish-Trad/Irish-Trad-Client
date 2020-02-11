@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react'
 
-const HowToReadTab = () => <div>HowToReadTab</div>;
+const HowToReadTab = () => <div>HowToReadTab</div>
 
-export default HowToReadTab;
+export default HowToReadTab

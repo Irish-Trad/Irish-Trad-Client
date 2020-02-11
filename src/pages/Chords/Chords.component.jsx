@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-import { MainContainer, Button } from "./Chords.styles";
+import { MainContainer, Button } from './Chords.styles'
 
 const Chords = () => (
   // <!-- Main Section -->
@@ -301,5 +301,5 @@ const Chords = () => (
       </a>
     </div>
   </MainContainer>
-);
-export default Chords;
+)
+export default Chords

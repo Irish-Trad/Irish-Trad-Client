@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-import { MainContainer, H1, Text, Bold } from "./Terminology.styles";
+import { MainContainer, H1, Text, Bold } from './Terminology.styles'
 
 const Terminology = () => (
   <MainContainer>
@@ -70,6 +70,6 @@ const Terminology = () => (
       time.
     </Text>
   </MainContainer>
-);
+)
 
-export default Terminology;
+export default Terminology

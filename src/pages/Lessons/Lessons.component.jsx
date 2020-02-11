@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-import { MainContainer, H1, H2, Text, Container, Link } from "./Lessons.styles";
+import { MainContainer, H1, H2, Text, Container, Link } from './Lessons.styles'
 
 const Lessons = () => (
   <MainContainer>
@@ -68,6 +68,6 @@ const Lessons = () => (
       </Text>
     </Container>
   </MainContainer>
-);
+)
 
-export default Lessons;
+export default Lessons

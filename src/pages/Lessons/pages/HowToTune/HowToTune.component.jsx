@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react'
 
-const HowToTune = () => <div>HowToTune</div>;
+const HowToTune = () => <div>HowToTune</div>
 
-export default HowToTune;
+export default HowToTune
