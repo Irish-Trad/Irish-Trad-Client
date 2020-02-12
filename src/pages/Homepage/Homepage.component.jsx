@@ -58,20 +58,18 @@ const Homepage = () => (
     </Text>
     <H2>Lessons</H2>
     <Text>
-      The lessons section will provide information similar to material for
-      guitar players. For example: open chords, basic scales, barre and
-      'moveable' chords and additional information such as how to use
-      accessories like a capo or how to change and tune Bouzouki strings. Music
-      theory will also be used to cement an understanding of how chords and
-      scales are construced.
+      The lessons section will provide information such as open chords, basic
+      scales, barre and 'moveable' chords and additional information such as how
+      to use accessories like a capo or how to change and tune Bouzouki strings.
+      Music theory will also be used to reinforce an understanding of how chords
+      and scales are construced.
     </Text>
     <H2>Chords</H2>
     <Text>
-      The chords section provides chord charts for the two most common tunings
-      found on the Irish Bouzouki - GDAE and GDAD. The section covers basic
-      triads such as Major and Minor and extended chords such as Major 7th,
-      Minor 7th and Dominant 7th. The section will be expanded to include
-      'quick' moveable chords.
+      The chords section provides chord charts for the two most common tunings -
+      GDAE and GDAD. The section covers basic triads such as Major and Minor and
+      extended chords such as Major 7th, Minor 7th and Dominant 7th. The section
+      will be expanded to include 'quick' moveable chords.
     </Text>
     <H2>Clef to TAB</H2>
     <Text>
@@ -79,6 +77,12 @@ const Homepage = () => (
       piece of sheet music found in a book or online to be converted into
       tablature - as long as the piece music covers less than 4 octaves (the
       range of the Irish Bouzouki).
+    </Text>
+    <H2>Terminology</H2>
+    <Text>
+      The terminology section provides an A-Z of common phrases, names and
+      abbreviations that can be found across traditional irish music and session
+      settings.
     </Text>
   </Container>
 )
