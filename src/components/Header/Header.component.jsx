@@ -3,8 +3,9 @@ import React, { useState } from 'react'
 import {
   HeaderContainer,
   Logo,
+  DesktopNav,
   NavBar,
-  StyledLink,
+  InternalLink,
   StyledIcon
 } from './Header.styles'
 
@@ -14,15 +15,39 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Logo>
-        <StyledLink to="/">Irish-Trad.net</StyledLink>
+        <InternalLink to="/" onClick={() => toggleHidden(false)}>
+          Irish-Trad.net
+        </InternalLink>
+        <DesktopNav>
+          <InternalLink to="/lessons" onClick={() => toggleHidden(!hidden)}>
+            Lessons
+          </InternalLink>
+          <InternalLink to="/chords" onClick={() => toggleHidden(!hidden)}>
+            Chords
+          </InternalLink>
+          <InternalLink to="/clef-to-tab" onClick={() => toggleHidden(!hidden)}>
+            Clef to TAB
+          </InternalLink>
+          <InternalLink to="/terminology" onClick={() => toggleHidden(!hidden)}>
+            Terminology
+          </InternalLink>
+        </DesktopNav>
         <StyledIcon onClick={() => toggleHidden(!hidden)} icon="bars" />
       </Logo>
       {hidden ? (
         <NavBar>
-          <StyledLink to="/lessons">Lessons</StyledLink>
-          <StyledLink to="/chords">Chords</StyledLink>
-          <StyledLink to="/clef-to-tab">Clef to TAB</StyledLink>
-          <StyledLink to="/terminology">Terminology</StyledLink>
+          <InternalLink to="/lessons" onClick={() => toggleHidden(!hidden)}>
+            Lessons
+          </InternalLink>
+          <InternalLink to="/chords" onClick={() => toggleHidden(!hidden)}>
+            Chords
+          </InternalLink>
+          <InternalLink to="/clef-to-tab" onClick={() => toggleHidden(!hidden)}>
+            Clef to TAB
+          </InternalLink>
+          <InternalLink to="/terminology" onClick={() => toggleHidden(!hidden)}>
+            Terminology
+          </InternalLink>
         </NavBar>
       ) : null}
     </HeaderContainer>

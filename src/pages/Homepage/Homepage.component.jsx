@@ -1,24 +1,23 @@
 import React from 'react'
 
 import {
-  Container,
+  MainContainer,
   H1,
   Figure,
   Img,
   Figcaption,
   H2,
   Text,
-  Link
+  ExternalLink
 } from './Homepage.styles'
 
 const Homepage = () => (
-  <Container>
+  <MainContainer>
     <H1>Irish-Trad.net</H1>
     <Text>
-      Irish-Trad.net provides free online resources and lessons for the Irish
-      Bouzouki, Mandolin, Octave Mandola and Irish Tenor Banjo. The same chord
-      diagrams and scales apply to all of these instruments as they are tuned to
-      a standard GDAE or alternative GDAD tuning.
+      Irish-Trad.net provides free online resources and lessons for a variety of
+      stringed instruments commonly found in traditional Irish sessions such as
+      the Irish Bouzouki, Mandolin, Octave Mandola and Irish Tenor Banjo.
     </Text>
     <Figure>
       <Img
@@ -29,15 +28,22 @@ const Homepage = () => (
       <Figcaption>Pictured: Ozark 2243E Irish Bouzouki</Figcaption>
     </Figure>
     <Text>
+      As these instruments can be tuned to a standard GDAE or alternative GDAD
+      tuning all resources that showcase chord diagrams or scales will apply.
+    </Text>
+    <Text>
       The Irish Bouzouki is a popular stringed instrument used for accompaniment
       during traditional Irish sessions. Due to the Irish Bouzouki's scale
       length and overall pitch this tends to be in the form of chordal
       accompaniment however the instrument is also capable of performing melody
       lines. It is a relatively young instrument and a lot of its history &amp;
       origin can be found on Wikipedia:{' '}
-      <Link href="https://en.wikipedia.org/wiki/Irish_Bouzouki">
+      <ExternalLink
+        href="https://en.wikipedia.org/wiki/Irish_Bouzouki"
+        target="_blank"
+      >
         Wikipedia - Irish Bouzouki
-      </Link>
+      </ExternalLink>
       .
     </Text>
     <Text>
@@ -53,8 +59,8 @@ const Homepage = () => (
       Irish-Bouzouki.net will not be hosting any copyrighted tunes or songs but
       instead provides all the information and musical theory required to bring
       a player to the level where they can use a website such as{' '}
-      <Link href="https://thesession.org/">The Session</Link> to play any of the
-      tunes available there.
+      <ExternalLink href="https://thesession.org/">The Session</ExternalLink> to
+      play any of the tunes available there.
     </Text>
     <H2>Lessons</H2>
     <Text>
@@ -84,7 +90,7 @@ const Homepage = () => (
       abbreviations that can be found across traditional irish music and session
       settings.
     </Text>
-  </Container>
+  </MainContainer>
 )
 
 export default Homepage

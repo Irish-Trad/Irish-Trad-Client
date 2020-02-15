@@ -1,37 +1,47 @@
 import React from 'react'
 
+import {
+  MainContainer,
+  H1,
+  ButtonContainer,
+  Button,
+  Text,
+  InternalLink,
+  A,
+  ImageContainer,
+  Image
+} from './ClefToTab.styles'
+
 const ClefToTab = () => (
-  //  <!-- Main Section -->
-  <main>
-    {/* <!-- Content --> */}
-    <h1>Cleft to Tablature</h1>
-    <div>
-      <a href="#clef-to-tab-GDAE">
-        <button>GDAE</button>
-      </a>
-      <a href="#clef-to-tab-GDAD">
-        <button>GDAD</button>
-      </a>
-    </div>
-    <p>
+  <MainContainer>
+    <H1>Cleft to Tablature</H1>
+    <ButtonContainer>
+      <A href="#clef-to-tab-GDAE">
+        <Button>GDAE</Button>
+      </A>
+      <A href="#clef-to-tab-GDAD">
+        <Button>GDAD</Button>
+      </A>
+    </ButtonContainer>
+    <Text>
       The most popular system used for presenting musical notation is sheet
       music. The following diagram can be used to convert any piece of sheet
       music into tablature - as long as the sheet music is within the Irish
       Bouzouki's capabilities. The full sounding range of a 24 fret Irish
       Bouzouki tuned GDAE is G2 (98Hz) to E6 (1319Hz) - slightly less than 4
       octaves.
-    </p>
-    <p>
+    </Text>
+    <Text>
       Sheet music for traditional Irish tunes can be found on websites such as
-      <a href="https://www.thesession.org/">The Session</a>. Music books that
+      <A href="https://www.thesession.org/">The Session</A>. Music books that
       are found in music shops tend to showcase sheet music only. Looking at
       books that are designed specifically for the Irish Bouzouki or the
       Mandolin are good places to start because they are designed with the
       instruments range in mind. However even the music books scored for piano
       can be converted to the Irish Bouzouki using the diagram found on this
       page.
-    </p>
-    <p>
+    </Text>
+    <Text>
       The lowest pitch that the Irish Bouzouki is able to produce naturally is
       the G note found by playing the thickest string open. When looking at the
       conversion diagram there is only one way to play this note when it is
@@ -44,8 +54,8 @@ const ClefToTab = () => (
       and the same note can be produced by playing the 7th fret of the G string.
       These notes are exactly the same pitch. However this is a slight
       difference in timbre due to the thickness of each string.
-    </p>
-    <p>
+    </Text>
+    <Text>
       Learning to read sheet music quickly and efficiently requires continuous
       practice. This tends to be a tedious activity which is why many musicians
       such as guitarists rely heavily or solely on tablature to instruct them
@@ -53,31 +63,36 @@ const ClefToTab = () => (
       musicians as such it is an incredibly valuable tool to learn and
       understand as it would enable you the ability to transcribe for other
       musicians your own work.
-    </p>
-
-    <div>
-      <a href="../img/high-quality/GDAE_Clef_To_TAB.jpg" target="_blank">
-        <img
+    </Text>
+    <ImageContainer>
+      <InternalLink
+        to={'assets/high-quality/GDAE_Clef_To_TAB.jpg'}
+        target="_blank"
+      >
+        <Image
           id="clef-to-tab-GDAE"
-          src="../img/low-quality/GDAE_Clef_To_TAB.jpg"
+          src="assets/low-quality/GDAE_Clef_To_TAB.jpg"
           alt="GDAE Treble Clef to TAB"
           text="GDAE Treble Clef to TAB"
           width="100%"
           height="100%"
         />
-      </a>
-      <a href="../img/high-quality/GDAD_Clef_To_TAB.jpg" target="_blank">
-        <img
+      </InternalLink>
+      <InternalLink
+        to={'assets/high-quality/GDAD_Clef_To_TAB.jpg'}
+        target="_blank"
+      >
+        <Image
           id="clef-to-tab-GDAD"
-          src="../img/low-quality/GDAD_Clef_To_TAB.jpg"
+          src="assets/low-quality/GDAD_Clef_To_TAB.jpg"
           alt="GDAD Treble Clef to TAB"
           text="GDAD Treble Clef to TAB"
           width="100%"
           height="100%"
         />
-      </a>
-    </div>
-  </main>
+      </InternalLink>
+    </ImageContainer>
+  </MainContainer>
 )
 
 export default ClefToTab

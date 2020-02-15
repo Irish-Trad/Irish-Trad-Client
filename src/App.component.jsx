@@ -2,50 +2,50 @@ import React, { lazy, Suspense } from 'react'
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from 'components/Header'
+import Footer from 'components/Footer'
 import Loading from 'pages/Loading'
 
-import { AppContainer } from './App.styles'
+import { AppContainer } from 'App.styles'
 
 const Homepage = lazy(() =>
-  import('./pages/Homepage' /* webpackChunkName: 'Homepage' */)
+  import('pages/Homepage' /* webpackChunkName: 'Homepage' */)
 )
 
 const NotFound = lazy(() =>
-  import('./pages/NotFound' /* webpackChunkName: 'NotFound' */)
+  import('pages/NotFound' /* webpackChunkName: 'NotFound' */)
 )
 
 const Chords = lazy(() =>
-  import('./pages/Chords' /* webpackChunkName: 'Chords' */)
+  import('pages/Chords' /* webpackChunkName: 'Chords' */)
 )
 
 const ClefToTab = lazy(() =>
-  import('./pages/ClefToTab' /* webpackChunkName: 'ClefToTab' */)
+  import('pages/ClefToTab' /* webpackChunkName: 'ClefToTab' */)
 )
 
 const Lessons = lazy(() =>
-  import('./pages/Lessons' /* webpackChunkName: 'Lessons' */)
+  import('pages/Lessons' /* webpackChunkName: 'Lessons' */)
 )
 
 const Terminology = lazy(() =>
-  import('./pages/Terminology' /* webpackChunkName: 'Terminology' */)
+  import('pages/Terminology' /* webpackChunkName: 'Terminology' */)
 )
 
 const HowToReadTab = lazy(() =>
   import(
-    './pages/Lessons/pages/HowToReadTab' /* webpackChunkName: 'HowToReadTab' */
+    'pages/Lessons/pages/HowToReadTab' /* webpackChunkName: 'HowToReadTab' */
   )
 )
 
 const HowToString = lazy(() =>
   import(
-    './pages/Lessons/pages/HowToString' /* webpackChunkName: 'HowToString' */
+    'pages/Lessons/pages/HowToString' /* webpackChunkName: 'HowToString' */
   )
 )
 
 const HowToTune = lazy(() =>
-  import('./pages/Lessons/pages/HowToTune' /* webpackChunkName: 'HowToTune' */)
+  import('pages/Lessons/pages/HowToTune' /* webpackChunkName: 'HowToTune' */)
 )
 
 const App = () => (

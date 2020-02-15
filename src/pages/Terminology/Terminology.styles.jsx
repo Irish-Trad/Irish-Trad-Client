@@ -13,6 +13,8 @@ export const H1 = styled.h1`
   margin: 10px;
 `
 
-export const Text = styled.p``
+export const Text = styled.p`
+  font-size: 18px;
+`
 
 export const Bold = styled.b``

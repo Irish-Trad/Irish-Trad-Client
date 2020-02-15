@@ -11,11 +11,26 @@ export const HeaderContainer = styled.header`
   font-size: 24px;
 `
 
+export const DesktopNav = styled.nav`
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  text-align: center;
+
+  @media screen and (max-width: 849px) {
+    display: none;
+  }
+`
+
 export const NavBar = styled.nav`
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
   text-align: center;
+
+  @media screen and (min-width: 849px) {
+    display: none;
+  }
 `
 
 export const Logo = styled.div`
@@ -26,7 +41,7 @@ export const Logo = styled.div`
   align-items: center;
 `
 
-export const StyledLink = styled(Link)`
+export const InternalLink = styled(Link)`
   text-decoration: none;
   color: white;
   padding: 12px 24px;
@@ -40,10 +55,15 @@ export const StyledLink = styled(Link)`
 export const StyledIcon = styled(FontAwesomeIcon)`
   font-size: 24px;
   color: white;
-  padding: 12px 24px;
+  padding: 13px 24px;
+  cursor: pointer;
 
   &:hover {
     color: black;
     background-color: white;
+  }
+
+  @media screen and (min-width: 850px) {
+    display: none;
   }
 `
