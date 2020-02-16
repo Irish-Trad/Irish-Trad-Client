@@ -1,11 +1,16 @@
-import React from "react";
+import React from 'react'
 
-import { FooterContainer, Link } from "./Footer.styles";
+import { FooterContainer, StyledLink, StyledIcon } from './Footer.styles'
 
 const Footer = () => (
   <FooterContainer>
-    <Link>Discord</Link>
+    <StyledLink href="https://discord.gg/Mq9jeA8">
+      <StyledIcon icon={['fab', 'discord']} />
+    </StyledLink>
+    <StyledLink href="https://mailchi.mp/bfa9fa63aaab/irish-trad">
+      <StyledIcon icon={['fab', 'mailchimp']} />
+    </StyledLink>
   </FooterContainer>
-);
+)
 
-export default Footer;
+export default Footer
