@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const MainContainer = styled.main`
-  display: flex;
-  flex-flow: column wrap;
-  margin: 10px;
+  max-width: 960px;
+  margin: auto;
+  padding: 10px;
 `
 
 export const H1 = styled.h1`

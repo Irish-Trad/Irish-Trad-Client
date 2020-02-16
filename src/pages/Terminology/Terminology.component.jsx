@@ -34,7 +34,7 @@ const Terminology = () => (
       <Bold>Interval: </Bold>The distance between one note and another.
     </Text>
     <Text>
-      <Bold>Octave Mandolin: </Bold>The Octave Mandola is pitched one octave
+      <Bold>Octave Mandolin: </Bold>The Octave Mandolin is pitched one octave
       lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola
       (Europe) is interchangeable with the Octave Mandolin (America). They are
       the same instrument.

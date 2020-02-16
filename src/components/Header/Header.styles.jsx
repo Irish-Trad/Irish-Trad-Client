@@ -12,13 +12,18 @@ export const HeaderContainer = styled.header`
 `
 
 export const DesktopNav = styled.nav`
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  text-align: center;
+  margin: auto;
 
   @media screen and (max-width: 849px) {
     display: none;
+  }
+
+  @media screen and (max-width: 850px) {
+    width: 650px;
+  }
+
+  @media screen and (min-width: 1380px) {
+    width: 1200px;
   }
 `
 

@@ -38,7 +38,9 @@ export const Img = styled.img`
   }
 `
 
-export const Figcaption = styled.figcaption``
+export const Figcaption = styled.figcaption`
+  text-align: center;
+`
 
 export const ExternalLink = styled.a`
   text-decoration: none;

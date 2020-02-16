@@ -78,8 +78,8 @@ const HowToString = () => (
       >
         <Image
           src="../assets/low-quality/How_To_String/step1.jpg"
-          alt=""
-          title=""
+          alt="Step 1: How To String"
+          title="Step 1: How To String"
         />
       </InternalLink>
       <Figcaption>Figure 1: Tailpiece cover removed</Figcaption>
@@ -109,8 +109,8 @@ const HowToString = () => (
       >
         <Image
           src="../assets/low-quality/How_To_String/step23.jpg"
-          alt=""
-          title=""
+          alt="Step 2 & 3: How To String"
+          title="Step 2 & 3: How To String"
         />
       </InternalLink>
       <Figcaption>
@@ -124,8 +124,8 @@ const HowToString = () => (
       >
         <Image
           src="../assets/low-quality/How_To_String/step45.jpg"
-          alt=""
-          title=""
+          alt="Step 4 & 5: How To String"
+          title="Step 4 & 5: How To String"
         />
       </InternalLink>
       <Figcaption>
