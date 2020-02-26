@@ -37,11 +37,11 @@ const HowToReadTab = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/TAB_Lesson/TAB02.jpg'}
+        to={'assets/high-quality/TAB_Lesson/TAB02.jpg'}
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB02.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB02.jpg"
           alt="Standard Notation & Tablature"
           title="Standard Notation & Tablature"
         />
@@ -62,11 +62,11 @@ const HowToReadTab = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/TAB_Lesson/TAB04.jpg'}
+        to={'assets/high-quality/TAB_Lesson/TAB04.jpg'}
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB04.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB04.jpg"
           alt="String Direction"
           title="String Direction"
         />
@@ -80,9 +80,9 @@ const HowToReadTab = () => (
       an open G string to play this highlighted note.
     </Text>
     <Figure>
-      <InternalLink to={'../assets/high-quality/TAB_Lesson/TAB05.jpg'}>
+      <InternalLink to={'assets/high-quality/TAB_Lesson/TAB05.jpg'}>
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB05.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB05.jpg"
           alt="Single Note & Open String"
           title="Single Note & Open String"
         />
@@ -97,11 +97,11 @@ const HowToReadTab = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/TAB_Lesson/TAB06.jpg'}
+        to={'assets/high-quality/TAB_Lesson/TAB06.jpg'}
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB06.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB06.jpg"
           alt="More Than One Note"
           title="More Than One Note"
         />
@@ -117,11 +117,11 @@ const HowToReadTab = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/TAB_Lesson/TAB07.jpg'}
+        to={'assets/high-quality/TAB_Lesson/TAB07.jpg'}
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB07.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB07.jpg"
           alt="Full Chord"
           title="Full Chord"
         />
@@ -135,11 +135,11 @@ const HowToReadTab = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/TAB_Lesson/TAB08.jpg'}
+        to={'assets/high-quality/TAB_Lesson/TAB08.jpg'}
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB08.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB08.jpg"
           alt="Playing Through A Scale"
           title="Playing Through A Scale"
         />

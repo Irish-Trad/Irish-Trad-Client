@@ -21,7 +21,7 @@ const Homepage = () => (
     </Text>
     <Figure>
       <Img
-        src="../assets/low-quality/2243E.jpg"
+        src="assets/low-quality/2243E.jpg"
         alt="Ozark 2243E Irish Bouzouki"
         title="Ozark 2243E Irish Bouzouki"
       />

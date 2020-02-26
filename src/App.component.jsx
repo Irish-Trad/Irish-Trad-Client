@@ -32,6 +32,10 @@ const Terminology = lazy(() =>
   import('pages/Terminology' /* webpackChunkName: 'Terminology' */)
 )
 
+const Newsletter = lazy(() => import('pages/Newsletter') /* webpackChunkName: 'Newsletter' */)
+
+const Community = lazy(() => import('pages/Community') /* webpackChunkName: 'Community' */)
+
 const HowToReadTab = lazy(() =>
   import(
     'pages/Lessons/pages/HowToReadTab' /* webpackChunkName: 'HowToReadTab' */
@@ -57,6 +61,8 @@ const App = () => (
           <Route exact path="/" component={Homepage} />
           <Route exact path="/chords" component={Chords} />
           <Route exact path="/clef-to-tab" component={ClefToTab} />
+          <Route exact path="/community" component={Community} />
+          <Route exact path="/newsletter" component={Newsletter} />
           <Route exact path="/lessons" component={Lessons} />
           <Route
             exact
