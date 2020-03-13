@@ -28,8 +28,8 @@ const Homepage = () => (
       <Figcaption>Pictured: Ozark 2243E Irish Bouzouki</Figcaption>
     </Figure>
     <Text>
-      As these instruments can be tuned to a standard GDAE or alternative GDAD
-      tuning all resources that showcase chord diagrams or scales will apply.
+      Since all of these instruments can be tuned to the standard GDAE or alternative GDAD tuning
+      all of the resources found on Irish-Trad.net such as chord diagrams and scales will apply.
     </Text>
     <Text>
       The Irish Bouzouki is a popular stringed instrument used for accompaniment

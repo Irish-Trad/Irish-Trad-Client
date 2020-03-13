@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { MainContainer } from './Newsletter.styles'
+import { MainContainer } from 'common/StyledComponents/StyledComponents'
 
 const Newsletter = () => <MainContainer><h1>Newsletter</h1></MainContainer>
 
