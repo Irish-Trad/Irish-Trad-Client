@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 import {
   MainContainer,
@@ -12,8 +13,28 @@ import {
   Image
 } from './ClefToTab.styles'
 
+const Metadata = () => (
+  <Helmet>
+    <meta
+      name="title"
+      content="Irish-Trad.net - Treble Cleft to TAB - GDAE & GDAD"
+    />
+    <title>Irish-Trad.net - Treble Cleft to TAB - GDAE & GDAD</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+    />
+    <meta
+      name="description"
+      content="Treble Cleft to TAB - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin"
+    />
+  </Helmet>
+)
+
 const ClefToTab = () => (
   <MainContainer>
+    {Metadata()}
     <H1>Cleft to Tablature</H1>
     <ButtonContainer>
       <A href="#clef-to-tab-GDAE">

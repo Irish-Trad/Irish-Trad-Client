@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import {
   MainContainer,
@@ -13,8 +14,24 @@ import {
   LI
 } from './HowToTune.styles'
 
+const Metadata = () => (
+  <Helmet>
+    <meta name="title" content="Irish-Trad.net - How To Tune" />
+    <title>Irish-Trad.net - How To Tune</title>
+    <meta
+      name="keywords"
+      content="Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+    />
+    <meta
+      name="description"
+      content="How To Tune Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+    />
+  </Helmet>
+)
+
 const HowToTune = () => (
   <MainContainer>
+    {Metadata()}
     <H1>Tuning the Irish Bouzouki</H1>
     <ButtonContainer>
       <InternalLink to={'/lessons'}>

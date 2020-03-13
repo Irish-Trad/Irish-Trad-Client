@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 import {
   MainContainer,
@@ -15,8 +16,25 @@ import {
   Image
 } from './Chords.styles'
 
+const Metadata = () => (
+  <Helmet>
+    <meta name="title" content="Irish-Trad.net - Chords" />
+    <title>Irish-Trad.net - Chords</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+    />
+    <meta
+      name="description"
+      content="Chords - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+    />
+  </Helmet>
+)
+
 const Chords = () => (
   <MainContainer>
+    {Metadata()}
     <H1>Chords</H1>
     <ButtonContainer>
       <A href="#MajorChords">
