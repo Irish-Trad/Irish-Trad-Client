@@ -5,16 +5,15 @@ import { MainContainer, H1, Text, Bold } from './Terminology.styles'
 
 const Metadata = () => (
   <Helmet>
-    <meta name="title" content="Irish-Trad.net - Terminology" />
     <title>Irish-Trad.net - Terminology</title>
-    <meta charset="UTF-8" />
+    <meta name="title" content="Irish-Trad.net - Terminology" />
     <meta
       name="keywords"
-      content="Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+      content="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
     />
     <meta
       name="description"
-      content="Terminology for Irish Bouzouki/Mandolin/Octave Mandolin"
+      content="Terminology for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
     />
   </Helmet>
 )

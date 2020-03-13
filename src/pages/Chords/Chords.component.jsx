@@ -18,16 +18,15 @@ import {
 
 const Metadata = () => (
   <Helmet>
-    <meta name="title" content="Irish-Trad.net - Chords" />
     <title>Irish-Trad.net - Chords</title>
-    <meta charset="UTF-8" />
+    <meta name="title" content="Irish-Trad.net - Chords" />
     <meta
       name="keywords"
-      content="Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+      content="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
     />
     <meta
       name="description"
-      content="Chords - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+      content="Chords - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
     />
   </Helmet>
 )
