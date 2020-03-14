@@ -1,4 +1,4 @@
-import styled from 'common/StyledComponents/node_modules/styled-components'
+import styled from 'styled-components'
 
 export const MainContainer = styled.main`
   max-width: 960px;

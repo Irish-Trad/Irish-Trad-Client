@@ -1,5 +1,5 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import Metadata from 'common/Metadata'
 
 import {
   MainContainer,
@@ -12,24 +12,14 @@ import {
   ExternalLink
 } from './Homepage.styles'
 
-const Metadata = () => (
-  <Helmet>
-    <title>Irish-Trad.net - Home</title>
-    <meta name="title" content="Irish-Trad.net - Home" />
-    <meta
-      name="keywords"
-      content="Irish, Irish Trad, Irish Traditional Music, Irish Folk Music, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-    />
-    <meta
-      name="description"
-      content="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandola/Irish Tenor Banjo"
-    />
-  </Helmet>
-)
-
 const Homepage = () => (
   <MainContainer>
-    {Metadata()}
+    <Metadata
+      title="Irish-Trad.net - Home"
+      metaTitle="Irish-Trad.net - Home"
+      metaKeywords="Irish, Irish Trad, Irish Traditional Music, Irish Folk Music, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+      metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandola/Irish Tenor Banjo"
+    />
     <H1>Irish-Trad.net</H1>
     <Text>
       Irish-Trad.net provides free online resources and lessons for a variety of
@@ -45,8 +35,9 @@ const Homepage = () => (
       <Figcaption>Pictured: Ozark 2243E Irish Bouzouki</Figcaption>
     </Figure>
     <Text>
-      Since all of these instruments can be tuned to the standard GDAE or alternative GDAD tuning
-      all of the resources found on Irish-Trad.net such as chord diagrams and scales will apply.
+      Since all of these instruments can be tuned to the standard GDAE or
+      alternative GDAD tuning all of the resources found on Irish-Trad.net such
+      as chord diagrams and scales will apply.
     </Text>
     <Text>
       The Irish Bouzouki is a popular stringed instrument used for accompaniment
