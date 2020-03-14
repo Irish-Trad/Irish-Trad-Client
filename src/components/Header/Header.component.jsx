@@ -31,6 +31,12 @@ const Header = () => {
           <InternalLink to="/terminology" onClick={() => toggleHidden(!hidden)}>
             Terminology
           </InternalLink>
+          <InternalLink to="/community" onClick={() => toggleHidden(!hidden)}>
+            Community
+          </InternalLink>
+          <InternalLink to="/newsletter" onClick={() => toggleHidden(!hidden)}>
+            Newsletter
+          </InternalLink>
         </DesktopNav>
         <StyledIcon onClick={() => toggleHidden(!hidden)} icon="bars" />
       </Logo>
@@ -47,6 +53,12 @@ const Header = () => {
           </InternalLink>
           <InternalLink to="/terminology" onClick={() => toggleHidden(!hidden)}>
             Terminology
+          </InternalLink>
+          <InternalLink to="/community" onClick={() => toggleHidden(!hidden)}>
+            Community
+          </InternalLink>
+          <InternalLink to="/newsletter" onClick={() => toggleHidden(!hidden)}>
+            Newsletter
           </InternalLink>
         </NavBar>
       ) : null}

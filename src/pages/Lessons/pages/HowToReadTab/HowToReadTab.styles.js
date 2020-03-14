@@ -46,7 +46,6 @@ export const Text = styled.p`
 export const Figure = styled.figure`
   display: flex;
   flex-direction: column;
-  justify-content: ;
   align-items: center;
 `
 
