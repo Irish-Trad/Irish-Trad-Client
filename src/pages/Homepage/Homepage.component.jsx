@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 import {
   MainContainer,
@@ -11,8 +12,24 @@ import {
   ExternalLink
 } from './Homepage.styles'
 
+const Metadata = () => (
+  <Helmet>
+    <title>Irish-Trad.net - Home</title>
+    <meta name="title" content="Irish-Trad.net - Home" />
+    <meta
+      name="keywords"
+      content="Irish, Irish Trad, Irish Traditional Music, Irish Folk Music, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+    />
+    <meta
+      name="description"
+      content="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandola/Irish Tenor Banjo"
+    />
+  </Helmet>
+)
+
 const Homepage = () => (
   <MainContainer>
+    {Metadata()}
     <H1>Irish-Trad.net</H1>
     <Text>
       Irish-Trad.net provides free online resources and lessons for a variety of
@@ -51,12 +68,12 @@ const Homepage = () => (
       having already played a different stringed instrument such as the guitar,
       mandolin or banjo. For guitar players, the most popular method of teaching
       is through tablature because of its simplicity and ability to get a person
-      playing quickly. The lessons and resources on Irish-Bouzouki.net are
-      presented in tablature (TAB) alongside traditional sheet music to satisfy
-      the absolute beginner and the musically trained.
+      playing quickly. The lessons and resources on Irish-Trad.net are presented
+      in tablature (TAB) alongside traditional sheet music to satisfy the
+      absolute beginner and the musically trained.
     </Text>
     <Text>
-      Irish-Bouzouki.net will not be hosting any copyrighted tunes or songs but
+      Irish-Trad.net will not be hosting any copyrighted tunes or songs but
       instead provides all the information and musical theory required to bring
       a player to the level where they can use a website such as{' '}
       <ExternalLink href="https://thesession.org/">The Session</ExternalLink> to
