@@ -1,5 +1,5 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import Metadata from 'common/Metadata'
 
 import {
   MainContainer,
@@ -16,27 +16,17 @@ import {
   LI
 } from './HowToString.styles'
 
-const Metadata = () => (
-  <Helmet>
-    <title>Irish-Trad.net - How To String</title>
-    <meta name="title" content="Irish-Trad.net - How To String" />
-    <meta
-      name="keywords"
-      content="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-    />
-    <meta
-      name="description"
-      content="How To String Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
-    />
-  </Helmet>
-)
-
 const HowToString = () => (
   <MainContainer>
-    {Metadata()}
+    <Metadata
+      title="Irish-Trad.net - How To String"
+      metaTitle="Irish-Trad.net - How To String"
+      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+      metaDescription="How To String Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
+    />
     <H1>Stringing the Irish Bouzouki</H1>
     <ButtonContainer>
-      <InternalLink to={'/lessons'}>
+      <InternalLink to="/lessons">
         <Button>Return to Lessons Page</Button>
       </InternalLink>
     </ButtonContainer>
@@ -90,7 +80,7 @@ const HowToString = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/How_To_String/step1.jpg'}
+        to="../assets/high-quality/How_To_String/step1.jpg"
         target="_blank"
       >
         <Image
@@ -121,7 +111,7 @@ const HowToString = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/How_To_String/step23.jpg'}
+        to="../assets/high-quality/How_To_String/step23.jpg"
         target="_blank"
       >
         <Image
@@ -136,7 +126,7 @@ const HowToString = () => (
     </Figure>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/How_To_String/step45.jpg'}
+        to="../assets/high-quality/How_To_String/step45.jpg"
         target="_blank"
       >
         <Image

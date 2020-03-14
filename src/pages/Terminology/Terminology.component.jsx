@@ -1,26 +1,16 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import Metadata from 'common/Metadata'
 
 import { MainContainer, H1, Text, Bold } from './Terminology.styles'
 
-const Metadata = () => (
-  <Helmet>
-    <title>Irish-Trad.net - Terminology</title>
-    <meta name="title" content="Irish-Trad.net - Terminology" />
-    <meta
-      name="keywords"
-      content="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-    />
-    <meta
-      name="description"
-      content="Terminology for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
-    />
-  </Helmet>
-)
-
 const Terminology = () => (
   <MainContainer>
-    {Metadata()}
+    <Metadata
+      title="Irish-Trad.net - Terminology"
+      metaTitle="Irish-Trad.net - Terminology"
+      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+      metaDescription="Terminology for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+    />
     <H1>Terminology</H1>
     <Text>
       <Bold>Arpeggio: </Bold>The notes of a chord played individually.

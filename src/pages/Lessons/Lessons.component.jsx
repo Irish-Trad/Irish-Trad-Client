@@ -1,5 +1,5 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import Metadata from 'common/Metadata'
 
 import {
   MainContainer,
@@ -12,24 +12,14 @@ import {
   ExternalLink
 } from './Lessons.styles'
 
-const Metadata = () => (
-  <Helmet>
-    <title>Irish-Trad.net - Lessons</title>
-    <meta name="title" content="Irish-Trad.net - Lessons" />
-    <meta
-      name="keywords"
-      content="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-    />
-    <meta
-      name="description"
-      content="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
-    />
-  </Helmet>
-)
-
 const Lessons = () => (
   <MainContainer>
-    {Metadata()}
+    <Metadata
+      title="Irish-Trad.net - Lessons"
+      metaTitle="Irish-Trad.net - Lessons"
+      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+      metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+    />
     <H1>Lessons</H1>
     <H2>Preparation:</H2>
     <InternalLink to={'/lessons/how-to-string'}>

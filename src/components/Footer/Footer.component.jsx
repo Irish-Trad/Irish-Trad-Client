@@ -4,10 +4,13 @@ import { FooterContainer, StyledLink, StyledIcon } from './Footer.styles'
 
 const Footer = () => (
   <FooterContainer>
-    <StyledLink href="https://discord.gg/Mq9jeA8">
+    <StyledLink href="https://discord.gg/Mq9jeA8" target="_blank">
       <StyledIcon icon={['fab', 'discord']} />
     </StyledLink>
-    <StyledLink href="https://mailchi.mp/bfa9fa63aaab/irish-trad">
+    <StyledLink
+      href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
+      target="_blank"
+    >
       <StyledIcon icon={['fab', 'mailchimp']} />
     </StyledLink>
   </FooterContainer>

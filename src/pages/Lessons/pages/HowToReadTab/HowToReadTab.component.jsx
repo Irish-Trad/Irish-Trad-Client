@@ -1,5 +1,5 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import Metadata from 'common/Metadata'
 
 import {
   MainContainer,
@@ -14,27 +14,17 @@ import {
   Image
 } from './HowToReadTab.styles'
 
-const Metadata = () => (
-  <Helmet>
-    <title>Irish-Trad.net - How to read Tablature</title>
-    <meta name="title" content="Irish-Trad.net - How to read Tablature" />
-    <meta
-      name="keywords"
-      content="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-    />
-    <meta
-      name="description"
-      content="How to read Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
-    />
-  </Helmet>
-)
-
 const HowToReadTab = () => (
   <MainContainer>
-    {Metadata()}
+    <Metadata
+      title="Irish-Trad.net - How to read Tablature"
+      metaTitle="Irish-Trad.net - How to read Tablature"
+      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+      metaDescription="How to read Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+    />
     <H1>How to read Tablature</H1>
     <ButtonContainer>
-      <InternalLink to={'/lessons'}>
+      <InternalLink to="/lessons">
         <Button>Return to Lessons Page</Button>
       </InternalLink>
     </ButtonContainer>
@@ -54,7 +44,7 @@ const HowToReadTab = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/TAB_Lesson/TAB02.jpg'}
+        to="../assets/high-quality/TAB_Lesson/TAB02.jpg"
         target="_blank"
       >
         <Image
@@ -79,7 +69,7 @@ const HowToReadTab = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/TAB_Lesson/TAB04.jpg'}
+        to="../assets/high-quality/TAB_Lesson/TAB04.jpg"
         target="_blank"
       >
         <Image
@@ -97,7 +87,7 @@ const HowToReadTab = () => (
       an open G string to play this highlighted note.
     </Text>
     <Figure>
-      <InternalLink to={'../assets/high-quality/TAB_Lesson/TAB05.jpg'}>
+      <InternalLink to="../assets/high-quality/TAB_Lesson/TAB05.jpg">
         <Image
           src="../assets/low-quality/TAB_Lesson/TAB05.jpg"
           alt="Single Note & Open String"
@@ -114,7 +104,7 @@ const HowToReadTab = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/TAB_Lesson/TAB06.jpg'}
+        to="../assets/high-quality/TAB_Lesson/TAB06.jpg"
         target="_blank"
       >
         <Image
@@ -134,7 +124,7 @@ const HowToReadTab = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/TAB_Lesson/TAB07.jpg'}
+        to="../assets/high-quality/TAB_Lesson/TAB07.jpg"
         target="_blank"
       >
         <Image
@@ -152,7 +142,7 @@ const HowToReadTab = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'../assets/high-quality/TAB_Lesson/TAB08.jpg'}
+        to="../assets/high-quality/TAB_Lesson/TAB08.jpg"
         target="_blank"
       >
         <Image
