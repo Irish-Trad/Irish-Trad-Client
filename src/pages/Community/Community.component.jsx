@@ -38,7 +38,7 @@ const Community = () => (
       or Button:
     </Text>
     <ButtonContainer>
-      <StyledLink href="https://discord.gg/Mq9jeA8">
+      <StyledLink href="https://discord.gg/Mq9jeA8" target="_blank">
         <StyledIcon icon={['fab', 'discord']} />
       </StyledLink>
       <ExternalLink href="https://discord.gg/Mq9jeA8" target="_blank">
