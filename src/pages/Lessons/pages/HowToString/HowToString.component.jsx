@@ -26,7 +26,7 @@ const HowToString = () => (
     />
     <H1>Stringing the Irish Bouzouki</H1>
     <ButtonContainer>
-      <InternalLink to={'/lessons'}>
+      <InternalLink to="/lessons">
         <Button>Return to Lessons Page</Button>
       </InternalLink>
     </ButtonContainer>
@@ -80,11 +80,11 @@ const HowToString = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'assets/high-quality/How_To_String/step1.jpg'}
+        to="../assets/high-quality/How_To_String/step1.jpg"
         target="_blank"
       >
         <Image
-          src="assets/low-quality/How_To_String/step1.jpg"
+          src="../assets/low-quality/How_To_String/step1.jpg"
           alt="Step 1: How To String"
           title="Step 1: How To String"
         />
@@ -111,11 +111,11 @@ const HowToString = () => (
     </Text>
     <Figure>
       <InternalLink
-        to={'assets/high-quality/How_To_String/step23.jpg'}
+        to="../assets/high-quality/How_To_String/step23.jpg"
         target="_blank"
       >
         <Image
-          src="assets/low-quality/How_To_String/step23.jpg"
+          src="../assets/low-quality/How_To_String/step23.jpg"
           alt="Step 2 & 3: How To String"
           title="Step 2 & 3: How To String"
         />
@@ -126,11 +126,11 @@ const HowToString = () => (
     </Figure>
     <Figure>
       <InternalLink
-        to={'assets/high-quality/How_To_String/step45.jpg'}
+        to="../assets/high-quality/How_To_String/step45.jpg"
         target="_blank"
       >
         <Image
-          src="assets/low-quality/How_To_String/step45.jpg"
+          src="../assets/low-quality/How_To_String/step45.jpg"
           alt="Step 4 & 5: How To String"
           title="Step 4 & 5: How To String"
         />

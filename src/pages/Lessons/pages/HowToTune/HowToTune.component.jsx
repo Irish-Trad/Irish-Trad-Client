@@ -24,7 +24,7 @@ const HowToTune = () => (
     />
     <H1>Tuning the Irish Bouzouki</H1>
     <ButtonContainer>
-      <InternalLink to={'/lessons'}>
+      <InternalLink to="/lessons">
         <Button>Return to Lessons Page</Button>
       </InternalLink>
     </ButtonContainer>
