@@ -12,7 +12,7 @@ import {
   ExternalLink
 } from './Lessons.styles'
 
-const Lessons = () => (
+const Lessons: React.FunctionComponent = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Lessons"

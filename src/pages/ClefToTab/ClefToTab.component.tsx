@@ -13,7 +13,7 @@ import {
   Image
 } from './ClefToTab.styles'
 
-const ClefToTab = () => (
+const ClefToTab: React.FunctionComponent = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Cleft to TAB"

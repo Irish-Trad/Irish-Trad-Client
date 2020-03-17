@@ -4,7 +4,7 @@ import Spinner from 'components/Spinner'
 
 import { MainContainer } from './Loading.styles'
 
-const Loading = () => (
+const Loading: React.FunctionComponent = () => (
   <MainContainer>
     <Spinner />
   </MainContainer>

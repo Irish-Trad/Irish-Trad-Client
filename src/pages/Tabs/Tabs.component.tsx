@@ -1,8 +1,12 @@
 import React from 'react'
 
-import { MainContainer, H1, Text } from 'common/StyledComponents'
+import {
+  MainContainer,
+  H1,
+  Text
+} from 'common/StyledComponents/StyledComponents.js'
 
-const Tabs = () => (
+const Tabs: React.FunctionComponent = () => (
   <MainContainer>
     <H1>Tabs</H1>
     <Text>

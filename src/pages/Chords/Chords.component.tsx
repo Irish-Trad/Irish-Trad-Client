@@ -16,7 +16,7 @@ import {
   Image
 } from './Chords.styles'
 
-const Chords = () => (
+const Chords: React.FunctionComponent = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Chords"

@@ -14,7 +14,7 @@ import {
   Button
 } from './Newsletter.styles'
 
-const Newsletter = () => (
+const Newsletter: React.FunctionComponent = () => (
   <MainContainer>
     <H1>Newsletter</H1>
     <Text>

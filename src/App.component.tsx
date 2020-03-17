@@ -32,9 +32,13 @@ const Terminology = lazy(() =>
   import('pages/Terminology' /* webpackChunkName: 'Terminology' */)
 )
 
-const Newsletter = lazy(() => import('pages/Newsletter') /* webpackChunkName: 'Newsletter' */)
+const Newsletter = lazy(
+  () => import('pages/Newsletter') /* webpackChunkName: 'Newsletter' */
+)
 
-const Community = lazy(() => import('pages/Community') /* webpackChunkName: 'Community' */)
+const Community = lazy(
+  () => import('pages/Community') /* webpackChunkName: 'Community' */
+)
 
 const HowToReadTab = lazy(() =>
   import(
@@ -52,7 +56,7 @@ const HowToTune = lazy(() =>
   import('pages/Lessons/pages/HowToTune' /* webpackChunkName: 'HowToTune' */)
 )
 
-const App = () => (
+const App: React.FunctionComponent = () => (
   <AppContainer>
     <Router>
       <Header />

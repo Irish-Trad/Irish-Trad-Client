@@ -14,7 +14,7 @@ import {
   Image
 } from './HowToReadTab.styles'
 
-const HowToReadTab = () => (
+const HowToReadTab: React.FunctionComponent = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - How to read Tablature"

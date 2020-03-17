@@ -12,7 +12,7 @@ import {
   ExternalLink
 } from './Homepage.styles'
 
-const Homepage = () => (
+const Homepage: React.FunctionComponent = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Home"

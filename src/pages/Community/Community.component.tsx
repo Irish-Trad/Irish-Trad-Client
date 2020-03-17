@@ -19,7 +19,7 @@ import {
   Image
 } from './Community.styles'
 
-const Community = () => (
+const Community: React.FunctionComponent = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Community"

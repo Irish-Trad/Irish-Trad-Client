@@ -14,7 +14,7 @@ import {
   LI
 } from './HowToTune.styles'
 
-const HowToTune = () => (
+const HowToTune: React.FunctionComponent = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - How To Tune"

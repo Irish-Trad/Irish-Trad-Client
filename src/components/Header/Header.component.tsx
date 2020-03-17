@@ -9,7 +9,7 @@ import {
   StyledIcon
 } from './Header.styles'
 
-const Header = () => {
+const Header: React.FunctionComponent = () => {
   const [hidden, toggleHidden] = useState(false)
 
   return (

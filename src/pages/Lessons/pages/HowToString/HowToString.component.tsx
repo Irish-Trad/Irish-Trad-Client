@@ -16,7 +16,7 @@ import {
   LI
 } from './HowToString.styles'
 
-const HowToString = () => (
+const HowToString: React.FunctionComponent = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - How To String"
