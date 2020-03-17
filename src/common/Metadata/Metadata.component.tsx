@@ -1,7 +1,19 @@
-import React from 'react'
+import * as React from 'react'
 import { Helmet } from 'react-helmet'
 
-const Metadata = ({ title, metaTitle, metaKeywords, metaDescription }) => (
+interface Props {
+  title?: string
+  metaTitle?: string
+  metaKeywords?: string
+  metaDescription?: string
+}
+
+const Metadata: React.FunctionComponent<Props> = ({
+  title,
+  metaTitle,
+  metaKeywords,
+  metaDescription
+}: Props) => (
   <Helmet>
     {title ? <title>{title}</title> : null}
     {metaTitle ? <meta name="title" content={metaTitle} /> : null}
