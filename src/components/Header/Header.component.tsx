@@ -37,6 +37,9 @@ const Header: React.FunctionComponent = () => {
           <InternalLink to="/newsletter" onClick={() => toggleHidden(!hidden)}>
             Newsletter
           </InternalLink>
+          <InternalLink to="/tabs" onClick={() => toggleHidden(!hidden)}>
+            Tabs
+          </InternalLink>
         </DesktopNav>
         <StyledIcon onClick={() => toggleHidden(!hidden)} icon="bars" />
       </Logo>
@@ -59,6 +62,9 @@ const Header: React.FunctionComponent = () => {
           </InternalLink>
           <InternalLink to="/newsletter" onClick={() => toggleHidden(!hidden)}>
             Newsletter
+          </InternalLink>
+          <InternalLink to="/tabs" onClick={() => toggleHidden(!hidden)}>
+            Tabs
           </InternalLink>
         </NavBar>
       ) : null}

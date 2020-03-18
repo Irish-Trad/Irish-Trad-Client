@@ -8,7 +8,7 @@ import {
   ExternalLink,
   Figure,
   Figcaption
-} from 'common/StyledComponents/StyledComponents.js'
+} from 'common/StyledComponents/StyledComponents'
 
 import {
   StyledLink,
