@@ -2,7 +2,7 @@ import React from 'react'
 
 import { FooterContainer, StyledLink, StyledIcon } from './Footer.styles'
 
-const Footer = () => (
+const Footer: React.FunctionComponent = () => (
   <FooterContainer>
     <StyledLink href="https://discord.gg/Mq9jeA8" target="_blank">
       <StyledIcon icon={['fab', 'discord']} />

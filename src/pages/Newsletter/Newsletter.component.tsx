@@ -1,11 +1,12 @@
 import React from 'react'
+import Metadata from 'common/Metadata'
 
 import {
   MainContainer,
   H1,
   Text,
   ExternalLink
-} from 'common/StyledComponents/StyledComponents.js'
+} from 'common/StyledComponents/StyledComponents'
 
 import {
   StyledLink,
@@ -14,8 +15,14 @@ import {
   Button
 } from './Newsletter.styles'
 
-const Newsletter = () => (
+const Newsletter: React.FunctionComponent = () => (
   <MainContainer>
+    <Metadata
+      title="Irish-Trad.net - Newsletter"
+      metaTitle="Irish-Trad.net - Newsletter"
+      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
+      metaDescription="Newsletter for Irish-Trad.net"
+    />
     <H1>Newsletter</H1>
     <Text>
       Irish-Trad.net is a hobby project so progress is slow when developing new

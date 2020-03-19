@@ -8,7 +8,7 @@ import {
   ExternalLink,
   Figure,
   Figcaption
-} from 'common/StyledComponents/StyledComponents.js'
+} from 'common/StyledComponents/StyledComponents'
 
 import {
   StyledLink,
@@ -19,7 +19,7 @@ import {
   Image
 } from './Community.styles'
 
-const Community = () => (
+const Community: React.FunctionComponent = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Community"

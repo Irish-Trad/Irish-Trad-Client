@@ -9,7 +9,7 @@ import {
   StyledIcon
 } from './Header.styles'
 
-const Header = () => {
+const Header: React.FunctionComponent = () => {
   const [hidden, toggleHidden] = useState(false)
 
   return (
@@ -37,6 +37,9 @@ const Header = () => {
           <InternalLink to="/newsletter" onClick={() => toggleHidden(!hidden)}>
             Newsletter
           </InternalLink>
+          <InternalLink to="/tabs" onClick={() => toggleHidden(!hidden)}>
+            Tabs
+          </InternalLink>
         </DesktopNav>
         <StyledIcon onClick={() => toggleHidden(!hidden)} icon="bars" />
       </Logo>
@@ -59,6 +62,9 @@ const Header = () => {
           </InternalLink>
           <InternalLink to="/newsletter" onClick={() => toggleHidden(!hidden)}>
             Newsletter
+          </InternalLink>
+          <InternalLink to="/tabs" onClick={() => toggleHidden(!hidden)}>
+            Tabs
           </InternalLink>
         </NavBar>
       ) : null}
