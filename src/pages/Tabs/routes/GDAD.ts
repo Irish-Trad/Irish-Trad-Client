@@ -1,151 +1,151 @@
 export const Barndance: Array<{ name: string; path: string }> = [
   {
     name: `Wild Mountain Thyme - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Wild Mountain Thyme - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Barndance/Wild Mountain Thyme - X1.pdf`
   }
 ]
 
 export const Hornpipe: Array<{ name: string; path: string }> = [
   {
     name: `O'Donnell's - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/O'Donnell's - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Hornpipe/O'Donnell's - X1.pdf`
   },
   {
     name: `The Jolly Beggarman - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Jolly Beggarman - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Hornpipe/The Jolly Beggarman - X1.pdf`
   },
   {
     name: `The Jolly Beggarman - X2`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Jolly Beggarman - X2.pdf`
+    path: `assets/tunes/pdf/GDAD/Hornpipe/The Jolly Beggarman - X2.pdf`
   }
 ]
 
 export const Jig: Array<{ name: string; path: string }> = [
   {
     name: `Banish Misfortune - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Banish Misfortune - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/Banish Misfortune - X1.pdf`
   },
   {
     name: `Calliope House - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Calliope House - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/Calliope House - X1.pdf`
   },
   {
     name: `Christy Barry's - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Christy Barry's - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/Christy Barry's - X1.pdf`
   },
   {
     name: `Christy Barry's - X2`,
-    path: `assets/tunes/pdf/GDAD/Reel/Christy Barry's - X2.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/Christy Barry's - X2.pdf`
   },
   {
     name: `Happy To Meet, Sorry To Part - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Happy To Meet, Sorry To Part - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/Happy To Meet, Sorry To Part - X1.pdf`
   },
   {
     name: `Morrison’s - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Morrison’s - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/Morrison’s - X1.pdf`
   },
   {
     name: `Out On The Ocean - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Out On The Ocean - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/Out On The Ocean - X1.pdf`
   },
   {
     name: `The Blarney Pilgrim - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Blarney Pilgrim - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Blarney Pilgrim - X1.pdf`
   },
   {
     name: `The Cliffs Of Moher - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Cliffs Of Moher - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Cliffs Of Moher - X1.pdf`
   },
   {
     name: `The Coleraine - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Coleraine - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Coleraine - X1.pdf`
   },
   {
     name: `The Connaughtman's Rambles - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Connaughtman's Rambles - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Connaughtman's Rambles - X1.pdf`
   },
   {
     name: `The Humours Of Glendart - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Humours Of Glendart - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Humours Of Glendart - X1.pdf`
   },
   {
     name: `The Humours Of Glendart - X2`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Humours Of Glendart - X2.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Humours Of Glendart - X2.pdf`
   },
   {
     name: `The Kesh - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Kesh - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Kesh - X1.pdf`
   },
   {
     name: `The Swallowtail - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Swallowtail - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Swallowtail - X1.pdf`
   },
   {
     name: `The Swallowtail - X2`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Swallowtail - X2.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Swallowtail - X2.pdf`
   },
   {
     name: `The Trip To Sligo - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Trip To Sligo - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Trip To Sligo - X1.pdf`
   },
   {
     name: `The Trip To Sligo - X2`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Trip To Sligo - X2.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Trip To Sligo - X2.pdf`
   },
   {
     name: `The Trip To Sligo - X3`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Trip To Sligo - X3.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/The Trip To Sligo - X3.pdf`
   },
   {
     name: `This Is My Love, Do You Like Her - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/This Is My Love, Do You Like Her - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/This Is My Love, Do You Like Her - X1.pdf`
   },
   {
     name: `Tripping Up The Stairs - Triplets`,
-    path: `assets/tunes/pdf/GDAD/Reel/Tripping Up The Stairs - Triplets.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/Tripping Up The Stairs - Triplets.pdf`
   },
   {
     name: `Tripping Up The Stairs - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Tripping Up The Stairs - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/Tripping Up The Stairs - X1.pdf`
   },
   {
     name: `Tripping Up The Stairs - X2`,
-    path: `assets/tunes/pdf/GDAD/Reel/Tripping Up The Stairs - X2.pdf`
+    path: `assets/tunes/pdf/GDAD/Jig/Tripping Up The Stairs - X2.pdf`
   }
 ]
 
 export const March: Array<{ name: string; path: string }> = [
   {
     name: `The Foggy Dew - Luke Kelly`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Foggy Dew - Luke Kelly.pdf`
+    path: `assets/tunes/pdf/GDAD/March/The Foggy Dew - Luke Kelly.pdf`
   },
   {
     name: `The Foggy Dew - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Foggy Dew - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/March/The Foggy Dew - X1.pdf`
   }
 ]
 
 export const Polka: Array<{ name: string; path: string }> = [
   {
     name: `Gan Ainm - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Gan Ainm - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Polka/Gan Ainm - X1.pdf`
   },
   {
     name: `O'Neill's March - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/O'Neill's March - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Polka/O'Neill's March - X1.pdf`
   },
   {
     name: `O'Neill's March - X2`,
-    path: `assets/tunes/pdf/GDAD/Reel/O'Neill's March - X2.pdf`
+    path: `assets/tunes/pdf/GDAD/Polka/O'Neill's March - X2.pdf`
   },
   {
     name: `Oro Se De Bheath Abhaile - The Dubliners`,
-    path: `assets/tunes/pdf/GDAD/Reel/Oro Se De Bheath Abhaile - The Dubliners.pdf`
+    path: `assets/tunes/pdf/GDAD/Polka/Oro Se De Bheath Abhaile - The Dubliners.pdf`
   },
   {
     name: `Oro Se De Bheath Abhaile - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Oro Se De Bheath Abhaile - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Polka/Oro Se De Bheath Abhaile - X1.pdf`
   }
 ]
 
@@ -287,45 +287,45 @@ export const Reel: Array<{ name: string; path: string }> = [
 export const Slip: Array<{ name: string; path: string }> = [
   {
     name: `Barney Brannigan - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Barney Brannigan - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Slip/Barney Brannigan - X1.pdf`
   },
   {
     name: `The Butterfly - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Butterfly - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Slip/The Butterfly - X1.pdf`
   },
   {
     name: `The Rocky Road To Dublin - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/The Rocky Road To Dublin - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Slip/The Rocky Road To Dublin - X1.pdf`
   }
 ]
 
 export const Waltz: Array<{ name: string; path: string }> = [
   {
     name: `Paddy's Green Shamrock Shore - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Paddy's Green Shamrock Shore - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Waltz/Paddy's Green Shamrock Shore - X1.pdf`
   },
   {
     name: `Paddy's Green Shamrock Shore - X2`,
-    path: `assets/tunes/pdf/GDAD/Reel/Paddy's Green Shamrock Shore - X2.pdf`
+    path: `assets/tunes/pdf/GDAD/Waltz/Paddy's Green Shamrock Shore - X2.pdf`
   },
   {
     name: `Paddy's Green Shamrock Shore - X3`,
-    path: `assets/tunes/pdf/GDAD/Reel/Paddy's Green Shamrock Shore - X3.pdf`
+    path: `assets/tunes/pdf/GDAD/Waltz/Paddy's Green Shamrock Shore - X3.pdf`
   },
   {
     name: `She Moved Through The Fair - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/She Moved Through The Fair - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Waltz/She Moved Through The Fair - X1.pdf`
   },
   {
     name: `She Moved Through The Fair - X2`,
-    path: `assets/tunes/pdf/GDAD/Reel/She Moved Through The Fair - X2.pdf`
+    path: `assets/tunes/pdf/GDAD/Waltz/She Moved Through The Fair - X2.pdf`
   },
   {
     name: `She Moved Through The Fair - X3`,
-    path: `assets/tunes/pdf/GDAD/Reel/She Moved Through The Fair - X3.pdf`
+    path: `assets/tunes/pdf/GDAD/Waltz/She Moved Through The Fair - X3.pdf`
   },
   {
     name: `Si Beag Si Mor - X1`,
-    path: `assets/tunes/pdf/GDAD/Reel/Si Beag Si Mor - X1.pdf`
+    path: `assets/tunes/pdf/GDAD/Waltz/Si Beag Si Mor - X1.pdf`
   }
 ]

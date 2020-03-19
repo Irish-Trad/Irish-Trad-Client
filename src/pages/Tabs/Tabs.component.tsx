@@ -8,10 +8,11 @@ import {
   MainContainer,
   H1,
   H2,
-  Text
+  Text,
+  ExternalLink
 } from 'common/StyledComponents/StyledComponents'
 
-import { Section, InternalLink } from './Tabs.styles'
+import { Section, InternalLink, Title } from './Tabs.styles'
 
 const Tabs: React.FunctionComponent = () => (
   <MainContainer>
@@ -25,16 +26,25 @@ const Tabs: React.FunctionComponent = () => (
     <Text>
       For those more familiar with Tablature than standard music notation or ABC
       notation I have taken a number of tunes from TheSession.org and tabbed
-      them out for both GDAE and GDAD. They are in a .pdf format.
+      them out for both GDAE and GDAD.
     </Text>
     <Text>
-      If you find these useful in anyway you should consider visiting
-      TheSession.org and even considering donating to the website. It has stood
-      as a beacon for sharing and educating on traditional irish music for many
-      years.
+      Clicking on each link below will open the file in a .pdf format.
     </Text>
-    <Text>https://thesession.org/donate</Text>
-    <H1>GDAE</H1>
+    <Text>
+      If you find these useful in anyway you should visit TheSession.org and
+      consider donating to the website. It has stood as a beacon for sharing and
+      educating on musicians on traditional irish music for many years.
+    </Text>
+    <Text>
+      Donation Page for TheSession.org:{' '}
+      <ExternalLink href="https://thesession.org/donate" target="_blank">
+        TheSession.org - Donation Page
+      </ExternalLink>
+    </Text>
+    <Title>
+      <H1>GDAE</H1>
+    </Title>
     <H2>Barndances - GDAE</H2>
     <Section>
       {GDAE.Barndance.map(el => (
@@ -99,8 +109,9 @@ const Tabs: React.FunctionComponent = () => (
         </InternalLink>
       ))}
     </Section>
-
-    <H1>GDAD</H1>
+    <Title>
+      <H1>GDAD</H1>
+    </Title>
     <H2>Barndances - GDAD</H2>
     <Section>
       {GDAD.Barndance.map(el => (
@@ -142,11 +153,13 @@ const Tabs: React.FunctionComponent = () => (
       ))}
     </Section>
     <H2>Reels - GDAD</H2>
-    {GDAD.Reel.map(el => (
-      <InternalLink to={el.path} target="_blank">
-        {el.name}
-      </InternalLink>
-    ))}
+    <Section>
+      {GDAD.Reel.map(el => (
+        <InternalLink to={el.path} target="_blank">
+          {el.name}
+        </InternalLink>
+      ))}
+    </Section>
     <H2>Slip-Jigs - GDAD</H2>
     <Section>
       {GDAD.Slip.map(el => (

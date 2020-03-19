@@ -45,7 +45,6 @@ export const Figcaption = styled.figcaption`
 export const InternalLink = styled(Link)``
 
 export const ExternalLink = styled.a`
-  text-decoration: none;
   color: black;
   cursor: pointer;
 `
