@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react'
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Header from 'components/Header'
 import Footer from 'components/Footer'
@@ -60,7 +60,7 @@ const Tabs = lazy(() => import('pages/Tabs' /* webpackChunkName: 'Tabs' */))
 
 const App: React.FunctionComponent = () => (
   <AppContainer>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Suspense fallback={Loading}>
         <Switch>
