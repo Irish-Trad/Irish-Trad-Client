@@ -1,6 +1,5 @@
 import styled from 'styled-components'
-
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 
 export const MainContainer = styled.main`
   max-width: 960px;
@@ -36,14 +35,17 @@ export const Text = styled.p`
   font-size: 18px;
 `
 
-export const InternalLink = styled(Link)`
+export const InternalLink = styled.a`
   text-decoration: none;
   color: black;
   margin: 5px;
 `
 
-export const A = styled.a`
-  text-decoration: none;
+export const HashLink = styled(Link)`
+  color: black;
+`
+
+export const ExternalLink = styled.a`
   color: black;
 `
 

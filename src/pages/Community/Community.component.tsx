@@ -15,7 +15,6 @@ import {
   StyledIcon,
   ButtonContainer,
   Button,
-  InternalLink,
   Image
 } from './Community.styles'
 
@@ -54,13 +53,13 @@ const Community: React.FunctionComponent = () => (
       following Image:
     </Text>
     <Figure>
-      <InternalLink to="../assets/discord.jpg" target="_blank">
+      <StyledLink href="assets/discord.jpg" target="_blank">
         <Image
-          src="../assets/discord.jpg"
+          src="assets/discord.jpg"
           alt="Screenshot of Discord"
           title="Screenshot of Discord"
         />
-      </InternalLink>
+      </StyledLink>
       <Figcaption>Pictured: Screenshot of Irish-Trad Discord</Figcaption>
     </Figure>
     <Text>

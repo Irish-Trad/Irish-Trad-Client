@@ -61,3 +61,5 @@ export const Figcaption = styled.figcaption`
 export const UL = styled.ul``
 
 export const LI = styled.li``
+
+export const ExternalLink = styled.a``

@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 
 export const StyledLink = styled.a``
 
@@ -27,11 +26,6 @@ export const Button = styled.button`
   font-size: 16px;
   padding: 10px;
   cursor: pointer;
-`
-
-export const InternalLink = styled(Link)`
-  display: flex;
-  justify-content: center;
 `
 
 export const Image = styled.img`

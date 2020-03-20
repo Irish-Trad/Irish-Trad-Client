@@ -48,7 +48,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Barndances - GDAE</H2>
     <Section>
       {GDAE.Barndance.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -56,7 +56,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Hornpipes - GDAE</H2>
     <Section>
       {GDAE.Hornpipe.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -64,7 +64,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Jigs - GDAE</H2>
     <Section>
       {GDAE.Jig.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -72,7 +72,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Marches - GDAE</H2>
     <Section>
       {GDAE.March.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -80,7 +80,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Polkas - GDAE</H2>
     <Section>
       {GDAE.Polka.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -88,7 +88,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Reels - GDAE</H2>
     <Section>
       {GDAE.Reel.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -96,7 +96,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Slip-Jigs - GDAE</H2>
     <Section>
       {GDAE.Slip.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -104,7 +104,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Waltzes - GDAE</H2>
     <Section>
       {GDAE.Waltz.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -115,7 +115,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Barndances - GDAD</H2>
     <Section>
       {GDAD.Barndance.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -123,7 +123,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Hornpipes - GDAD</H2>
     <Section>
       {GDAD.Hornpipe.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -131,7 +131,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Jigs - GDAD</H2>
     <Section>
       {GDAD.Jig.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -139,7 +139,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Marches - GDAD</H2>
     <Section>
       {GDAD.March.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -147,7 +147,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Polkas - GDAD</H2>
     <Section>
       {GDAD.Polka.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -155,7 +155,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Reels - GDAD</H2>
     <Section>
       {GDAD.Reel.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -163,7 +163,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Slip-Jigs - GDAD</H2>
     <Section>
       {GDAD.Slip.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -171,7 +171,7 @@ const Tabs: React.FunctionComponent = () => (
     <H2>Waltzes - GDAD</H2>
     <Section>
       {GDAD.Waltz.map(el => (
-        <InternalLink to={el.path} target="_blank">
+        <InternalLink href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
