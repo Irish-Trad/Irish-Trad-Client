@@ -60,7 +60,7 @@ const Tabs = lazy(() => import('pages/Tabs' /* webpackChunkName: 'Tabs' */))
 
 const App: React.FunctionComponent = () => (
   <AppContainer>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={`/${process.env.PUBLIC_URL}`}>
       <Header />
       <Suspense fallback={Loading}>
         <Switch>

@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-import { Link } from 'react-router-dom'
-
 export const Section = styled.section`
   display: flex;
   flex-flow: column nowrap;
@@ -13,7 +11,7 @@ export const Title = styled.div`
   margin: 40px 0px;
 `
 
-export const InternalLink = styled(Link)`
+export const InternalLink = styled.a`
   color: black;
   margin: 10px;
 `

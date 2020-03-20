@@ -56,3 +56,5 @@ export const Image = styled.img`
 export const Figcaption = styled.figcaption`
   text-align: center;
 `
+
+export const ExternalLink = styled.a``

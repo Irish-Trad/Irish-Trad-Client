@@ -73,12 +73,12 @@ const ClefToTab: React.FunctionComponent = () => (
     </Text>
     <ImageContainer>
       <InternalLink
-        to={'assets/high-quality/GDAE_Clef_To_TAB.jpg'}
+        href="assets/high-quality/GDAE - Clef To TAB.pdf"
         target="_blank"
       >
         <Image
           id="clef-to-tab-GDAE"
-          src="assets/low-quality/GDAE_Clef_To_TAB.jpg"
+          src="assets/low-quality/GDAE - Clef To TAB.jpg"
           alt="GDAE Treble Clef to TAB"
           text="GDAE Treble Clef to TAB"
           width="100%"
@@ -86,12 +86,12 @@ const ClefToTab: React.FunctionComponent = () => (
         />
       </InternalLink>
       <InternalLink
-        to={'assets/high-quality/GDAD_Clef_To_TAB.jpg'}
+        href="assets/high-quality/GDAD - Clef To TAB.pdf"
         target="_blank"
       >
         <Image
           id="clef-to-tab-GDAD"
-          src="assets/low-quality/GDAD_Clef_To_TAB.jpg"
+          src="assets/low-quality/GDAD - Clef To TAB.jpg"
           alt="GDAD Treble Clef to TAB"
           text="GDAD Treble Clef to TAB"
           width="100%"

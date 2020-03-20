@@ -8,6 +8,7 @@ import {
   ButtonContainer,
   Button,
   InternalLink,
+  ExternalLink,
   Text,
   Figure,
   Figcaption,
@@ -43,16 +44,16 @@ const HowToReadTab: React.FunctionComponent = () => (
       to read this information will be the focus of the lesson.
     </Text>
     <Figure>
-      <InternalLink
-        to="../assets/high-quality/TAB_Lesson/TAB02.jpg"
+      <ExternalLink
+        href="assets/high-quality/TAB_Lesson/TAB02.jpg"
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB02.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB02.jpg"
           alt="Standard Notation & Tablature"
           title="Standard Notation & Tablature"
         />
-      </InternalLink>
+      </ExternalLink>
       <Figcaption>Figure 1: Standard Notation & Tablature</Figcaption>
     </Figure>
     <Text>
@@ -68,16 +69,16 @@ const HowToReadTab: React.FunctionComponent = () => (
       tuning.
     </Text>
     <Figure>
-      <InternalLink
-        to="../assets/high-quality/TAB_Lesson/TAB04.jpg"
+      <ExternalLink
+        href="assets/high-quality/TAB_Lesson/TAB04.jpg"
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB04.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB04.jpg"
           alt="String Direction"
           title="String Direction"
         />
-      </InternalLink>
+      </ExternalLink>
       <Figcaption>Figure 2: String Direction</Figcaption>
     </Figure>
     <Text>
@@ -87,13 +88,13 @@ const HowToReadTab: React.FunctionComponent = () => (
       an open G string to play this highlighted note.
     </Text>
     <Figure>
-      <InternalLink to="../assets/high-quality/TAB_Lesson/TAB05.jpg">
+      <ExternalLink href="assets/high-quality/TAB_Lesson/TAB05.jpg">
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB05.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB05.jpg"
           alt="Single Note & Open String"
           title="Single Note & Open String"
         />
-      </InternalLink>
+      </ExternalLink>
       <Figcaption>Figure 3: Single Note & Open String</Figcaption>
     </Figure>
     <Text>
@@ -103,16 +104,16 @@ const HowToReadTab: React.FunctionComponent = () => (
       play the 2nd fret of the D string and the open G string.
     </Text>
     <Figure>
-      <InternalLink
-        to="../assets/high-quality/TAB_Lesson/TAB06.jpg"
+      <ExternalLink
+        href="assets/high-quality/TAB_Lesson/TAB06.jpg"
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB06.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB06.jpg"
           alt="More Than One Note"
           title="More Than One Note"
         />
-      </InternalLink>
+      </ExternalLink>
       <Figcaption>Figure 4: More Than One Note</Figcaption>
     </Figure>
     <Text>
@@ -123,16 +124,16 @@ const HowToReadTab: React.FunctionComponent = () => (
       causes them to ring simultaneously. This produces a G Major chord.
     </Text>
     <Figure>
-      <InternalLink
-        to="../assets/high-quality/TAB_Lesson/TAB07.jpg"
+      <ExternalLink
+        href="assets/high-quality/TAB_Lesson/TAB07.jpg"
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB07.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB07.jpg"
           alt="Full Chord"
           title="Full Chord"
         />
-      </InternalLink>
+      </ExternalLink>
       <Figcaption>Figure 5: Full Chord</Figcaption>
     </Figure>
     <Text>
@@ -141,16 +142,16 @@ const HowToReadTab: React.FunctionComponent = () => (
       provided in future lessons.
     </Text>
     <Figure>
-      <InternalLink
-        to="../assets/high-quality/TAB_Lesson/TAB08.jpg"
+      <ExternalLink
+        href="assets/high-quality/TAB_Lesson/TAB08.jpg"
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/TAB_Lesson/TAB08.jpg"
+          src="assets/low-quality/TAB_Lesson/TAB08.jpg"
           alt="Playing Through A Scale"
           title="Playing Through A Scale"
         />
-      </InternalLink>
+      </ExternalLink>
       <Figcaption>Figure 6: Playing Through A Scale</Figcaption>
     </Figure>
     <H2>Summary:</H2>

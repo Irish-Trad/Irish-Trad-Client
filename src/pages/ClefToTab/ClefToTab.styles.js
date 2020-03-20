@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-import { Link } from 'react-router-dom'
-
 export const MainContainer = styled.main`
   max-width: 960px;
   margin: auto;
@@ -36,7 +34,7 @@ export const Text = styled.p`
   font-size: 18px;
 `
 
-export const InternalLink = styled(Link)`
+export const InternalLink = styled.a`
   text-decoration: none;
   color: black;
   margin: 5px;

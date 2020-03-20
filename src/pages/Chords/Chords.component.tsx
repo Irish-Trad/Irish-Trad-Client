@@ -98,22 +98,22 @@ const Chords: React.FunctionComponent = () => (
     </CenterText>
     <ImageContainer>
       <InternalLink
-        to={'assets/high-quality/GDAE_Chords/GDAE_Major_A4.jpg'}
+        href="assets/high-quality/GDAE_Chords/GDAE-Major-A4.pdf"
         target="_blank"
       >
         <Image
           id="MajorChords"
-          src="assets/low-quality/GDAE_Chords/GDAE_Major_A4.jpg"
+          src="assets/low-quality/GDAE_Chords/GDAE-Major-A4.jpg"
           alt="Major Chords in GDAE Tuning"
           text="Major Chords in GDAE Tuning"
         />
       </InternalLink>
       <InternalLink
-        to={'assets/high-quality/GDAD_Chords/GDAD_Major_A4.jpg'}
+        href="assets/high-quality/GDAD_Chords/GDAD-Major-A4.pdf"
         target="_blank"
       >
         <Image
-          src="assets/low-quality/GDAD_Chords/GDAD_Major_A4.jpg"
+          src="assets/low-quality/GDAD_Chords/GDAD-Major-A4.jpg"
           alt="Major Chords in GDAD Tuning"
           text="Major Chords in GDAD Tuning"
         />
@@ -154,22 +154,22 @@ const Chords: React.FunctionComponent = () => (
     </CenterText>
     <ImageContainer>
       <InternalLink
-        to={'assets/high-quality/GDAE_Chords/GDAE_Minor_A4.jpg'}
+        href="assets/high-quality/GDAE_Chords/GDAE-Minor-A4.pdf"
         target="_blank"
       >
         <Image
           id="MinorChords"
-          src="assets/low-quality/GDAE_Chords/GDAE_Minor_A4.jpg"
+          src="assets/low-quality/GDAE_Chords/GDAE-Minor-A4.jpg"
           alt="Minor Chords in GDAE Tuning"
           text="Minor Chords in GDAE Tuning"
         />
       </InternalLink>
       <InternalLink
-        to={'assets/high-quality/GDAD_Chords/GDAD_Minor_A4.jpg'}
+        href="assets/high-quality/GDAD_Chords/GDAD-Minor-A4.pdf"
         target="_blank"
       >
         <Image
-          src="assets/low-quality/GDAD_Chords/GDAD_Minor_A4.jpg"
+          src="assets/low-quality/GDAD_Chords/GDAD-Minor-A4.jpg"
           alt="Minor Chords in GDAD Tuning"
           text="Minor Chords in GDAD Tuning"
         />
@@ -213,22 +213,22 @@ const Chords: React.FunctionComponent = () => (
     </CenterText>
     <ImageContainer>
       <InternalLink
-        to={'assets/high-quality/GDAE_Chords/GDAE_Major7th_A4.jpg'}
+        href="assets/high-quality/GDAE_Chords/GDAE-Major7th-A4.pdf"
         target="_blank"
       >
         <Image
           id="Major7thChords"
-          src="assets/low-quality/GDAE_Chords/GDAE_Major7th_A4.jpg"
+          src="assets/low-quality/GDAE_Chords/GDAE-Major7th-A4.jpg"
           alt="Major Chords in GDAE Tuning"
           text="Major Chords in GDAE Tuning"
         />
       </InternalLink>
       <InternalLink
-        to={'assets/high-quality/GDAD_Chords/GDAD_Major7th_A4.jpg'}
+        href="assets/high-quality/GDAD_Chords/GDAD-Major7th-A4.pdf"
         target="_blank"
       >
         <Image
-          src="assets/low-quality/GDAD_Chords/GDAD_Major7th_A4.jpg"
+          src="assets/low-quality/GDAD_Chords/GDAD-Major7th-A4.jpg"
           alt="Major Chords in GDAD Tuning"
           text="Major Chords in GDAD Tuning"
         />
@@ -272,22 +272,22 @@ const Chords: React.FunctionComponent = () => (
     </CenterText>
     <ImageContainer>
       <InternalLink
-        to={'assets/high-quality/GDAE_Chords/GDAE_Minor7th_A4.jpg'}
+        href="assets/high-quality/GDAE_Chords/GDAE-Minor7th-A4.pdf"
         target="_blank"
       >
         <Image
           id="Minor7thChords"
-          src="assets/low-quality/GDAE_Chords/GDAE_Minor7th_A4.jpg"
+          src="assets/low-quality/GDAE_Chords/GDAE-Minor7th-A4.jpg"
           alt="Major Chords in GDAE Tuning"
           text="Major Chords in GDAE Tuning"
         />
       </InternalLink>
       <InternalLink
-        to={'assets/high-quality/GDAD_Chords/GDAD_Minor7th_A4.jpg'}
+        href="assets/high-quality/GDAD_Chords/GDAD-Minor7th-A4.pdf"
         target="_blank"
       >
         <Image
-          src="assets/low-quality/GDAD_Chords/GDAD_Minor7th_A4.jpg"
+          src="assets/low-quality/GDAD_Chords/GDAD-Minor7th-A4.jpg"
           alt="Major Chords in GDAD Tuning"
           text="Major Chords in GDAD Tuning"
         />
@@ -339,22 +339,22 @@ const Chords: React.FunctionComponent = () => (
     </CenterText>
     <ImageContainer>
       <InternalLink
-        to={'assets/high-quality/GDAE_Chords/GDAE_Dominant7th_A4.jpg'}
+        href="assets/high-quality/GDAE_Chords/GDAE-Dominant7th-A4.pdf"
         target="_blank"
       >
         <Image
           id="Dominant7thChords"
-          src="assets/low-quality/GDAE_Chords/GDAE_Dominant7th_A4.jpg"
+          src="assets/low-quality/GDAE_Chords/GDAE-Dominant7th-A4.jpg"
           alt="Dominant 7th Chords in GDAE Tuning"
           text="Dominant 7th Chords in GDAE Tuning"
         />
       </InternalLink>
       <InternalLink
-        to={'assets/high-quality/GDAD_Chords/GDAD_Dominant7th_A4.jpg'}
+        href="assets/high-quality/GDAD_Chords/GDAD-Dominant7th-A4.pdf"
         target="_blank"
       >
         <Image
-          src="assets/low-quality/GDAD_Chords/GDAD_Dominant7th_A4.jpg"
+          src="assets/low-quality/GDAD_Chords/GDAD-Dominant7th-A4.jpg"
           alt="Dominant 7th Chords in GDAD Tuning"
           text="Dominant 7th Chords in GDAD Tuning"
         />

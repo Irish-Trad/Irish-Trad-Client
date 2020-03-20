@@ -8,6 +8,7 @@ import {
   ButtonContainer,
   Button,
   InternalLink,
+  ExternalLink,
   Text,
   Figure,
   Figcaption,
@@ -79,16 +80,16 @@ const HowToString: React.FunctionComponent = () => (
       and the ends of each string.
     </Text>
     <Figure>
-      <InternalLink
-        to="../assets/high-quality/How_To_String/step1.jpg"
+      <ExternalLink
+        href="assets/high-quality/How_To_String/step1.jpg"
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/How_To_String/step1.jpg"
+          src="assets/low-quality/How_To_String/step1.jpg"
           alt="Step 1: How To String"
           title="Step 1: How To String"
         />
-      </InternalLink>
+      </ExternalLink>
       <Figcaption>Figure 1: Tailpiece cover removed</Figcaption>
     </Figure>
     <Text>
@@ -110,31 +111,31 @@ const HowToString: React.FunctionComponent = () => (
       This method is said to improve tuning stability of the instrument.
     </Text>
     <Figure>
-      <InternalLink
-        to="../assets/high-quality/How_To_String/step23.jpg"
+      <ExternalLink
+        href="assets/high-quality/How_To_String/step23.jpg"
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/How_To_String/step23.jpg"
+          src="assets/low-quality/How_To_String/step23.jpg"
           alt="Step 2 & 3: How To String"
           title="Step 2 & 3: How To String"
         />
-      </InternalLink>
+      </ExternalLink>
       <Figcaption>
         Figure 2: Direction to feed string into tuning peg
       </Figcaption>
     </Figure>
     <Figure>
-      <InternalLink
-        to="../assets/high-quality/How_To_String/step45.jpg"
+      <ExternalLink
+        href="assets/high-quality/How_To_String/step45.jpg"
         target="_blank"
       >
         <Image
-          src="../assets/low-quality/How_To_String/step45.jpg"
+          src="assets/low-quality/How_To_String/step45.jpg"
           alt="Step 4 & 5: How To String"
           title="Step 4 & 5: How To String"
         />
-      </InternalLink>
+      </ExternalLink>
       <Figcaption>
         Figure 3: Direction to bring string to create a knot
       </Figcaption>
