@@ -8,7 +8,8 @@ import {
   Button,
   Text,
   InternalLink,
-  A,
+  ExternalLink,
+  HashLink,
   ImageContainer,
   Image
 } from './ClefToTab.styles'
@@ -23,12 +24,12 @@ const ClefToTab: React.FunctionComponent = () => (
     />
     <H1>Cleft to Tablature</H1>
     <ButtonContainer>
-      <A href="#clef-to-tab-GDAE">
+      <HashLink to="#clef-to-tab-GDAE">
         <Button>GDAE</Button>
-      </A>
-      <A href="#clef-to-tab-GDAD">
+      </HashLink>
+      <HashLink to="#clef-to-tab-GDAD">
         <Button>GDAD</Button>
-      </A>
+      </HashLink>
     </ButtonContainer>
     <Text>
       The most popular system used for presenting musical notation is sheet
@@ -40,13 +41,15 @@ const ClefToTab: React.FunctionComponent = () => (
     </Text>
     <Text>
       Sheet music for traditional Irish tunes can be found on websites such as
-      <A href="https://www.thesession.org/">The Session</A>. Music books that
-      are found in music shops tend to showcase sheet music only. Looking at
-      books that are designed specifically for the Irish Bouzouki or the
-      Mandolin are good places to start because they are designed with the
-      instruments range in mind. However even the music books scored for piano
-      can be converted to the Irish Bouzouki using the diagram found on this
-      page.
+      <ExternalLink href="https://www.thesession.org/" target="_blank">
+        The Session
+      </ExternalLink>
+      . Music books that are found in music shops tend to showcase sheet music
+      only. Looking at books that are designed specifically for the Irish
+      Bouzouki or the Mandolin are good places to start because they are
+      designed with the instruments range in mind. However even the music books
+      scored for piano can be converted to the Irish Bouzouki using the diagram
+      found on this page.
     </Text>
     <Text>
       The lowest pitch that the Irish Bouzouki is able to produce naturally is

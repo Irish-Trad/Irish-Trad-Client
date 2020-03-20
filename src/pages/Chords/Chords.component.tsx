@@ -26,19 +26,19 @@ const Chords: React.FunctionComponent = () => (
     />
     <H1>Chords</H1>
     <ButtonContainer>
-      <A href="#MajorChords">
+      <A to="#MajorChords">
         <Button>Major Chords</Button>
       </A>
-      <A href="#MinorChords">
+      <A to="#MinorChords">
         <Button>Minor Chords</Button>
       </A>
-      <A href="#Major7thChords">
+      <A to="#Major7thChords">
         <Button>Major 7th Chords</Button>
       </A>
-      <A href="#Minor7thChords">
+      <A to="#Minor7thChords">
         <Button>Minor 7th Chords</Button>
       </A>
-      <A href="#Dominant7thChords">
+      <A to="#Dominant7thChords">
         <Button>Dominant 7th Chords</Button>
       </A>
     </ButtonContainer>
