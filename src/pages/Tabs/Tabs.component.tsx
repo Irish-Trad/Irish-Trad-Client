@@ -47,64 +47,72 @@ const Tabs: React.FunctionComponent = () => (
     </Title>
     <H2>Barndances - GDAE</H2>
     <Section>
-      {GDAE.Barndance.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAE.Barndance.map((el, idx) => (
+        <InternalLink
+          key={`gdae-barndance-${idx}`}
+          href={el.path}
+          target="_blank"
+        >
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Hornpipes - GDAE</H2>
     <Section>
-      {GDAE.Hornpipe.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAE.Hornpipe.map((el, idx) => (
+        <InternalLink
+          key={`gdae-hornpipe-${idx}`}
+          href={el.path}
+          target="_blank"
+        >
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Jigs - GDAE</H2>
     <Section>
-      {GDAE.Jig.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAE.Jig.map((el, idx) => (
+        <InternalLink key={`gdae-jig-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Marches - GDAE</H2>
     <Section>
-      {GDAE.March.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAE.March.map((el, idx) => (
+        <InternalLink key={`gdae-march-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Polkas - GDAE</H2>
     <Section>
-      {GDAE.Polka.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAE.Polka.map((el, idx) => (
+        <InternalLink key={`gdae-polka-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Reels - GDAE</H2>
     <Section>
-      {GDAE.Reel.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAE.Reel.map((el, idx) => (
+        <InternalLink key={`gdae-reel-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Slip-Jigs - GDAE</H2>
     <Section>
-      {GDAE.Slip.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAE.Slip.map((el, idx) => (
+        <InternalLink key={`gdae-slip-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Waltzes - GDAE</H2>
     <Section>
-      {GDAE.Waltz.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAE.Waltz.map((el, idx) => (
+        <InternalLink key={`gdae-waltz-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
@@ -114,64 +122,72 @@ const Tabs: React.FunctionComponent = () => (
     </Title>
     <H2>Barndances - GDAD</H2>
     <Section>
-      {GDAD.Barndance.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAD.Barndance.map((el, idx) => (
+        <InternalLink
+          key={`gdad-barndance-${idx}`}
+          href={el.path}
+          target="_blank"
+        >
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Hornpipes - GDAD</H2>
     <Section>
-      {GDAD.Hornpipe.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAD.Hornpipe.map((el, idx) => (
+        <InternalLink
+          key={`gdad-hornpipe-${idx}`}
+          href={el.path}
+          target="_blank"
+        >
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Jigs - GDAD</H2>
     <Section>
-      {GDAD.Jig.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAD.Jig.map((el, idx) => (
+        <InternalLink key={`gdad-jig-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Marches - GDAD</H2>
     <Section>
-      {GDAD.March.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAD.March.map((el, idx) => (
+        <InternalLink key={`gdad-march-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Polkas - GDAD</H2>
     <Section>
-      {GDAD.Polka.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAD.Polka.map((el, idx) => (
+        <InternalLink key={`gdad-polka-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Reels - GDAD</H2>
     <Section>
-      {GDAD.Reel.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAD.Reel.map((el, idx) => (
+        <InternalLink key={`gdad-reel-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Slip-Jigs - GDAD</H2>
     <Section>
-      {GDAD.Slip.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAD.Slip.map((el, idx) => (
+        <InternalLink key={`gdad-slip-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
     </Section>
     <H2>Waltzes - GDAD</H2>
     <Section>
-      {GDAD.Waltz.map(el => (
-        <InternalLink href={el.path} target="_blank">
+      {GDAD.Waltz.map((el, idx) => (
+        <InternalLink key={`gdad-waltz-${idx}`} href={el.path} target="_blank">
           {el.name}
         </InternalLink>
       ))}
