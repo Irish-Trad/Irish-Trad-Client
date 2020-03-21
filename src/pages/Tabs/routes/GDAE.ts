@@ -191,6 +191,14 @@ export const Reel: Array<{ name: string; path: string }> = [
     path: `assets/tunes/pdf/GDAE/Reel/Master Crowley's - X1.pdf`
   },
   {
+    name: `Mulqueen's - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Mulqueen's - X1.pdf`
+  },
+  {
+    name: `Mulqueen's - X3`,
+    path: `assets/tunes/pdf/GDAE/Reel/Mulqueen's - X3.pdf`
+  },
+  {
     name: `Tam Lin - X1`,
     path: `assets/tunes/pdf/GDAE/Reel/Tam Lin - X1.pdf`
   },
