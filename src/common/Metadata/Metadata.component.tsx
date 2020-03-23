@@ -15,6 +15,7 @@ const Metadata: React.FunctionComponent<Props> = ({
   metaDescription
 }: Props) => (
   <Helmet>
+    <link rel="canonical" href={`${window.location}`} />
     {title ? <title>{title}</title> : null}
     {metaTitle ? <meta name="title" content={metaTitle} /> : null}
     {metaKeywords ? <meta name="keywords" content={metaKeywords} /> : null}
