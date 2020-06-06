@@ -155,6 +155,18 @@ export const Polka: Array<{ name: string; path: string }> = [
 
 export const Reel: Array<{ name: string; path: string }> = [
   {
+    name: `The Mountain Road - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/The Mountain Road - X1.pdf`,
+  },
+  {
+    name: `The Merry Blacksmith - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/The Merry Blacksmith - X1.pdf`,
+  },
+  {
+    name: `Saint Anne's - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Saint Anne's - X1.pdf`,
+  },
+  {
     name: `The Congress - X1`,
     path: `assets/tunes/pdf/GDAE/Reel/The Congress - X1.pdf`,
   },
