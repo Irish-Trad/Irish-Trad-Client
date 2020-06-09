@@ -155,6 +155,10 @@ export const Polka: Array<{ name: string; path: string }> = [
 
 export const Reel: Array<{ name: string; path: string }> = [
   {
+    name: `Dunmore Lasses, The - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Dunmore Lasses, The - X1.pdf`,
+  },
+  {
     name: `Brenda Stubbert's - X1`,
     path: `assets/tunes/pdf/GDAE/Reel/Brenda Stubbert's - X1.pdf`,
   },

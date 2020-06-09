@@ -155,16 +155,20 @@ export const Polka: Array<{ name: string; path: string }> = [
 
 export const Reel: Array<{ name: string; path: string }> = [
   {
+    name: `Dunmore Lasses, The - X1`,
+    path: `assets/tunes/pdf/GDAD/Reel/Dunmore Lasses, The - X1 - GDAD.pdf`,
+  },
+  {
     name: `Brenda Stubbert's - X1`,
-    path: `assets/tunes/pdf/GDAE/Reel/Brenda Stubbert's - X1 - GDAD.pdf`,
+    path: `assets/tunes/pdf/GDAD/Reel/Brenda Stubbert's - X1 - GDAD.pdf`,
   },
   {
     name: `Castle Kelly - X1`,
-    path: `assets/tunes/pdf/GDAE/Reel/Castle Kelly - X1 - GDAD.pdf`,
+    path: `assets/tunes/pdf/GDAD/Reel/Castle Kelly - X1 - GDAD.pdf`,
   },
   {
     name: `The Ashplant - X1`,
-    path: `assets/tunes/pdf/GDAE/Reel/The Ashplant - X1 - GDAD.pdf`,
+    path: `assets/tunes/pdf/GDAD/Reel/The Ashplant - X1 - GDAD.pdf`,
   },
   {
     name: `The Mountain Road - X1`,
