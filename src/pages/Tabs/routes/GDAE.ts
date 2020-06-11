@@ -155,11 +155,107 @@ export const Polka: Array<{ name: string; path: string }> = [
 
 export const Reel: Array<{ name: string; path: string }> = [
   {
-    name: `Earl's Chair, The - X1`,
+    name: `Farewell To Ireland - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Farewell To Ireland - X1.pdf`,
+  },
+  {
+    name: `The Foxhunter - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Foxhunter, The - X1.pdf`,
+  },
+  {
+    name: `The Glass Of Beer - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Glass Of Beer, The - X1.pdf`,
+  },
+  {
+    name: `The Humours Of Tulla - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Humours Of Tulla, The - X1.pdf`,
+  },
+  {
+    name: `Julia Delaney's - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Julia Delaney's - X1.pdf`,
+  },
+  {
+    name: `MacLeod's Farewell - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/MacLeod's Farewell - X1.pdf`,
+  },
+  {
+    name: `MacLeod's Farewell - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/MacLeod's Farewell - X1.pdf`,
+  },
+  {
+    name: `The Maid Of Mount Kisco - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Maid Of Mount Kisco, The - X1.pdf`,
+  },
+  {
+    name: `The Man Of The House - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Man Of The House, The - X1.pdf`,
+  },
+  {
+    name: `Miss McLeod's - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Miss McLeod's - X1.pdf`,
+  },
+  {
+    name: `Music For A Found Harmonium - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Music For A Found Harmonium - X1.pdf`,
+  },
+  {
+    name: `The Otter's Holt - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Otter's Holt, The - X1.pdf`,
+  },
+  {
+    name: `Over The Moor To Maggie - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Over The Moor To Maggie - X1.pdf`,
+  },
+  {
+    name: `The Pigeon On The Gate - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Pigeon On The Gate, The - X1.pdf`,
+  },
+  {
+    name: `Rakish Paddy - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Rakish Paddy - X1.pdf`,
+  },
+  {
+    name: `Rolling In The Ryegrass - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Rolling In The Ryegrass - X1.pdf`,
+  },
+  {
+    name: `The Salamanca - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Salamanca, The - X1.pdf`,
+  },
+  {
+    name: `The Ships Are Sailing - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Ships Are Sailing, The - X1.pdf`,
+  },
+  {
+    name: `The Sligo Maid - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Sligo Maid, The - X1.pdf`,
+  },
+  {
+    name: `Sporting Paddy - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Sporting Paddy - X1.pdf`,
+  },
+  {
+    name: `The Swallow's Tail - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Swallow's Tail, The - X1.pdf`,
+  },
+  {
+    name: `The Tarbolton - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Tarbolton, The - X1.pdf`,
+  },
+  {
+    name: `The Teetotallers - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Teetotallers, The - X1.pdf`,
+  },
+  {
+    name: `The Wise Maid - X1`,
+    path: `assets/tunes/pdf/GDAE/Reel/Wise Maid, The - X1.pdf`,
+  },
+  {
+    name: `The Earl's Chair - X1`,
     path: `assets/tunes/pdf/GDAE/Reel/Earl's Chair, The - X1.pdf`,
   },
   {
-    name: `Dunmore Lasses, The - X1`,
+    name: `The Dunmore Lasses - X1`,
     path: `assets/tunes/pdf/GDAE/Reel/Dunmore Lasses, The - X1.pdf`,
   },
   {
