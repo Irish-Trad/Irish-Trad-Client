@@ -26,6 +26,158 @@ export const Hornpipe: Array<{ name: string; path: string }> = [
 
 export const Jig: Array<{ name: string; path: string }> = [
   {
+    name: `Apples In Winter - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Apples In Winter - X1.pdf`,
+  },
+  {
+    name: `Brian Boru's March - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Brian Boru's March - X1.pdf`,
+  },
+  {
+    name: `Donnybrook Fair - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Donnybrook Fair - X1.pdf`,
+  },
+  {
+    name: `Dusty Windowsills - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Dusty Windowsills - X1.pdf`,
+  },
+  {
+    name: `Gallagher's Frolics - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Gallagher's Frolics - X1.pdf`,
+  },
+  {
+    name: `Garrett Barry's - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Garrett Barry's - X1.pdf`,
+  },
+  {
+    name: `Haste To The Wedding - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Haste To The Wedding - X1.pdf`,
+  },
+  {
+    name: `I Buried My Wife And Danced On Her Grave - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/I Buried My Wife And Danced On Her Grave - X1.pdf`,
+  },
+  {
+    name: `Jimmy Ward's - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Jimmy Ward's - X1.pdf`,
+  },
+  {
+    name: `My Darling Asleep - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/My Darling Asleep - X1.pdf`,
+  },
+  {
+    name: `Old Hag, You Have Killed Me - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Old Hag, You Have Killed Me - X1.pdf`,
+  },
+  {
+    name: `Saddle The Pony - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Saddle The Pony - X1.pdf`,
+  },
+  {
+    name: `Sliabh Russell - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Sliabh Russell - X1.pdf`,
+  },
+  {
+    name: `The Atholl Highlanders - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Atholl Highlanders - X1.pdf`,
+  },
+  {
+    name: `The Battering Ram - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Battering Ram - X1.pdf`,
+  },
+  {
+    name: `The Blackthorn Stick - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Blackthorn Stick - X1.pdf`,
+  },
+  {
+    name: `The Frost Is All Over - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Frost Is All Over - X1.pdf`,
+  },
+  {
+    name: `The Geese In The Bog - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Geese In The Bog - X1.pdf`,
+  },
+  {
+    name: `The Hag At The Churn - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Hag At The Churn - X1.pdf`,
+  },
+  {
+    name: `The Humours Of Ballyloughlin - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Humours Of Ballyloughlin - X1.pdf`,
+  },
+  {
+    name: `The Irish Washerwoman - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Irish Washerwoman - X1.pdf`,
+  },
+  {
+    name: `The Jig Of Slurs - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Jig Of Slurs - X1.pdf`,
+  },
+  {
+    name: `The Kerfunten - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Kerfunten - X1.pdf`,
+  },
+  {
+    name: `The Lark In The Morning - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Lark In The Morning - X1.pdf`,
+  },
+  {
+    name: `The Lilting Banshee - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Lilting Banshee - X1.pdf`,
+  },
+  {
+    name: `The Mist Covered Mountain - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Mist Covered Mountain - X1.pdf`,
+  },
+  {
+    name: `The Monaghan - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Monaghan - X1.pdf`,
+  },
+  {
+    name: `The Old Favourite - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Old Favourite - X1.pdf`,
+  },
+  {
+    name: `The Pipe On The Hob - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Pipe On The Hob - X1.pdf`,
+  },
+  {
+    name: `The Rakes Of Kildare - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Rakes Of Kildare - X1.pdf`,
+  },
+  {
+    name: `The Roaring Barmaid - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Roaring Barmaid - X1.pdf`,
+  },
+  {
+    name: `The Rolling Waves - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Rolling Waves - X1.pdf`,
+  },
+  {
+    name: `The Rose In The Heather - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Rose In The Heather - X1.pdf`,
+  },
+  {
+    name: `The Strayaway Child - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Strayaway Child - X1.pdf`,
+  },
+  {
+    name: `The Tar Road To Sligo - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Tar Road To Sligo - X1.pdf`,
+  },
+  {
+    name: `The Tenpenny Bit - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/The Tenpenny Bit - X1.pdf`,
+  },
+  {
+    name: `Tobin's Favourite - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Tobin's Favourite - X1.pdf`,
+  },
+  {
+    name: `Willie Coleman's - X1`,
+    path: `assets/tunes/pdf/GDAE/Jig/Willie Coleman's - X1.pdf`,
+  },
+  {
     name: `Banish Misfortune - X1`,
     path: `assets/tunes/pdf/GDAE/Jig/Banish Misfortune - X1.pdf`,
   },
