@@ -6,7 +6,7 @@ import {
   DesktopNav,
   NavBar,
   InternalLink,
-  StyledIcon
+  StyledIcon,
 } from './Header.styles'
 
 const Header: React.FunctionComponent = () => {
@@ -19,6 +19,9 @@ const Header: React.FunctionComponent = () => {
           Irish-Trad.net
         </InternalLink>
         <DesktopNav>
+          <InternalLink to="/tabs" onClick={() => toggleHidden(!hidden)}>
+            Tabs
+          </InternalLink>
           <InternalLink to="/lessons" onClick={() => toggleHidden(!hidden)}>
             Lessons
           </InternalLink>
@@ -36,15 +39,15 @@ const Header: React.FunctionComponent = () => {
           </InternalLink>
           <InternalLink to="/newsletter" onClick={() => toggleHidden(!hidden)}>
             Newsletter
-          </InternalLink>
-          <InternalLink to="/tabs" onClick={() => toggleHidden(!hidden)}>
-            Tabs
           </InternalLink>
         </DesktopNav>
         <StyledIcon onClick={() => toggleHidden(!hidden)} icon="bars" />
       </Logo>
       {hidden ? (
         <NavBar>
+          <InternalLink to="/tabs" onClick={() => toggleHidden(!hidden)}>
+            Tabs
+          </InternalLink>
           <InternalLink to="/lessons" onClick={() => toggleHidden(!hidden)}>
             Lessons
           </InternalLink>
@@ -62,9 +65,6 @@ const Header: React.FunctionComponent = () => {
           </InternalLink>
           <InternalLink to="/newsletter" onClick={() => toggleHidden(!hidden)}>
             Newsletter
-          </InternalLink>
-          <InternalLink to="/tabs" onClick={() => toggleHidden(!hidden)}>
-            Tabs
           </InternalLink>
         </NavBar>
       ) : null}
