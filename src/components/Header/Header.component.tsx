@@ -19,8 +19,8 @@ const Header: React.FunctionComponent = () => {
           Irish-Trad.net
         </InternalLink>
         <DesktopNav>
-          <InternalLink to="/tabs" onClick={() => toggleHidden(!hidden)}>
-            Tabs
+          <InternalLink to="/tablature" onClick={() => toggleHidden(!hidden)}>
+            Tablature
           </InternalLink>
           <InternalLink to="/lessons" onClick={() => toggleHidden(!hidden)}>
             Lessons
@@ -45,8 +45,8 @@ const Header: React.FunctionComponent = () => {
       </Logo>
       {hidden ? (
         <NavBar>
-          <InternalLink to="/tabs" onClick={() => toggleHidden(!hidden)}>
-            Tabs
+          <InternalLink to="/tablature" onClick={() => toggleHidden(!hidden)}>
+            Tablature
           </InternalLink>
           <InternalLink to="/lessons" onClick={() => toggleHidden(!hidden)}>
             Lessons

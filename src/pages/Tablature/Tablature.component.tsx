@@ -9,10 +9,10 @@ import {
   H1,
   H2,
   Text,
-  ExternalLink
+  ExternalLink,
 } from 'common/StyledComponents/StyledComponents'
 
-import { Section, InternalLink, Title } from './Tabs.styles'
+import { Section, InternalLink, Title } from './Tablature.styles'
 
 const Tabs: React.FunctionComponent = () => (
   <MainContainer>
@@ -22,7 +22,7 @@ const Tabs: React.FunctionComponent = () => (
       metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
       metaDescription="Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
     />
-    <H1>Tabs</H1>
+    <H1>Tablature</H1>
     <Text>
       For those more familiar with Tablature than standard music notation or ABC
       notation I have taken a number of tunes from TheSession.org and tabbed

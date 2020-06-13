@@ -56,7 +56,9 @@ const HowToTune = lazy(() =>
   import('pages/Lessons/pages/HowToTune' /* webpackChunkName: 'HowToTune' */)
 )
 
-const Tabs = lazy(() => import('pages/Tabs' /* webpackChunkName: 'Tabs' */))
+const Tablature = lazy(() =>
+  import('pages/Tablature' /* webpackChunkName: 'Tablature' */)
+)
 
 const App: React.FunctionComponent = () => (
   <AppContainer>
@@ -78,7 +80,7 @@ const App: React.FunctionComponent = () => (
           <Route exact path="/lessons/how-to-string" component={HowToString} />
           <Route exact path="/lessons/how-to-tune" component={HowToTune} />
           <Route exact path="/terminology" component={Terminology} />
-          <Route exact path="/tabs" component={Tabs} />
+          <Route exact path="/tablature" component={Tablature} />
           <Route path="*" component={NotFound} />
         </Switch>
       </Suspense>
