@@ -1,3 +1,5 @@
+const sortTunesAtoZ = (a: any, b: any) => (a.name > b.name ? 1 : 0)
+
 export const Barndance: Array<{ name: string; path: string }> = [
   {
     name: `L’Air Mignonne - X2`,
@@ -7,7 +9,7 @@ export const Barndance: Array<{ name: string; path: string }> = [
     name: `Wild Mountain Thyme - X1`,
     path: `assets/tunes/pdf/GDAE/Barndance/Wild Mountain Thyme - X1.pdf`,
   },
-]
+].sort(sortTunesAtoZ)
 
 export const Hornpipe: Array<{ name: string; path: string }> = [
   {
@@ -22,7 +24,7 @@ export const Hornpipe: Array<{ name: string; path: string }> = [
     name: `The Jolly Beggarman - X2`,
     path: `assets/tunes/pdf/GDAE/Hornpipe/The Jolly Beggarman - X2.pdf`,
   },
-]
+].sort(sortTunesAtoZ)
 
 export const Jig: Array<{ name: string; path: string }> = [
   {
@@ -269,7 +271,7 @@ export const Jig: Array<{ name: string; path: string }> = [
     name: `Tripping Up The Stairs - X2`,
     path: `assets/tunes/pdf/GDAE/Jig/Tripping Up The Stairs - X2.pdf`,
   },
-]
+].sort(sortTunesAtoZ)
 
 export const March: Array<{ name: string; path: string }> = [
   {
@@ -280,7 +282,7 @@ export const March: Array<{ name: string; path: string }> = [
     name: `The Foggy Dew - X1`,
     path: `assets/tunes/pdf/GDAE/March/The Foggy Dew - X1.pdf`,
   },
-]
+].sort(sortTunesAtoZ)
 
 export const Polka: Array<{ name: string; path: string }> = [
   {
@@ -303,7 +305,7 @@ export const Polka: Array<{ name: string; path: string }> = [
     name: `Oro Se De Bheath Abhaile - X1`,
     path: `assets/tunes/pdf/GDAE/Polka/Oro Se De Bheath Abhaile - X1.pdf`,
   },
-]
+].sort(sortTunesAtoZ)
 
 export const Reel: Array<{ name: string; path: string }> = [
   {
@@ -578,7 +580,7 @@ export const Reel: Array<{ name: string; path: string }> = [
     name: `Toss The Feathers - X1`,
     path: `assets/tunes/pdf/GDAE/Reel/Toss The Feathers - X1.pdf`,
   },
-]
+].sort(sortTunesAtoZ)
 
 export const Slip: Array<{ name: string; path: string }> = [
   {
@@ -593,7 +595,7 @@ export const Slip: Array<{ name: string; path: string }> = [
     name: `The Rocky Road To Dublin - X1`,
     path: `assets/tunes/pdf/GDAE/Slip/The Rocky Road To Dublin - X1.pdf`,
   },
-]
+].sort(sortTunesAtoZ)
 
 export const Waltz: Array<{ name: string; path: string }> = [
   {
@@ -624,4 +626,4 @@ export const Waltz: Array<{ name: string; path: string }> = [
     name: `Si Beag Si Mor - X1`,
     path: `assets/tunes/pdf/GDAE/Waltz/Si Beag Si Mor - X1.pdf`,
   },
-]
+].sort(sortTunesAtoZ)
