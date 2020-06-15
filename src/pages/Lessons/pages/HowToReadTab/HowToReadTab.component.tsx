@@ -12,10 +12,10 @@ import {
   Text,
   Figure,
   Figcaption,
-  Image
+  Image,
 } from './HowToReadTab.styles'
 
-const HowToReadTab: React.FunctionComponent = () => (
+const HowToReadTab: React.FC = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - How to read Tablature"

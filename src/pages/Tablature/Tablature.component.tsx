@@ -14,7 +14,7 @@ import {
 
 import { Section, InternalLink, Title } from './Tablature.styles'
 
-const Tabs: React.FunctionComponent = () => (
+const Tabs: React.FC = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Tablature"

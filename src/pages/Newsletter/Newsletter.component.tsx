@@ -5,17 +5,17 @@ import {
   MainContainer,
   H1,
   Text,
-  ExternalLink
+  ExternalLink,
 } from 'common/StyledComponents/StyledComponents'
 
 import {
   StyledLink,
   StyledIcon,
   ButtonContainer,
-  Button
+  Button,
 } from './Newsletter.styles'
 
-const Newsletter: React.FunctionComponent = () => (
+const Newsletter: React.FC = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Newsletter"

@@ -3,7 +3,7 @@ import Metadata from 'common/Metadata'
 
 import { MainContainer, H1, Text, Bold } from './Terminology.styles'
 
-const Terminology: React.FunctionComponent = () => (
+const Terminology: React.FC = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Terminology"

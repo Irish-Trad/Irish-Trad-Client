@@ -13,10 +13,10 @@ import {
   CenterText,
   Bold,
   ImageContainer,
-  Image
+  Image,
 } from './Chords.styles'
 
-const Chords: React.FunctionComponent = () => (
+const Chords: React.FC = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Chords"

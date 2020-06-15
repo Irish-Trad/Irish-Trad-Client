@@ -4,7 +4,7 @@ import { Icon } from './Spinner.styles'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Spinner: React.FunctionComponent = () => (
+const Spinner: React.FC = () => (
   <Icon>
     <FontAwesomeIcon icon="spinner" spin />
   </Icon>

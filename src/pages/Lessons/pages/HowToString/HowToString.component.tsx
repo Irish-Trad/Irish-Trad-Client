@@ -14,10 +14,10 @@ import {
   Figcaption,
   Image,
   UL,
-  LI
+  LI,
 } from './HowToString.styles'
 
-const HowToString: React.FunctionComponent = () => (
+const HowToString: React.FC = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - How To String"

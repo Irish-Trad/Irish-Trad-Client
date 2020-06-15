@@ -11,10 +11,10 @@ import {
   ExternalLink,
   HashLink,
   ImageContainer,
-  Image
+  Image,
 } from './ClefToTab.styles'
 
-const ClefToTab: React.FunctionComponent = () => (
+const ClefToTab: React.FC = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Cleft to TAB"

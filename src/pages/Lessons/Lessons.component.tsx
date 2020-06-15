@@ -9,10 +9,10 @@ import {
   CenterText,
   InternalLink,
   LinkText,
-  ExternalLink
+  ExternalLink,
 } from './Lessons.styles'
 
-const Lessons: React.FunctionComponent = () => (
+const Lessons: React.FC = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Lessons"

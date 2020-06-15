@@ -8,11 +8,11 @@ interface Props {
   metaDescription?: string
 }
 
-const Metadata: React.FunctionComponent<Props> = ({
+const Metadata: React.FC<Props> = ({
   title,
   metaTitle,
   metaKeywords,
-  metaDescription
+  metaDescription,
 }: Props) => (
   <Helmet>
     <link rel="canonical" href={`${window.location}`} />

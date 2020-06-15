@@ -11,10 +11,10 @@ import {
   ExternalLink,
   Text,
   UL,
-  LI
+  LI,
 } from './HowToTune.styles'
 
-const HowToTune: React.FunctionComponent = () => (
+const HowToTune: React.FC = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - How To Tune"

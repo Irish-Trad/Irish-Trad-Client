@@ -9,10 +9,10 @@ import {
   Figcaption,
   H2,
   Text,
-  ExternalLink
+  ExternalLink,
 } from './Homepage.styles'
 
-const Homepage: React.FunctionComponent = () => (
+const Homepage: React.FC = () => (
   <MainContainer>
     <Metadata
       title="Irish-Trad.net - Home"
