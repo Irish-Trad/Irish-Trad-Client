@@ -1,4 +1,4 @@
-const sortTunesAtoZ = (a: any, b: any) => (a.name > b.name ? 1 : 0)
+import { sortTunesAtoZ } from './sortTunesAtoZ'
 
 export const Barndance: Array<{ name: string; path: string }> = [
   {
