@@ -19,3 +19,15 @@ export const InternalLink = styled.a`
   border: 3px solid green;
   padding: 10px;
 `
+
+export const Button = styled.button`
+  width: 100px;
+  color: white;
+  background: #006400;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px;
+`
