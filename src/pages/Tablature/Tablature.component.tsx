@@ -45,12 +45,12 @@ const Tabs: React.FC = () => {
           TheSession.org - Donation Page
         </ExternalLink>
       </Text>
-      <Button onClick={() => setShowGDAE(!showGDAE)}>Toggle Tuning</Button>
+      <Title>
+        <H1>{showGDAE ? 'GDAE' : 'GDAD'}</H1>
+        <Button onClick={() => setShowGDAE(!showGDAE)}>Toggle Tuning</Button>
+      </Title>
       {showGDAE ? (
         <>
-          <Title>
-            <H1>GDAE</H1>
-          </Title>
           <H2>Barndances - GDAE</H2>
           <Section>
             {GDAE.Barndance.map((el, idx) => (
@@ -150,9 +150,6 @@ const Tabs: React.FC = () => {
         </>
       ) : (
         <>
-          <Title>
-            <H1>GDAD</H1>
-          </Title>
           <H2>Barndances - GDAD</H2>
           <Section>
             {GDAD.Barndance.map((el, idx) => (
