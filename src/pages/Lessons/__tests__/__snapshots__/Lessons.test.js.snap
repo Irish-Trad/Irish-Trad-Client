@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lessons Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main
+        class="sc-bdVaJa aBmTA"
+      >
+        <h1
+          class="sc-bwzfXH kWcKFk"
+        >
+          Lessons
+        </h1>
+        <h2
+          class="sc-htpNat gJpLap"
+        >
+          Preparation:
+        </h2>
+        <a
+          class="sc-EHOje cqfGAF"
+          href="#/lessons/how-to-string"
+        >
+          <p
+            class="sc-bZQynM bOrPFB"
+          >
+            How to string your instrument
+          </p>
+        </a>
+        <p
+          class="sc-bxivhb faZbih"
+        >
+          Knowing how to string your instrument is an essential skill every musician needs to learn. It can be a daunting task for beginners because of uncertainty and fear of damaging the instrument. This section covers how to string the instrument and the different options available when buying strings.
+        </p>
+        <a
+          class="sc-EHOje cqfGAF"
+          href="#/lessons/how-to-tune"
+        >
+          <p
+            class="sc-bZQynM bOrPFB"
+          >
+            How to tune your instrument
+          </p>
+        </a>
+        <p
+          class="sc-bxivhb faZbih"
+        >
+          When playing with other musicians it is vital that your instrument is in tune. This section covers how to use a chromatic tuner and the different tuning configurations available to the Irish Bouzouki.
+        </p>
+        <a
+          class="sc-EHOje cqfGAF"
+          href="#/lessons/how-to-read-tab"
+        >
+          <p
+            class="sc-bZQynM bOrPFB"
+          >
+            How to read tablature
+          </p>
+        </a>
+        <p
+          class="sc-bxivhb faZbih"
+        >
+          Tablature is a form of music notation structured towards fretted instruments. It is regarded as one of the quickest methods for teaching beginners how to start making music. This section covers how to read tablature.
+        </p>
+        <h2
+          class="sc-htpNat gJpLap"
+        >
+          Useful Websites:
+        </h2>
+        <a
+          class="sc-gzVnrw lcwkHh"
+          href="https://thesession.org/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <p
+            class="sc-bZQynM bOrPFB"
+          >
+            The Session
+          </p>
+        </a>
+        <p
+          class="sc-bxivhb sc-ifAKCX heqFYD"
+        >
+          The best resource for traditional Irish sheet music.
+        </p>
+        <a
+          class="sc-gzVnrw lcwkHh"
+          href="https://www.atuneaweek.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <p
+            class="sc-bZQynM bOrPFB"
+          >
+            A Tune A Week
+          </p>
+        </a>
+        <p
+          class="sc-bxivhb sc-ifAKCX heqFYD"
+        >
+          A great resource to keep you motivated and help choose what tune to learn next.
+        </p>
+        <a
+          class="sc-gzVnrw lcwkHh"
+          href="https://irish-music.net/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <p
+            class="sc-bZQynM bOrPFB"
+          >
+            Irish-Music
+          </p>
+        </a>
+        <p
+          class="sc-bxivhb sc-ifAKCX heqFYD"
+        >
+          Useful website that provides links to many resources for traditional Irish instruments.
+        </p>
+        <a
+          class="sc-gzVnrw lcwkHh"
+          href="https://www.mandolessons.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <p
+            class="sc-bZQynM bOrPFB"
+          >
+            Mando Lessons
+          </p>
+        </a>
+        <p
+          class="sc-bxivhb sc-ifAKCX heqFYD"
+        >
+          Mandolin focused website providing high quality video lessons.
+        </p>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="sc-bdVaJa aBmTA"
+    >
+      <h1
+        class="sc-bwzfXH kWcKFk"
+      >
+        Lessons
+      </h1>
+      <h2
+        class="sc-htpNat gJpLap"
+      >
+        Preparation:
+      </h2>
+      <a
+        class="sc-EHOje cqfGAF"
+        href="#/lessons/how-to-string"
+      >
+        <p
+          class="sc-bZQynM bOrPFB"
+        >
+          How to string your instrument
+        </p>
+      </a>
+      <p
+        class="sc-bxivhb faZbih"
+      >
+        Knowing how to string your instrument is an essential skill every musician needs to learn. It can be a daunting task for beginners because of uncertainty and fear of damaging the instrument. This section covers how to string the instrument and the different options available when buying strings.
+      </p>
+      <a
+        class="sc-EHOje cqfGAF"
+        href="#/lessons/how-to-tune"
+      >
+        <p
+          class="sc-bZQynM bOrPFB"
+        >
+          How to tune your instrument
+        </p>
+      </a>
+      <p
+        class="sc-bxivhb faZbih"
+      >
+        When playing with other musicians it is vital that your instrument is in tune. This section covers how to use a chromatic tuner and the different tuning configurations available to the Irish Bouzouki.
+      </p>
+      <a
+        class="sc-EHOje cqfGAF"
+        href="#/lessons/how-to-read-tab"
+      >
+        <p
+          class="sc-bZQynM bOrPFB"
+        >
+          How to read tablature
+        </p>
+      </a>
+      <p
+        class="sc-bxivhb faZbih"
+      >
+        Tablature is a form of music notation structured towards fretted instruments. It is regarded as one of the quickest methods for teaching beginners how to start making music. This section covers how to read tablature.
+      </p>
+      <h2
+        class="sc-htpNat gJpLap"
+      >
+        Useful Websites:
+      </h2>
+      <a
+        class="sc-gzVnrw lcwkHh"
+        href="https://thesession.org/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p
+          class="sc-bZQynM bOrPFB"
+        >
+          The Session
+        </p>
+      </a>
+      <p
+        class="sc-bxivhb sc-ifAKCX heqFYD"
+      >
+        The best resource for traditional Irish sheet music.
+      </p>
+      <a
+        class="sc-gzVnrw lcwkHh"
+        href="https://www.atuneaweek.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p
+          class="sc-bZQynM bOrPFB"
+        >
+          A Tune A Week
+        </p>
+      </a>
+      <p
+        class="sc-bxivhb sc-ifAKCX heqFYD"
+      >
+        A great resource to keep you motivated and help choose what tune to learn next.
+      </p>
+      <a
+        class="sc-gzVnrw lcwkHh"
+        href="https://irish-music.net/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p
+          class="sc-bZQynM bOrPFB"
+        >
+          Irish-Music
+        </p>
+      </a>
+      <p
+        class="sc-bxivhb sc-ifAKCX heqFYD"
+      >
+        Useful website that provides links to many resources for traditional Irish instruments.
+      </p>
+      <a
+        class="sc-gzVnrw lcwkHh"
+        href="https://www.mandolessons.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p
+          class="sc-bZQynM bOrPFB"
+        >
+          Mando Lessons
+        </p>
+      </a>
+      <p
+        class="sc-bxivhb sc-ifAKCX heqFYD"
+      >
+        Mandolin focused website providing high quality video lessons.
+      </p>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

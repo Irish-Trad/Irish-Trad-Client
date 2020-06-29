@@ -25,7 +25,7 @@ const HowToString: React.FC = () => (
       metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
       metaDescription="How To String Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
     />
-    <H1>Stringing the Irish Bouzouki</H1>
+    <H1>How To String An Instrument</H1>
     <ButtonContainer>
       <InternalLink to="/lessons">
         <Button>Return to Lessons Page</Button>
