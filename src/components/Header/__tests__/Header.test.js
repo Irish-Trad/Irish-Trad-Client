@@ -1,11 +1,21 @@
 import React from 'react'
 import { render, cleanup } from '@testing-library/react'
 import { HashRouter } from 'react-router-dom'
-import Header from './Header.component'
+import Header from '../Header.component'
 
 describe('Header', () => {
   afterEach(() => {
     cleanup()
+  })
+
+  it('Snapshot', () => {
+    const snapshot = render(
+      <HashRouter>
+        <Header />
+      </HashRouter>
+    )
+
+    expect(snapshot).toMatchSnapshot()
   })
 
   it('Header should render all possible tabs', () => {

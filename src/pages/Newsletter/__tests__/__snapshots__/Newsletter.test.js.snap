@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Newsletter Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main
+        class="sc-bdVaJa aBmTA"
+      >
+        <h1
+          class="sc-bwzfXH kWcKFk"
+        >
+          Newsletter
+        </h1>
+        <p
+          class="sc-bxivhb faZbih"
+        >
+          Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
+        </p>
+        <p
+          class="sc-bxivhb faZbih"
+        >
+          If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
+        </p>
+        <div
+          class="sc-gZMcBi hLSPcS"
+        >
+          <a
+            class="sc-dnqmqq bDsesi"
+            href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
+            target="_blank"
+          >
+            <i
+              class="fa"
+            />
+          </a>
+          <a
+            class="sc-htoDjs gjSkhw"
+            href="https://discord.gg/Mq9jeA8"
+            target="_blank"
+          >
+            <button
+              class="sc-gqjmRU isyvva"
+            >
+              Sign Up For Newsletter
+            </button>
+          </a>
+        </div>
+        <p
+          class="sc-bxivhb faZbih"
+        >
+          MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
+        </p>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="sc-bdVaJa aBmTA"
+    >
+      <h1
+        class="sc-bwzfXH kWcKFk"
+      >
+        Newsletter
+      </h1>
+      <p
+        class="sc-bxivhb faZbih"
+      >
+        Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
+      </p>
+      <p
+        class="sc-bxivhb faZbih"
+      >
+        If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
+      </p>
+      <div
+        class="sc-gZMcBi hLSPcS"
+      >
+        <a
+          class="sc-dnqmqq bDsesi"
+          href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
+          target="_blank"
+        >
+          <i
+            class="fa"
+          />
+        </a>
+        <a
+          class="sc-htoDjs gjSkhw"
+          href="https://discord.gg/Mq9jeA8"
+          target="_blank"
+        >
+          <button
+            class="sc-gqjmRU isyvva"
+          >
+            Sign Up For Newsletter
+          </button>
+        </a>
+      </div>
+      <p
+        class="sc-bxivhb faZbih"
+      >
+        MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
+      </p>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
