@@ -1,5 +1,4 @@
 import React from 'react'
-import '@testing-library/jest-dom'
 import { render, cleanup } from '@testing-library/react'
 import { HashRouter } from 'react-router-dom'
 import Header from './Header.component'
