@@ -2,7 +2,6 @@ import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
-  MainContainer,
   H1,
   H2,
   ButtonContainer,
@@ -17,7 +16,7 @@ import {
 } from './Chords.styles'
 
 const Chords: React.FC = () => (
-  <MainContainer>
+  <>
     <Metadata
       title="Irish-Trad.net - Chords"
       metaTitle="Irish-Trad.net - Chords"
@@ -360,7 +359,7 @@ const Chords: React.FC = () => (
         />
       </InternalLink>
     </ImageContainer>
-  </MainContainer>
+  </>
 )
 
 export default Chords

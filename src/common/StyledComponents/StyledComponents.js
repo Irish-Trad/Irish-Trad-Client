@@ -6,6 +6,7 @@ export const MainContainer = styled.main`
   max-width: 960px;
   margin: auto;
   padding: 10px;
+  min-height: 90vh;
 `
 
 export const H1 = styled.h1`

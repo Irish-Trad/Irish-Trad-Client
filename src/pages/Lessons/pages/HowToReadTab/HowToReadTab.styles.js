@@ -2,12 +2,6 @@ import styled from 'styled-components'
 
 import { Link } from 'react-router-dom'
 
-export const MainContainer = styled.main`
-  max-width: 960px;
-  margin: auto;
-  padding: 10px;
-`
-
 export const H1 = styled.h1`
   text-align: center;
   font-family: meathflfregular;

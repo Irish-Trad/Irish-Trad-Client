@@ -2,7 +2,6 @@ import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
-  MainContainer,
   H1,
   H2,
   ButtonContainer,
@@ -16,7 +15,7 @@ import {
 } from './HowToReadTab.styles'
 
 const HowToReadTab: React.FC = () => (
-  <MainContainer>
+  <>
     <Metadata
       title="Irish-Trad.net - How to read Tablature"
       metaTitle="Irish-Trad.net - How to read Tablature"
@@ -168,7 +167,7 @@ const HowToReadTab: React.FC = () => (
       symbols) a variety of techniques along the horizontal lines such as
       sliding between notes, hammer-ons and pull-offs, trills and bends.
     </Text>
-  </MainContainer>
+  </>
 )
 
 export default HowToReadTab

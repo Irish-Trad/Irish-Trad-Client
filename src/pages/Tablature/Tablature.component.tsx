@@ -5,7 +5,6 @@ import * as GDAE from './routes/GDAE'
 import * as GDAD from './routes/GDAD'
 
 import {
-  MainContainer,
   H1,
   H2,
   Text,
@@ -18,7 +17,7 @@ const Tabs: React.FC = () => {
   const [showGDAE, setShowGDAE] = useState<boolean>(true)
 
   return (
-    <MainContainer>
+    <>
       <Metadata
         title="Irish-Trad.net - Tablature"
         metaTitle="Irish-Trad.net - Tablature"
@@ -248,7 +247,7 @@ const Tabs: React.FC = () => {
           </Section>
         </>
       )}
-    </MainContainer>
+    </>
   )
 }
 

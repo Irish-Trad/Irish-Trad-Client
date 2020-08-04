@@ -2,7 +2,6 @@ import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
-  MainContainer,
   H1,
   Text,
   ExternalLink,
@@ -19,7 +18,7 @@ import {
 } from './Community.styles'
 
 const Community: React.FC = () => (
-  <MainContainer>
+  <>
     <Metadata
       title="Irish-Trad.net - Community"
       metaTitle="Irish-Trad.net - Community"
@@ -85,7 +84,7 @@ const Community: React.FC = () => (
       The Discord icon can also be found in the footer of every page to make
       future access easier.
     </Text>
-  </MainContainer>
+  </>
 )
 
 export default Community

@@ -1,10 +1,10 @@
 import React from 'react'
 import Metadata from 'common/Metadata'
 
-import { MainContainer, H1, Text, Bold } from './Terminology.styles'
+import { H1, Text, Bold } from './Terminology.styles'
 
 const Terminology: React.FC = () => (
-  <MainContainer>
+  <>
     <Metadata
       title="Irish-Trad.net - Terminology"
       metaTitle="Irish-Trad.net - Terminology"
@@ -76,7 +76,7 @@ const Terminology: React.FC = () => (
       fluctuating pitch. Reminiscent of a vocalist who holds a note for a long
       time.
     </Text>
-  </MainContainer>
+  </>
 )
 
 export default Terminology

@@ -2,14 +2,16 @@ import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
-  MainContainer,
   H1,
   H2,
+  InternalLink,
+  Text,
+} from 'common/StyledComponents/StyledComponents'
+
+import {
   ButtonContainer,
   Button,
-  InternalLink,
   ExternalLink,
-  Text,
   Figure,
   Figcaption,
   Image,
@@ -18,7 +20,7 @@ import {
 } from './HowToString.styles'
 
 const HowToString: React.FC = () => (
-  <MainContainer>
+  <>
     <Metadata
       title="Irish-Trad.net - How To String"
       metaTitle="Irish-Trad.net - How To String"
@@ -273,7 +275,7 @@ const HowToString: React.FC = () => (
       and considering how easy it is to determine which kind you need you may as
       well get the correct end outright.
     </Text>
-  </MainContainer>
+  </>
 )
 
 export default HowToString

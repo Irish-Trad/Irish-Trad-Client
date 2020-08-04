@@ -2,7 +2,6 @@ import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
-  MainContainer,
   H1,
   Text,
   ExternalLink,
@@ -16,7 +15,7 @@ import {
 } from './Newsletter.styles'
 
 const Newsletter: React.FC = () => (
-  <MainContainer>
+  <>
     <Metadata
       title="Irish-Trad.net - Newsletter"
       metaTitle="Irish-Trad.net - Newsletter"
@@ -48,7 +47,7 @@ const Newsletter: React.FC = () => (
       MailChimp allows you to manage your subscription at anytime so
       unsubscribing is easy if you change your mind.
     </Text>
-  </MainContainer>
+  </>
 )
 
 export default Newsletter

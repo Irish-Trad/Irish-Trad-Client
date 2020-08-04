@@ -2,7 +2,6 @@ import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
-  MainContainer,
   H1,
   H2,
   Text,
@@ -13,7 +12,7 @@ import {
 } from './Lessons.styles'
 
 const Lessons: React.FC = () => (
-  <MainContainer>
+  <>
     <Metadata
       title="Irish-Trad.net - Lessons"
       metaTitle="Irish-Trad.net - Lessons"
@@ -92,7 +91,7 @@ const Lessons: React.FC = () => (
     <CenterText>
       Mandolin focused website providing high quality video lessons.
     </CenterText>
-  </MainContainer>
+  </>
 )
 
 export default Lessons

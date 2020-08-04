@@ -2,7 +2,6 @@ import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
-  MainContainer,
   H1,
   ButtonContainer,
   Button,
@@ -15,7 +14,7 @@ import {
 } from './ClefToTab.styles'
 
 const ClefToTab: React.FC = () => (
-  <MainContainer>
+  <>
     <Metadata
       title="Irish-Trad.net - Cleft to TAB"
       metaTitle="Irish-Trad.net - Cleft to TAB"
@@ -102,7 +101,7 @@ const ClefToTab: React.FC = () => (
         />
       </InternalLink>
     </ImageContainer>
-  </MainContainer>
+  </>
 )
 
 export default ClefToTab

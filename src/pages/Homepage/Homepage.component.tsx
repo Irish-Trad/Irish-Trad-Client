@@ -2,18 +2,18 @@ import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
-  MainContainer,
   H1,
   Figure,
-  Img,
+  Image,
   Figcaption,
   H2,
   Text,
-  ExternalLink,
-} from './Homepage.styles'
+} from 'common/StyledComponents/StyledComponents'
+
+import { ExternalLink } from './Homepage.styles'
 
 const Homepage: React.FC = () => (
-  <MainContainer>
+  <>
     <Metadata
       title="Irish-Trad.net - Home"
       metaTitle="Irish-Trad.net - Home"
@@ -27,7 +27,7 @@ const Homepage: React.FC = () => (
       the Irish Bouzouki, Mandolin, Octave Mandola and Irish Tenor Banjo.
     </Text>
     <Figure>
-      <Img
+      <Image
         src="assets/low-quality/2243E.jpg"
         alt="Ozark 2243E Irish Bouzouki"
         title="Ozark 2243E Irish Bouzouki"
@@ -98,7 +98,7 @@ const Homepage: React.FC = () => (
       abbreviations that can be found across traditional irish music and session
       settings.
     </Text>
-  </MainContainer>
+  </>
 )
 
 export default Homepage

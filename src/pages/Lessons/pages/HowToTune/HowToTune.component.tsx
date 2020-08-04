@@ -2,20 +2,22 @@ import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
-  MainContainer,
   H1,
   H2,
+  InternalLink,
+  Text,
+} from 'common/StyledComponents/StyledComponents'
+
+import {
   ButtonContainer,
   Button,
-  InternalLink,
   ExternalLink,
-  Text,
   UL,
   LI,
 } from './HowToTune.styles'
 
 const HowToTune: React.FC = () => (
-  <MainContainer>
+  <>
     <Metadata
       title="Irish-Trad.net - How To Tune"
       metaTitle="Irish-Trad.net - How To Tune"
@@ -102,7 +104,7 @@ const HowToTune: React.FC = () => (
       tuning should be enough for a properly set-up instrument to retain tuning
       of new strings.
     </Text>
-  </MainContainer>
+  </>
 )
 
 export default HowToTune
