@@ -5,435 +5,427 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <main
-        class="sc-bdVaJa aBmTA"
-      >
-        <h1
-          class="sc-bwzfXH kWcKFk"
-        >
-          How to read Tablature
-        </h1>
-        <div
-          class="sc-bxivhb khpLpk"
-        >
-          <a
-            class="sc-EHOje jvzENE"
-            href="#/lessons"
-          >
-            <button
-              class="sc-ifAKCX duQjlL"
-            >
-              Return to Lessons Page
-            </button>
-          </a>
-        </div>
-        <h2
-          class="sc-htpNat gJpLap"
-        >
-          Introduction:
-        </h2>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Tablature is a form of music notation designed specifically for fretted instruments such as the Irish Bouzouki. Tablature is regarded as one of the quickest methods for teaching people how to play music. The word tablature is normally shortened to just TAB.
-        </p>
-        <h2
-          class="sc-htpNat gJpLap"
-        >
-          How to:
-        </h2>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Figure 1 shows two forms of music notation (standard notation and tablature). The highlighted section is the tablature and understanding how to read this information will be the focus of the lesson.
-        </p>
-        <figure
-          class="sc-gzVnrw jGncgf"
-        >
-          <a
-            class="sc-iwsKbI jQhHGA"
-            href="assets/high-quality/TAB_Lesson/TAB02.jpg"
-            target="_blank"
-          >
-            <img
-              alt="Standard Notation & Tablature"
-              class="sc-htoDjs kKCJWi"
-              src="assets/low-quality/TAB_Lesson/TAB02.jpg"
-              title="Standard Notation & Tablature"
-            />
-          </a>
-          <figcaption
-            class="sc-dnqmqq fXmtAI"
-          >
-            Figure 1: Standard Notation & Tablature
-          </figcaption>
-        </figure>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          To read tablature you have to picture that you are looking directly down on the strings of the instrument. Every string of the instrument is represented by a horizontal line. Instruments that have 4 strings (2 sets of 4) such as the Irish Bouzouki or Mandolin are represented by 4 horizontal lines.
-        </p>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Figure 2 shows the direction that the strings are read. In this example every horizontal line is labelled with the name of the string in standard tuning.
-        </p>
-        <figure
-          class="sc-gzVnrw jGncgf"
-        >
-          <a
-            class="sc-iwsKbI jQhHGA"
-            href="assets/high-quality/TAB_Lesson/TAB04.jpg"
-            target="_blank"
-          >
-            <img
-              alt="String Direction"
-              class="sc-htoDjs kKCJWi"
-              src="assets/low-quality/TAB_Lesson/TAB04.jpg"
-              title="String Direction"
-            />
-          </a>
-          <figcaption
-            class="sc-dnqmqq fXmtAI"
-          >
-            Figure 2: String Direction
-          </figcaption>
-        </figure>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Numbers presented along the horizontal line instructs you of what fret to play. In Figure 3 the highlighted note is the number 0 (open string). As the horizontal line corresponds to the G string this means that you play an open G string to play this highlighted note.
-        </p>
-        <figure
-          class="sc-gzVnrw jGncgf"
-        >
-          <a
-            class="sc-iwsKbI jQhHGA"
-            href="assets/high-quality/TAB_Lesson/TAB05.jpg"
-          >
-            <img
-              alt="Single Note & Open String"
-              class="sc-htoDjs kKCJWi"
-              src="assets/low-quality/TAB_Lesson/TAB05.jpg"
-              title="Single Note & Open String"
-            />
-          </a>
-          <figcaption
-            class="sc-dnqmqq fXmtAI"
-          >
-            Figure 3: Single Note & Open String
-          </figcaption>
-        </figure>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Figure 4 highlights a section that shows how to play two notes at the same time. Numbers that are presented directly above and below each other mean they are played simultaneously. The highlighted section instructs you to play the 2nd fret of the D string and the open G string.
-        </p>
-        <figure
-          class="sc-gzVnrw jGncgf"
-        >
-          <a
-            class="sc-iwsKbI jQhHGA"
-            href="assets/high-quality/TAB_Lesson/TAB06.jpg"
-            target="_blank"
-          >
-            <img
-              alt="More Than One Note"
-              class="sc-htoDjs kKCJWi"
-              src="assets/low-quality/TAB_Lesson/TAB06.jpg"
-              title="More Than One Note"
-            />
-          </a>
-          <figcaption
-            class="sc-dnqmqq fXmtAI"
-          >
-            Figure 4: More Than One Note
-          </figcaption>
-        </figure>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          The highlighted section in Figure 5 shows how to play a note on every string at the same time. Doing this results in a chord. For this the G and D string are played open while the A string is fretted at 2nd fret and the E string is the 3rd fret. Strumming all the strings in a swift motion causes them to ring simultaneously. This produces a G Major chord.
-        </p>
-        <figure
-          class="sc-gzVnrw jGncgf"
-        >
-          <a
-            class="sc-iwsKbI jQhHGA"
-            href="assets/high-quality/TAB_Lesson/TAB07.jpg"
-            target="_blank"
-          >
-            <img
-              alt="Full Chord"
-              class="sc-htoDjs kKCJWi"
-              src="assets/low-quality/TAB_Lesson/TAB07.jpg"
-              title="Full Chord"
-            />
-          </a>
-          <figcaption
-            class="sc-dnqmqq fXmtAI"
-          >
-            Figure 5: Full Chord
-          </figcaption>
-        </figure>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Figure 6 is a series of single notes played in order. This actually performs the G Major scale. Information about chords and scales will be provided in future lessons.
-        </p>
-        <figure
-          class="sc-gzVnrw jGncgf"
-        >
-          <a
-            class="sc-iwsKbI jQhHGA"
-            href="assets/high-quality/TAB_Lesson/TAB08.jpg"
-            target="_blank"
-          >
-            <img
-              alt="Playing Through A Scale"
-              class="sc-htoDjs kKCJWi"
-              src="assets/low-quality/TAB_Lesson/TAB08.jpg"
-              title="Playing Through A Scale"
-            />
-          </a>
-          <figcaption
-            class="sc-dnqmqq fXmtAI"
-          >
-            Figure 6: Playing Through A Scale
-          </figcaption>
-        </figure>
-        <h2
-          class="sc-htpNat gJpLap"
-        >
-          Summary:
-        </h2>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Tablature (TAB) presents each string of an instrument on a horizontal line and instructs the musician of which fret to play by placing numbers along those horizontal lines. The thickest and lowest pitched string is at the bottom of the tablature while the thinnest and highest pitched string is at the top. Notes that are directly above and below each other on the horizontal line are played simeltaneously.
-        </p>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          While not showcased in this lesson tablature is also able represent (using symbols) a variety of techniques along the horizontal lines such as sliding between notes, hammer-ons and pull-offs, trills and bends.
-        </p>
-      </main>
-    </div>
-  </body>,
-  "container": <div>
-    <main
-      class="sc-bdVaJa aBmTA"
-    >
       <h1
-        class="sc-bwzfXH kWcKFk"
+        class="sc-bdVaJa dPGDrt"
       >
         How to read Tablature
       </h1>
       <div
-        class="sc-bxivhb khpLpk"
+        class="sc-htpNat cmxFXV"
       >
         <a
-          class="sc-EHOje jvzENE"
+          class="sc-ifAKCX cFlEyZ"
           href="#/lessons"
         >
           <button
-            class="sc-ifAKCX duQjlL"
+            class="sc-bxivhb cOhjdj"
           >
             Return to Lessons Page
           </button>
         </a>
       </div>
       <h2
-        class="sc-htpNat gJpLap"
+        class="sc-bwzfXH lokaro"
       >
         Introduction:
       </h2>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-EHOje cQMefO"
       >
         Tablature is a form of music notation designed specifically for fretted instruments such as the Irish Bouzouki. Tablature is regarded as one of the quickest methods for teaching people how to play music. The word tablature is normally shortened to just TAB.
       </p>
       <h2
-        class="sc-htpNat gJpLap"
+        class="sc-bwzfXH lokaro"
       >
         How to:
       </h2>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-EHOje cQMefO"
       >
         Figure 1 shows two forms of music notation (standard notation and tablature). The highlighted section is the tablature and understanding how to read this information will be the focus of the lesson.
       </p>
       <figure
-        class="sc-gzVnrw jGncgf"
+        class="sc-bZQynM bsmBBS"
       >
         <a
-          class="sc-iwsKbI jQhHGA"
+          class="sc-dnqmqq bDsesi"
           href="assets/high-quality/TAB_Lesson/TAB02.jpg"
           target="_blank"
         >
           <img
             alt="Standard Notation & Tablature"
-            class="sc-htoDjs kKCJWi"
+            class="sc-gzVnrw lfdfns"
             src="assets/low-quality/TAB_Lesson/TAB02.jpg"
             title="Standard Notation & Tablature"
           />
         </a>
         <figcaption
-          class="sc-dnqmqq fXmtAI"
+          class="sc-htoDjs dLESzS"
         >
           Figure 1: Standard Notation & Tablature
         </figcaption>
       </figure>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-EHOje cQMefO"
       >
         To read tablature you have to picture that you are looking directly down on the strings of the instrument. Every string of the instrument is represented by a horizontal line. Instruments that have 4 strings (2 sets of 4) such as the Irish Bouzouki or Mandolin are represented by 4 horizontal lines.
       </p>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-EHOje cQMefO"
       >
         Figure 2 shows the direction that the strings are read. In this example every horizontal line is labelled with the name of the string in standard tuning.
       </p>
       <figure
-        class="sc-gzVnrw jGncgf"
+        class="sc-bZQynM bsmBBS"
       >
         <a
-          class="sc-iwsKbI jQhHGA"
+          class="sc-dnqmqq bDsesi"
           href="assets/high-quality/TAB_Lesson/TAB04.jpg"
           target="_blank"
         >
           <img
             alt="String Direction"
-            class="sc-htoDjs kKCJWi"
+            class="sc-gzVnrw lfdfns"
             src="assets/low-quality/TAB_Lesson/TAB04.jpg"
             title="String Direction"
           />
         </a>
         <figcaption
-          class="sc-dnqmqq fXmtAI"
+          class="sc-htoDjs dLESzS"
         >
           Figure 2: String Direction
         </figcaption>
       </figure>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-EHOje cQMefO"
       >
         Numbers presented along the horizontal line instructs you of what fret to play. In Figure 3 the highlighted note is the number 0 (open string). As the horizontal line corresponds to the G string this means that you play an open G string to play this highlighted note.
       </p>
       <figure
-        class="sc-gzVnrw jGncgf"
+        class="sc-bZQynM bsmBBS"
       >
         <a
-          class="sc-iwsKbI jQhHGA"
+          class="sc-dnqmqq bDsesi"
           href="assets/high-quality/TAB_Lesson/TAB05.jpg"
         >
           <img
             alt="Single Note & Open String"
-            class="sc-htoDjs kKCJWi"
+            class="sc-gzVnrw lfdfns"
             src="assets/low-quality/TAB_Lesson/TAB05.jpg"
             title="Single Note & Open String"
           />
         </a>
         <figcaption
-          class="sc-dnqmqq fXmtAI"
+          class="sc-htoDjs dLESzS"
         >
           Figure 3: Single Note & Open String
         </figcaption>
       </figure>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-EHOje cQMefO"
       >
         Figure 4 highlights a section that shows how to play two notes at the same time. Numbers that are presented directly above and below each other mean they are played simultaneously. The highlighted section instructs you to play the 2nd fret of the D string and the open G string.
       </p>
       <figure
-        class="sc-gzVnrw jGncgf"
+        class="sc-bZQynM bsmBBS"
       >
         <a
-          class="sc-iwsKbI jQhHGA"
+          class="sc-dnqmqq bDsesi"
           href="assets/high-quality/TAB_Lesson/TAB06.jpg"
           target="_blank"
         >
           <img
             alt="More Than One Note"
-            class="sc-htoDjs kKCJWi"
+            class="sc-gzVnrw lfdfns"
             src="assets/low-quality/TAB_Lesson/TAB06.jpg"
             title="More Than One Note"
           />
         </a>
         <figcaption
-          class="sc-dnqmqq fXmtAI"
+          class="sc-htoDjs dLESzS"
         >
           Figure 4: More Than One Note
         </figcaption>
       </figure>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-EHOje cQMefO"
       >
         The highlighted section in Figure 5 shows how to play a note on every string at the same time. Doing this results in a chord. For this the G and D string are played open while the A string is fretted at 2nd fret and the E string is the 3rd fret. Strumming all the strings in a swift motion causes them to ring simultaneously. This produces a G Major chord.
       </p>
       <figure
-        class="sc-gzVnrw jGncgf"
+        class="sc-bZQynM bsmBBS"
       >
         <a
-          class="sc-iwsKbI jQhHGA"
+          class="sc-dnqmqq bDsesi"
           href="assets/high-quality/TAB_Lesson/TAB07.jpg"
           target="_blank"
         >
           <img
             alt="Full Chord"
-            class="sc-htoDjs kKCJWi"
+            class="sc-gzVnrw lfdfns"
             src="assets/low-quality/TAB_Lesson/TAB07.jpg"
             title="Full Chord"
           />
         </a>
         <figcaption
-          class="sc-dnqmqq fXmtAI"
+          class="sc-htoDjs dLESzS"
         >
           Figure 5: Full Chord
         </figcaption>
       </figure>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-EHOje cQMefO"
       >
         Figure 6 is a series of single notes played in order. This actually performs the G Major scale. Information about chords and scales will be provided in future lessons.
       </p>
       <figure
-        class="sc-gzVnrw jGncgf"
+        class="sc-bZQynM bsmBBS"
       >
         <a
-          class="sc-iwsKbI jQhHGA"
+          class="sc-dnqmqq bDsesi"
           href="assets/high-quality/TAB_Lesson/TAB08.jpg"
           target="_blank"
         >
           <img
             alt="Playing Through A Scale"
-            class="sc-htoDjs kKCJWi"
+            class="sc-gzVnrw lfdfns"
             src="assets/low-quality/TAB_Lesson/TAB08.jpg"
             title="Playing Through A Scale"
           />
         </a>
         <figcaption
-          class="sc-dnqmqq fXmtAI"
+          class="sc-htoDjs dLESzS"
         >
           Figure 6: Playing Through A Scale
         </figcaption>
       </figure>
       <h2
-        class="sc-htpNat gJpLap"
+        class="sc-bwzfXH lokaro"
       >
         Summary:
       </h2>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-EHOje cQMefO"
       >
         Tablature (TAB) presents each string of an instrument on a horizontal line and instructs the musician of which fret to play by placing numbers along those horizontal lines. The thickest and lowest pitched string is at the bottom of the tablature while the thinnest and highest pitched string is at the top. Notes that are directly above and below each other on the horizontal line are played simeltaneously.
       </p>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-EHOje cQMefO"
       >
         While not showcased in this lesson tablature is also able represent (using symbols) a variety of techniques along the horizontal lines such as sliding between notes, hammer-ons and pull-offs, trills and bends.
       </p>
-    </main>
+    </div>
+  </body>,
+  "container": <div>
+    <h1
+      class="sc-bdVaJa dPGDrt"
+    >
+      How to read Tablature
+    </h1>
+    <div
+      class="sc-htpNat cmxFXV"
+    >
+      <a
+        class="sc-ifAKCX cFlEyZ"
+        href="#/lessons"
+      >
+        <button
+          class="sc-bxivhb cOhjdj"
+        >
+          Return to Lessons Page
+        </button>
+      </a>
+    </div>
+    <h2
+      class="sc-bwzfXH lokaro"
+    >
+      Introduction:
+    </h2>
+    <p
+      class="sc-EHOje cQMefO"
+    >
+      Tablature is a form of music notation designed specifically for fretted instruments such as the Irish Bouzouki. Tablature is regarded as one of the quickest methods for teaching people how to play music. The word tablature is normally shortened to just TAB.
+    </p>
+    <h2
+      class="sc-bwzfXH lokaro"
+    >
+      How to:
+    </h2>
+    <p
+      class="sc-EHOje cQMefO"
+    >
+      Figure 1 shows two forms of music notation (standard notation and tablature). The highlighted section is the tablature and understanding how to read this information will be the focus of the lesson.
+    </p>
+    <figure
+      class="sc-bZQynM bsmBBS"
+    >
+      <a
+        class="sc-dnqmqq bDsesi"
+        href="assets/high-quality/TAB_Lesson/TAB02.jpg"
+        target="_blank"
+      >
+        <img
+          alt="Standard Notation & Tablature"
+          class="sc-gzVnrw lfdfns"
+          src="assets/low-quality/TAB_Lesson/TAB02.jpg"
+          title="Standard Notation & Tablature"
+        />
+      </a>
+      <figcaption
+        class="sc-htoDjs dLESzS"
+      >
+        Figure 1: Standard Notation & Tablature
+      </figcaption>
+    </figure>
+    <p
+      class="sc-EHOje cQMefO"
+    >
+      To read tablature you have to picture that you are looking directly down on the strings of the instrument. Every string of the instrument is represented by a horizontal line. Instruments that have 4 strings (2 sets of 4) such as the Irish Bouzouki or Mandolin are represented by 4 horizontal lines.
+    </p>
+    <p
+      class="sc-EHOje cQMefO"
+    >
+      Figure 2 shows the direction that the strings are read. In this example every horizontal line is labelled with the name of the string in standard tuning.
+    </p>
+    <figure
+      class="sc-bZQynM bsmBBS"
+    >
+      <a
+        class="sc-dnqmqq bDsesi"
+        href="assets/high-quality/TAB_Lesson/TAB04.jpg"
+        target="_blank"
+      >
+        <img
+          alt="String Direction"
+          class="sc-gzVnrw lfdfns"
+          src="assets/low-quality/TAB_Lesson/TAB04.jpg"
+          title="String Direction"
+        />
+      </a>
+      <figcaption
+        class="sc-htoDjs dLESzS"
+      >
+        Figure 2: String Direction
+      </figcaption>
+    </figure>
+    <p
+      class="sc-EHOje cQMefO"
+    >
+      Numbers presented along the horizontal line instructs you of what fret to play. In Figure 3 the highlighted note is the number 0 (open string). As the horizontal line corresponds to the G string this means that you play an open G string to play this highlighted note.
+    </p>
+    <figure
+      class="sc-bZQynM bsmBBS"
+    >
+      <a
+        class="sc-dnqmqq bDsesi"
+        href="assets/high-quality/TAB_Lesson/TAB05.jpg"
+      >
+        <img
+          alt="Single Note & Open String"
+          class="sc-gzVnrw lfdfns"
+          src="assets/low-quality/TAB_Lesson/TAB05.jpg"
+          title="Single Note & Open String"
+        />
+      </a>
+      <figcaption
+        class="sc-htoDjs dLESzS"
+      >
+        Figure 3: Single Note & Open String
+      </figcaption>
+    </figure>
+    <p
+      class="sc-EHOje cQMefO"
+    >
+      Figure 4 highlights a section that shows how to play two notes at the same time. Numbers that are presented directly above and below each other mean they are played simultaneously. The highlighted section instructs you to play the 2nd fret of the D string and the open G string.
+    </p>
+    <figure
+      class="sc-bZQynM bsmBBS"
+    >
+      <a
+        class="sc-dnqmqq bDsesi"
+        href="assets/high-quality/TAB_Lesson/TAB06.jpg"
+        target="_blank"
+      >
+        <img
+          alt="More Than One Note"
+          class="sc-gzVnrw lfdfns"
+          src="assets/low-quality/TAB_Lesson/TAB06.jpg"
+          title="More Than One Note"
+        />
+      </a>
+      <figcaption
+        class="sc-htoDjs dLESzS"
+      >
+        Figure 4: More Than One Note
+      </figcaption>
+    </figure>
+    <p
+      class="sc-EHOje cQMefO"
+    >
+      The highlighted section in Figure 5 shows how to play a note on every string at the same time. Doing this results in a chord. For this the G and D string are played open while the A string is fretted at 2nd fret and the E string is the 3rd fret. Strumming all the strings in a swift motion causes them to ring simultaneously. This produces a G Major chord.
+    </p>
+    <figure
+      class="sc-bZQynM bsmBBS"
+    >
+      <a
+        class="sc-dnqmqq bDsesi"
+        href="assets/high-quality/TAB_Lesson/TAB07.jpg"
+        target="_blank"
+      >
+        <img
+          alt="Full Chord"
+          class="sc-gzVnrw lfdfns"
+          src="assets/low-quality/TAB_Lesson/TAB07.jpg"
+          title="Full Chord"
+        />
+      </a>
+      <figcaption
+        class="sc-htoDjs dLESzS"
+      >
+        Figure 5: Full Chord
+      </figcaption>
+    </figure>
+    <p
+      class="sc-EHOje cQMefO"
+    >
+      Figure 6 is a series of single notes played in order. This actually performs the G Major scale. Information about chords and scales will be provided in future lessons.
+    </p>
+    <figure
+      class="sc-bZQynM bsmBBS"
+    >
+      <a
+        class="sc-dnqmqq bDsesi"
+        href="assets/high-quality/TAB_Lesson/TAB08.jpg"
+        target="_blank"
+      >
+        <img
+          alt="Playing Through A Scale"
+          class="sc-gzVnrw lfdfns"
+          src="assets/low-quality/TAB_Lesson/TAB08.jpg"
+          title="Playing Through A Scale"
+        />
+      </a>
+      <figcaption
+        class="sc-htoDjs dLESzS"
+      >
+        Figure 6: Playing Through A Scale
+      </figcaption>
+    </figure>
+    <h2
+      class="sc-bwzfXH lokaro"
+    >
+      Summary:
+    </h2>
+    <p
+      class="sc-EHOje cQMefO"
+    >
+      Tablature (TAB) presents each string of an instrument on a horizontal line and instructs the musician of which fret to play by placing numbers along those horizontal lines. The thickest and lowest pitched string is at the bottom of the tablature while the thinnest and highest pitched string is at the top. Notes that are directly above and below each other on the horizontal line are played simeltaneously.
+    </p>
+    <p
+      class="sc-EHOje cQMefO"
+    >
+      While not showcased in this lesson tablature is also able represent (using symbols) a variety of techniques along the horizontal lines such as sliding between notes, hammer-ons and pull-offs, trills and bends.
+    </p>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

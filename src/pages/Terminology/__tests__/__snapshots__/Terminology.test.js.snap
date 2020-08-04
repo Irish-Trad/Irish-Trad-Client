@@ -5,327 +5,319 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <main
-        class="sc-bdVaJa aBmTA"
-      >
-        <h1
-          class="sc-bwzfXH geAAyW"
-        >
-          Terminology
-        </h1>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            Arpeggio: 
-          </b>
-          The notes of a chord played individually.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            Bending: 
-          </b>
-          Pushing and pulling the string in a vertical plane after sounding will cause the pitch to increase. Very common technique for guitar players.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            BPM: 
-          </b>
-          Beats per Minute.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            CBOM: 
-          </b>
-          Abbreviation for Cittern, Bouzouki, Octave Mandolin.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            Chord: 
-          </b>
-          Three or more notes played together form a chord.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            GDAE: 
-          </b>
-          Tuning of the Irish Bouzouki from lowest pitched to highest pitched string.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            GDAD: 
-          </b>
-          Tuning of the Irish Bouzouki from lowest pitched to highest pitched string.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            Interval: 
-          </b>
-          The distance between one note and another.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            Octave Mandolin: 
-          </b>
-          The Octave Mandolin is pitched one octave lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe) is interchangeable with the Octave Mandolin (America). They are the same instrument.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            Octave Mandola: 
-          </b>
-          The Octave Mandola is pitched one octave lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe) is interchangeable with the Octave Mandolin (America). They are the same instrument.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            Sounding Range: 
-          </b>
-          The range of notes that an instrument is capable of producing naturally.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            String Gauge: 
-          </b>
-          The thickness of a string. As instrument strings are normally sold in packs a musician will typically respond to a question about the string gauge they use by referring to the thinnest string. For example, "11's" would suggest a pack of strings with the thinnest string in the pack being 11.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            Tempo: 
-          </b>
-          The speed at which a piece of music is played. The exact pace is specified by BPM.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            Trill: 
-          </b>
-          Rapid alteration between two notes. Normally achieved through hammer-ons and pull-offs on the Irish Bouzouki.
-        </p>
-        <p
-          class="sc-htpNat bUjemJ"
-        >
-          <b
-            class="sc-bxivhb bUZGRr"
-          >
-            Vibrato: 
-          </b>
-          Quick and repetitive micro-bends that create a fluctuating pitch. Reminiscent of a vocalist who holds a note for a long time.
-        </p>
-      </main>
-    </div>
-  </body>,
-  "container": <div>
-    <main
-      class="sc-bdVaJa aBmTA"
-    >
       <h1
-        class="sc-bwzfXH geAAyW"
+        class="sc-bdVaJa izSmLm"
       >
         Terminology
       </h1>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           Arpeggio: 
         </b>
         The notes of a chord played individually.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           Bending: 
         </b>
         Pushing and pulling the string in a vertical plane after sounding will cause the pitch to increase. Very common technique for guitar players.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           BPM: 
         </b>
         Beats per Minute.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           CBOM: 
         </b>
         Abbreviation for Cittern, Bouzouki, Octave Mandolin.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           Chord: 
         </b>
         Three or more notes played together form a chord.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           GDAE: 
         </b>
         Tuning of the Irish Bouzouki from lowest pitched to highest pitched string.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           GDAD: 
         </b>
         Tuning of the Irish Bouzouki from lowest pitched to highest pitched string.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           Interval: 
         </b>
         The distance between one note and another.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           Octave Mandolin: 
         </b>
         The Octave Mandolin is pitched one octave lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe) is interchangeable with the Octave Mandolin (America). They are the same instrument.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           Octave Mandola: 
         </b>
         The Octave Mandola is pitched one octave lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe) is interchangeable with the Octave Mandolin (America). They are the same instrument.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           Sounding Range: 
         </b>
         The range of notes that an instrument is capable of producing naturally.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           String Gauge: 
         </b>
         The thickness of a string. As instrument strings are normally sold in packs a musician will typically respond to a question about the string gauge they use by referring to the thinnest string. For example, "11's" would suggest a pack of strings with the thinnest string in the pack being 11.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           Tempo: 
         </b>
         The speed at which a piece of music is played. The exact pace is specified by BPM.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           Trill: 
         </b>
         Rapid alteration between two notes. Normally achieved through hammer-ons and pull-offs on the Irish Bouzouki.
       </p>
       <p
-        class="sc-htpNat bUjemJ"
+        class="sc-bwzfXH CoUfG"
       >
         <b
-          class="sc-bxivhb bUZGRr"
+          class="sc-htpNat KtFsv"
         >
           Vibrato: 
         </b>
         Quick and repetitive micro-bends that create a fluctuating pitch. Reminiscent of a vocalist who holds a note for a long time.
       </p>
-    </main>
+    </div>
+  </body>,
+  "container": <div>
+    <h1
+      class="sc-bdVaJa izSmLm"
+    >
+      Terminology
+    </h1>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        Arpeggio: 
+      </b>
+      The notes of a chord played individually.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        Bending: 
+      </b>
+      Pushing and pulling the string in a vertical plane after sounding will cause the pitch to increase. Very common technique for guitar players.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        BPM: 
+      </b>
+      Beats per Minute.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        CBOM: 
+      </b>
+      Abbreviation for Cittern, Bouzouki, Octave Mandolin.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        Chord: 
+      </b>
+      Three or more notes played together form a chord.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        GDAE: 
+      </b>
+      Tuning of the Irish Bouzouki from lowest pitched to highest pitched string.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        GDAD: 
+      </b>
+      Tuning of the Irish Bouzouki from lowest pitched to highest pitched string.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        Interval: 
+      </b>
+      The distance between one note and another.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        Octave Mandolin: 
+      </b>
+      The Octave Mandolin is pitched one octave lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe) is interchangeable with the Octave Mandolin (America). They are the same instrument.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        Octave Mandola: 
+      </b>
+      The Octave Mandola is pitched one octave lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe) is interchangeable with the Octave Mandolin (America). They are the same instrument.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        Sounding Range: 
+      </b>
+      The range of notes that an instrument is capable of producing naturally.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        String Gauge: 
+      </b>
+      The thickness of a string. As instrument strings are normally sold in packs a musician will typically respond to a question about the string gauge they use by referring to the thinnest string. For example, "11's" would suggest a pack of strings with the thinnest string in the pack being 11.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        Tempo: 
+      </b>
+      The speed at which a piece of music is played. The exact pace is specified by BPM.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        Trill: 
+      </b>
+      Rapid alteration between two notes. Normally achieved through hammer-ons and pull-offs on the Irish Bouzouki.
+    </p>
+    <p
+      class="sc-bwzfXH CoUfG"
+    >
+      <b
+        class="sc-htpNat KtFsv"
+      >
+        Vibrato: 
+      </b>
+      Quick and repetitive micro-bends that create a fluctuating pitch. Reminiscent of a vocalist who holds a note for a long time.
+    </p>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

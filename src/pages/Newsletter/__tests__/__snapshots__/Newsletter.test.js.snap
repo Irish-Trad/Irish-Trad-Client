@@ -5,60 +5,6 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <main
-        class="sc-bdVaJa aBmTA"
-      >
-        <h1
-          class="sc-bwzfXH kWcKFk"
-        >
-          Newsletter
-        </h1>
-        <p
-          class="sc-bxivhb faZbih"
-        >
-          Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
-        </p>
-        <p
-          class="sc-bxivhb faZbih"
-        >
-          If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
-        </p>
-        <div
-          class="sc-gZMcBi hLSPcS"
-        >
-          <a
-            class="sc-dnqmqq bDsesi"
-            href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
-            target="_blank"
-          >
-            <i
-              class="fa"
-            />
-          </a>
-          <a
-            class="sc-htoDjs gjSkhw"
-            href="https://discord.gg/Mq9jeA8"
-            target="_blank"
-          >
-            <button
-              class="sc-gqjmRU isyvva"
-            >
-              Sign Up For Newsletter
-            </button>
-          </a>
-        </div>
-        <p
-          class="sc-bxivhb faZbih"
-        >
-          MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
-        </p>
-      </main>
-    </div>
-  </body>,
-  "container": <div>
-    <main
-      class="sc-bdVaJa aBmTA"
-    >
       <h1
         class="sc-bwzfXH kWcKFk"
       >
@@ -103,7 +49,53 @@ Object {
       >
         MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
       </p>
-    </main>
+    </div>
+  </body>,
+  "container": <div>
+    <h1
+      class="sc-bwzfXH kWcKFk"
+    >
+      Newsletter
+    </h1>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
+    </p>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
+    </p>
+    <div
+      class="sc-gZMcBi hLSPcS"
+    >
+      <a
+        class="sc-dnqmqq bDsesi"
+        href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
+        target="_blank"
+      >
+        <i
+          class="fa"
+        />
+      </a>
+      <a
+        class="sc-htoDjs gjSkhw"
+        href="https://discord.gg/Mq9jeA8"
+        target="_blank"
+      >
+        <button
+          class="sc-gqjmRU isyvva"
+        >
+          Sign Up For Newsletter
+        </button>
+      </a>
+    </div>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
+    </p>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

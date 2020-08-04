@@ -5,295 +5,287 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <main
-        class="sc-bdVaJa aBmTA"
-      >
-        <h1
-          class="sc-bwzfXH kWcKFk"
-        >
-          How To Tune An Instrument
-        </h1>
-        <div
-          class="sc-bxivhb khpLpk"
-        >
-          <a
-            class="sc-EHOje jvzENE"
-            href="#/lessons"
-          >
-            <button
-              class="sc-ifAKCX duQjlL"
-            >
-              Return to Lessons Page
-            </button>
-          </a>
-        </div>
-        <h2
-          class="sc-htpNat gJpLap"
-        >
-          Introduction:
-        </h2>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Knowing how to tune your instrument is another vital skill that a musician needs to learn if they ever intend to play with other musicians.
-        </p>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          The following section explains how to use a chromatic tuner to tune the Irish Bouzouki to "standard" pitch as well as information to help understand how alternative tunings are achieved.
-        </p>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Devices such as smartphones and tablets that have a built-in microphone usually have a chromatic tuner available as an application. These can be useful when you quickly need to tune an instrument but they rarely work in noisy environments. Performing musicians tend to favour devices such as clip-on tuners.
-        </p>
-        <h2
-          class="sc-htpNat gJpLap"
-        >
-          How to:
-        </h2>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Strings were attached in the first lesson so now it's time to bring them to pitch. The tuning pegs at the top of the instrument are turned which increases the pitch of that string as it tightens or decreases the pitch as the string loosens.
-        </p>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Plucking a string causes it vibrate a number of times a second. This value is referred to as the frequency and is measured in Hertz (Hz).
-        </p>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          Standard tuning on an Irish Bouzouki with unison strings means that the frequency for each string is as follows:
-        </p>
-        <ul
-          class="sc-gzVnrw hDwEie"
-        >
-          <li
-            class="sc-htoDjs bZzhDu"
-          >
-            E String - E4 - 329.63 Hz
-          </li>
-          <li
-            class="sc-htoDjs bZzhDu"
-          >
-            A String - A3 - 220.00 Hz
-          </li>
-          <li
-            class="sc-htoDjs bZzhDu"
-          >
-            D String - D3 - 146.83 Hz
-          </li>
-          <li
-            class="sc-htoDjs bZzhDu"
-          >
-            G String - G2 - 96.00 Hz
-          </li>
-        </ul>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          With octave strings the G string and D string are paired with a string one octave above the other. An octave is double the frequency of the previous. The top 4 strings will now be tuned:
-        </p>
-        <ul
-          class="sc-gzVnrw hDwEie"
-        >
-          <li
-            class="sc-htoDjs bZzhDu"
-          >
-            D String - D3 - 146.83 Hz
-          </li>
-          <li
-            class="sc-htoDjs bZzhDu"
-          >
-            D String (Octave) - D4 - 293.66 Hz
-          </li>
-          <li
-            class="sc-htoDjs bZzhDu"
-          >
-            G String - G2 - 96.00 Hz
-          </li>
-          <li
-            class="sc-htoDjs bZzhDu"
-          >
-            G String (Octave) - G3 - 196.00 Hz
-          </li>
-        </ul>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          For those that play stringed instruments other than the Irish Bouzouki. The generally agreed standard tuning for each instrument can be found through the following wikipedia article:
-        </p>
-        <a
-          class="sc-dnqmqq uYqWa"
-          href="https://en.wikipedia.org/wiki/Stringed_instrument_tunings#I"
-        >
-          Stringed Instrument Tunings (external)
-        </a>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          After discovering the note. The following website provides a useful chart for converting notes to the specific frequency. Just incase the chromatic tuner you use only works with only exact frequency.
-        </p>
-        <a
-          class="sc-dnqmqq uYqWa"
-          href="http://www.contrabass.com/pages/frequency.html"
-        >
-          Note to Frequency conversion chart (external)
-        </a>
-        <p
-          class="sc-bZQynM jsjzYN"
-        >
-          While a new set of strings settle in the instrument it might require a few repeat tunings. A technique that people employ to speed up the settling process is to "stretch" the string. This involves lifting the string away from the fretboard around the 12th fret. Doing this process about 2-3 with tuning should be enough for a properly set-up instrument to retain tuning of new strings.
-        </p>
-      </main>
-    </div>
-  </body>,
-  "container": <div>
-    <main
-      class="sc-bdVaJa aBmTA"
-    >
       <h1
         class="sc-bwzfXH kWcKFk"
       >
         How To Tune An Instrument
       </h1>
       <div
-        class="sc-bxivhb khpLpk"
+        class="sc-dnqmqq dzqspI"
       >
         <a
-          class="sc-EHOje jvzENE"
+          class="sc-gzVnrw ibZhkv"
           href="#/lessons"
         >
           <button
-            class="sc-ifAKCX duQjlL"
+            class="sc-iwsKbI hVwoiz"
           >
             Return to Lessons Page
           </button>
         </a>
       </div>
       <h2
-        class="sc-htpNat gJpLap"
+        class="sc-htpNat iisIgv"
       >
         Introduction:
       </h2>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-bxivhb faZbih"
       >
         Knowing how to tune your instrument is another vital skill that a musician needs to learn if they ever intend to play with other musicians.
       </p>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-bxivhb faZbih"
       >
         The following section explains how to use a chromatic tuner to tune the Irish Bouzouki to "standard" pitch as well as information to help understand how alternative tunings are achieved.
       </p>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-bxivhb faZbih"
       >
         Devices such as smartphones and tablets that have a built-in microphone usually have a chromatic tuner available as an application. These can be useful when you quickly need to tune an instrument but they rarely work in noisy environments. Performing musicians tend to favour devices such as clip-on tuners.
       </p>
       <h2
-        class="sc-htpNat gJpLap"
+        class="sc-htpNat iisIgv"
       >
         How to:
       </h2>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-bxivhb faZbih"
       >
         Strings were attached in the first lesson so now it's time to bring them to pitch. The tuning pegs at the top of the instrument are turned which increases the pitch of that string as it tightens or decreases the pitch as the string loosens.
       </p>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-bxivhb faZbih"
       >
         Plucking a string causes it vibrate a number of times a second. This value is referred to as the frequency and is measured in Hertz (Hz).
       </p>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-bxivhb faZbih"
       >
         Standard tuning on an Irish Bouzouki with unison strings means that the frequency for each string is as follows:
       </p>
       <ul
-        class="sc-gzVnrw hDwEie"
+        class="sc-gZMcBi ibDgNx"
       >
         <li
-          class="sc-htoDjs bZzhDu"
+          class="sc-gqjmRU hnZXkc"
         >
           E String - E4 - 329.63 Hz
         </li>
         <li
-          class="sc-htoDjs bZzhDu"
+          class="sc-gqjmRU hnZXkc"
         >
           A String - A3 - 220.00 Hz
         </li>
         <li
-          class="sc-htoDjs bZzhDu"
+          class="sc-gqjmRU hnZXkc"
         >
           D String - D3 - 146.83 Hz
         </li>
         <li
-          class="sc-htoDjs bZzhDu"
+          class="sc-gqjmRU hnZXkc"
         >
           G String - G2 - 96.00 Hz
         </li>
       </ul>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-bxivhb faZbih"
       >
         With octave strings the G string and D string are paired with a string one octave above the other. An octave is double the frequency of the previous. The top 4 strings will now be tuned:
       </p>
       <ul
-        class="sc-gzVnrw hDwEie"
+        class="sc-gZMcBi ibDgNx"
       >
         <li
-          class="sc-htoDjs bZzhDu"
+          class="sc-gqjmRU hnZXkc"
         >
           D String - D3 - 146.83 Hz
         </li>
         <li
-          class="sc-htoDjs bZzhDu"
+          class="sc-gqjmRU hnZXkc"
         >
           D String (Octave) - D4 - 293.66 Hz
         </li>
         <li
-          class="sc-htoDjs bZzhDu"
+          class="sc-gqjmRU hnZXkc"
         >
           G String - G2 - 96.00 Hz
         </li>
         <li
-          class="sc-htoDjs bZzhDu"
+          class="sc-gqjmRU hnZXkc"
         >
           G String (Octave) - G3 - 196.00 Hz
         </li>
       </ul>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-bxivhb faZbih"
       >
         For those that play stringed instruments other than the Irish Bouzouki. The generally agreed standard tuning for each instrument can be found through the following wikipedia article:
       </p>
       <a
-        class="sc-dnqmqq uYqWa"
+        class="sc-VigVT iYtvhw"
         href="https://en.wikipedia.org/wiki/Stringed_instrument_tunings#I"
       >
         Stringed Instrument Tunings (external)
       </a>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-bxivhb faZbih"
       >
         After discovering the note. The following website provides a useful chart for converting notes to the specific frequency. Just incase the chromatic tuner you use only works with only exact frequency.
       </p>
       <a
-        class="sc-dnqmqq uYqWa"
+        class="sc-VigVT iYtvhw"
         href="http://www.contrabass.com/pages/frequency.html"
       >
         Note to Frequency conversion chart (external)
       </a>
       <p
-        class="sc-bZQynM jsjzYN"
+        class="sc-bxivhb faZbih"
       >
         While a new set of strings settle in the instrument it might require a few repeat tunings. A technique that people employ to speed up the settling process is to "stretch" the string. This involves lifting the string away from the fretboard around the 12th fret. Doing this process about 2-3 with tuning should be enough for a properly set-up instrument to retain tuning of new strings.
       </p>
-    </main>
+    </div>
+  </body>,
+  "container": <div>
+    <h1
+      class="sc-bwzfXH kWcKFk"
+    >
+      How To Tune An Instrument
+    </h1>
+    <div
+      class="sc-dnqmqq dzqspI"
+    >
+      <a
+        class="sc-gzVnrw ibZhkv"
+        href="#/lessons"
+      >
+        <button
+          class="sc-iwsKbI hVwoiz"
+        >
+          Return to Lessons Page
+        </button>
+      </a>
+    </div>
+    <h2
+      class="sc-htpNat iisIgv"
+    >
+      Introduction:
+    </h2>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      Knowing how to tune your instrument is another vital skill that a musician needs to learn if they ever intend to play with other musicians.
+    </p>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      The following section explains how to use a chromatic tuner to tune the Irish Bouzouki to "standard" pitch as well as information to help understand how alternative tunings are achieved.
+    </p>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      Devices such as smartphones and tablets that have a built-in microphone usually have a chromatic tuner available as an application. These can be useful when you quickly need to tune an instrument but they rarely work in noisy environments. Performing musicians tend to favour devices such as clip-on tuners.
+    </p>
+    <h2
+      class="sc-htpNat iisIgv"
+    >
+      How to:
+    </h2>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      Strings were attached in the first lesson so now it's time to bring them to pitch. The tuning pegs at the top of the instrument are turned which increases the pitch of that string as it tightens or decreases the pitch as the string loosens.
+    </p>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      Plucking a string causes it vibrate a number of times a second. This value is referred to as the frequency and is measured in Hertz (Hz).
+    </p>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      Standard tuning on an Irish Bouzouki with unison strings means that the frequency for each string is as follows:
+    </p>
+    <ul
+      class="sc-gZMcBi ibDgNx"
+    >
+      <li
+        class="sc-gqjmRU hnZXkc"
+      >
+        E String - E4 - 329.63 Hz
+      </li>
+      <li
+        class="sc-gqjmRU hnZXkc"
+      >
+        A String - A3 - 220.00 Hz
+      </li>
+      <li
+        class="sc-gqjmRU hnZXkc"
+      >
+        D String - D3 - 146.83 Hz
+      </li>
+      <li
+        class="sc-gqjmRU hnZXkc"
+      >
+        G String - G2 - 96.00 Hz
+      </li>
+    </ul>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      With octave strings the G string and D string are paired with a string one octave above the other. An octave is double the frequency of the previous. The top 4 strings will now be tuned:
+    </p>
+    <ul
+      class="sc-gZMcBi ibDgNx"
+    >
+      <li
+        class="sc-gqjmRU hnZXkc"
+      >
+        D String - D3 - 146.83 Hz
+      </li>
+      <li
+        class="sc-gqjmRU hnZXkc"
+      >
+        D String (Octave) - D4 - 293.66 Hz
+      </li>
+      <li
+        class="sc-gqjmRU hnZXkc"
+      >
+        G String - G2 - 96.00 Hz
+      </li>
+      <li
+        class="sc-gqjmRU hnZXkc"
+      >
+        G String (Octave) - G3 - 196.00 Hz
+      </li>
+    </ul>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      For those that play stringed instruments other than the Irish Bouzouki. The generally agreed standard tuning for each instrument can be found through the following wikipedia article:
+    </p>
+    <a
+      class="sc-VigVT iYtvhw"
+      href="https://en.wikipedia.org/wiki/Stringed_instrument_tunings#I"
+    >
+      Stringed Instrument Tunings (external)
+    </a>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      After discovering the note. The following website provides a useful chart for converting notes to the specific frequency. Just incase the chromatic tuner you use only works with only exact frequency.
+    </p>
+    <a
+      class="sc-VigVT iYtvhw"
+      href="http://www.contrabass.com/pages/frequency.html"
+    >
+      Note to Frequency conversion chart (external)
+    </a>
+    <p
+      class="sc-bxivhb faZbih"
+    >
+      While a new set of strings settle in the instrument it might require a few repeat tunings. A technique that people employ to speed up the settling process is to "stretch" the string. This involves lifting the string away from the fretboard around the 12th fret. Doing this process about 2-3 with tuning should be enough for a properly set-up instrument to retain tuning of new strings.
+    </p>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
