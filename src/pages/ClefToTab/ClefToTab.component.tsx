@@ -82,7 +82,6 @@ const ClefToTab: React.FC = () => (
           id="clef-to-tab-GDAE"
           src="assets/low-quality/GDAE - Clef To TAB.jpg"
           alt="GDAE Treble Clef to TAB"
-          text="GDAE Treble Clef to TAB"
           width="100%"
           height="100%"
         />
@@ -95,7 +94,6 @@ const ClefToTab: React.FC = () => (
           id="clef-to-tab-GDAD"
           src="assets/low-quality/GDAD - Clef To TAB.jpg"
           alt="GDAD Treble Clef to TAB"
-          text="GDAD Treble Clef to TAB"
           width="100%"
           height="100%"
         />
