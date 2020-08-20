@@ -105,7 +105,6 @@ const Chords: React.FC = () => (
           id="MajorChords"
           src="assets/low-quality/GDAE_Chords/GDAE-Major-A4.jpg"
           alt="Major Chords in GDAE Tuning"
-          text="Major Chords in GDAE Tuning"
         />
       </InternalLink>
       <InternalLink
@@ -115,7 +114,6 @@ const Chords: React.FC = () => (
         <Image
           src="assets/low-quality/GDAD_Chords/GDAD-Major-A4.jpg"
           alt="Major Chords in GDAD Tuning"
-          text="Major Chords in GDAD Tuning"
         />
       </InternalLink>
     </ImageContainer>
@@ -161,7 +159,6 @@ const Chords: React.FC = () => (
           id="MinorChords"
           src="assets/low-quality/GDAE_Chords/GDAE-Minor-A4.jpg"
           alt="Minor Chords in GDAE Tuning"
-          text="Minor Chords in GDAE Tuning"
         />
       </InternalLink>
       <InternalLink
@@ -171,7 +168,6 @@ const Chords: React.FC = () => (
         <Image
           src="assets/low-quality/GDAD_Chords/GDAD-Minor-A4.jpg"
           alt="Minor Chords in GDAD Tuning"
-          text="Minor Chords in GDAD Tuning"
         />
       </InternalLink>
     </ImageContainer>
@@ -220,7 +216,6 @@ const Chords: React.FC = () => (
           id="Major7thChords"
           src="assets/low-quality/GDAE_Chords/GDAE-Major7th-A4.jpg"
           alt="Major Chords in GDAE Tuning"
-          text="Major Chords in GDAE Tuning"
         />
       </InternalLink>
       <InternalLink
@@ -230,7 +225,6 @@ const Chords: React.FC = () => (
         <Image
           src="assets/low-quality/GDAD_Chords/GDAD-Major7th-A4.jpg"
           alt="Major Chords in GDAD Tuning"
-          text="Major Chords in GDAD Tuning"
         />
       </InternalLink>
     </ImageContainer>
@@ -279,7 +273,6 @@ const Chords: React.FC = () => (
           id="Minor7thChords"
           src="assets/low-quality/GDAE_Chords/GDAE-Minor7th-A4.jpg"
           alt="Major Chords in GDAE Tuning"
-          text="Major Chords in GDAE Tuning"
         />
       </InternalLink>
       <InternalLink
@@ -289,7 +282,6 @@ const Chords: React.FC = () => (
         <Image
           src="assets/low-quality/GDAD_Chords/GDAD-Minor7th-A4.jpg"
           alt="Major Chords in GDAD Tuning"
-          text="Major Chords in GDAD Tuning"
         />
       </InternalLink>
     </ImageContainer>
@@ -346,7 +338,6 @@ const Chords: React.FC = () => (
           id="Dominant7thChords"
           src="assets/low-quality/GDAE_Chords/GDAE-Dominant7th-A4.jpg"
           alt="Dominant 7th Chords in GDAE Tuning"
-          text="Dominant 7th Chords in GDAE Tuning"
         />
       </InternalLink>
       <InternalLink
@@ -356,7 +347,6 @@ const Chords: React.FC = () => (
         <Image
           src="assets/low-quality/GDAD_Chords/GDAD-Dominant7th-A4.jpg"
           alt="Dominant 7th Chords in GDAD Tuning"
-          text="Dominant 7th Chords in GDAD Tuning"
         />
       </InternalLink>
     </ImageContainer>

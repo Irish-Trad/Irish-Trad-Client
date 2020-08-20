@@ -60,7 +60,7 @@ const Tablature = lazy(() =>
   import('pages/Tablature' /* webpackChunkName: 'Tablature' */)
 )
 
-const App: React.FC = () => (
+const App: React.FC<{}> = () => (
   <AppContainer>
     <Router basename={`/${process.env.PUBLIC_URL}`}>
       <Header />
