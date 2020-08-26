@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa bDWFJH"
+        class="sc-AxjAm StDqN"
       >
         <h1
-          class="sc-bwzfXH uTxCW"
+          class="sc-AxirZ ktnnZK"
         >
           404 - No Page Found
         </h1>
@@ -17,7 +17,7 @@ Object {
           href="#/"
         >
           <button
-            class="sc-htpNat KtFsv"
+            class="sc-AxiKw bOTXee"
           >
             Click Here to Return Home
           </button>
@@ -27,10 +27,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa bDWFJH"
+      class="sc-AxjAm StDqN"
     >
       <h1
-        class="sc-bwzfXH uTxCW"
+        class="sc-AxirZ ktnnZK"
       >
         404 - No Page Found
       </h1>
@@ -38,7 +38,7 @@ Object {
         href="#/"
       >
         <button
-          class="sc-htpNat KtFsv"
+          class="sc-AxiKw bOTXee"
         >
           Click Here to Return Home
         </button>
