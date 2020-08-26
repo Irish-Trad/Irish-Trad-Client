@@ -40,7 +40,6 @@ export const NavBar = styled.nav`
 
 export const Logo = styled.div`
   display: flex;
-  justify-content: ;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
