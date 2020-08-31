@@ -2,34 +2,36 @@ import React, { lazy, Suspense } from 'react'
 
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
-import Header from 'components/Header'
-import Footer from 'components/Footer'
-import Loading from 'pages/Loading'
+import DesktopHeader from 'components/DesktopHeader'
+import MobileHeader from 'components/MobileHeader'
+import MobileFooter from 'components/MobileFooter'
+import Spinner from 'components/Spinner'
+import ScrollToTop from 'components/ScrollToTop'
 
-import { MainContainer } from 'common/StyledComponents/StyledComponents'
+import { Container, MainContainer } from './App.styles'
 
-const Homepage = lazy(() =>
-  import('pages/Homepage' /* webpackChunkName: 'Homepage' */)
+const Homepage = lazy(
+  () => import('pages/Homepage' /* webpackChunkName: 'Homepage' */)
 )
 
-const NotFound = lazy(() =>
-  import('pages/NotFound' /* webpackChunkName: 'NotFound' */)
+const NotFound = lazy(
+  () => import('pages/NotFound' /* webpackChunkName: 'NotFound' */)
 )
 
-const Chords = lazy(() =>
-  import('pages/Chords' /* webpackChunkName: 'Chords' */)
+const Chords = lazy(
+  () => import('pages/Chords' /* webpackChunkName: 'Chords' */)
 )
 
-const ClefToTab = lazy(() =>
-  import('pages/ClefToTab' /* webpackChunkName: 'ClefToTab' */)
+const ClefToTab = lazy(
+  () => import('pages/ClefToTab' /* webpackChunkName: 'ClefToTab' */)
 )
 
-const Lessons = lazy(() =>
-  import('pages/Lessons' /* webpackChunkName: 'Lessons' */)
+const Lessons = lazy(
+  () => import('pages/Lessons' /* webpackChunkName: 'Lessons' */)
 )
 
-const Terminology = lazy(() =>
-  import('pages/Terminology' /* webpackChunkName: 'Terminology' */)
+const Terminology = lazy(
+  () => import('pages/Terminology' /* webpackChunkName: 'Terminology' */)
 )
 
 const Newsletter = lazy(
@@ -40,32 +42,36 @@ const Community = lazy(
   () => import('pages/Community') /* webpackChunkName: 'Community' */
 )
 
-const HowToReadTab = lazy(() =>
-  import(
-    'pages/Lessons/pages/HowToReadTab' /* webpackChunkName: 'HowToReadTab' */
-  )
+const HowToReadTab = lazy(
+  () =>
+    import(
+      'pages/Lessons/pages/HowToReadTab'
+    ) /* webpackChunkName: 'HowToReadTab' */
 )
 
-const HowToString = lazy(() =>
-  import(
-    'pages/Lessons/pages/HowToString' /* webpackChunkName: 'HowToString' */
-  )
+const HowToString = lazy(
+  () =>
+    import(
+      'pages/Lessons/pages/HowToString'
+    ) /* webpackChunkName: 'HowToString' */
 )
 
-const HowToTune = lazy(() =>
-  import('pages/Lessons/pages/HowToTune' /* webpackChunkName: 'HowToTune' */)
+const HowToTune = lazy(
+  () =>
+    import('pages/Lessons/pages/HowToTune') /* webpackChunkName: 'HowToTune' */
 )
 
-const Tablature = lazy(() =>
-  import('pages/Tablature' /* webpackChunkName: 'Tablature' */)
+const Tablature = lazy(
+  () => import('pages/Tablature') /* webpackChunkName: 'Tablature' */
 )
 
 const App: React.FC = () => (
-  <>
-    <Router basename={`/${process.env.PUBLIC_URL}`}>
-      <Header />
-      <MainContainer>
-        <Suspense fallback={Loading}>
+  <Router basename={`/${process.env.PUBLIC_URL}`}>
+    <Container>
+      <DesktopHeader />
+      <MobileHeader />
+      <MainContainer id="top">
+        <Suspense fallback={Spinner}>
           <Switch>
             <Route exact path="/" component={Homepage} />
             <Route exact path="/chords" component={Chords} />
@@ -89,10 +95,11 @@ const App: React.FC = () => (
             <Route path="*" component={NotFound} />
           </Switch>
         </Suspense>
+        <ScrollToTop />
       </MainContainer>
-      <Footer />
-    </Router>
-  </>
+      <MobileFooter />
+    </Container>
+  </Router>
 )
 
 export default App

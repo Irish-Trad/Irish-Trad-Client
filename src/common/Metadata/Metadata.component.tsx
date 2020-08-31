@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-interface Props {
+type Props = {
   title?: string
   metaTitle?: string
   metaKeywords?: string
@@ -13,7 +13,7 @@ const Metadata: React.FC<Props> = ({
   metaTitle,
   metaKeywords,
   metaDescription,
-}: Props) => (
+}) => (
   <Helmet>
     <link rel="canonical" href={`${window.location}`} />
     {title ? <title>{title}</title> : null}

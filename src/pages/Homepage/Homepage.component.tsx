@@ -1,14 +1,7 @@
 import React from 'react'
 import Metadata from 'common/Metadata'
 
-import {
-  H1,
-  Figure,
-  Image,
-  Figcaption,
-  H2,
-  Text,
-} from 'common/StyledComponents/StyledComponents'
+import { H1, H2, Text } from 'common/StyledComponents/StyledComponents'
 
 import { ExternalLink } from './Homepage.styles'
 
@@ -26,14 +19,6 @@ const Homepage: React.FC = () => (
       stringed instruments commonly found in traditional Irish sessions such as
       the Irish Bouzouki, Mandolin, Octave Mandola and Irish Tenor Banjo.
     </Text>
-    <Figure>
-      <Image
-        src="assets/low-quality/2243E.jpg"
-        alt="Ozark 2243E Irish Bouzouki"
-        title="Ozark 2243E Irish Bouzouki"
-      />
-      <Figcaption>Pictured: Ozark 2243E Irish Bouzouki</Figcaption>
-    </Figure>
     <Text>
       Since all of these instruments can be tuned to the standard GDAE or
       alternative GDAD tuning all of the resources found on Irish-Trad.net such

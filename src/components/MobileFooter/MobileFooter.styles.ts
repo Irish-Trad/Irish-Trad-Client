@@ -7,6 +7,10 @@ export const FooterContainer = styled.footer`
   color: white;
   display: flex;
   justify-content: center;
+
+  @media screen and (min-width: 760px) {
+    display: none;
+  }
 `
 
 export const StyledLink = styled.a``
