@@ -10,9 +10,10 @@ export const H1 = styled.h1`
 `
 
 export const H2 = styled.h2`
-  font-size: 24px;
+  font-size: 2em;
   font-weight: bold;
   margin: 10px 0px;
+  text-align: center;
 `
 
 export const Text = styled.p`

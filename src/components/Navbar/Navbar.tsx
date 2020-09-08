@@ -36,7 +36,7 @@ const Navbar: React.FC<Props> = ({ toggleHidden = null }) => (
       onClick={() => (toggleHidden ? toggleHidden(false) : null)}
       to="/clef-to-tab"
     >
-      Clef to TAB
+      Clef to Tab
     </InternalLink>
     <InternalLink
       onClick={() => (toggleHidden ? toggleHidden(false) : null)}

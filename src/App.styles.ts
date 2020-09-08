@@ -9,7 +9,7 @@ export const MainContainer = styled.main`
   @media screen and (min-width: 760px) {
     height: 100vh;
     overflow-y: scroll;
-    padding: 0px 10px;
+    padding: 0px;
     /* scrollbar-width: none; */
   }
 `
