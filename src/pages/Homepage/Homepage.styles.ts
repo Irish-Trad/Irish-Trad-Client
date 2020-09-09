@@ -15,7 +15,6 @@ export const H1 = styled.h1`
 `
 
 export const IntroContainer = styled.div`
-  height: 100vh;
   background-image: url(${Image});
   background-size: cover;
   display: flex;
@@ -24,6 +23,10 @@ export const IntroContainer = styled.div`
   color: white;
   flex-flow: column nowrap;
   padding: 50px 200px;
+
+  @media screen and (min-width: 750px) {
+    height: 100vh;
+  }
 `
 
 export const H2 = styled.h2`

@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, cleanup } from '@testing-library/react'
+import { render, cleanup, fireEvent, screen } from '@testing-library/react'
 import { HashRouter } from 'react-router-dom'
 import MobileHeader from '../MobileHeader.component'
 
@@ -18,7 +18,7 @@ describe('MobileHeader', () => {
     expect(snapshot).toMatchSnapshot()
   })
 
-  it('MobileHeader should render all possible tabs', () => {
+  it('ONLY shows title initially', () => {
     const { getByText } = render(
       <HashRouter>
         <MobileHeader />
@@ -26,12 +26,5 @@ describe('MobileHeader', () => {
     )
 
     expect(getByText('Irish-Trad.net')).toBeInTheDocument()
-    expect(getByText('Tablature')).toBeInTheDocument()
-    expect(getByText('Lessons')).toBeInTheDocument()
-    expect(getByText('Chords')).toBeInTheDocument()
-    expect(getByText('Clef to TAB')).toBeInTheDocument()
-    expect(getByText('Terminology')).toBeInTheDocument()
-    expect(getByText('Community')).toBeInTheDocument()
-    expect(getByText('Newsletter')).toBeInTheDocument()
   })
 })

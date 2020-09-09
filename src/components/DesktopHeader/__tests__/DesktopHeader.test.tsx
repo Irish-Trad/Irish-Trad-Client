@@ -29,7 +29,7 @@ describe('DesktopHeader', () => {
     expect(getByText('Tablature')).toBeInTheDocument()
     expect(getByText('Lessons')).toBeInTheDocument()
     expect(getByText('Chords')).toBeInTheDocument()
-    expect(getByText('Clef to TAB')).toBeInTheDocument()
+    expect(getByText('Clef to Tab')).toBeInTheDocument()
     expect(getByText('Terminology')).toBeInTheDocument()
     expect(getByText('Community')).toBeInTheDocument()
     expect(getByText('Newsletter')).toBeInTheDocument()

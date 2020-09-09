@@ -6,80 +6,77 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="sc-Axmtr jXdLBq"
+        class="sc-AxgMl fIiKYL"
       >
         <div
-          class="sc-AxmLO idvSeb"
+          class="sc-AxheI iEBshh"
         >
           <img
-            alt="Ozark 2243E Irish Bouzouki"
-            class="sc-fzozJi dvkQrX"
-            src="assets/low-quality/2243E.jpg"
-            title="Ozark 2243E Irish Bouzouki"
+            alt="Irish-Trad.net Logo"
+            class="sc-Axmtr fkWeGe"
+            src="assets/high-quality/2243E.jpg"
+            title="Irish-Trad.net Logo"
           />
           <h1
-            class="sc-fzoLsD fqEnxe"
+            class="sc-AxmLO oOKbw"
           >
             Irish-Trad.net
           </h1>
         </div>
         <nav
-          class="sc-AxhCb iJvdVy"
+          class="sc-AxhCb iZlkIN"
         >
           <a
-            class="sc-AxgMl gSDlcD"
+            class="sc-AxhUy jJhjfm"
             href="#/"
           >
-            Irish-Trad.net
+            Home
           </a>
           <a
-            class="sc-AxgMl gSDlcD"
+            class="sc-AxhUy jJhjfm"
             href="#/tablature"
           >
             Tablature
           </a>
           <a
-            class="sc-AxgMl gSDlcD"
+            class="sc-AxhUy jJhjfm"
             href="#/lessons"
           >
             Lessons
           </a>
           <a
-            class="sc-AxgMl gSDlcD"
+            class="sc-AxhUy jJhjfm"
             href="#/chords"
           >
             Chords
           </a>
           <a
-            class="sc-AxgMl gSDlcD"
+            class="sc-AxhUy jJhjfm"
             href="#/clef-to-tab"
           >
-            Clef to TAB
+            Clef to Tab
           </a>
           <a
-            class="sc-AxgMl gSDlcD"
+            class="sc-AxhUy jJhjfm"
             href="#/terminology"
           >
             Terminology
           </a>
           <a
-            class="sc-AxgMl gSDlcD"
+            class="sc-AxhUy jJhjfm"
             href="#/community"
           >
             Community
           </a>
           <a
-            class="sc-AxgMl gSDlcD"
+            class="sc-AxhUy jJhjfm"
             href="#/newsletter"
           >
             Newsletter
           </a>
-          <i
-            class="fa"
-          />
         </nav>
         <footer
-          class="sc-AxjAm iSbIKK"
+          class="sc-AxjAm fAuGiy"
         >
           <a
             class="sc-AxirZ ktnnZK"
@@ -105,80 +102,77 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="sc-Axmtr jXdLBq"
+      class="sc-AxgMl fIiKYL"
     >
       <div
-        class="sc-AxmLO idvSeb"
+        class="sc-AxheI iEBshh"
       >
         <img
-          alt="Ozark 2243E Irish Bouzouki"
-          class="sc-fzozJi dvkQrX"
-          src="assets/low-quality/2243E.jpg"
-          title="Ozark 2243E Irish Bouzouki"
+          alt="Irish-Trad.net Logo"
+          class="sc-Axmtr fkWeGe"
+          src="assets/high-quality/2243E.jpg"
+          title="Irish-Trad.net Logo"
         />
         <h1
-          class="sc-fzoLsD fqEnxe"
+          class="sc-AxmLO oOKbw"
         >
           Irish-Trad.net
         </h1>
       </div>
       <nav
-        class="sc-AxhCb iJvdVy"
+        class="sc-AxhCb iZlkIN"
       >
         <a
-          class="sc-AxgMl gSDlcD"
+          class="sc-AxhUy jJhjfm"
           href="#/"
         >
-          Irish-Trad.net
+          Home
         </a>
         <a
-          class="sc-AxgMl gSDlcD"
+          class="sc-AxhUy jJhjfm"
           href="#/tablature"
         >
           Tablature
         </a>
         <a
-          class="sc-AxgMl gSDlcD"
+          class="sc-AxhUy jJhjfm"
           href="#/lessons"
         >
           Lessons
         </a>
         <a
-          class="sc-AxgMl gSDlcD"
+          class="sc-AxhUy jJhjfm"
           href="#/chords"
         >
           Chords
         </a>
         <a
-          class="sc-AxgMl gSDlcD"
+          class="sc-AxhUy jJhjfm"
           href="#/clef-to-tab"
         >
-          Clef to TAB
+          Clef to Tab
         </a>
         <a
-          class="sc-AxgMl gSDlcD"
+          class="sc-AxhUy jJhjfm"
           href="#/terminology"
         >
           Terminology
         </a>
         <a
-          class="sc-AxgMl gSDlcD"
+          class="sc-AxhUy jJhjfm"
           href="#/community"
         >
           Community
         </a>
         <a
-          class="sc-AxgMl gSDlcD"
+          class="sc-AxhUy jJhjfm"
           href="#/newsletter"
         >
           Newsletter
         </a>
-        <i
-          class="fa"
-        />
       </nav>
       <footer
-        class="sc-AxjAm iSbIKK"
+        class="sc-AxjAm fAuGiy"
       >
         <a
           class="sc-AxirZ ktnnZK"

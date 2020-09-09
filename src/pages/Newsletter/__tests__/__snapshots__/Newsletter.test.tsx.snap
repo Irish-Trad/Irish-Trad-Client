@@ -6,25 +6,25 @@ Object {
   "baseElement": <body>
     <div>
       <h1
-        class="sc-AxirZ bgEceZ"
+        class="sc-AxjAm jJvXUC"
       >
         Newsletter
       </h1>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw fuEQpZ"
       >
         Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
       </p>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw fuEQpZ"
       >
         If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
       </p>
       <div
-        class="sc-fzpans bbJTmQ"
+        class="sc-fzoLsD ewLRgk"
       >
         <a
-          class="sc-fzozJi jxgYyc"
+          class="sc-AxmLO cAKCgh"
           href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
           target="_blank"
         >
@@ -33,19 +33,19 @@ Object {
           />
         </a>
         <a
-          class="sc-AxmLO bquAjQ"
+          class="sc-Axmtr bBXdcd"
           href="https://discord.gg/Mq9jeA8"
           target="_blank"
         >
           <button
-            class="sc-fzplWN ewqREn"
+            class="sc-fzpans jyvyVq"
           >
             Sign Up For Newsletter
           </button>
         </a>
       </div>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw fuEQpZ"
       >
         MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
       </p>
@@ -53,25 +53,25 @@ Object {
   </body>,
   "container": <div>
     <h1
-      class="sc-AxirZ bgEceZ"
+      class="sc-AxjAm jJvXUC"
     >
       Newsletter
     </h1>
     <p
-      class="sc-AxhCb hMXmbp"
+      class="sc-AxiKw fuEQpZ"
     >
       Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
     </p>
     <p
-      class="sc-AxhCb hMXmbp"
+      class="sc-AxiKw fuEQpZ"
     >
       If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
     </p>
     <div
-      class="sc-fzpans bbJTmQ"
+      class="sc-fzoLsD ewLRgk"
     >
       <a
-        class="sc-fzozJi jxgYyc"
+        class="sc-AxmLO cAKCgh"
         href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
         target="_blank"
       >
@@ -80,19 +80,19 @@ Object {
         />
       </a>
       <a
-        class="sc-AxmLO bquAjQ"
+        class="sc-Axmtr bBXdcd"
         href="https://discord.gg/Mq9jeA8"
         target="_blank"
       >
         <button
-          class="sc-fzplWN ewqREn"
+          class="sc-fzpans jyvyVq"
         >
           Sign Up For Newsletter
         </button>
       </a>
     </div>
     <p
-      class="sc-AxhCb hMXmbp"
+      class="sc-AxiKw fuEQpZ"
     >
       MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
     </p>
