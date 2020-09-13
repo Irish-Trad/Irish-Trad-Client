@@ -5,8 +5,9 @@ export const MainContainer = styled.main`
   /* margin: auto; */
   padding: 10px;
   /* min-height: 90vh; */
+  overflow: hidden;
 
-  @media screen and (min-width: 760px) {
+  @media screen and (min-width: 960px) {
     height: 100vh;
     overflow-y: scroll;
     padding: 0px;
@@ -15,7 +16,13 @@ export const MainContainer = styled.main`
 `
 
 export const Container = styled.main`
-  @media screen and (min-width: 760px) {
+  height: 100vh;
+  overflow: ${(props) => (props.hidden ? 'hidden' : 'auto')};
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  @media screen and (min-width: 960px) {
     display: flex;
     flex-flow: row nowrap;
   }

@@ -4,10 +4,11 @@ import { Navigation, InternalLink } from './Navbar.styles'
 
 type Props = {
   toggleHidden?: any
+  hidden?: boolean
 }
 
-const Navbar: React.FC<Props> = ({ toggleHidden = null }) => (
-  <Navigation>
+const Navbar: React.FC<Props> = ({ toggleHidden, hidden }) => (
+  <Navigation hidden={hidden}>
     <InternalLink
       onClick={() => (toggleHidden ? toggleHidden(false) : null)}
       to="/"

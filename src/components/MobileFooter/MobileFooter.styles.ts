@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
   display: flex;
   justify-content: center;
 
-  @media screen and (min-width: 760px) {
+  @media screen and (min-width: 960px) {
     display: none;
   }
 `

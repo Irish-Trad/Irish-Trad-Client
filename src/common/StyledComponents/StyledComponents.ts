@@ -29,7 +29,7 @@ export const Figure = styled.figure`
 export const Image = styled.img`
   width: 50%;
 
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 960px) {
     width: 25%;
   }
 `

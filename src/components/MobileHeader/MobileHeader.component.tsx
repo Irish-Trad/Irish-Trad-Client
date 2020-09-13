@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Navbar from 'components/Navbar'
 
 import {
@@ -6,20 +6,35 @@ import {
   Logo,
   InternalLink,
   StyledIcon,
+  FullMobileContainer,
 } from './MobileHeader.styles'
 
-const MobileHeader: React.FC = () => {
-  const [hidden, toggleHidden] = useState(false)
+type Props = {
+  hidden: boolean
+  toggleHidden: any
+}
 
+const MobileHeader: React.FC<Props> = ({ hidden, toggleHidden }) => {
   return (
     <HeaderContainer>
-      <Logo>
-        <InternalLink to="/" onClick={() => toggleHidden(false)}>
-          Irish-Trad.net
-        </InternalLink>
-        <StyledIcon onClick={() => toggleHidden(!hidden)} icon="bars" />
-        {hidden ? <Navbar toggleHidden={toggleHidden} /> : null}
-      </Logo>
+      {!hidden ? (
+        <Logo>
+          <InternalLink to="/" onClick={() => toggleHidden(false)}>
+            Irish-Trad.net
+          </InternalLink>
+          <StyledIcon onClick={() => toggleHidden(!hidden)} icon="bars" />
+        </Logo>
+      ) : (
+        <FullMobileContainer>
+          <Logo>
+            <InternalLink to="/" onClick={() => toggleHidden(false)}>
+              Irish-Trad.net
+            </InternalLink>
+            <StyledIcon onClick={() => toggleHidden(!hidden)} icon="bars" />
+          </Logo>
+          <Navbar toggleHidden={toggleHidden} hidden={hidden} />
+        </FullMobileContainer>
+      )}
     </HeaderContainer>
   )
 }

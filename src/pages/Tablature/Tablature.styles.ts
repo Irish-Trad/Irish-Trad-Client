@@ -22,7 +22,7 @@ export const InternalLink = styled.a`
   border: 3px solid green;
   padding: 10px;
 
-  @media screen and (min-width: 760px) {
+  @media screen and (min-width: 960px) {
     font-size: 2em;
   }
 `

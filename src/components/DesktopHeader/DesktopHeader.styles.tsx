@@ -11,7 +11,7 @@ export const Header = styled.header`
 
   display: none;
 
-  @media screen and (min-width: 760px) {
+  @media screen and (min-width: 960px) {
     display: flex;
   }
 `

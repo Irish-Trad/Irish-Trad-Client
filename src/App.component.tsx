@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react'
+import React, { lazy, Suspense, useState } from 'react'
 
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
@@ -65,41 +65,51 @@ const Tablature = lazy(
   () => import('pages/Tablature') /* webpackChunkName: 'Tablature' */
 )
 
-const App: React.FC = () => (
-  <Router basename={`/${process.env.PUBLIC_URL}`}>
-    <Container>
-      <DesktopHeader />
-      <MobileHeader />
-      <MainContainer id="top">
-        <Suspense fallback={Spinner}>
-          <Switch>
-            <Route exact path="/" component={Homepage} />
-            <Route exact path="/chords" component={Chords} />
-            <Route exact path="/clef-to-tab" component={ClefToTab} />
-            <Route exact path="/community" component={Community} />
-            <Route exact path="/newsletter" component={Newsletter} />
-            <Route exact path="/lessons" component={Lessons} />
-            <Route
-              exact
-              path="/lessons/how-to-read-tab"
-              component={HowToReadTab}
-            />
-            <Route
-              exact
-              path="/lessons/how-to-string"
-              component={HowToString}
-            />
-            <Route exact path="/lessons/how-to-tune" component={HowToTune} />
-            <Route exact path="/terminology" component={Terminology} />
-            <Route exact path="/tablature" component={Tablature} />
-            <Route path="*" component={NotFound} />
-          </Switch>
-        </Suspense>
-        <ScrollToTop />
-      </MainContainer>
-      <MobileFooter />
-    </Container>
-  </Router>
-)
+const App: React.FC = () => {
+  const [hidden, toggleHidden] = useState(false)
+
+  return (
+    <Router basename={`/${process.env.PUBLIC_URL}`}>
+      <Container hidden={hidden}>
+        <DesktopHeader />
+        <div>
+          <MobileHeader hidden={hidden} toggleHidden={toggleHidden} />
+          <MainContainer id="top">
+            <Suspense fallback={Spinner}>
+              <Switch>
+                <Route exact path="/" component={Homepage} />
+                <Route exact path="/chords" component={Chords} />
+                <Route exact path="/clef-to-tab" component={ClefToTab} />
+                <Route exact path="/community" component={Community} />
+                <Route exact path="/newsletter" component={Newsletter} />
+                <Route exact path="/lessons" component={Lessons} />
+                <Route
+                  exact
+                  path="/lessons/how-to-read-tab"
+                  component={HowToReadTab}
+                />
+                <Route
+                  exact
+                  path="/lessons/how-to-string"
+                  component={HowToString}
+                />
+                <Route
+                  exact
+                  path="/lessons/how-to-tune"
+                  component={HowToTune}
+                />
+                <Route exact path="/terminology" component={Terminology} />
+                <Route exact path="/tablature" component={Tablature} />
+                <Route path="*" component={NotFound} />
+              </Switch>
+            </Suspense>
+            <ScrollToTop />
+          </MainContainer>
+        </div>
+        <MobileFooter />
+      </Container>
+    </Router>
+  )
+}
 
 export default App
