@@ -6,7 +6,8 @@ const ScrollToTop = () => {
   const [showButton, setShowButton] = useState(false)
 
   useEffect(() => {
-    document.getElementById('top')!.onscroll = () => scrollCheck()
+    window.onload = () =>
+      (document.getElementById('top')!.onscroll = () => scrollCheck())
   }, [])
 
   const scrollCheck = () => {
