@@ -6,25 +6,79 @@ Object {
   "baseElement": <body>
     <div>
       <h1
-        class="sc-AxjAm jJvXUC"
+        class="sc-AxjAm kJNFlM"
       >
         Newsletter
       </h1>
+      <section
+        class="sc-fzozJi ezzvPo"
+      >
+        <p
+          class="sc-AxiKw dxfDYx"
+        >
+          Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
+        </p>
+        <p
+          class="sc-AxiKw dxfDYx"
+        >
+          If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
+        </p>
+        <div
+          class="sc-fznKkj dsTOEk"
+        >
+          <a
+            class="sc-fzplWN kfkaqr"
+            href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
+            target="_blank"
+          >
+            <i
+              class="fa"
+            />
+          </a>
+          <a
+            class="sc-AxmLO bquAjQ"
+            href="https://discord.gg/Mq9jeA8"
+            target="_blank"
+          >
+            <button
+              class="sc-fznZeY gDvLfc"
+            >
+              Sign Up For Newsletter
+            </button>
+          </a>
+        </div>
+        <p
+          class="sc-AxiKw dxfDYx"
+        >
+          MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
+        </p>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <h1
+      class="sc-AxjAm kJNFlM"
+    >
+      Newsletter
+    </h1>
+    <section
+      class="sc-fzozJi ezzvPo"
+    >
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
       </p>
       <div
-        class="sc-fzoLsD ewLRgk"
+        class="sc-fznKkj dsTOEk"
       >
         <a
-          class="sc-AxmLO cAKCgh"
+          class="sc-fzplWN kfkaqr"
           href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
           target="_blank"
         >
@@ -33,69 +87,23 @@ Object {
           />
         </a>
         <a
-          class="sc-Axmtr bBXdcd"
+          class="sc-AxmLO bquAjQ"
           href="https://discord.gg/Mq9jeA8"
           target="_blank"
         >
           <button
-            class="sc-fzpans jyvyVq"
+            class="sc-fznZeY gDvLfc"
           >
             Sign Up For Newsletter
           </button>
         </a>
       </div>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
       </p>
-    </div>
-  </body>,
-  "container": <div>
-    <h1
-      class="sc-AxjAm jJvXUC"
-    >
-      Newsletter
-    </h1>
-    <p
-      class="sc-AxiKw fuEQpZ"
-    >
-      Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
-    </p>
-    <p
-      class="sc-AxiKw fuEQpZ"
-    >
-      If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
-    </p>
-    <div
-      class="sc-fzoLsD ewLRgk"
-    >
-      <a
-        class="sc-AxmLO cAKCgh"
-        href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
-        target="_blank"
-      >
-        <i
-          class="fa"
-        />
-      </a>
-      <a
-        class="sc-Axmtr bBXdcd"
-        href="https://discord.gg/Mq9jeA8"
-        target="_blank"
-      >
-        <button
-          class="sc-fzpans jyvyVq"
-        >
-          Sign Up For Newsletter
-        </button>
-      </a>
-    </div>
-    <p
-      class="sc-AxiKw fuEQpZ"
-    >
-      MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
-    </p>
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

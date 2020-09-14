@@ -6,15 +6,16 @@ Object {
   "baseElement": <body>
     <div>
       <h1
-        class="sc-AxjAm jJvXUC"
+        class="sc-AxjAm kJNFlM"
       >
         404 - No Page Found
       </h1>
       <a
+        class="sc-Axmtr hBVTto"
         href="#/"
       >
         <button
-          class="sc-fzozJi jxgYyc"
+          class="sc-fzpans kkFAbe"
         >
           Click Here to Return Home
         </button>
@@ -23,15 +24,16 @@ Object {
   </body>,
   "container": <div>
     <h1
-      class="sc-AxjAm jJvXUC"
+      class="sc-AxjAm kJNFlM"
     >
       404 - No Page Found
     </h1>
     <a
+      class="sc-Axmtr hBVTto"
       href="#/"
     >
       <button
-        class="sc-fzozJi jxgYyc"
+        class="sc-fzpans kkFAbe"
       >
         Click Here to Return Home
       </button>

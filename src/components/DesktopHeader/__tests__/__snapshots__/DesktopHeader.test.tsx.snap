@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="sc-AxgMl fIiKYL"
+        class="sc-AxgMl cKCWWd"
       >
         <div
           class="sc-AxheI iEBshh"
@@ -24,52 +24,52 @@ Object {
           </h1>
         </div>
         <nav
-          class="sc-AxhCb iZlkIN"
+          class="sc-AxhCb eIWLdd"
         >
           <a
-            class="sc-AxhUy jJhjfm"
+            class="sc-AxhUy leZyDV"
             href="#/"
           >
             Home
           </a>
           <a
-            class="sc-AxhUy jJhjfm"
+            class="sc-AxhUy leZyDV"
             href="#/tablature"
           >
             Tablature
           </a>
           <a
-            class="sc-AxhUy jJhjfm"
+            class="sc-AxhUy leZyDV"
             href="#/lessons"
           >
             Lessons
           </a>
           <a
-            class="sc-AxhUy jJhjfm"
+            class="sc-AxhUy leZyDV"
             href="#/chords"
           >
             Chords
           </a>
           <a
-            class="sc-AxhUy jJhjfm"
+            class="sc-AxhUy leZyDV"
             href="#/clef-to-tab"
           >
             Clef to Tab
           </a>
           <a
-            class="sc-AxhUy jJhjfm"
+            class="sc-AxhUy leZyDV"
             href="#/terminology"
           >
             Terminology
           </a>
           <a
-            class="sc-AxhUy jJhjfm"
+            class="sc-AxhUy leZyDV"
             href="#/community"
           >
             Community
           </a>
           <a
-            class="sc-AxhUy jJhjfm"
+            class="sc-AxhUy leZyDV"
             href="#/newsletter"
           >
             Newsletter
@@ -102,7 +102,7 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="sc-AxgMl fIiKYL"
+      class="sc-AxgMl cKCWWd"
     >
       <div
         class="sc-AxheI iEBshh"
@@ -120,52 +120,52 @@ Object {
         </h1>
       </div>
       <nav
-        class="sc-AxhCb iZlkIN"
+        class="sc-AxhCb eIWLdd"
       >
         <a
-          class="sc-AxhUy jJhjfm"
+          class="sc-AxhUy leZyDV"
           href="#/"
         >
           Home
         </a>
         <a
-          class="sc-AxhUy jJhjfm"
+          class="sc-AxhUy leZyDV"
           href="#/tablature"
         >
           Tablature
         </a>
         <a
-          class="sc-AxhUy jJhjfm"
+          class="sc-AxhUy leZyDV"
           href="#/lessons"
         >
           Lessons
         </a>
         <a
-          class="sc-AxhUy jJhjfm"
+          class="sc-AxhUy leZyDV"
           href="#/chords"
         >
           Chords
         </a>
         <a
-          class="sc-AxhUy jJhjfm"
+          class="sc-AxhUy leZyDV"
           href="#/clef-to-tab"
         >
           Clef to Tab
         </a>
         <a
-          class="sc-AxhUy jJhjfm"
+          class="sc-AxhUy leZyDV"
           href="#/terminology"
         >
           Terminology
         </a>
         <a
-          class="sc-AxhUy jJhjfm"
+          class="sc-AxhUy leZyDV"
           href="#/community"
         >
           Community
         </a>
         <a
-          class="sc-AxhUy jJhjfm"
+          class="sc-AxhUy leZyDV"
           href="#/newsletter"
         >
           Newsletter
