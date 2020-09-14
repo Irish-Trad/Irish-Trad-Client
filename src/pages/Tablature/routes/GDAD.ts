@@ -1,6 +1,11 @@
 import { sortTunesAtoZ } from './sortTunesAtoZ'
 
-export const Barndance: Array<{ name: string; path: string }> = [
+type Props = {
+  name: string
+  path: string
+}
+
+export const Barndance: Array<Props> = [
   {
     name: `L’Air Mignonne - X2`,
     path: `assets/tunes/pdf/GDAD/Barndance/L’Air Mignonne - X2 - GDAD.pdf`,
@@ -11,7 +16,7 @@ export const Barndance: Array<{ name: string; path: string }> = [
   },
 ].sort(sortTunesAtoZ)
 
-export const Hornpipe: Array<{ name: string; path: string }> = [
+export const Hornpipe: Array<Props> = [
   {
     name: `O'Donnell's - X1`,
     path: `assets/tunes/pdf/GDAD/Hornpipe/O'Donnell's - X1 - GDAD.pdf`,
@@ -26,7 +31,7 @@ export const Hornpipe: Array<{ name: string; path: string }> = [
   },
 ].sort(sortTunesAtoZ)
 
-export const Jig: Array<{ name: string; path: string }> = [
+export const Jig: Array<Props> = [
   {
     name: `Apples In Winter - X1`,
     path: `assets/tunes/pdf/GDAD/Jig/Apples In Winter - X1 - GDAD.pdf`,
@@ -273,7 +278,7 @@ export const Jig: Array<{ name: string; path: string }> = [
   },
 ].sort(sortTunesAtoZ)
 
-export const March: Array<{ name: string; path: string }> = [
+export const March: Array<Props> = [
   {
     name: `The Foggy Dew - Luke Kelly`,
     path: `assets/tunes/pdf/GDAD/March/The Foggy Dew - Luke Kelly - GDAD.pdf`,
@@ -284,7 +289,7 @@ export const March: Array<{ name: string; path: string }> = [
   },
 ].sort(sortTunesAtoZ)
 
-export const Polka: Array<{ name: string; path: string }> = [
+export const Polka: Array<Props> = [
   {
     name: `Gan Ainm - X1`,
     path: `assets/tunes/pdf/GDAD/Polka/Gan Ainm - X1 - GDAD.pdf`,
@@ -307,7 +312,7 @@ export const Polka: Array<{ name: string; path: string }> = [
   },
 ].sort(sortTunesAtoZ)
 
-export const Reel: Array<{ name: string; path: string }> = [
+export const Reel: Array<Props> = [
   {
     name: `Farewell To Ireland - X1`,
     path: `assets/tunes/pdf/GDAD/Reel/Farewell To Ireland - X1 - GDAD.pdf`,
@@ -582,7 +587,7 @@ export const Reel: Array<{ name: string; path: string }> = [
   },
 ].sort(sortTunesAtoZ)
 
-export const Slip: Array<{ name: string; path: string }> = [
+export const Slip: Array<Props> = [
   {
     name: `Barney Brannigan - X1`,
     path: `assets/tunes/pdf/GDAD/Slip/Barney Brannigan - X1 - GDAD.pdf`,
@@ -597,7 +602,7 @@ export const Slip: Array<{ name: string; path: string }> = [
   },
 ].sort(sortTunesAtoZ)
 
-export const Waltz: Array<{ name: string; path: string }> = [
+export const Waltz: Array<Props> = [
   {
     name: `Paddy's Green Shamrock Shore - X1`,
     path: `assets/tunes/pdf/GDAD/Waltz/Paddy's Green Shamrock Shore - X1 - GDAD.pdf`,

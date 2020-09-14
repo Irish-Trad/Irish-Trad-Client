@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DesktopHeader Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="sc-AxgMl cKCWWd"
+      >
+        <div
+          class="sc-AxheI iEBshh"
+        >
+          <img
+            alt="Irish-Trad.net Logo"
+            class="sc-Axmtr fkWeGe"
+            src="assets/high-quality/2243E.jpg"
+            title="Irish-Trad.net Logo"
+          />
+          <h1
+            class="sc-AxmLO oOKbw"
+          >
+            Irish-Trad.net
+          </h1>
+        </div>
+        <nav
+          class="sc-AxhCb eIWLdd"
+        >
+          <a
+            class="sc-AxhUy leZyDV"
+            href="#/"
+          >
+            Home
+          </a>
+          <a
+            class="sc-AxhUy leZyDV"
+            href="#/tablature"
+          >
+            Tablature
+          </a>
+          <a
+            class="sc-AxhUy leZyDV"
+            href="#/lessons"
+          >
+            Lessons
+          </a>
+          <a
+            class="sc-AxhUy leZyDV"
+            href="#/chords"
+          >
+            Chords
+          </a>
+          <a
+            class="sc-AxhUy leZyDV"
+            href="#/clef-to-tab"
+          >
+            Clef to Tab
+          </a>
+          <a
+            class="sc-AxhUy leZyDV"
+            href="#/terminology"
+          >
+            Terminology
+          </a>
+          <a
+            class="sc-AxhUy leZyDV"
+            href="#/community"
+          >
+            Community
+          </a>
+          <a
+            class="sc-AxhUy leZyDV"
+            href="#/newsletter"
+          >
+            Newsletter
+          </a>
+        </nav>
+        <footer
+          class="sc-AxjAm fAuGiy"
+        >
+          <a
+            class="sc-AxirZ ktnnZK"
+            href="https://discord.gg/Mq9jeA8"
+            target="_blank"
+          >
+            <i
+              class="fa"
+            />
+          </a>
+          <a
+            class="sc-AxirZ ktnnZK"
+            href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
+            target="_blank"
+          >
+            <i
+              class="fa"
+            />
+          </a>
+        </footer>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="sc-AxgMl cKCWWd"
+    >
+      <div
+        class="sc-AxheI iEBshh"
+      >
+        <img
+          alt="Irish-Trad.net Logo"
+          class="sc-Axmtr fkWeGe"
+          src="assets/high-quality/2243E.jpg"
+          title="Irish-Trad.net Logo"
+        />
+        <h1
+          class="sc-AxmLO oOKbw"
+        >
+          Irish-Trad.net
+        </h1>
+      </div>
+      <nav
+        class="sc-AxhCb eIWLdd"
+      >
+        <a
+          class="sc-AxhUy leZyDV"
+          href="#/"
+        >
+          Home
+        </a>
+        <a
+          class="sc-AxhUy leZyDV"
+          href="#/tablature"
+        >
+          Tablature
+        </a>
+        <a
+          class="sc-AxhUy leZyDV"
+          href="#/lessons"
+        >
+          Lessons
+        </a>
+        <a
+          class="sc-AxhUy leZyDV"
+          href="#/chords"
+        >
+          Chords
+        </a>
+        <a
+          class="sc-AxhUy leZyDV"
+          href="#/clef-to-tab"
+        >
+          Clef to Tab
+        </a>
+        <a
+          class="sc-AxhUy leZyDV"
+          href="#/terminology"
+        >
+          Terminology
+        </a>
+        <a
+          class="sc-AxhUy leZyDV"
+          href="#/community"
+        >
+          Community
+        </a>
+        <a
+          class="sc-AxhUy leZyDV"
+          href="#/newsletter"
+        >
+          Newsletter
+        </a>
+      </nav>
+      <footer
+        class="sc-AxjAm fAuGiy"
+      >
+        <a
+          class="sc-AxirZ ktnnZK"
+          href="https://discord.gg/Mq9jeA8"
+          target="_blank"
+        >
+          <i
+            class="fa"
+          />
+        </a>
+        <a
+          class="sc-AxirZ ktnnZK"
+          href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
+          target="_blank"
+        >
+          <i
+            class="fa"
+          />
+        </a>
+      </footer>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

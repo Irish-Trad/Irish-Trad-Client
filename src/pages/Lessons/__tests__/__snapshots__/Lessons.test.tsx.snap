@@ -5,273 +5,273 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <main
-        class="sc-AxjAm bWdCkp"
+      <h1
+        class="sc-AxjAm kJNFlM"
       >
-        <h1
-          class="sc-AxirZ bgEceZ"
-        >
-          Lessons
-        </h1>
+        Lessons
+      </h1>
+      <section
+        class="sc-fzozJi ezzvPo"
+      >
         <h2
-          class="sc-AxiKw fqxxCJ"
+          class="sc-fzplWN fpRbpC"
         >
           Preparation:
         </h2>
         <a
-          class="sc-AxgMl fNwenP"
+          class="sc-fznyAO kHxCCI"
           href="#/lessons/how-to-string"
         >
           <p
-            class="sc-AxheI fniENP"
+            class="sc-fznKkj lbPMLS"
           >
             How to string your instrument
           </p>
         </a>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           Knowing how to string your instrument is an essential skill every musician needs to learn. It can be a daunting task for beginners because of uncertainty and fear of damaging the instrument. This section covers how to string the instrument and the different options available when buying strings.
         </p>
         <a
-          class="sc-AxgMl fNwenP"
+          class="sc-fznyAO kHxCCI"
           href="#/lessons/how-to-tune"
         >
           <p
-            class="sc-AxheI fniENP"
+            class="sc-fznKkj lbPMLS"
           >
             How to tune your instrument
           </p>
         </a>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           When playing with other musicians it is vital that your instrument is in tune. This section covers how to use a chromatic tuner and the different tuning configurations available to the Irish Bouzouki.
         </p>
         <a
-          class="sc-AxgMl fNwenP"
+          class="sc-fznyAO kHxCCI"
           href="#/lessons/how-to-read-tab"
         >
           <p
-            class="sc-AxheI fniENP"
+            class="sc-fznKkj lbPMLS"
           >
             How to read tablature
           </p>
         </a>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           Tablature is a form of music notation structured towards fretted instruments. It is regarded as one of the quickest methods for teaching beginners how to start making music. This section covers how to read tablature.
         </p>
         <h2
-          class="sc-AxiKw fqxxCJ"
+          class="sc-fzplWN fpRbpC"
         >
           Useful Websites:
         </h2>
         <a
-          class="sc-Axmtr ldDSif"
+          class="sc-fznZeY bmmwWd"
           href="https://thesession.org/"
           rel="noopener noreferrer"
           target="_blank"
         >
           <p
-            class="sc-AxheI fniENP"
+            class="sc-fznKkj lbPMLS"
           >
             The Session
           </p>
         </a>
         <p
-          class="sc-AxhCb sc-AxhUy cFCoOi"
+          class="sc-AxiKw sc-fzoLsD cmbPqD"
         >
           The best resource for traditional Irish sheet music.
         </p>
         <a
-          class="sc-Axmtr ldDSif"
+          class="sc-fznZeY bmmwWd"
           href="https://www.atuneaweek.com/"
           rel="noopener noreferrer"
           target="_blank"
         >
           <p
-            class="sc-AxheI fniENP"
+            class="sc-fznKkj lbPMLS"
           >
             A Tune A Week
           </p>
         </a>
         <p
-          class="sc-AxhCb sc-AxhUy cFCoOi"
+          class="sc-AxiKw sc-fzoLsD cmbPqD"
         >
           A great resource to keep you motivated and help choose what tune to learn next.
         </p>
         <a
-          class="sc-Axmtr ldDSif"
+          class="sc-fznZeY bmmwWd"
           href="https://irish-music.net/"
           rel="noopener noreferrer"
           target="_blank"
         >
           <p
-            class="sc-AxheI fniENP"
+            class="sc-fznKkj lbPMLS"
           >
             Irish-Music
           </p>
         </a>
         <p
-          class="sc-AxhCb sc-AxhUy cFCoOi"
+          class="sc-AxiKw sc-fzoLsD cmbPqD"
         >
           Useful website that provides links to many resources for traditional Irish instruments.
         </p>
         <a
-          class="sc-Axmtr ldDSif"
+          class="sc-fznZeY bmmwWd"
           href="https://www.mandolessons.com/"
           rel="noopener noreferrer"
           target="_blank"
         >
           <p
-            class="sc-AxheI fniENP"
+            class="sc-fznKkj lbPMLS"
           >
             Mando Lessons
           </p>
         </a>
         <p
-          class="sc-AxhCb sc-AxhUy cFCoOi"
+          class="sc-AxiKw sc-fzoLsD cmbPqD"
         >
           Mandolin focused website providing high quality video lessons.
         </p>
-      </main>
+      </section>
     </div>
   </body>,
   "container": <div>
-    <main
-      class="sc-AxjAm bWdCkp"
+    <h1
+      class="sc-AxjAm kJNFlM"
     >
-      <h1
-        class="sc-AxirZ bgEceZ"
-      >
-        Lessons
-      </h1>
+      Lessons
+    </h1>
+    <section
+      class="sc-fzozJi ezzvPo"
+    >
       <h2
-        class="sc-AxiKw fqxxCJ"
+        class="sc-fzplWN fpRbpC"
       >
         Preparation:
       </h2>
       <a
-        class="sc-AxgMl fNwenP"
+        class="sc-fznyAO kHxCCI"
         href="#/lessons/how-to-string"
       >
         <p
-          class="sc-AxheI fniENP"
+          class="sc-fznKkj lbPMLS"
         >
           How to string your instrument
         </p>
       </a>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         Knowing how to string your instrument is an essential skill every musician needs to learn. It can be a daunting task for beginners because of uncertainty and fear of damaging the instrument. This section covers how to string the instrument and the different options available when buying strings.
       </p>
       <a
-        class="sc-AxgMl fNwenP"
+        class="sc-fznyAO kHxCCI"
         href="#/lessons/how-to-tune"
       >
         <p
-          class="sc-AxheI fniENP"
+          class="sc-fznKkj lbPMLS"
         >
           How to tune your instrument
         </p>
       </a>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         When playing with other musicians it is vital that your instrument is in tune. This section covers how to use a chromatic tuner and the different tuning configurations available to the Irish Bouzouki.
       </p>
       <a
-        class="sc-AxgMl fNwenP"
+        class="sc-fznyAO kHxCCI"
         href="#/lessons/how-to-read-tab"
       >
         <p
-          class="sc-AxheI fniENP"
+          class="sc-fznKkj lbPMLS"
         >
           How to read tablature
         </p>
       </a>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         Tablature is a form of music notation structured towards fretted instruments. It is regarded as one of the quickest methods for teaching beginners how to start making music. This section covers how to read tablature.
       </p>
       <h2
-        class="sc-AxiKw fqxxCJ"
+        class="sc-fzplWN fpRbpC"
       >
         Useful Websites:
       </h2>
       <a
-        class="sc-Axmtr ldDSif"
+        class="sc-fznZeY bmmwWd"
         href="https://thesession.org/"
         rel="noopener noreferrer"
         target="_blank"
       >
         <p
-          class="sc-AxheI fniENP"
+          class="sc-fznKkj lbPMLS"
         >
           The Session
         </p>
       </a>
       <p
-        class="sc-AxhCb sc-AxhUy cFCoOi"
+        class="sc-AxiKw sc-fzoLsD cmbPqD"
       >
         The best resource for traditional Irish sheet music.
       </p>
       <a
-        class="sc-Axmtr ldDSif"
+        class="sc-fznZeY bmmwWd"
         href="https://www.atuneaweek.com/"
         rel="noopener noreferrer"
         target="_blank"
       >
         <p
-          class="sc-AxheI fniENP"
+          class="sc-fznKkj lbPMLS"
         >
           A Tune A Week
         </p>
       </a>
       <p
-        class="sc-AxhCb sc-AxhUy cFCoOi"
+        class="sc-AxiKw sc-fzoLsD cmbPqD"
       >
         A great resource to keep you motivated and help choose what tune to learn next.
       </p>
       <a
-        class="sc-Axmtr ldDSif"
+        class="sc-fznZeY bmmwWd"
         href="https://irish-music.net/"
         rel="noopener noreferrer"
         target="_blank"
       >
         <p
-          class="sc-AxheI fniENP"
+          class="sc-fznKkj lbPMLS"
         >
           Irish-Music
         </p>
       </a>
       <p
-        class="sc-AxhCb sc-AxhUy cFCoOi"
+        class="sc-AxiKw sc-fzoLsD cmbPqD"
       >
         Useful website that provides links to many resources for traditional Irish instruments.
       </p>
       <a
-        class="sc-Axmtr ldDSif"
+        class="sc-fznZeY bmmwWd"
         href="https://www.mandolessons.com/"
         rel="noopener noreferrer"
         target="_blank"
       >
         <p
-          class="sc-AxheI fniENP"
+          class="sc-fznKkj lbPMLS"
         >
           Mando Lessons
         </p>
       </a>
       <p
-        class="sc-AxhCb sc-AxhUy cFCoOi"
+        class="sc-AxiKw sc-fzoLsD cmbPqD"
       >
         Mandolin focused website providing high quality video lessons.
       </p>
-    </main>
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -5,42 +5,19 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const HeaderContainer = styled.header`
-  background-color: #006400;
-  color: white;
-  font-family: meathflfregular;
-  font-size: 24px;
-`
+  background: linear-gradient(to bottom, green, darkgreen);
 
-export const DesktopNav = styled.nav`
-  margin: auto;
-
-  @media screen and (max-width: 849px) {
+  @media screen and (min-width: 960px) {
     display: none;
-  }
-
-  @media screen and (max-width: 850px) {
-    width: 650px;
-  }
-
-  @media screen and (min-width: 1380px) {
-    width: 1200px;
   }
 `
 
-export const NavBar = styled.nav`
-  display: flex;
-  justify-content: center;
-  flex-flow: column wrap;
-  text-align: center;
-
-  @media screen and (min-width: 849px) {
-    display: none;
-  }
+export const FullMobileContainer = styled.header`
+  height: 100vh;
 `
 
 export const Logo = styled.div`
   display: flex;
-  justify-content: ;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
@@ -68,7 +45,7 @@ export const StyledIcon = styled(FontAwesomeIcon)`
     background-color: white;
   }
 
-  @media screen and (min-width: 850px) {
+  @media screen and (min-width: 960px) {
     display: none;
   }
 `

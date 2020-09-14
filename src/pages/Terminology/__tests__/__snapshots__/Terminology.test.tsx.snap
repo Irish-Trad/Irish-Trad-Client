@@ -5,16 +5,16 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <main
-        class="sc-AxjAm bWdCkp"
+      <h1
+        class="sc-AxjAm kJNFlM"
       >
-        <h1
-          class="sc-AxirZ elSVc"
-        >
-          Terminology
-        </h1>
+        Terminology
+      </h1>
+      <section
+        class="sc-fzozJi ezzvPo"
+      >
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -24,7 +24,7 @@ Object {
           The notes of a chord played individually.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -34,7 +34,7 @@ Object {
           Pushing and pulling the string in a vertical plane after sounding will cause the pitch to increase. Very common technique for guitar players.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -44,7 +44,7 @@ Object {
           Beats per Minute.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -54,7 +54,7 @@ Object {
           Abbreviation for Cittern, Bouzouki, Octave Mandolin.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -64,7 +64,7 @@ Object {
           Three or more notes played together form a chord.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -74,7 +74,7 @@ Object {
           Tuning of the Irish Bouzouki from lowest pitched to highest pitched string.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -84,7 +84,7 @@ Object {
           Tuning of the Irish Bouzouki from lowest pitched to highest pitched string.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -94,7 +94,7 @@ Object {
           The distance between one note and another.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -104,7 +104,7 @@ Object {
           The Octave Mandolin is pitched one octave lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe) is interchangeable with the Octave Mandolin (America). They are the same instrument.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -114,7 +114,7 @@ Object {
           The Octave Mandola is pitched one octave lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe) is interchangeable with the Octave Mandolin (America). They are the same instrument.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -124,7 +124,7 @@ Object {
           The range of notes that an instrument is capable of producing naturally.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -134,7 +134,7 @@ Object {
           The thickness of a string. As instrument strings are normally sold in packs a musician will typically respond to a question about the string gauge they use by referring to the thinnest string. For example, "11's" would suggest a pack of strings with the thinnest string in the pack being 11.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -144,7 +144,7 @@ Object {
           The speed at which a piece of music is played. The exact pace is specified by BPM.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -154,7 +154,7 @@ Object {
           Rapid alteration between two notes. Normally achieved through hammer-ons and pull-offs on the Irish Bouzouki.
         </p>
         <p
-          class="sc-AxiKw fuEQpZ"
+          class="sc-AxiKw dxfDYx"
         >
           <b
             class="sc-AxhCb ccMvAG"
@@ -163,20 +163,20 @@ Object {
           </b>
           Quick and repetitive micro-bends that create a fluctuating pitch. Reminiscent of a vocalist who holds a note for a long time.
         </p>
-      </main>
+      </section>
     </div>
   </body>,
   "container": <div>
-    <main
-      class="sc-AxjAm bWdCkp"
+    <h1
+      class="sc-AxjAm kJNFlM"
     >
-      <h1
-        class="sc-AxirZ elSVc"
-      >
-        Terminology
-      </h1>
+      Terminology
+    </h1>
+    <section
+      class="sc-fzozJi ezzvPo"
+    >
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -186,7 +186,7 @@ Object {
         The notes of a chord played individually.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -196,7 +196,7 @@ Object {
         Pushing and pulling the string in a vertical plane after sounding will cause the pitch to increase. Very common technique for guitar players.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -206,7 +206,7 @@ Object {
         Beats per Minute.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -216,7 +216,7 @@ Object {
         Abbreviation for Cittern, Bouzouki, Octave Mandolin.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -226,7 +226,7 @@ Object {
         Three or more notes played together form a chord.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -236,7 +236,7 @@ Object {
         Tuning of the Irish Bouzouki from lowest pitched to highest pitched string.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -246,7 +246,7 @@ Object {
         Tuning of the Irish Bouzouki from lowest pitched to highest pitched string.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -256,7 +256,7 @@ Object {
         The distance between one note and another.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -266,7 +266,7 @@ Object {
         The Octave Mandolin is pitched one octave lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe) is interchangeable with the Octave Mandolin (America). They are the same instrument.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -276,7 +276,7 @@ Object {
         The Octave Mandola is pitched one octave lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe) is interchangeable with the Octave Mandolin (America). They are the same instrument.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -286,7 +286,7 @@ Object {
         The range of notes that an instrument is capable of producing naturally.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -296,7 +296,7 @@ Object {
         The thickness of a string. As instrument strings are normally sold in packs a musician will typically respond to a question about the string gauge they use by referring to the thinnest string. For example, "11's" would suggest a pack of strings with the thinnest string in the pack being 11.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -306,7 +306,7 @@ Object {
         The speed at which a piece of music is played. The exact pace is specified by BPM.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -316,7 +316,7 @@ Object {
         Rapid alteration between two notes. Normally achieved through hammer-ons and pull-offs on the Irish Bouzouki.
       </p>
       <p
-        class="sc-AxiKw fuEQpZ"
+        class="sc-AxiKw dxfDYx"
       >
         <b
           class="sc-AxhCb ccMvAG"
@@ -325,7 +325,7 @@ Object {
         </b>
         Quick and repetitive micro-bends that create a fluctuating pitch. Reminiscent of a vocalist who holds a note for a long time.
       </p>
-    </main>
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

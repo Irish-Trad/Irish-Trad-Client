@@ -5,29 +5,29 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <main
-        class="sc-AxjAm bWdCkp"
+      <h1
+        class="sc-AxjAm kJNFlM"
       >
-        <h1
-          class="sc-AxirZ bgEceZ"
-        >
-          Newsletter
-        </h1>
+        Newsletter
+      </h1>
+      <section
+        class="sc-fzozJi ezzvPo"
+      >
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
         </p>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
         </p>
         <div
-          class="sc-fzpans bbJTmQ"
+          class="sc-fznKkj dsTOEk"
         >
           <a
-            class="sc-fzozJi jxgYyc"
+            class="sc-fzplWN kfkaqr"
             href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
             target="_blank"
           >
@@ -41,44 +41,44 @@ Object {
             target="_blank"
           >
             <button
-              class="sc-fzplWN ewqREn"
+              class="sc-fznZeY gDvLfc"
             >
               Sign Up For Newsletter
             </button>
           </a>
         </div>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
         </p>
-      </main>
+      </section>
     </div>
   </body>,
   "container": <div>
-    <main
-      class="sc-AxjAm bWdCkp"
+    <h1
+      class="sc-AxjAm kJNFlM"
     >
-      <h1
-        class="sc-AxirZ bgEceZ"
-      >
-        Newsletter
-      </h1>
+      Newsletter
+    </h1>
+    <section
+      class="sc-fzozJi ezzvPo"
+    >
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.
       </p>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:
       </p>
       <div
-        class="sc-fzpans bbJTmQ"
+        class="sc-fznKkj dsTOEk"
       >
         <a
-          class="sc-fzozJi jxgYyc"
+          class="sc-fzplWN kfkaqr"
           href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
           target="_blank"
         >
@@ -92,18 +92,18 @@ Object {
           target="_blank"
         >
           <button
-            class="sc-fzplWN ewqREn"
+            class="sc-fznZeY gDvLfc"
           >
             Sign Up For Newsletter
           </button>
         </a>
       </div>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind.
       </p>
-    </main>
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -2,28 +2,29 @@ import styled from 'styled-components'
 
 import { Link } from 'react-router-dom'
 
-export const MainContainer = styled.main`
-  max-width: 960px;
-  margin: auto;
-  padding: 10px;
-`
-
 export const H1 = styled.h1`
   text-align: center;
   font-family: meathflfregular;
-  font-size: 55px;
-  margin: 10px;
+  font-size: 3.4375em;
+  margin: 0.625em;
 `
 
 export const H2 = styled.h2`
-  font-size: 24px;
+  font-size: 2em;
   font-weight: bold;
-  margin: 10px 0px;
+  margin: 0.625em 0em;
+  text-align: center;
 `
 
 export const Text = styled.p`
-  font-size: 18px;
+  font-size: 1.125em;
+
+  @media screen and (min-width: 960px) {
+    font-size: 1.5em;
+  }
 `
+
+export const Bold = styled.b``
 
 export const Figure = styled.figure`
   display: flex;
@@ -34,7 +35,7 @@ export const Figure = styled.figure`
 export const Image = styled.img`
   width: 50%;
 
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 960px) {
     width: 25%;
   }
 `
@@ -48,3 +49,15 @@ export const ExternalLink = styled.a`
   color: black;
   cursor: pointer;
 `
+
+export const Divider = styled.section`
+  @media screen and (min-width: 960px) {
+    padding: 0em 12.5em;
+  }
+`
+
+export const CenterText = styled(Text)`
+  text-align: center;
+`
+
+export const Button = styled.button``

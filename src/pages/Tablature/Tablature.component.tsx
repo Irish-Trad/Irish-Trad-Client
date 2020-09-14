@@ -5,11 +5,11 @@ import * as GDAE from './routes/GDAE'
 import * as GDAD from './routes/GDAD'
 
 import {
-  MainContainer,
   H1,
   H2,
   Text,
   ExternalLink,
+  Divider,
 } from 'common/StyledComponents/StyledComponents'
 
 import { Section, InternalLink, Title, Button } from './Tablature.styles'
@@ -18,7 +18,7 @@ const Tabs: React.FC = () => {
   const [showGDAE, setShowGDAE] = useState<boolean>(true)
 
   return (
-    <MainContainer>
+    <>
       <Metadata
         title="Irish-Trad.net - Tablature"
         metaTitle="Irish-Trad.net - Tablature"
@@ -26,25 +26,27 @@ const Tabs: React.FC = () => {
         metaDescription="Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
       />
       <H1>Tablature</H1>
-      <Text>
-        For those more familiar with Tablature than standard music notation or
-        ABC notation I have taken a number of tunes from TheSession.org and
-        tabbed them out for both GDAE and GDAD.
-      </Text>
-      <Text>
-        Clicking on each link below will open the file in a .pdf format.
-      </Text>
-      <Text>
-        If you find these useful in anyway you should visit TheSession.org and
-        consider donating to the website. It has stood as a beacon for sharing
-        and educating on musicians on traditional irish music for many years.
-      </Text>
-      <Text>
-        Donation Page for TheSession.org:{' '}
-        <ExternalLink href="https://thesession.org/donate" target="_blank">
-          TheSession.org - Donation Page
-        </ExternalLink>
-      </Text>
+      <Divider>
+        <Text>
+          For those more familiar with Tablature than standard music notation or
+          ABC notation I have taken a number of tunes from TheSession.org and
+          tabbed them out for both GDAE and GDAD.
+        </Text>
+        <Text>
+          Clicking on each link below will open the file in a .pdf format.
+        </Text>
+        <Text>
+          If you find these useful in anyway you should visit TheSession.org and
+          consider donating to the website. It has stood as a beacon for sharing
+          and educating on musicians on traditional irish music for many years.
+        </Text>
+        <Text>
+          Donation Page for TheSession.org:{' '}
+          <ExternalLink href="https://thesession.org/donate" target="_blank">
+            TheSession.org - Donation Page
+          </ExternalLink>
+        </Text>
+      </Divider>
       <Title>
         <H1>{showGDAE ? 'GDAE' : 'GDAD'}</H1>
         <Button onClick={() => setShowGDAE(!showGDAE)}>Toggle Tuning</Button>
@@ -248,7 +250,7 @@ const Tabs: React.FC = () => {
           </Section>
         </>
       )}
-    </MainContainer>
+    </>
   )
 }
 

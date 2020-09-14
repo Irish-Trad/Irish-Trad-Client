@@ -1,12 +1,14 @@
-import React, { FC, lazy, Suspense } from 'react'
+import React, { lazy, Suspense, useState } from 'react'
 
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
-import Header from 'components/Header'
-import Footer from 'components/Footer'
-import Loading from 'pages/Loading'
+import DesktopHeader from 'components/DesktopHeader'
+import MobileHeader from 'components/MobileHeader'
+import MobileFooter from 'components/MobileFooter'
+import Spinner from 'components/Spinner'
+import ScrollToTop from 'components/ScrollToTop'
 
-import { AppContainer } from 'App.styles'
+import { Container, MainContainer } from './App.styles'
 
 const Homepage = lazy(
   () => import('pages/Homepage' /* webpackChunkName: 'Homepage' */)
@@ -43,53 +45,71 @@ const Community = lazy(
 const HowToReadTab = lazy(
   () =>
     import(
-      'pages/Lessons/pages/HowToReadTab' /* webpackChunkName: 'HowToReadTab' */
-    )
+      'pages/Lessons/pages/HowToReadTab'
+    ) /* webpackChunkName: 'HowToReadTab' */
 )
 
 const HowToString = lazy(
   () =>
     import(
-      'pages/Lessons/pages/HowToString' /* webpackChunkName: 'HowToString' */
-    )
+      'pages/Lessons/pages/HowToString'
+    ) /* webpackChunkName: 'HowToString' */
 )
 
 const HowToTune = lazy(
   () =>
-    import('pages/Lessons/pages/HowToTune' /* webpackChunkName: 'HowToTune' */)
+    import('pages/Lessons/pages/HowToTune') /* webpackChunkName: 'HowToTune' */
 )
 
 const Tablature = lazy(
-  () => import('pages/Tablature' /* webpackChunkName: 'Tablature' */)
+  () => import('pages/Tablature') /* webpackChunkName: 'Tablature' */
 )
 
-const App: FC = () => (
-  <AppContainer>
+const App: React.FC = () => {
+  const [hidden, toggleHidden] = useState(false)
+
+  return (
     <Router basename={`/${process.env.PUBLIC_URL}`}>
-      <Header />
-      <Suspense fallback={Loading}>
-        <Switch>
-          <Route exact path="/" component={Homepage} />
-          <Route exact path="/chords" component={Chords} />
-          <Route exact path="/clef-to-tab" component={ClefToTab} />
-          <Route exact path="/community" component={Community} />
-          <Route exact path="/newsletter" component={Newsletter} />
-          <Route exact path="/lessons" component={Lessons} />
-          <Route
-            exact
-            path="/lessons/how-to-read-tab"
-            component={HowToReadTab}
-          />
-          <Route exact path="/lessons/how-to-string" component={HowToString} />
-          <Route exact path="/lessons/how-to-tune" component={HowToTune} />
-          <Route exact path="/terminology" component={Terminology} />
-          <Route exact path="/tablature" component={Tablature} />
-          <Route path="*" component={NotFound} />
-        </Switch>
-      </Suspense>
-      <Footer />
+      <Container hidden={hidden}>
+        <DesktopHeader />
+        <div>
+          <MobileHeader hidden={hidden} toggleHidden={toggleHidden} />
+          <MainContainer id="top">
+            <Suspense fallback={Spinner}>
+              <Switch>
+                <Route exact path="/" component={Homepage} />
+                <Route exact path="/chords" component={Chords} />
+                <Route exact path="/clef-to-tab" component={ClefToTab} />
+                <Route exact path="/community" component={Community} />
+                <Route exact path="/newsletter" component={Newsletter} />
+                <Route exact path="/lessons" component={Lessons} />
+                <Route
+                  exact
+                  path="/lessons/how-to-read-tab"
+                  component={HowToReadTab}
+                />
+                <Route
+                  exact
+                  path="/lessons/how-to-string"
+                  component={HowToString}
+                />
+                <Route
+                  exact
+                  path="/lessons/how-to-tune"
+                  component={HowToTune}
+                />
+                <Route exact path="/terminology" component={Terminology} />
+                <Route exact path="/tablature" component={Tablature} />
+                <Route path="*" component={NotFound} />
+              </Switch>
+            </Suspense>
+            <ScrollToTop />
+          </MainContainer>
+        </div>
+        <MobileFooter />
+      </Container>
     </Router>
-  </AppContainer>
-)
+  )
+}
 
 export default App

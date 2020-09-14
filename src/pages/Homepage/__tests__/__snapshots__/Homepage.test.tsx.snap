@@ -5,221 +5,211 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <main
-        class="sc-AxjAm bWdCkp"
+      <div
+        class="sc-AxiKw GpZOh"
       >
         <h1
-          class="sc-AxirZ bgEceZ"
+          class="sc-AxirZ gNiWLG"
         >
           Irish-Trad.net
         </h1>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxhUy hNQDts"
         >
           Irish-Trad.net provides free online resources and lessons for a variety of stringed instruments commonly found in traditional Irish sessions such as the Irish Bouzouki, Mandolin, Octave Mandola and Irish Tenor Banjo.
         </p>
-        <figure
-          class="sc-AxhUy eCkurO"
+      </div>
+      <section
+        class="sc-AxgMl cSzxJY"
+      >
+        <h2
+          class="sc-AxhCb iNSDVJ"
         >
-          <img
-            alt="Ozark 2243E Irish Bouzouki"
-            class="sc-AxgMl itaPbS"
-            src="assets/low-quality/2243E.jpg"
-            title="Ozark 2243E Irish Bouzouki"
-          />
-          <figcaption
-            class="sc-AxheI ByOdM"
-          >
-            Pictured: Ozark 2243E Irish Bouzouki
-          </figcaption>
-        </figure>
+          Introduction
+        </h2>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxhUy hNQDts"
         >
-          Since all of these instruments can be tuned to the standard GDAE or alternative GDAD tuning all of the resources found on Irish-Trad.net such as chord diagrams and scales will apply.
+          The resources found on Irish-Trad.net such as chord diagrams and scales refer to any instrument that can be tuned to the standard GDAE or alternative GDAD tuning.
         </p>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxhUy hNQDts"
         >
-          The Irish Bouzouki is a popular stringed instrument used for accompaniment during traditional Irish sessions. Due to the Irish Bouzouki's scale length and overall pitch this tends to be in the form of chordal accompaniment however the instrument is also capable of performing melody lines. It is a relatively young instrument and a lot of its history & origin can be found on Wikipedia:
-           
+          Most people who decide to learn traditional Irish music for the first time do so having already played a different stringed instrument such as the guitar. For guitar players, the most popular method of teaching is through tablature because of the simplicity and ability to get a person playing quickly. The lessons and resources on Irish-Trad.net are presented in tablature (TAB) alongside traditional sheet music to satisfy the absolute beginner and the musically trained.
+        </p>
+        <p
+          class="sc-AxhUy hNQDts"
+        >
+          Irish-Trad.net will not be hosting any copyrighted tunes or songs and instead aims to provide all the information and musical theory required to bring a player to the level where they can use a website such as
           <a
-            class="sc-Axmtr hnVcAG"
-            href="https://en.wikipedia.org/wiki/Irish_Bouzouki"
-            target="_blank"
-          >
-            Wikipedia - Irish Bouzouki
-          </a>
-          .
-        </p>
-        <p
-          class="sc-AxhCb hMXmbp"
-        >
-          Most people who discover the Irish Bouzouki for the first time do so having already played a different stringed instrument such as the guitar, mandolin or banjo. For guitar players, the most popular method of teaching is through tablature because of its simplicity and ability to get a person playing quickly. The lessons and resources on Irish-Trad.net are presented in tablature (TAB) alongside traditional sheet music to satisfy the absolute beginner and the musically trained.
-        </p>
-        <p
-          class="sc-AxhCb hMXmbp"
-        >
-          Irish-Trad.net will not be hosting any copyrighted tunes or songs but instead provides all the information and musical theory required to bring a player to the level where they can use a website such as
-           
-          <a
-            class="sc-Axmtr hnVcAG"
+            class="sc-AxjAm iItssD"
             href="https://thesession.org/"
           >
-            The Session
+             The Session
           </a>
-           to play any of the tunes available there.
+          to play any of the tunes available there.
         </p>
+      </section>
+      <section
+        class="sc-AxgMl cSzxJY"
+      >
         <h2
-          class="sc-AxiKw dSOSMS"
+          class="sc-AxhCb iNSDVJ"
         >
           Lessons
         </h2>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxhUy hNQDts"
         >
-          The lessons section will provide information such as open chords, basic scales, barre and 'moveable' chords and additional information such as how to use accessories like a capo or how to change and tune Bouzouki strings. Music theory will also be used to reinforce an understanding of how chords and scales are construced.
+          The lessons section will provide information such as open chords, basic scales, moveable chords (barre) and additional information such as how to use accessories like a capo or how to change and tune strings. Music theory will also be used to reinforce an understanding of how chords and scales are construced.
         </p>
+      </section>
+      <section
+        class="sc-AxgMl cSzxJY"
+      >
         <h2
-          class="sc-AxiKw dSOSMS"
+          class="sc-AxhCb iNSDVJ"
         >
           Chords
         </h2>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxhUy hNQDts"
         >
           The chords section provides chord charts for the two most common tunings - GDAE and GDAD. The section covers basic triads such as Major and Minor and extended chords such as Major 7th, Minor 7th and Dominant 7th. The section will be expanded to include 'quick' moveable chords.
         </p>
+      </section>
+      <section
+        class="sc-AxgMl cSzxJY"
+      >
         <h2
-          class="sc-AxiKw dSOSMS"
+          class="sc-AxhCb iNSDVJ"
         >
           Clef to TAB
         </h2>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxhUy hNQDts"
         >
           The Cleft-to-TAB section provides a conversion chart that allows for any piece of sheet music found in a book or online to be converted into tablature - as long as the piece music covers less than 4 octaves (the range of the Irish Bouzouki).
         </p>
+      </section>
+      <section
+        class="sc-AxgMl cSzxJY"
+      >
         <h2
-          class="sc-AxiKw dSOSMS"
+          class="sc-AxhCb iNSDVJ"
         >
           Terminology
         </h2>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxhUy hNQDts"
         >
           The terminology section provides an A-Z of common phrases, names and abbreviations that can be found across traditional irish music and session settings.
         </p>
-      </main>
+      </section>
     </div>
   </body>,
   "container": <div>
-    <main
-      class="sc-AxjAm bWdCkp"
+    <div
+      class="sc-AxiKw GpZOh"
     >
       <h1
-        class="sc-AxirZ bgEceZ"
+        class="sc-AxirZ gNiWLG"
       >
         Irish-Trad.net
       </h1>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxhUy hNQDts"
       >
         Irish-Trad.net provides free online resources and lessons for a variety of stringed instruments commonly found in traditional Irish sessions such as the Irish Bouzouki, Mandolin, Octave Mandola and Irish Tenor Banjo.
       </p>
-      <figure
-        class="sc-AxhUy eCkurO"
+    </div>
+    <section
+      class="sc-AxgMl cSzxJY"
+    >
+      <h2
+        class="sc-AxhCb iNSDVJ"
       >
-        <img
-          alt="Ozark 2243E Irish Bouzouki"
-          class="sc-AxgMl itaPbS"
-          src="assets/low-quality/2243E.jpg"
-          title="Ozark 2243E Irish Bouzouki"
-        />
-        <figcaption
-          class="sc-AxheI ByOdM"
-        >
-          Pictured: Ozark 2243E Irish Bouzouki
-        </figcaption>
-      </figure>
+        Introduction
+      </h2>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxhUy hNQDts"
       >
-        Since all of these instruments can be tuned to the standard GDAE or alternative GDAD tuning all of the resources found on Irish-Trad.net such as chord diagrams and scales will apply.
+        The resources found on Irish-Trad.net such as chord diagrams and scales refer to any instrument that can be tuned to the standard GDAE or alternative GDAD tuning.
       </p>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxhUy hNQDts"
       >
-        The Irish Bouzouki is a popular stringed instrument used for accompaniment during traditional Irish sessions. Due to the Irish Bouzouki's scale length and overall pitch this tends to be in the form of chordal accompaniment however the instrument is also capable of performing melody lines. It is a relatively young instrument and a lot of its history & origin can be found on Wikipedia:
-         
+        Most people who decide to learn traditional Irish music for the first time do so having already played a different stringed instrument such as the guitar. For guitar players, the most popular method of teaching is through tablature because of the simplicity and ability to get a person playing quickly. The lessons and resources on Irish-Trad.net are presented in tablature (TAB) alongside traditional sheet music to satisfy the absolute beginner and the musically trained.
+      </p>
+      <p
+        class="sc-AxhUy hNQDts"
+      >
+        Irish-Trad.net will not be hosting any copyrighted tunes or songs and instead aims to provide all the information and musical theory required to bring a player to the level where they can use a website such as
         <a
-          class="sc-Axmtr hnVcAG"
-          href="https://en.wikipedia.org/wiki/Irish_Bouzouki"
-          target="_blank"
-        >
-          Wikipedia - Irish Bouzouki
-        </a>
-        .
-      </p>
-      <p
-        class="sc-AxhCb hMXmbp"
-      >
-        Most people who discover the Irish Bouzouki for the first time do so having already played a different stringed instrument such as the guitar, mandolin or banjo. For guitar players, the most popular method of teaching is through tablature because of its simplicity and ability to get a person playing quickly. The lessons and resources on Irish-Trad.net are presented in tablature (TAB) alongside traditional sheet music to satisfy the absolute beginner and the musically trained.
-      </p>
-      <p
-        class="sc-AxhCb hMXmbp"
-      >
-        Irish-Trad.net will not be hosting any copyrighted tunes or songs but instead provides all the information and musical theory required to bring a player to the level where they can use a website such as
-         
-        <a
-          class="sc-Axmtr hnVcAG"
+          class="sc-AxjAm iItssD"
           href="https://thesession.org/"
         >
-          The Session
+           The Session
         </a>
-         to play any of the tunes available there.
+        to play any of the tunes available there.
       </p>
+    </section>
+    <section
+      class="sc-AxgMl cSzxJY"
+    >
       <h2
-        class="sc-AxiKw dSOSMS"
+        class="sc-AxhCb iNSDVJ"
       >
         Lessons
       </h2>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxhUy hNQDts"
       >
-        The lessons section will provide information such as open chords, basic scales, barre and 'moveable' chords and additional information such as how to use accessories like a capo or how to change and tune Bouzouki strings. Music theory will also be used to reinforce an understanding of how chords and scales are construced.
+        The lessons section will provide information such as open chords, basic scales, moveable chords (barre) and additional information such as how to use accessories like a capo or how to change and tune strings. Music theory will also be used to reinforce an understanding of how chords and scales are construced.
       </p>
+    </section>
+    <section
+      class="sc-AxgMl cSzxJY"
+    >
       <h2
-        class="sc-AxiKw dSOSMS"
+        class="sc-AxhCb iNSDVJ"
       >
         Chords
       </h2>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxhUy hNQDts"
       >
         The chords section provides chord charts for the two most common tunings - GDAE and GDAD. The section covers basic triads such as Major and Minor and extended chords such as Major 7th, Minor 7th and Dominant 7th. The section will be expanded to include 'quick' moveable chords.
       </p>
+    </section>
+    <section
+      class="sc-AxgMl cSzxJY"
+    >
       <h2
-        class="sc-AxiKw dSOSMS"
+        class="sc-AxhCb iNSDVJ"
       >
         Clef to TAB
       </h2>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxhUy hNQDts"
       >
         The Cleft-to-TAB section provides a conversion chart that allows for any piece of sheet music found in a book or online to be converted into tablature - as long as the piece music covers less than 4 octaves (the range of the Irish Bouzouki).
       </p>
+    </section>
+    <section
+      class="sc-AxgMl cSzxJY"
+    >
       <h2
-        class="sc-AxiKw dSOSMS"
+        class="sc-AxhCb iNSDVJ"
       >
         Terminology
       </h2>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxhUy hNQDts"
       >
         The terminology section provides an A-Z of common phrases, names and abbreviations that can be found across traditional irish music and session settings.
       </p>
-    </main>
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -1,9 +1,9 @@
 import React from 'react'
 import { render, cleanup } from '@testing-library/react'
 import { HashRouter } from 'react-router-dom'
-import Header from '../Header.component'
+import DesktopHeader from '../DesktopHeader.component'
 
-describe('Header', () => {
+describe('DesktopHeader', () => {
   afterEach(() => {
     cleanup()
   })
@@ -11,17 +11,17 @@ describe('Header', () => {
   it('Snapshot', () => {
     const snapshot = render(
       <HashRouter>
-        <Header />
+        <DesktopHeader />
       </HashRouter>
     )
 
     expect(snapshot).toMatchSnapshot()
   })
 
-  it('Header should render all possible tabs', () => {
+  it('DesktopHeader should render all possible tabs', () => {
     const { getByText } = render(
       <HashRouter>
-        <Header />
+        <DesktopHeader />
       </HashRouter>
     )
 
@@ -29,7 +29,7 @@ describe('Header', () => {
     expect(getByText('Tablature')).toBeInTheDocument()
     expect(getByText('Lessons')).toBeInTheDocument()
     expect(getByText('Chords')).toBeInTheDocument()
-    expect(getByText('Clef to TAB')).toBeInTheDocument()
+    expect(getByText('Clef to Tab')).toBeInTheDocument()
     expect(getByText('Terminology')).toBeInTheDocument()
     expect(getByText('Community')).toBeInTheDocument()
     expect(getByText('Newsletter')).toBeInTheDocument()

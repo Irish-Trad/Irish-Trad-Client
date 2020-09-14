@@ -5,45 +5,39 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="sc-AxjAm StDqN"
-      >
-        <h1
-          class="sc-AxirZ ktnnZK"
-        >
-          404 - No Page Found
-        </h1>
-        <a
-          href="#/"
-        >
-          <button
-            class="sc-AxiKw bOTXee"
-          >
-            Click Here to Return Home
-          </button>
-        </a>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="sc-AxjAm StDqN"
-    >
       <h1
-        class="sc-AxirZ ktnnZK"
+        class="sc-AxjAm kJNFlM"
       >
         404 - No Page Found
       </h1>
       <a
+        class="sc-Axmtr hBVTto"
         href="#/"
       >
         <button
-          class="sc-AxiKw bOTXee"
+          class="sc-fzpans kkFAbe"
         >
           Click Here to Return Home
         </button>
       </a>
     </div>
+  </body>,
+  "container": <div>
+    <h1
+      class="sc-AxjAm kJNFlM"
+    >
+      404 - No Page Found
+    </h1>
+    <a
+      class="sc-Axmtr hBVTto"
+      href="#/"
+    >
+      <button
+        class="sc-fzpans kkFAbe"
+      >
+        Click Here to Return Home
+      </button>
+    </a>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

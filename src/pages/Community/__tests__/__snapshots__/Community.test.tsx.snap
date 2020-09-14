@@ -5,29 +5,29 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <main
-        class="sc-AxjAm bWdCkp"
+      <h1
+        class="sc-AxjAm kJNFlM"
       >
-        <h1
-          class="sc-AxirZ bgEceZ"
-        >
-          Community
-        </h1>
+        Community
+      </h1>
+      <section
+        class="sc-fzozJi ezzvPo"
+      >
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           I have created a Discord server to allow users of Irish-Trad.net to interact with each other and discuss various topics regarding Irish Trad music.
         </p>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           To join the Irish-Trad.net Discord Server simply click the following Icon or Button:
         </p>
         <div
-          class="sc-fzpans bbJTmQ"
+          class="sc-fznKkj dsTOEk"
         >
           <a
-            class="sc-fzozJi jxgYyc"
+            class="sc-fzplWN kfkaqr"
             href="https://discord.gg/Mq9jeA8"
             target="_blank"
           >
@@ -41,19 +41,19 @@ Object {
             target="_blank"
           >
             <button
-              class="sc-fzplWN ewqREn"
+              class="sc-fznZeY gDvLfc"
             >
               Click Here To Join Discord
             </button>
           </a>
         </div>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           Discord is a free platform that allows for live voice and text communication similar to Skype, Messenger and IRC channels of old.
         </p>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           To get an idea of what a Discord server looks like you can click the following Image:
         </p>
@@ -61,13 +61,13 @@ Object {
           class="sc-AxhUy bmKebj"
         >
           <a
-            class="sc-fzozJi jxgYyc"
+            class="sc-fzplWN kfkaqr"
             href="assets/discord.jpg"
             target="_blank"
           >
             <img
               alt="Screenshot of Discord"
-              class="sc-fznyAO lhbMCo"
+              class="sc-fzokOt bjmRIa"
               src="assets/discord.jpg"
               title="Screenshot of Discord"
             />
@@ -79,12 +79,12 @@ Object {
           </figcaption>
         </figure>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           Clicking on one of the specific channels found on the left brings you into that chatroom were you can discuss that particular topic.
         </p>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           For more information about Discord you can visit the official Discord webpage here:
            
@@ -98,42 +98,42 @@ Object {
           </a>
         </p>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           Discord can be accessed through any web browser and downloaded as an application on desktop and mobile.
         </p>
         <p
-          class="sc-AxhCb hMXmbp"
+          class="sc-AxiKw dxfDYx"
         >
           The Discord icon can also be found in the footer of every page to make future access easier.
         </p>
-      </main>
+      </section>
     </div>
   </body>,
   "container": <div>
-    <main
-      class="sc-AxjAm bWdCkp"
+    <h1
+      class="sc-AxjAm kJNFlM"
     >
-      <h1
-        class="sc-AxirZ bgEceZ"
-      >
-        Community
-      </h1>
+      Community
+    </h1>
+    <section
+      class="sc-fzozJi ezzvPo"
+    >
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         I have created a Discord server to allow users of Irish-Trad.net to interact with each other and discuss various topics regarding Irish Trad music.
       </p>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         To join the Irish-Trad.net Discord Server simply click the following Icon or Button:
       </p>
       <div
-        class="sc-fzpans bbJTmQ"
+        class="sc-fznKkj dsTOEk"
       >
         <a
-          class="sc-fzozJi jxgYyc"
+          class="sc-fzplWN kfkaqr"
           href="https://discord.gg/Mq9jeA8"
           target="_blank"
         >
@@ -147,19 +147,19 @@ Object {
           target="_blank"
         >
           <button
-            class="sc-fzplWN ewqREn"
+            class="sc-fznZeY gDvLfc"
           >
             Click Here To Join Discord
           </button>
         </a>
       </div>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         Discord is a free platform that allows for live voice and text communication similar to Skype, Messenger and IRC channels of old.
       </p>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         To get an idea of what a Discord server looks like you can click the following Image:
       </p>
@@ -167,13 +167,13 @@ Object {
         class="sc-AxhUy bmKebj"
       >
         <a
-          class="sc-fzozJi jxgYyc"
+          class="sc-fzplWN kfkaqr"
           href="assets/discord.jpg"
           target="_blank"
         >
           <img
             alt="Screenshot of Discord"
-            class="sc-fznyAO lhbMCo"
+            class="sc-fzokOt bjmRIa"
             src="assets/discord.jpg"
             title="Screenshot of Discord"
           />
@@ -185,12 +185,12 @@ Object {
         </figcaption>
       </figure>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         Clicking on one of the specific channels found on the left brings you into that chatroom were you can discuss that particular topic.
       </p>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         For more information about Discord you can visit the official Discord webpage here:
          
@@ -204,16 +204,16 @@ Object {
         </a>
       </p>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         Discord can be accessed through any web browser and downloaded as an application on desktop and mobile.
       </p>
       <p
-        class="sc-AxhCb hMXmbp"
+        class="sc-AxiKw dxfDYx"
       >
         The Discord icon can also be found in the footer of every page to make future access easier.
       </p>
-    </main>
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
