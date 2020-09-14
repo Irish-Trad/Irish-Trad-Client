@@ -7,7 +7,7 @@ export const StyledLink = styled.a``
 export const StyledIcon = styled(FontAwesomeIcon)`
   font-size: 106px;
   color: #006400;
-  margin: 10px;
+  margin: 0.625em;
 `
 
 export const ButtonContainer = styled.div`
@@ -24,6 +24,6 @@ export const Button = styled.button`
   border: none;
   border-radius: 12px;
   font-size: 16px;
-  padding: 10px;
+  padding: 0.625em;
   cursor: pointer;
 `

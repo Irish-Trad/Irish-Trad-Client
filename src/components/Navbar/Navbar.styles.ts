@@ -16,7 +16,7 @@ export const Navigation = styled.nav`
     display: flex;
     position: initial;
     width: 100%;
-    margin: 30px 0px;
+    margin: 30px 0em;
     /* scrollbar-width: none; */
   }
 `

@@ -1,16 +1,17 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom'
-
-import { H1 } from 'common/StyledComponents/StyledComponents'
-import { Button } from './NotFound.styles'
+import {
+  H1,
+  Button,
+  InternalLink,
+} from 'common/StyledComponents/StyledComponents'
 
 const NotFound: React.FC = () => (
   <>
     <H1>404 - No Page Found</H1>
-    <Link to={'/'}>
+    <InternalLink to={'/'}>
       <Button>Click Here to Return Home</Button>
-    </Link>
+    </InternalLink>
   </>
 )
 

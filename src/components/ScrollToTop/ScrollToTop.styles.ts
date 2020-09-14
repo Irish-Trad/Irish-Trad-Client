@@ -16,8 +16,8 @@ export const Button = styled.button`
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  border-radius: 0.625em; /* Rounded corners */
+  font-size: 1.125em; /* Increase font size */
 
   &:hover {
     background: linear-gradient(to bottom, darkgreen, green);

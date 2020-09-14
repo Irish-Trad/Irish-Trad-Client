@@ -12,7 +12,7 @@ export const H1 = styled.h1`
 
   text-align: center;
   font-family: meathflfregular;
-  margin: 10px;
+  margin: 0.625em;
 
   @media screen and (min-width: 960px) {
     font-size: 10em;
@@ -30,14 +30,14 @@ export const IntroContainer = styled.div`
     color: white;
     flex-flow: column nowrap;
     height: 100vh;
-    padding: 0px 200px;
+    padding: 0em 200px;
   }
 `
 
 export const H2 = styled.h2`
   font-size: 2em;
   font-weight: bold;
-  margin: 10px 0px;
+  margin: 0.625em 0em;
   text-align: center;
   text-decoration: underline green 5px;
   text-underline-offset: 15px;
@@ -53,7 +53,7 @@ export const Text = styled.p`
   font-size: 1.125em;
 
   @media screen and (min-width: 960px) {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 `
 

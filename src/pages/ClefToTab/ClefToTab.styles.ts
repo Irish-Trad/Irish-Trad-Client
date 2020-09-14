@@ -1,13 +1,6 @@
 import styled from 'styled-components'
 import { HashLink as Link } from 'react-router-hash-link'
 
-export const H1 = styled.h1`
-  text-align: center;
-  font-family: meathflfregular;
-  font-size: 55px;
-  margin: 10px;
-`
-
 export const ButtonContainer = styled.div`
   display: flex;
   flex-flow: row wrap;
@@ -23,10 +16,6 @@ export const Button = styled.button`
   font-size: 16px;
   padding: 5px;
   cursor: pointer;
-`
-
-export const Text = styled.p`
-  font-size: 18px;
 `
 
 export const InternalLink = styled.a`

@@ -18,5 +18,5 @@ export const StyledLink = styled.a``
 export const StyledIcon = styled(FontAwesomeIcon)`
   font-size: 36px;
   color: white;
-  margin: 10px;
+  margin: 0.625em;
 `

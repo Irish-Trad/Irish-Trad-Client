@@ -1,5 +1,11 @@
 import styled from 'styled-components'
 
+export const H2 = styled.h2`
+  font-size: 23px;
+  font-weight: bold;
+  margin: 0.625em 0em;
+`
+
 export const ButtonContainer = styled.div`
   display: flex;
   flex-flow: row wrap;
@@ -12,7 +18,7 @@ export const Button = styled.button`
   border: none;
   border-radius: 12px;
   font-size: 16px;
-  padding: 10px;
+  padding: 0.625em;
   cursor: pointer;
 `
 
