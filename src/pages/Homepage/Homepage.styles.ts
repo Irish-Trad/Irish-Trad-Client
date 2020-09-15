@@ -8,8 +8,7 @@ export const ExternalLink = styled.a`
 `
 
 export const H1 = styled.h1`
-  font-size: 3.4375em;
-
+  font-size: 3em;
   text-align: center;
   font-family: meathflfregular;
   margin: 0.625em;
