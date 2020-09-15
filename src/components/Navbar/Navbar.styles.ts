@@ -17,6 +17,7 @@ export const Navigation = styled.nav`
     position: initial;
     width: 100%;
     margin: 30px 0em;
+    /* padding: 20px; */
   }
 `
 
@@ -25,7 +26,7 @@ export const InternalLink = styled(Link)`
   color: white;
   padding: 12px 24px;
   text-align: center;
-  padding: 20px 0;
+  margin: 20px 0;
 
   &:hover {
     background: rgba(0, 0, 0, 0.15);
@@ -34,5 +35,6 @@ export const InternalLink = styled(Link)`
   @media screen and (min-width: 960px) {
     text-align: initial;
     margin: initial;
+    padding: 20px;
   }
 `
