@@ -19,13 +19,15 @@ const Homepage: React.FC = () => (
       metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandola/Irish Tenor Banjo"
     />
     <IntroContainer>
-      <H1>Irish-Trad.net</H1>
-      <Text>
-        Irish-Trad.net provides free online resources and lessons for a variety
-        of stringed instruments commonly found in traditional Irish sessions
-        such as the Irish Bouzouki, Mandolin, Octave Mandola and Irish Tenor
-        Banjo.
-      </Text>
+      <div>
+        <H1>Irish-Trad.net</H1>
+        <Text>
+          Irish-Trad.net provides free online resources and lessons for a
+          variety of stringed instruments commonly found in traditional Irish
+          sessions such as the Irish Bouzouki, Mandolin, Octave Mandola and
+          Irish Tenor Banjo.
+        </Text>
+      </div>
     </IntroContainer>
     <Divider>
       <H2>Introduction</H2>
