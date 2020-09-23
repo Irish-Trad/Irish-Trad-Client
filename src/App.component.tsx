@@ -35,34 +35,36 @@ const Terminology = lazy(
 )
 
 const Newsletter = lazy(
-  () => import('pages/Newsletter') /* webpackChunkName: 'Newsletter' */
+  () => import('pages/Newsletter' /* webpackChunkName: 'Newsletter' */)
 )
 
 const Community = lazy(
-  () => import('pages/Community') /* webpackChunkName: 'Community' */
+  () => import('pages/Community' /* webpackChunkName: 'Community' */)
 )
 
 const HowToReadTab = lazy(
   () =>
     import(
       'pages/Lessons/pages/HowToReadTab'
-    ) /* webpackChunkName: 'HowToReadTab' */
+      /* webpackChunkName: 'HowToReadTab' */
+    )
 )
 
 const HowToString = lazy(
   () =>
     import(
       'pages/Lessons/pages/HowToString'
-    ) /* webpackChunkName: 'HowToString' */
+      /* webpackChunkName: 'HowToString' */
+    )
 )
 
 const HowToTune = lazy(
   () =>
-    import('pages/Lessons/pages/HowToTune') /* webpackChunkName: 'HowToTune' */
+    import('pages/Lessons/pages/HowToTune' /* webpackChunkName: 'HowToTune' */)
 )
 
 const Tablature = lazy(
-  () => import('pages/Tablature') /* webpackChunkName: 'Tablature' */
+  () => import('pages/Tablature' /* webpackChunkName: 'Tablature' */)
 )
 
 const App: React.FC = () => {
