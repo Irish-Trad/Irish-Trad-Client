@@ -5,9 +5,11 @@ import Homepage from '../Homepage.component'
 const renderComponent = () => render(<Homepage />)
 
 describe('Homepage', () => {
-  afterEach(() => {
-    cleanup()
+  beforeEach(() => {
+    document.body.innerHTML = "<div id='top'></div>"
   })
+
+  afterEach(cleanup)
 
   it('Snapshot', () => {
     const snapshot = renderComponent()

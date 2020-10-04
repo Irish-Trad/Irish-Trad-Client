@@ -1,9 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
+
 import App from './App.component'
-import './fontawesome'
 import * as serviceWorker from './serviceWorker'
+
+import './fontawesome'
+
+import 'animate.css/animate.min.css'
+import './index.css'
 
 ReactDOM.render(
   <React.StrictMode>
