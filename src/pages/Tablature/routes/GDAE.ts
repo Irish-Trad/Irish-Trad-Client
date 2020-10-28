@@ -600,6 +600,38 @@ export const Slip: Array<Props> = [
     name: `The Rocky Road To Dublin - X1`,
     path: `assets/tunes/pdf/GDAE/Slip/The Rocky Road To Dublin - X1.pdf`,
   },
+  {
+    name: `A Fig For A Kiss - X1`,
+    path: `assets/tunes/pdf/GDAE/Slip/A Fig For A Kiss - X1.pdf`,
+  },
+  {
+    name: `An Phis Fhliuch - X1`,
+    path: `assets/tunes/pdf/GDAE/Slip/An Phis Fhliuch - X1.pdf`,
+  },
+  {
+    name: `Farewell To Whalley Range - X1`,
+    path: `assets/tunes/pdf/GDAE/Slip/Farewell To Whalley Range - X1.pdf`,
+  },
+  {
+    name: `Hardiman The Fiddler - X1`,
+    path: `assets/tunes/pdf/GDAE/Slip/Hardiman The Fiddler - X1.pdf`,
+  },
+  {
+    name: `The Drops Of Brandy - X1`,
+    path: `assets/tunes/pdf/GDAE/Slip/The Drops Of Brandy - X1.pdf`,
+  },
+  {
+    name: `The Foxhunter's - X1`,
+    path: `assets/tunes/pdf/GDAE/Slip/The Foxhunter's - X1.pdf`,
+  },
+  {
+    name: `The Kid On The Mountain - X1`,
+    path: `assets/tunes/pdf/GDAE/Slip/The Kid On The Mountain - X1.pdf`,
+  },
+  {
+    name: `The Snowy Path - X1`,
+    path: `assets/tunes/pdf/GDAE/Slip/The Snowy Path - X1.pdf`,
+  },
 ].sort(sortTunesAtoZ)
 
 export const Waltz: Array<Props> = [
