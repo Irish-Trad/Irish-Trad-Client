@@ -1,12 +1,5 @@
 import styled from 'styled-components'
 
-export const Section = styled.section`
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-`
-
 export const Title = styled.div`
   display: flex;
   flex-flow: column nowrap;
@@ -14,27 +7,41 @@ export const Title = styled.div`
   margin: 40px 0em;
 `
 
-export const InternalLink = styled.a`
-  font-size: 1em;
-  color: green;
-  margin: 0.625em;
-  text-decoration: none;
+export const SearchInput = styled.input`
+  font-size: 16px;
+  padding: 10px;
   border: 3px solid green;
-  padding: 0.625em;
+  border-radius: 5px;
+  color: green;
+
+  width: 70%;
 
   @media screen and (min-width: 960px) {
-    font-size: 2em;
+    width: 360px;
   }
 `
 
 export const Button = styled.button`
-  text-align: center;
-  color: white;
-  background: #006400;
+  background: linear-gradient(to bottom, green, darkgreen);
   border: none;
-  border-radius: 12px;
-  font-size: 16px;
-  padding: 0.625em 15px;
-  cursor: pointer;
+  border-radius: 5px;
+  color: white;
   margin: 5px;
+  font-size: 16px;
+  padding: 10px 30px;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(to bottom, darkgreen, green);
+  }
+`
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+
+  @media screen and (min-width: 960px) {
+    width: 380px;
+  }
 `

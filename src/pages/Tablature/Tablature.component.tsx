@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Metadata from 'common/Metadata'
+import TuneList from './TuneList'
 
 import * as GDAE from './routes/GDAE'
 import * as GDAD from './routes/GDAD'
@@ -12,10 +13,12 @@ import {
   Divider,
 } from 'common/StyledComponents/StyledComponents'
 
-import { Section, InternalLink, Title, Button } from './Tablature.styles'
+import { Title, Button, SearchInput, ButtonContainer } from './Tablature.styles'
 
 const Tabs: React.FC = () => {
   const [showGDAE, setShowGDAE] = useState<boolean>(true)
+  const [searchValue, setSearchValue] = useState<string>('')
+  const [search, setSearch] = useState<boolean>(false)
 
   return (
     <>
@@ -50,206 +53,73 @@ const Tabs: React.FC = () => {
       <Title>
         <H1>{showGDAE ? 'GDAE' : 'GDAD'}</H1>
         <Button onClick={() => setShowGDAE(!showGDAE)}>Toggle Tuning</Button>
+        <SearchInput
+          type="text"
+          value={searchValue}
+          onChange={(e) => setSearchValue(e.target.value)}
+          placeholder={'Search for Tune'}
+        />
+        <ButtonContainer>
+          <Button onClick={() => setSearch(true)}>Search</Button>
+          <Button
+            onClick={() => {
+              setSearch(false)
+              setSearchValue('')
+            }}
+          >
+            Reset
+          </Button>
+        </ButtonContainer>
       </Title>
-      {showGDAE ? (
-        <>
-          <H2>Barndances - GDAE</H2>
-          <Section>
-            {GDAE.Barndance.map((el, idx) => (
-              <InternalLink
-                key={`gdae-barndance-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Hornpipes - GDAE</H2>
-          <Section>
-            {GDAE.Hornpipe.map((el, idx) => (
-              <InternalLink
-                key={`gdae-hornpipe-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Jigs - GDAE</H2>
-          <Section>
-            {GDAE.Jig.map((el, idx) => (
-              <InternalLink
-                key={`gdae-jig-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Marches - GDAE</H2>
-          <Section>
-            {GDAE.March.map((el, idx) => (
-              <InternalLink
-                key={`gdae-march-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Polkas - GDAE</H2>
-          <Section>
-            {GDAE.Polka.map((el, idx) => (
-              <InternalLink
-                key={`gdae-polka-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Reels - GDAE</H2>
-          <Section>
-            {GDAE.Reel.map((el, idx) => (
-              <InternalLink
-                key={`gdae-reel-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Slip-Jigs - GDAE</H2>
-          <Section>
-            {GDAE.Slip.map((el, idx) => (
-              <InternalLink
-                key={`gdae-slip-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Waltzes - GDAE</H2>
-          <Section>
-            {GDAE.Waltz.map((el, idx) => (
-              <InternalLink
-                key={`gdae-waltz-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-        </>
-      ) : (
-        <>
-          <H2>Barndances - GDAD</H2>
-          <Section>
-            {GDAD.Barndance.map((el, idx) => (
-              <InternalLink
-                key={`gdad-barndance-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Hornpipes - GDAD</H2>
-          <Section>
-            {GDAD.Hornpipe.map((el, idx) => (
-              <InternalLink
-                key={`gdad-hornpipe-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Jigs - GDAD</H2>
-          <Section>
-            {GDAD.Jig.map((el, idx) => (
-              <InternalLink
-                key={`gdad-jig-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Marches - GDAD</H2>
-          <Section>
-            {GDAD.March.map((el, idx) => (
-              <InternalLink
-                key={`gdad-march-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Polkas - GDAD</H2>
-          <Section>
-            {GDAD.Polka.map((el, idx) => (
-              <InternalLink
-                key={`gdad-polka-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Reels - GDAD</H2>
-          <Section>
-            {GDAD.Reel.map((el, idx) => (
-              <InternalLink
-                key={`gdad-reel-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Slip-Jigs - GDAD</H2>
-          <Section>
-            {GDAD.Slip.map((el, idx) => (
-              <InternalLink
-                key={`gdad-slip-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-          <H2>Waltzes - GDAD</H2>
-          <Section>
-            {GDAD.Waltz.map((el, idx) => (
-              <InternalLink
-                key={`gdad-waltz-${idx}`}
-                href={el.path}
-                target="_blank"
-              >
-                {el.name}
-              </InternalLink>
-            ))}
-          </Section>
-        </>
-      )}
+      {search ? <H1>Search Results</H1> : null}
+      <H2>Barndances - {showGDAE ? 'GDAE' : 'GDAD'}</H2>
+      <TuneList
+        search={search}
+        tunes={showGDAE ? GDAE.Barndance : GDAD.Barndance}
+        searchValue={searchValue}
+      />
+      <H2>Hornpipes - {showGDAE ? 'GDAE' : 'GDAD'}</H2>
+      <TuneList
+        search={search}
+        tunes={showGDAE ? GDAE.Hornpipe : GDAD.Hornpipe}
+        searchValue={searchValue}
+      />
+      <H2>Jigs - {showGDAE ? 'GDAE' : 'GDAD'}</H2>
+      <TuneList
+        search={search}
+        tunes={showGDAE ? GDAE.Jig : GDAD.Jig}
+        searchValue={searchValue}
+      />
+      <H2>Marches - {showGDAE ? 'GDAE' : 'GDAD'}</H2>
+      <TuneList
+        search={search}
+        tunes={showGDAE ? GDAE.March : GDAD.March}
+        searchValue={searchValue}
+      />
+      <H2>Polkas - {showGDAE ? 'GDAE' : 'GDAD'}</H2>
+      <TuneList
+        search={search}
+        tunes={showGDAE ? GDAE.Polka : GDAD.Polka}
+        searchValue={searchValue}
+      />
+      <H2>Reels - {showGDAE ? 'GDAE' : 'GDAD'}</H2>
+      <TuneList
+        search={search}
+        tunes={showGDAE ? GDAE.Reel : GDAD.Reel}
+        searchValue={searchValue}
+      />
+      <H2>Slip-Jigs - {showGDAE ? 'GDAE' : 'GDAD'}</H2>
+      <TuneList
+        search={search}
+        tunes={showGDAE ? GDAE.Slip : GDAD.Slip}
+        searchValue={searchValue}
+      />
+      <H2>Waltzes - {showGDAE ? 'GDAE' : 'GDAD'}</H2>
+      <TuneList
+        search={search}
+        tunes={showGDAE ? GDAE.Waltz : GDAD.Waltz}
+        searchValue={searchValue}
+      />
     </>
   )
 }
