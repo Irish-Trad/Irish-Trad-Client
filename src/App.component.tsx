@@ -8,6 +8,8 @@ import MobileFooter from 'components/MobileFooter'
 import Spinner from 'components/Spinner'
 import ScrollToTop from 'components/ScrollToTop'
 
+import AccessibilityProvider from './context/app/accessibility.provider'
+
 import { Container, MainContainer } from './App.styles'
 
 const Homepage = lazy(
@@ -67,6 +69,10 @@ const Tablature = lazy(
   () => import('pages/Tablature' /* webpackChunkName: 'Tablature' */)
 )
 
+const Accessibility = lazy(
+  () => import('pages/Accessibility' /* webpackChunkName: 'Accessibility' */)
+)
+
 const App: React.FC = () => {
   const [hidden, toggleHidden] = useState(false)
 
@@ -76,37 +82,44 @@ const App: React.FC = () => {
         <DesktopHeader />
         <div>
           <MobileHeader hidden={hidden} toggleHidden={toggleHidden} />
-          <MainContainer id="top">
-            <Suspense fallback={Spinner}>
-              <Switch>
-                <Route exact path="/" component={Homepage} />
-                <Route exact path="/chords" component={Chords} />
-                <Route exact path="/clef-to-tab" component={ClefToTab} />
-                <Route exact path="/community" component={Community} />
-                <Route exact path="/newsletter" component={Newsletter} />
-                <Route exact path="/lessons" component={Lessons} />
-                <Route
-                  exact
-                  path="/lessons/how-to-read-tab"
-                  component={HowToReadTab}
-                />
-                <Route
-                  exact
-                  path="/lessons/how-to-string"
-                  component={HowToString}
-                />
-                <Route
-                  exact
-                  path="/lessons/how-to-tune"
-                  component={HowToTune}
-                />
-                <Route exact path="/terminology" component={Terminology} />
-                <Route exact path="/tablature" component={Tablature} />
-                <Route path="*" component={NotFound} />
-              </Switch>
-            </Suspense>
-            <ScrollToTop />
-          </MainContainer>
+          <AccessibilityProvider>
+            <MainContainer id="top">
+              <Suspense fallback={Spinner}>
+                <Switch>
+                  <Route exact path="/" component={Homepage} />
+                  <Route exact path="/chords" component={Chords} />
+                  <Route exact path="/clef-to-tab" component={ClefToTab} />
+                  <Route exact path="/community" component={Community} />
+                  <Route exact path="/newsletter" component={Newsletter} />
+                  <Route exact path="/lessons" component={Lessons} />
+                  <Route
+                    exact
+                    path="/lessons/how-to-read-tab"
+                    component={HowToReadTab}
+                  />
+                  <Route
+                    exact
+                    path="/lessons/how-to-string"
+                    component={HowToString}
+                  />
+                  <Route
+                    exact
+                    path="/lessons/how-to-tune"
+                    component={HowToTune}
+                  />
+                  <Route exact path="/terminology" component={Terminology} />
+                  <Route exact path="/tablature" component={Tablature} />
+                  <Route
+                    exact
+                    path="/accessibility"
+                    component={Accessibility}
+                  />
+                  <Route path="*" component={NotFound} />
+                </Switch>
+              </Suspense>
+              <ScrollToTop />
+            </MainContainer>
+          </AccessibilityProvider>
         </div>
         <MobileFooter />
       </Container>

@@ -1,17 +1,13 @@
 import styled from 'styled-components'
 
 export const MainContainer = styled.main`
-  /* max-width: 960px; */
-  /* margin: auto; */
   padding: 0.625em;
-  /* min-height: 90vh; */
   overflow: hidden;
 
   @media screen and (min-width: 960px) {
     height: 100vh;
     overflow-y: scroll;
     padding: 0em;
-    /* scrollbar-width: none; */
   }
 `
 
