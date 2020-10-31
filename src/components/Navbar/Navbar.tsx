@@ -57,6 +57,12 @@ const Navbar: React.FC<Props> = ({ toggleHidden, hidden }) => (
     >
       Newsletter
     </InternalLink>
+    <InternalLink
+      onClick={() => (toggleHidden ? toggleHidden(false) : null)}
+      to="/accessibility"
+    >
+      Accessibility
+    </InternalLink>
   </Navigation>
 )
 
