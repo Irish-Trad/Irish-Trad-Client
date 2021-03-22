@@ -1,6 +1,6 @@
 {
   "name": "irish-trad.net",
-  "homepage": "https://irish-trad.net",
+  "homepage": "https://irish-trad.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,6 +52,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^10.4.9",
+    "gh-pages": "^3.1.0",
     "typescript": "^4.0.2"
   }
 }
