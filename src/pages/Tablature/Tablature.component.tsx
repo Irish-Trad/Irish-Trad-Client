@@ -15,7 +15,7 @@ import {
 
 import { Title, Button, SearchInput, ButtonContainer } from './Tablature.styles'
 
-const Tabs: React.FC = () => {
+const Tabs = () => {
   const [showGDAE, setShowGDAE] = useState<boolean>(true)
   const [searchValue, setSearchValue] = useState<string>('')
   const [search, setSearch] = useState<boolean>(false)

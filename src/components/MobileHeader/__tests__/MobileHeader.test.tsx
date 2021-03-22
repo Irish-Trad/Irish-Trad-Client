@@ -1,4 +1,3 @@
-import React from 'react'
 import { render, cleanup, fireEvent, screen } from '@testing-library/react'
 import { HashRouter } from 'react-router-dom'
 import MobileHeader from '../MobileHeader.component'

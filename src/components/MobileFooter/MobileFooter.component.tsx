@@ -1,8 +1,6 @@
-import React from 'react'
-
 import { FooterContainer, StyledLink, StyledIcon } from './MobileFooter.styles'
 
-const MobileFooter: React.FC = () => (
+const MobileFooter = () => (
   <FooterContainer>
     <StyledLink href="https://discord.gg/Mq9jeA8" target="_blank">
       <StyledIcon icon={['fab', 'discord']} />

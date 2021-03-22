@@ -5,7 +5,7 @@ import { AccessibilityContext } from 'context/app/accessibility.provider'
 
 import { H1, Text } from 'common/StyledComponents/StyledComponents'
 
-const Accessibility: React.FC = () => {
+const Accessibility = () => {
   const { dyslexicFontActive, toggleDyslexicFontActive } = useContext(
     AccessibilityContext
   )

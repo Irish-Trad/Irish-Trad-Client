@@ -1,4 +1,3 @@
-import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
@@ -18,7 +17,7 @@ import {
   Image,
 } from './Community.styles'
 
-const Community: React.FC = () => (
+const Community = () => (
   <>
     <Metadata
       title="Irish-Trad.net - Community"

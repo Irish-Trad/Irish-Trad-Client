@@ -1,4 +1,3 @@
-import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
@@ -15,7 +14,7 @@ import {
   Button,
 } from './Newsletter.styles'
 
-const Newsletter: React.FC = () => (
+const Newsletter = () => (
   <>
     <Metadata
       title="Irish-Trad.net - Newsletter"

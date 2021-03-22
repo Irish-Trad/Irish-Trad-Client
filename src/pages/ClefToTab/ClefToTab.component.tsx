@@ -1,4 +1,3 @@
-import React from 'react'
 import Metadata from 'common/Metadata'
 
 import { H1, Text, Divider } from 'common/StyledComponents/StyledComponents'
@@ -13,7 +12,7 @@ import {
   Image,
 } from './ClefToTab.styles'
 
-const ClefToTab: React.FC = () => (
+const ClefToTab = () => (
   <>
     <Metadata
       title="Irish-Trad.net - Cleft to TAB"

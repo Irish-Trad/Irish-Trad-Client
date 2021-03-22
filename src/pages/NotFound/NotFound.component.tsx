@@ -1,12 +1,10 @@
-import React from 'react'
-
 import {
   H1,
   Button,
   InternalLink,
 } from 'common/StyledComponents/StyledComponents'
 
-const NotFound: React.FC = () => (
+const NotFound = () => (
   <>
     <H1>404 - No Page Found</H1>
     <InternalLink to={'/'}>

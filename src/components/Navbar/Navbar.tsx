@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { Navigation, InternalLink } from './Navbar.styles'
 
 type Props = {

@@ -1,4 +1,3 @@
-import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
@@ -18,7 +17,7 @@ import {
   Image,
 } from './HowToReadTab.styles'
 
-const HowToReadTab: React.FC = () => (
+const HowToReadTab = () => (
   <>
     <Metadata
       title="Irish-Trad.net - How to read Tablature"

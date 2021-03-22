@@ -6,80 +6,80 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="sc-AxgMl cKCWWd"
+        class="sc-jSgupP klVveb"
       >
         <div
-          class="sc-AxheI iEBshh"
+          class="sc-gKsewC bvanwo"
         >
-          <img
-            alt="Irish-Trad.net Logo"
-            class="sc-Axmtr fkWeGe"
-            src="assets/high-quality/2243E.jpg"
-            title="Irish-Trad.net Logo"
-          />
           <h1
-            class="sc-AxmLO oOKbw"
+            class="sc-fubCfw duuLlC"
           >
             Irish-Trad.net
           </h1>
         </div>
         <nav
-          class="sc-AxhCb cJSujL"
+          class="sc-hKgILt fxMaII"
         >
           <a
-            class="sc-AxhUy dokOxh"
+            class="sc-eCssSg gHTKQc"
             href="#/"
           >
             Home
           </a>
           <a
-            class="sc-AxhUy dokOxh"
+            class="sc-eCssSg gHTKQc"
             href="#/tablature"
           >
             Tablature
           </a>
           <a
-            class="sc-AxhUy dokOxh"
+            class="sc-eCssSg gHTKQc"
             href="#/lessons"
           >
             Lessons
           </a>
           <a
-            class="sc-AxhUy dokOxh"
+            class="sc-eCssSg gHTKQc"
             href="#/chords"
           >
             Chords
           </a>
           <a
-            class="sc-AxhUy dokOxh"
+            class="sc-eCssSg gHTKQc"
             href="#/clef-to-tab"
           >
             Clef to Tab
           </a>
           <a
-            class="sc-AxhUy dokOxh"
+            class="sc-eCssSg gHTKQc"
             href="#/terminology"
           >
             Terminology
           </a>
           <a
-            class="sc-AxhUy dokOxh"
+            class="sc-eCssSg gHTKQc"
             href="#/community"
           >
             Community
           </a>
           <a
-            class="sc-AxhUy dokOxh"
+            class="sc-eCssSg gHTKQc"
             href="#/newsletter"
           >
             Newsletter
           </a>
+          <a
+            class="sc-eCssSg gHTKQc"
+            href="#/accessibility"
+          >
+            Accessibility
+          </a>
         </nav>
         <footer
-          class="sc-AxjAm fAuGiy"
+          class="sc-bdfBwQ fxyKHb"
         >
           <a
-            class="sc-AxirZ ktnnZK"
+            class="sc-gsTCUz"
             href="https://discord.gg/Mq9jeA8"
             target="_blank"
           >
@@ -88,7 +88,7 @@ Object {
             />
           </a>
           <a
-            class="sc-AxirZ ktnnZK"
+            class="sc-gsTCUz"
             href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
             target="_blank"
           >
@@ -102,80 +102,80 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="sc-AxgMl cKCWWd"
+      class="sc-jSgupP klVveb"
     >
       <div
-        class="sc-AxheI iEBshh"
+        class="sc-gKsewC bvanwo"
       >
-        <img
-          alt="Irish-Trad.net Logo"
-          class="sc-Axmtr fkWeGe"
-          src="assets/high-quality/2243E.jpg"
-          title="Irish-Trad.net Logo"
-        />
         <h1
-          class="sc-AxmLO oOKbw"
+          class="sc-fubCfw duuLlC"
         >
           Irish-Trad.net
         </h1>
       </div>
       <nav
-        class="sc-AxhCb cJSujL"
+        class="sc-hKgILt fxMaII"
       >
         <a
-          class="sc-AxhUy dokOxh"
+          class="sc-eCssSg gHTKQc"
           href="#/"
         >
           Home
         </a>
         <a
-          class="sc-AxhUy dokOxh"
+          class="sc-eCssSg gHTKQc"
           href="#/tablature"
         >
           Tablature
         </a>
         <a
-          class="sc-AxhUy dokOxh"
+          class="sc-eCssSg gHTKQc"
           href="#/lessons"
         >
           Lessons
         </a>
         <a
-          class="sc-AxhUy dokOxh"
+          class="sc-eCssSg gHTKQc"
           href="#/chords"
         >
           Chords
         </a>
         <a
-          class="sc-AxhUy dokOxh"
+          class="sc-eCssSg gHTKQc"
           href="#/clef-to-tab"
         >
           Clef to Tab
         </a>
         <a
-          class="sc-AxhUy dokOxh"
+          class="sc-eCssSg gHTKQc"
           href="#/terminology"
         >
           Terminology
         </a>
         <a
-          class="sc-AxhUy dokOxh"
+          class="sc-eCssSg gHTKQc"
           href="#/community"
         >
           Community
         </a>
         <a
-          class="sc-AxhUy dokOxh"
+          class="sc-eCssSg gHTKQc"
           href="#/newsletter"
         >
           Newsletter
         </a>
+        <a
+          class="sc-eCssSg gHTKQc"
+          href="#/accessibility"
+        >
+          Accessibility
+        </a>
       </nav>
       <footer
-        class="sc-AxjAm fAuGiy"
+        class="sc-bdfBwQ fxyKHb"
       >
         <a
-          class="sc-AxirZ ktnnZK"
+          class="sc-gsTCUz"
           href="https://discord.gg/Mq9jeA8"
           target="_blank"
         >
@@ -184,7 +184,7 @@ Object {
           />
         </a>
         <a
-          class="sc-AxirZ ktnnZK"
+          class="sc-gsTCUz"
           href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
           target="_blank"
         >

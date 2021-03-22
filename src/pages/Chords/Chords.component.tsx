@@ -1,4 +1,3 @@
-import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
@@ -19,7 +18,7 @@ import {
   Image,
 } from './Chords.styles'
 
-const Chords: React.FC = () => (
+const Chords = () => (
   <>
     <Metadata
       title="Irish-Trad.net - Chords"

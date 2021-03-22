@@ -1,4 +1,3 @@
-import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
@@ -10,7 +9,7 @@ import {
 
 import { H2, InternalLink, LinkText, ExternalLink } from './Lessons.styles'
 
-const Lessons: React.FC = () => (
+const Lessons = () => (
   <>
     <Metadata
       title="Irish-Trad.net - Lessons"

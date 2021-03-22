@@ -1,4 +1,3 @@
-import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
@@ -8,7 +7,7 @@ import {
   Divider,
 } from 'common/StyledComponents/StyledComponents'
 
-const Terminology: React.FC = () => (
+const Terminology = () => (
   <>
     <Metadata
       title="Irish-Trad.net - Terminology"

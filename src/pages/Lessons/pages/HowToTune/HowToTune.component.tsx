@@ -1,4 +1,3 @@
-import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
@@ -17,7 +16,7 @@ import {
   LI,
 } from './HowToTune.styles'
 
-const HowToTune: React.FC = () => (
+const HowToTune = () => (
   <>
     <Metadata
       title="Irish-Trad.net - How To Tune"

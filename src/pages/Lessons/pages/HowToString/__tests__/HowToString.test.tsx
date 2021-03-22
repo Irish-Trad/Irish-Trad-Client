@@ -1,4 +1,3 @@
-import React from 'react'
 import { render, cleanup } from '@testing-library/react'
 import HowToString from '../HowToString.component'
 import { HashRouter } from 'react-router-dom'

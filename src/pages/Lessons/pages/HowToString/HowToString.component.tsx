@@ -1,4 +1,3 @@
-import React from 'react'
 import Metadata from 'common/Metadata'
 
 import {
@@ -20,7 +19,7 @@ import {
   LI,
 } from './HowToString.styles'
 
-const HowToString: React.FC = () => (
+const HowToString = () => (
   <>
     <Metadata
       title="Irish-Trad.net - How To String"
