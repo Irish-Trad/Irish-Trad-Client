@@ -1,6 +1,6 @@
 import { lazy, Suspense, useState } from 'react'
 
-import { Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import DesktopHeader from 'components/DesktopHeader'
 import MobileHeader from 'components/MobileHeader'
@@ -22,6 +22,10 @@ const NotFound = lazy(
 
 const Chords = lazy(
   () => import('pages/Chords' /* webpackChunkName: 'Chords' */)
+)
+
+const Contact = lazy(
+  () => import('pages/Contact' /* webpackChunkName: 'Contact' */)
 )
 
 const ClefToTab = lazy(
@@ -77,47 +81,44 @@ const App = () => {
   const [hidden, toggleHidden] = useState(false)
 
   return (
-    <Container hidden={hidden}>
-      <DesktopHeader />
-      <div>
-        <MobileHeader hidden={hidden} toggleHidden={toggleHidden} />
-        <AccessibilityProvider>
-          <MainContainer id="top">
-            <Suspense fallback={Spinner}>
-              <Switch>
-                <Route exact path="/" component={Homepage} />
-                <Route exact path="/chords" component={Chords} />
-                <Route exact path="/clef-to-tab" component={ClefToTab} />
-                <Route exact path="/community" component={Community} />
-                <Route exact path="/newsletter" component={Newsletter} />
-                <Route exact path="/lessons" component={Lessons} />
-                <Route
-                  exact
-                  path="/lessons/how-to-read-tab"
-                  component={HowToReadTab}
-                />
-                <Route
-                  exact
-                  path="/lessons/how-to-string"
-                  component={HowToString}
-                />
-                <Route
-                  exact
-                  path="/lessons/how-to-tune"
-                  component={HowToTune}
-                />
-                <Route exact path="/terminology" component={Terminology} />
-                <Route exact path="/tablature" component={Tablature} />
-                <Route exact path="/accessibility" component={Accessibility} />
-                <Route path="*" component={NotFound} />
-              </Switch>
-            </Suspense>
-            <ScrollToTop />
-          </MainContainer>
-        </AccessibilityProvider>
-      </div>
-      <MobileFooter />
-    </Container>
+    <BrowserRouter>
+      <Container hidden={hidden}>
+        <DesktopHeader />
+        <div style={{ width: '100%' }}>
+          <MobileHeader hidden={hidden} toggleHidden={toggleHidden} />
+          <AccessibilityProvider>
+            <MainContainer id="top">
+              <Suspense fallback={Spinner}>
+                <Switch>
+                  <Route exact path="/" component={Homepage} />
+                  <Route path="/chords" component={Chords} />
+                  <Route path="/contact" component={Contact} />
+                  <Route path="/clef-to-tab" component={ClefToTab} />
+                  <Route path="/community" component={Community} />
+                  <Route path="/newsletter" component={Newsletter} />
+                  <Route path="/lessons" component={Lessons} />
+                  <Route
+                    path="/lessons/how-to-read-tab"
+                    component={HowToReadTab}
+                  />
+                  <Route
+                    path="/lessons/how-to-string"
+                    component={HowToString}
+                  />
+                  <Route path="/lessons/how-to-tune" component={HowToTune} />
+                  <Route path="/terminology" component={Terminology} />
+                  <Route path="/tablature" component={Tablature} />
+                  <Route path="/accessibility" component={Accessibility} />
+                  <Route path="*" component={NotFound} />
+                </Switch>
+              </Suspense>
+              <ScrollToTop />
+            </MainContainer>
+          </AccessibilityProvider>
+        </div>
+        <MobileFooter />
+      </Container>
+    </BrowserRouter>
   )
 }
 

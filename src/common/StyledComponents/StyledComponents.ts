@@ -50,11 +50,7 @@ export const ExternalLink = styled.a`
   cursor: pointer;
 `
 
-export const Divider = styled.section`
-  @media screen and (min-width: 960px) {
-    padding: 0em 12.5em;
-  }
-`
+export const Divider = styled.section``
 
 export const CenterText = styled(Text)`
   text-align: center;
