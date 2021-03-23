@@ -23,17 +23,15 @@ export const H1 = styled.h1`
 `
 
 export const IntroContainer = styled.div`
-  @media screen and (min-width: 960px) {
-    background: black;
-    background-image: url(${Image});
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    flex-flow: column nowrap;
-    height: 100vh;
-  }
+  background-color: black;
+  background-image: url(${Image});
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-flow: column nowrap;
+  height: 100vh;
 
   @media screen and (min-width: 1281px) {
     padding: 0em 200px;
