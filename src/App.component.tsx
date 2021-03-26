@@ -9,7 +9,20 @@ import Spinner from 'components/Spinner'
 import ScrollToTop from 'components/ScrollToTop'
 import AccessibilityProvider from './context/app/accessibility.provider'
 
+import MainLayout from 'layouts/MainLayout'
+
 import { Container, MainContainer } from './App.styles'
+
+import { ClientContextProvider } from 'react-fetching-library'
+import { Client } from './api/Client'
+
+import { ThemeProvider } from '@material-ui/core'
+import GlobalStyles from 'components/GlobalStyles'
+import theme from 'theme'
+
+import './fontawesome'
+import 'animate.css/animate.min.css'
+import './index.css'
 
 const Homepage = lazy(
   () => import('pages/Homepage' /* webpackChunkName: 'Homepage' */)
@@ -80,13 +93,11 @@ const App = () => {
   const [hidden, toggleHidden] = useState(false)
 
   return (
-    <Container hidden={hidden}>
-      <DesktopHeader />
-      <div style={{ width: '100%' }}>
-        <MobileHeader hidden={hidden} toggleHidden={toggleHidden} />
+    <ThemeProvider theme={theme}>
+      <ClientContextProvider client={Client}>
         <AccessibilityProvider>
-          <MainContainer id="top">
-            <Suspense fallback={Spinner}>
+          <MainLayout>
+            {/* <Suspense fallback={Spinner}>
               <Switch>
                 <Route exact path="/" component={Homepage} />
                 <Route path="/chords" component={Chords} />
@@ -106,13 +117,11 @@ const App = () => {
                 <Route path="/accessibility" component={Accessibility} />
                 <Route path="*" component={NotFound} />
               </Switch>
-            </Suspense>
-            <ScrollToTop />
-          </MainContainer>
+            </Suspense> */}
+          </MainLayout>
         </AccessibilityProvider>
-      </div>
-      <MobileFooter />
-    </Container>
+      </ClientContextProvider>
+    </ThemeProvider>
   )
 }
 
