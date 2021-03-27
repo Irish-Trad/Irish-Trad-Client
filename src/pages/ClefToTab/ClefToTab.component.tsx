@@ -1,6 +1,6 @@
-import Metadata from 'common/Metadata'
+import Page from 'components/Page'
 
-import { H1, Text, Divider } from 'common/StyledComponents/StyledComponents'
+import { H1, Text } from 'common/StyledComponents/StyledComponents'
 
 import {
   ButtonContainer,
@@ -13,13 +13,10 @@ import {
 } from './ClefToTab.styles'
 
 const ClefToTab = () => (
-  <>
-    <Metadata
-      title="Irish-Trad.net - Cleft to TAB"
-      metaTitle="Irish-Trad.net - Cleft to TAB"
-      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      metaDescription="Treble Cleft to TAB - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
-    />
+  <Page
+    title="Irish-Trad.net - Cleft to TAB"
+    metaDescription="Treble Cleft to TAB - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+  >
     <H1>Cleft to Tablature</H1>
     <ButtonContainer>
       <HashLink to="#clef-to-tab-GDAE">
@@ -29,7 +26,7 @@ const ClefToTab = () => (
         <Button>GDAD</Button>
       </HashLink>
     </ButtonContainer>
-    <Divider>
+    <section>
       <Text>
         The most popular system used for presenting musical notation is sheet
         music. The following diagram can be used to convert any piece of sheet
@@ -99,8 +96,8 @@ const ClefToTab = () => (
           />
         </InternalLink>
       </ImageContainer>
-    </Divider>
-  </>
+    </section>
+  </Page>
 )
 
 export default ClefToTab

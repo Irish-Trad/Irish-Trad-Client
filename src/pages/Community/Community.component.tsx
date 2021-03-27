@@ -1,4 +1,4 @@
-import Metadata from 'common/Metadata'
+import Page from 'components/Page'
 
 import {
   H1,
@@ -6,7 +6,6 @@ import {
   ExternalLink,
   Figure,
   Figcaption,
-  Divider,
 } from 'common/StyledComponents/StyledComponents'
 
 import {
@@ -18,15 +17,12 @@ import {
 } from './Community.styles'
 
 const Community = () => (
-  <>
-    <Metadata
-      title="Irish-Trad.net - Community"
-      metaTitle="Irish-Trad.net - Community"
-      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      metaDescription="Community for Irish-Trad.net"
-    />
+  <Page
+    title="Irish-Trad.net - Community"
+    metaDescription="Community for Irish-Trad.net"
+  >
     <H1>Community</H1>
-    <Divider>
+    <section>
       <Text>
         I have created a Discord server to allow users of Irish-Trad.net to
         interact with each other and discuss various topics regarding Irish Trad
@@ -85,8 +81,8 @@ const Community = () => (
         The Discord icon can also be found in the footer of every page to make
         future access easier.
       </Text>
-    </Divider>
-  </>
+    </section>
+  </Page>
 )
 
 export default Community

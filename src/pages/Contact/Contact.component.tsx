@@ -1,4 +1,5 @@
-import Metadata from 'common/Metadata'
+import Page from 'components/Page'
+
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
@@ -40,13 +41,10 @@ const Contact = () => {
   }
 
   return (
-    <>
-      <Metadata
-        title="Irish-Trad.net - Contact"
-        metaTitle="Irish-Trad.net - Contact"
-        metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-        metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
-      />
+    <Page
+      title="Irish-Trad.net - Contact"
+      metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+    >
       <h1>Contact Form</h1>
       <section>
         <p>
@@ -73,7 +71,7 @@ const Contact = () => {
           {!loading ? <button type="submit">Submit</button> : <p>Loading</p>}
         </form>
       </section>
-    </>
+    </Page>
   )
 }
 

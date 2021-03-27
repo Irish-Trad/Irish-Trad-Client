@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-import Metadata from 'common/Metadata'
+import { useContext } from 'react'
+import Page from 'components/Page'
 
 import { AccessibilityContext } from 'context/app/accessibility.provider'
 
@@ -11,13 +11,10 @@ const Accessibility = () => {
   )
 
   return (
-    <>
-      <Metadata
-        title="Irish-Trad.net - Accessibility"
-        metaTitle="Irish-Trad.net - Accessibility"
-        metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-        metaDescription="Accessibility for Irish-Trad.net"
-      />
+    <Page
+      title="Irish-Trad.net - Accessibility"
+      metaDescription="Accessibility for Irish-Trad.net"
+    >
       <H1>Accessibility</H1>
       <Text>
         To improve accessibility on Irish-Trad.net you can use this page to
@@ -31,7 +28,7 @@ const Accessibility = () => {
             : 'Turn On Dyslexic Font'}
         </button>
       </div>
-    </>
+    </Page>
   )
 }
 

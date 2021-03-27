@@ -1,10 +1,9 @@
-import Metadata from 'common/Metadata'
+import Page from 'components/Page'
 
 import {
   H1,
   Text,
   ExternalLink,
-  Divider,
 } from 'common/StyledComponents/StyledComponents'
 
 import {
@@ -15,15 +14,12 @@ import {
 } from './Newsletter.styles'
 
 const Newsletter = () => (
-  <>
-    <Metadata
-      title="Irish-Trad.net - Newsletter"
-      metaTitle="Irish-Trad.net - Newsletter"
-      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      metaDescription="Newsletter for Irish-Trad.net"
-    />
+  <Page
+    title="Irish-Trad.net - Newsletter"
+    metaDescription="Newsletter for Irish-Trad.net"
+  >
     <H1>Newsletter</H1>
-    <Divider>
+    <section>
       <Text>
         Irish-Trad.net is a hobby project so progress is slow when developing
         new resources or lessons.
@@ -48,8 +44,8 @@ const Newsletter = () => (
         MailChimp allows you to manage your subscription at anytime so
         unsubscribing is easy if you change your mind.
       </Text>
-    </Divider>
-  </>
+    </section>
+  </Page>
 )
 
 export default Newsletter

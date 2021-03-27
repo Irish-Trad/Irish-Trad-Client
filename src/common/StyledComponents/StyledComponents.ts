@@ -50,8 +50,6 @@ export const ExternalLink = styled.a`
   cursor: pointer;
 `
 
-export const Divider = styled.section``
-
 export const CenterText = styled(Text)`
   text-align: center;
 `

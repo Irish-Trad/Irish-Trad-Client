@@ -1,16 +1,16 @@
-import React, { useState } from 'react'
-import Metadata from 'common/Metadata'
+import { useState } from 'react'
 import TuneList from './TuneList'
 
 import * as GDAE from './routes/GDAE'
 import * as GDAD from './routes/GDAD'
+
+import Page from 'components/Page'
 
 import {
   H1,
   H2,
   Text,
   ExternalLink,
-  Divider,
 } from 'common/StyledComponents/StyledComponents'
 
 import { Title, Button, SearchInput, ButtonContainer } from './Tablature.styles'
@@ -21,15 +21,12 @@ const Tabs = () => {
   const [search, setSearch] = useState<boolean>(false)
 
   return (
-    <>
-      <Metadata
-        title="Irish-Trad.net - Tablature"
-        metaTitle="Irish-Trad.net - Tablature"
-        metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-        metaDescription="Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
-      />
+    <Page
+      title="Irish-Trad.net - Tablature"
+      metaDescription="Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+    >
       <H1>Tablature</H1>
-      <Divider>
+      <section>
         <Text>
           For those more familiar with Tablature than standard music notation or
           ABC notation I have taken a number of tunes from TheSession.org and
@@ -49,7 +46,7 @@ const Tabs = () => {
             TheSession.org - Donation Page
           </ExternalLink>
         </Text>
-      </Divider>
+      </section>
       <Title>
         <H1>{showGDAE ? 'GDAE' : 'GDAD'}</H1>
         <Button onClick={() => setShowGDAE(!showGDAE)}>Toggle Tuning</Button>
@@ -120,7 +117,7 @@ const Tabs = () => {
         tunes={showGDAE ? GDAE.Waltz : GDAD.Waltz}
         searchValue={searchValue}
       />
-    </>
+    </Page>
   )
 }
 

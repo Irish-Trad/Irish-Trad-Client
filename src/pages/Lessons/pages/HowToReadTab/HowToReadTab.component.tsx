@@ -1,9 +1,8 @@
-import Metadata from 'common/Metadata'
+import Page from 'components/Page'
 
 import {
   H1,
   Text,
-  Divider,
   InternalLink,
 } from 'common/StyledComponents/StyledComponents'
 
@@ -18,20 +17,17 @@ import {
 } from './HowToReadTab.styles'
 
 const HowToReadTab = () => (
-  <>
-    <Metadata
-      title="Irish-Trad.net - How to read Tablature"
-      metaTitle="Irish-Trad.net - How to read Tablature"
-      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      metaDescription="How to read Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
-    />
+  <Page
+    title="Irish-Trad.net - How to read Tablature"
+    metaDescription="How to read Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+  >
     <H1>How to read Tablature</H1>
     <ButtonContainer>
       <InternalLink to="/lessons">
         <Button>Return to Lessons Page</Button>
       </InternalLink>
     </ButtonContainer>
-    <Divider>
+    <section>
       <H2>Introduction:</H2>
       <Text>
         Tablature is a form of music notation designed specifically for fretted
@@ -172,8 +168,8 @@ const HowToReadTab = () => (
         (using symbols) a variety of techniques along the horizontal lines such
         as sliding between notes, hammer-ons and pull-offs, trills and bends.
       </Text>
-    </Divider>
-  </>
+    </section>
+  </Page>
 )
 
 export default HowToReadTab

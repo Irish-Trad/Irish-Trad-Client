@@ -1,10 +1,9 @@
-import Metadata from 'common/Metadata'
+import Page from 'components/Page'
 
 import {
   H1,
   InternalLink,
   Text,
-  Divider,
 } from 'common/StyledComponents/StyledComponents'
 
 import {
@@ -17,20 +16,17 @@ import {
 } from './HowToTune.styles'
 
 const HowToTune = () => (
-  <>
-    <Metadata
-      title="Irish-Trad.net - How To Tune"
-      metaTitle="Irish-Trad.net - How To Tune"
-      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      metaDescription="How To Tune Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
-    />
+  <Page
+    title="Irish-Trad.net - How To Tune"
+    metaDescription="How To Tune Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
+  >
     <H1>How To Tune An Instrument</H1>
     <ButtonContainer>
       <InternalLink to="/lessons">
         <Button>Return to Lessons Page</Button>
       </InternalLink>
     </ButtonContainer>
-    <Divider>
+    <section>
       <H2>Introduction:</H2>
       <Text>
         Knowing how to tune your instrument is another vital skill that a
@@ -106,8 +102,8 @@ const HowToTune = () => (
         about 2-3 with tuning should be enough for a properly set-up instrument
         to retain tuning of new strings.
       </Text>
-    </Divider>
-  </>
+    </section>
+  </Page>
 )
 
 export default HowToTune

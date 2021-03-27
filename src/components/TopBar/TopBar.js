@@ -10,7 +10,14 @@ import {
 import MenuIcon from '@material-ui/icons/Menu'
 
 const useStyles = makeStyles(() => ({
-  root: {},
+  root: {
+    background:
+      'rgba(0, 0, 0, 0) linear-gradient(green, darkgreen) repeat scroll 0% 0%',
+  },
+  link: {
+    color: 'white',
+    textDecoration: 'none',
+  },
   avatar: {
     width: 60,
     height: 60,
@@ -21,9 +28,11 @@ const TopBar = ({ className = null, onMobileNavOpen, ...rest }) => {
   const classes = useStyles()
 
   return (
-    <AppBar className={classes.root} elevation={0} {...rest}>
+    <AppBar position="static" className={classes.root} elevation={0} {...rest}>
       <Toolbar>
-        <RouterLink to="/">Irish-Trad.net</RouterLink>
+        <RouterLink className={classes.link} to="/">
+          Irish-Trad.net
+        </RouterLink>
         <Box flexGrow={1} />
         <Hidden lgUp>
           <IconButton color="inherit" onClick={onMobileNavOpen}>

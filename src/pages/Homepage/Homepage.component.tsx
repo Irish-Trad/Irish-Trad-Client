@@ -1,4 +1,4 @@
-import Metadata from 'common/Metadata'
+// import Metadata from 'common/Metadata'
 // @ts-ignore
 import ScrollAnimation from 'react-animate-on-scroll'
 
@@ -13,12 +13,12 @@ import {
 
 const Homepage = () => (
   <>
-    <Metadata
+    {/* <Metadata
       title="Irish-Trad.net - Home"
       metaTitle="Irish-Trad.net - Home"
       metaKeywords="Irish, Irish Trad, Irish Traditional Music, Irish Folk Music, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
       metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandola/Irish Tenor Banjo"
-    />
+    /> */}
     <IntroContainer>
       <ScrollAnimation
         animateIn="animate__fadeIn"

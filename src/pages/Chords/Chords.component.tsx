@@ -1,7 +1,6 @@
-import Metadata from 'common/Metadata'
+import Page from 'components/Page'
 
 import {
-  Divider,
   Text,
   H1,
   H2,
@@ -19,15 +18,12 @@ import {
 } from './Chords.styles'
 
 const Chords = () => (
-  <>
-    <Metadata
-      title="Irish-Trad.net - Chords"
-      metaTitle="Irish-Trad.net - Chords"
-      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      metaDescription="Chords - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
-    />
+  <Page
+    title="Irish-Trad.net - Chords"
+    metaDescription="Chords - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
+  >
     <H1>Chords</H1>
-    <Divider>
+    <section>
       <ButtonContainer>
         <A to="#MajorChords">
           <Button>Major Chords</Button>
@@ -355,8 +351,8 @@ const Chords = () => (
           />
         </InternalLink>
       </ImageContainer>
-    </Divider>
-  </>
+    </section>
+  </Page>
 )
 
 export default Chords

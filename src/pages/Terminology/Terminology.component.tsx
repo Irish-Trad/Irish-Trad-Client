@@ -1,22 +1,14 @@
-import Metadata from 'common/Metadata'
+import Page from 'components/Page'
 
-import {
-  H1,
-  Text,
-  Bold,
-  Divider,
-} from 'common/StyledComponents/StyledComponents'
+import { H1, Text, Bold } from 'common/StyledComponents/StyledComponents'
 
 const Terminology = () => (
-  <>
-    <Metadata
-      title="Irish-Trad.net - Terminology"
-      metaTitle="Irish-Trad.net - Terminology"
-      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      metaDescription="Terminology for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
-    />
+  <Page
+    title="Irish-Trad.net - Terminology"
+    metaDescription="Terminology for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+  >
     <H1>Terminology</H1>
-    <Divider>
+    <section>
       <Text>
         <Bold>Arpeggio: </Bold>The notes of a chord played individually.
       </Text>
@@ -81,8 +73,8 @@ const Terminology = () => (
         fluctuating pitch. Reminiscent of a vocalist who holds a note for a long
         time.
       </Text>
-    </Divider>
-  </>
+    </section>
+  </Page>
 )
 
 export default Terminology

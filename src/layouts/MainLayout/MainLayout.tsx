@@ -6,6 +6,7 @@ import TopBar from 'components/TopBar'
 const useStyles = makeStyles((theme) => ({
   root: {
     // backgroundColor: theme.palette.background.dark,
+
     display: 'flex',
     flexFlow: 'column nowrap',
     // height: '100%',
@@ -20,10 +21,10 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flex: '1 1 auto',
     overflow: 'hidden',
-    paddingTop: 64,
-    [theme.breakpoints.up('lg')]: {
-      paddingLeft: 256,
-    },
+    // paddingTop: 64,
+    // [theme.breakpoints.up('lg')]: {
+    //   paddingLeft: 256,
+    // },
   },
   contentContainer: {
     display: 'flex',
@@ -37,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-const MainLayout = (children: any) => {
+const MainLayout = ({ children }: any) => {
   const classes = useStyles()
   const [isMobileNavOpen, setMobileNavOpen] = useState(false)
 
@@ -53,9 +54,8 @@ const MainLayout = (children: any) => {
         />
         <div className={classes.wrapper}>
           <div className={classes.contentContainer}>
-            <div className={classes.content}>
-              <h1>Test</h1>
-              <p>Test Paragraph</p>
+            <div id="top" className={classes.content}>
+              {children}
             </div>
           </div>
         </div>

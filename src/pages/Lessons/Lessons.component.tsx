@@ -1,24 +1,16 @@
-import Metadata from 'common/Metadata'
+import Page from 'components/Page'
 
-import {
-  H1,
-  Text,
-  CenterText,
-  Divider,
-} from 'common/StyledComponents/StyledComponents'
+import { H1, Text, CenterText } from 'common/StyledComponents/StyledComponents'
 
 import { H2, InternalLink, LinkText, ExternalLink } from './Lessons.styles'
 
 const Lessons = () => (
-  <>
-    <Metadata
-      title="Irish-Trad.net - Lessons"
-      metaTitle="Irish-Trad.net - Lessons"
-      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
-    />
+  <Page
+    title="Irish-Trad.net - Lessons"
+    metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+  >
     <H1>Lessons</H1>
-    <Divider>
+    <section>
       <H2>Preparation:</H2>
       <InternalLink to={'/lessons/how-to-string'}>
         <LinkText>How to string your instrument</LinkText>
@@ -90,8 +82,8 @@ const Lessons = () => (
       <CenterText>
         Mandolin focused website providing high quality video lessons.
       </CenterText>
-    </Divider>
-  </>
+    </section>
+  </Page>
 )
 
 export default Lessons

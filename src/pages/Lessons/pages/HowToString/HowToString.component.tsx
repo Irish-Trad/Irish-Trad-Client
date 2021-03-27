@@ -1,10 +1,9 @@
-import Metadata from 'common/Metadata'
+import Page from 'components/Page'
 
 import {
   H1,
   InternalLink,
   Text,
-  Divider,
 } from 'common/StyledComponents/StyledComponents'
 
 import {
@@ -20,20 +19,17 @@ import {
 } from './HowToString.styles'
 
 const HowToString = () => (
-  <>
-    <Metadata
-      title="Irish-Trad.net - How To String"
-      metaTitle="Irish-Trad.net - How To String"
-      metaKeywords="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      metaDescription="How To String Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
-    />
+  <Page
+    title="Irish-Trad.net - How To String"
+    metaDescription="How To String Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
+  >
     <H1>How To String An Instrument</H1>
     <ButtonContainer>
       <InternalLink to="/lessons">
         <Button>Return to Lessons Page</Button>
       </InternalLink>
     </ButtonContainer>
-    <Divider>
+    <section>
       <H2>Introduction:</H2>
       <Text>
         Knowing how to string your instrument is an essential skill that every
@@ -280,8 +276,8 @@ const HowToString = () => (
         extra and considering how easy it is to determine which kind you need
         you may as well get the correct end outright.
       </Text>
-    </Divider>
-  </>
+    </section>
+  </Page>
 )
 
 export default HowToString
