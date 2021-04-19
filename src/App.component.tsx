@@ -10,7 +10,7 @@ import { ClientContextProvider } from 'react-fetching-library'
 import { Client } from './api/Client'
 
 import { ThemeProvider } from '@material-ui/core'
-import GlobalStyles from 'components/GlobalStyles'
+import GlobalStyles from 'common/GlobalStyles'
 import theme from 'theme'
 
 import './fontawesome'

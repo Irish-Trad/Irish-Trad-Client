@@ -24,7 +24,7 @@ export const H1 = styled.h1`
 
 export const IntroContainer = styled.div`
   background-color: black;
-  background-image: url(${Image});
+  background: url(${Image}) no-repeat center;
   background-size: cover;
   display: flex;
   justify-content: center;

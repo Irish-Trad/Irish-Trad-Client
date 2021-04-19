@@ -18,10 +18,6 @@ const useStyles = makeStyles(() => ({
     color: 'white',
     textDecoration: 'none',
   },
-  avatar: {
-    width: 60,
-    height: 60,
-  },
 }))
 
 const TopBar = ({ className = null, onMobileNavOpen, ...rest }) => {

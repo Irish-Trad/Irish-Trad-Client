@@ -1,5 +1,6 @@
 import { ReactNode } from 'react'
 import { Helmet } from 'react-helmet'
+import { Box } from '@material-ui/core'
 
 type Props = {
   children: ReactNode
@@ -8,7 +9,7 @@ type Props = {
 }
 
 const Page = ({ children, title, metaDescription }: Props) => (
-  <main>
+  <Box component="main" m={2}>
     <Helmet>
       <link rel="canonical" href={`${window.location}`} />
       <title>{title}</title>
@@ -20,7 +21,7 @@ const Page = ({ children, title, metaDescription }: Props) => (
       <meta name="description" content={metaDescription} />
     </Helmet>
     {children}
-  </main>
+  </Box>
 )
 
 export default Page
