@@ -1,50 +1,42 @@
 import Page from 'components/Page'
 
-import {
-  H1,
-  Text,
-  ExternalLink,
-} from 'common/StyledComponents/StyledComponents'
+import Typography from '@material-ui/core/Typography'
+import Button from 'common/Button'
+import Box from '@material-ui/core/Box'
+import Link from '@material-ui/core/Link'
 
-import {
-  StyledLink,
-  StyledIcon,
-  ButtonContainer,
-  Button,
-} from './Newsletter.styles'
+import Icon from '@material-ui/core/Icon'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Newsletter = () => (
   <Page
     title="Irish-Trad.net - Newsletter"
     metaDescription="Newsletter for Irish-Trad.net"
   >
-    <H1>Newsletter</H1>
-    <section>
-      <Text>
+    <Typography variant="h1">Newsletter</Typography>
+    <Box component="section">
+      <Typography variant="body1">
         Irish-Trad.net is a hobby project so progress is slow when developing
         new resources or lessons.
-      </Text>
-      <Text>
+      </Typography>
+      <Typography variant="body1">
         If you would like to sign-up to receive an email when large changes have
         been made I have created a MailChimp subscription which can be found by
         clicking the following Icon or Button:
-      </Text>
-      <ButtonContainer>
-        <StyledLink
-          href="https://mailchi.mp/bfa9fa63aaab/irish-trad"
-          target="_blank"
-        >
-          <StyledIcon icon={['fab', 'mailchimp']} />
-        </StyledLink>
-        <ExternalLink href="https://discord.gg/Mq9jeA8" target="_blank">
+      </Typography>
+      <Box display="flex" flexDirection="row" justifyContent="space-evenly">
+        <Link href="https://mailchi.mp/bfa9fa63aaab/irish-trad" target="_blank">
+          <Icon component={FontAwesomeIcon} icon={['fab', 'mailchimp']} />
+        </Link>
+        <Link href="https://mailchi.mp/bfa9fa63aaab/irish-trad" target="_blank">
           <Button>Sign Up For Newsletter</Button>
-        </ExternalLink>
-      </ButtonContainer>
-      <Text>
+        </Link>
+      </Box>
+      <Typography variant="body1">
         MailChimp allows you to manage your subscription at anytime so
         unsubscribing is easy if you change your mind.
-      </Text>
-    </section>
+      </Typography>
+    </Box>
   </Page>
 )
 

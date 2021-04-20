@@ -1,79 +1,79 @@
 import Page from 'components/Page'
-
-import { H1, Text, Bold } from 'common/StyledComponents/StyledComponents'
+import Typography from '@material-ui/core/Typography'
+import Box from '@material-ui/core/Box'
 
 const Terminology = () => (
   <Page
     title="Irish-Trad.net - Terminology"
     metaDescription="Terminology for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
   >
-    <H1>Terminology</H1>
-    <section>
-      <Text>
-        <Bold>Arpeggio: </Bold>The notes of a chord played individually.
-      </Text>
-      <Text>
-        <Bold>Bending: </Bold>Pushing and pulling the string in a vertical plane
-        after sounding will cause the pitch to increase. Very common technique
-        for guitar players.
-      </Text>
-      <Text>
-        <Bold>BPM: </Bold>Beats per Minute.
-      </Text>
-      <Text>
-        <Bold>CBOM: </Bold>Abbreviation for Cittern, Bouzouki, Octave Mandolin.
-      </Text>
-      <Text>
-        <Bold>Chord: </Bold>Three or more notes played together form a chord.
-      </Text>
-      <Text>
-        <Bold>GDAE: </Bold>Tuning of the Irish Bouzouki from lowest pitched to
-        highest pitched string.
-      </Text>
-      <Text>
-        <Bold>GDAD: </Bold>Tuning of the Irish Bouzouki from lowest pitched to
-        highest pitched string.
-      </Text>
-      <Text>
-        <Bold>Interval: </Bold>The distance between one note and another.
-      </Text>
-      <Text>
-        <Bold>Octave Mandolin: </Bold>The Octave Mandolin is pitched one octave
-        lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola
-        (Europe) is interchangeable with the Octave Mandolin (America). They are
-        the same instrument.
-      </Text>
-      <Text>
-        <Bold>Octave Mandola: </Bold>The Octave Mandola is pitched one octave
-        lower than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola
-        (Europe) is interchangeable with the Octave Mandolin (America). They are
-        the same instrument.
-      </Text>
-      <Text>
-        <Bold>Sounding Range: </Bold>The range of notes that an instrument is
-        capable of producing naturally.
-      </Text>
-      <Text>
-        <Bold>String Gauge: </Bold>The thickness of a string. As instrument
-        strings are normally sold in packs a musician will typically respond to
-        a question about the string gauge they use by referring to the thinnest
+    <Typography variant="h1">Terminology</Typography>
+    <Box>
+      <Typography variant="body1">
+        <b>Arpeggio: </b>The notes of a chord played individually.
+      </Typography>
+      <Typography variant="body1">
+        <b>Bending: </b>Pushing and pulling the string in a vertical plane after
+        sounding will cause the pitch to increase. Very common technique for
+        guitar players.
+      </Typography>
+      <Typography variant="body1">
+        <b>BPM: </b>Beats per Minute.
+      </Typography>
+      <Typography variant="body1">
+        <b>CBOM: </b>Abbreviation for Cittern, Bouzouki, Octave Mandolin.
+      </Typography>
+      <Typography variant="body1">
+        <b>Chord: </b>Three or more notes played together form a chord.
+      </Typography>
+      <Typography variant="body1">
+        <b>GDAE: </b>Tuning of the Irish Bouzouki from lowest pitched to highest
+        pitched string.
+      </Typography>
+      <Typography variant="body1">
+        <b>GDAD: </b>Tuning of the Irish Bouzouki from lowest pitched to highest
+        pitched string.
+      </Typography>
+      <Typography variant="body1">
+        <b>Interval: </b>The distance between one note and another.
+      </Typography>
+      <Typography variant="body1">
+        <b>Octave Mandolin: </b>The Octave Mandolin is pitched one octave lower
+        than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe)
+        is interchangeable with the Octave Mandolin (America). They are the same
+        instrument.
+      </Typography>
+      <Typography variant="body1">
+        <b>Octave Mandola: </b>The Octave Mandola is pitched one octave lower
+        than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe)
+        is interchangeable with the Octave Mandolin (America). They are the same
+        instrument.
+      </Typography>
+      <Typography variant="body1">
+        <b>Sounding Range: </b>The range of notes that an instrument is capable
+        of producing naturally.
+      </Typography>
+      <Typography variant="body1">
+        <b>String Gauge: </b>The thickness of a string. As instrument strings
+        are normally sold in packs a musician will typically respond to a
+        question about the string gauge they use by referring to the thinnest
         string. For example, "11's" would suggest a pack of strings with the
         thinnest string in the pack being 11.
-      </Text>
-      <Text>
-        <Bold>Tempo: </Bold>The speed at which a piece of music is played. The
-        exact pace is specified by BPM.
-      </Text>
-      <Text>
-        <Bold>Trill: </Bold>Rapid alteration between two notes. Normally
-        achieved through hammer-ons and pull-offs on the Irish Bouzouki.
-      </Text>
-      <Text>
-        <Bold>Vibrato: </Bold>Quick and repetitive micro-bends that create a
+      </Typography>
+      <Typography variant="body1">
+        <b>Tempo: </b>The speed at which a piece of music is played. The exact
+        pace is specified by BPM.
+      </Typography>
+      <Typography variant="body1">
+        <b>Trill: </b>Rapid alteration between two notes. Normally achieved
+        through hammer-ons and pull-offs on the Irish Bouzouki.
+      </Typography>
+      <Typography variant="body1">
+        <b>Vibrato: </b>Quick and repetitive micro-bends that create a
         fluctuating pitch. Reminiscent of a vocalist who holds a note for a long
         time.
-      </Text>
-    </section>
+      </Typography>
+    </Box>
   </Page>
 )
 

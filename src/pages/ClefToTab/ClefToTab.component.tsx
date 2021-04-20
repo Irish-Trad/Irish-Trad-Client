@@ -1,53 +1,46 @@
 import Page from 'components/Page'
+import Typography from '@material-ui/core/Typography'
+import Box from '@material-ui/core/Box'
+import Link from '@material-ui/core/Link'
 
-import { H1, Text } from 'common/StyledComponents/StyledComponents'
-
-import {
-  ButtonContainer,
-  Button,
-  InternalLink,
-  ExternalLink,
-  HashLink,
-  ImageContainer,
-  Image,
-} from './ClefToTab.styles'
+import Button from 'common/Button'
 
 const ClefToTab = () => (
   <Page
     title="Irish-Trad.net - Cleft to TAB"
     metaDescription="Treble Cleft to TAB - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
   >
-    <H1>Cleft to Tablature</H1>
-    <ButtonContainer>
-      <HashLink to="#clef-to-tab-GDAE">
+    <Typography variant="h1">Cleft to Tablature</Typography>
+    <Box display="flex" flexDirection="row" justifyContent="space-evenly">
+      <Link href="#clef-to-tab-GDAE">
         <Button>GDAE</Button>
-      </HashLink>
-      <HashLink to="#clef-to-tab-GDAD">
+      </Link>
+      <Link href="#clef-to-tab-GDAD">
         <Button>GDAD</Button>
-      </HashLink>
-    </ButtonContainer>
-    <section>
-      <Text>
+      </Link>
+    </Box>
+    <Box component="section">
+      <Typography variant="body1">
         The most popular system used for presenting musical notation is sheet
         music. The following diagram can be used to convert any piece of sheet
         music into tablature - as long as the sheet music is within the Irish
         Bouzouki's capabilities. The full sounding range of a 24 fret Irish
         Bouzouki tuned GDAE is G2 (98Hz) to E6 (1319Hz) - slightly less than 4
         octaves.
-      </Text>
-      <Text>
+      </Typography>
+      <Typography variant="body1">
         Sheet music for traditional Irish tunes can be found on websites such as
-        <ExternalLink href="https://www.thesession.org/" target="_blank">
+        <Link href="https://www.thesession.org/" target="_blank">
           The Session
-        </ExternalLink>
+        </Link>
         . Music books that are found in music shops tend to showcase sheet music
         only. Looking at books that are designed specifically for the Irish
         Bouzouki or the Mandolin are good places to start because they are
         designed with the instruments range in mind. However even the music
         books scored for piano can be converted to the Irish Bouzouki using the
         diagram found on this page.
-      </Text>
-      <Text>
+      </Typography>
+      <Typography variant="body1">
         The lowest pitch that the Irish Bouzouki is able to produce naturally is
         the G note found by playing the thickest string open. When looking at
         the conversion diagram there is only one way to play this note when it
@@ -60,8 +53,8 @@ const ClefToTab = () => (
         string and the same note can be produced by playing the 7th fret of the
         G string. These notes are exactly the same pitch. However this is a
         slight difference in timbre due to the thickness of each string.
-      </Text>
-      <Text>
+      </Typography>
+      <Typography variant="body1">
         Learning to read sheet music quickly and efficiently requires continuous
         practice. This tends to be a tedious activity which is why many
         musicians such as guitarists rely heavily or solely on tablature to
@@ -69,34 +62,28 @@ const ClefToTab = () => (
         alphabet of musicians as such it is an incredibly valuable tool to learn
         and understand as it would enable you the ability to transcribe for
         other musicians your own work.
-      </Text>
-      <ImageContainer>
-        <InternalLink
-          href="assets/high-quality/GDAE - Clef To TAB.pdf"
-          target="_blank"
-        >
-          <Image
+      </Typography>
+      <Box display="flex" flexDirection="row" justifyContent="space-evenly">
+        <Link href="assets/high-quality/GDAE - Clef To TAB.pdf" target="_blank">
+          <img
             id="clef-to-tab-GDAE"
             src="assets/low-quality/GDAE - Clef To TAB.jpg"
             alt="GDAE Treble Clef to TAB"
             width="100%"
             height="100%"
           />
-        </InternalLink>
-        <InternalLink
-          href="assets/high-quality/GDAD - Clef To TAB.pdf"
-          target="_blank"
-        >
-          <Image
+        </Link>
+        <Link href="assets/high-quality/GDAD - Clef To TAB.pdf" target="_blank">
+          <img
             id="clef-to-tab-GDAD"
             src="assets/low-quality/GDAD - Clef To TAB.jpg"
             alt="GDAD Treble Clef to TAB"
             width="100%"
             height="100%"
           />
-        </InternalLink>
-      </ImageContainer>
-    </section>
+        </Link>
+      </Box>
+    </Box>
   </Page>
 )
 

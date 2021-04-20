@@ -3,7 +3,9 @@ import Page from 'components/Page'
 
 import { AccessibilityContext } from 'context/app/accessibility.provider'
 
-import { H1, Text } from 'common/StyledComponents/StyledComponents'
+import Typography from '@material-ui/core/Typography'
+import Button from 'common/Button'
+import Box from '@material-ui/core/Box'
 
 const Accessibility = () => {
   const { dyslexicFontActive, toggleDyslexicFontActive } = useContext(
@@ -15,19 +17,19 @@ const Accessibility = () => {
       title="Irish-Trad.net - Accessibility"
       metaDescription="Accessibility for Irish-Trad.net"
     >
-      <H1>Accessibility</H1>
-      <Text>
+      <Typography variant="h1">Accessibility</Typography>
+      <Typography variant="body1">
         To improve accessibility on Irish-Trad.net you can use this page to
         change how content is displayed across all pages
-      </Text>
-      <div>
-        <Text>Dyslexic Font: </Text>
-        <button onClick={toggleDyslexicFontActive}>
+      </Typography>
+      <Box>
+        <Typography variant="body1">Dyslexic Font: </Typography>
+        <Button onClick={toggleDyslexicFontActive}>
           {dyslexicFontActive
             ? 'Turn Off Dyslexic Font'
             : 'Turn On Dyslexic Font'}
-        </button>
-      </div>
+        </Button>
+      </Box>
     </Page>
   )
 }
