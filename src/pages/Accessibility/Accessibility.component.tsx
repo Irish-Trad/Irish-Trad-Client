@@ -1,16 +1,15 @@
 import { useContext } from 'react'
-import Page from 'components/Page'
+import Page from 'components/Page/Page.component'
 
 import { AccessibilityContext } from 'context/app/accessibility.provider'
 
 import Typography from '@material-ui/core/Typography'
-import Button from 'common/Button'
+import Button from 'common/Button/Button.component'
 import Box from '@material-ui/core/Box'
 
 const Accessibility = () => {
-  const { dyslexicFontActive, toggleDyslexicFontActive } = useContext(
-    AccessibilityContext
-  )
+  const { dyslexicFontActive, toggleDyslexicFontActive } =
+    useContext(AccessibilityContext)
 
   return (
     <Page

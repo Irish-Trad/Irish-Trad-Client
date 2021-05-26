@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import TuneList from './TuneList'
+import TuneList from './TuneList/TuneList.component'
 
 import * as GDAE from './routes/GDAE'
 import * as GDAD from './routes/GDAD'
 
-import Page from 'components/Page'
+import Page from 'components/Page/Page.component'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
 import Input from '@material-ui/core/Input'
 import Link from '@material-ui/core/Link'
 
-import Button from 'common/Button'
+import Button from 'common/Button/Button.component'
 
 const Tabs = () => {
   const [showGDAE, setShowGDAE] = useState<boolean>(true)

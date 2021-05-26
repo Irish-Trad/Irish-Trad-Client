@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Hidden, makeStyles } from '@material-ui/core'
-import NavBar from 'components/NavBar'
-import TopBar from 'components/TopBar'
+import NavBar from 'components/NavBar/NavBar.component'
+import TopBar from 'components/TopBar/TopBar.component'
 
 const useStyles = makeStyles((theme) => ({
   root: {

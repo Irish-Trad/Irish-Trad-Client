@@ -1,4 +1,4 @@
-import Page from 'components/Page'
+import Page from 'components/Page/Page.component'
 
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'

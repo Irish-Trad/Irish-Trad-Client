@@ -2,45 +2,65 @@ import { lazy } from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 const Homepage = lazy(
-  () => import('pages/Homepage' /* webpackChunkName: 'Homepage' */)
+  () =>
+    import(
+      'pages/Homepage/Homepage.component' /* webpackChunkName: 'Homepage' */
+    )
 )
 
 const NotFound = lazy(
-  () => import('pages/NotFound' /* webpackChunkName: 'NotFound' */)
+  () =>
+    import(
+      'pages/NotFound/NotFound.component' /* webpackChunkName: 'NotFound' */
+    )
 )
 
 const Chords = lazy(
-  () => import('pages/Chords' /* webpackChunkName: 'Chords' */)
+  () => import('pages/Chords/Chords.component' /* webpackChunkName: 'Chords' */)
 )
 
 const Contact = lazy(
-  () => import('pages/Contact' /* webpackChunkName: 'Contact' */)
+  () =>
+    import('pages/Contact/Contact.component' /* webpackChunkName: 'Contact' */)
 )
 
 const ClefToTab = lazy(
-  () => import('pages/ClefToTab' /* webpackChunkName: 'ClefToTab' */)
+  () =>
+    import(
+      'pages/ClefToTab/ClefToTab.component' /* webpackChunkName: 'ClefToTab' */
+    )
 )
 
 const Lessons = lazy(
-  () => import('pages/Lessons' /* webpackChunkName: 'Lessons' */)
+  () =>
+    import('pages/Lessons/Lessons.component' /* webpackChunkName: 'Lessons' */)
 )
 
 const Terminology = lazy(
-  () => import('pages/Terminology' /* webpackChunkName: 'Terminology' */)
+  () =>
+    import(
+      'pages/Terminology/Terminology.component' /* webpackChunkName: 'Terminology' */
+    )
 )
 
 const Newsletter = lazy(
-  () => import('pages/Newsletter' /* webpackChunkName: 'Newsletter' */)
+  () =>
+    import(
+      'pages/Newsletter/Newsletter.component' /* webpackChunkName: 'Newsletter' */
+    )
 )
 
 const Community = lazy(
-  () => import('pages/Community' /* webpackChunkName: 'Community' */)
+  () =>
+    import(
+      'pages/Community/Community.component' /* webpackChunkName: 'Community' */
+    )
 )
 
 const HowToReadTab = lazy(
   () =>
     import(
-      'pages/Lessons/pages/HowToReadTab'
+      'pages/Lessons/pages/HowToReadTab/HowToReadTab.component'
       /* webpackChunkName: 'HowToReadTab' */
     )
 )
@@ -48,22 +68,30 @@ const HowToReadTab = lazy(
 const HowToString = lazy(
   () =>
     import(
-      'pages/Lessons/pages/HowToString'
+      'pages/Lessons/pages/HowToString/HowToString.component'
       /* webpackChunkName: 'HowToString' */
     )
 )
 
 const HowToTune = lazy(
   () =>
-    import('pages/Lessons/pages/HowToTune' /* webpackChunkName: 'HowToTune' */)
+    import(
+      'pages/Lessons/pages/HowToTune/HowToTune.component' /* webpackChunkName: 'HowToTune' */
+    )
 )
 
 const Tablature = lazy(
-  () => import('pages/Tablature' /* webpackChunkName: 'Tablature' */)
+  () =>
+    import(
+      'pages/Tablature/Tablature.component' /* webpackChunkName: 'Tablature' */
+    )
 )
 
 const Accessibility = lazy(
-  () => import('pages/Accessibility' /* webpackChunkName: 'Accessibility' */)
+  () =>
+    import(
+      'pages/Accessibility/Accessibility.component' /* webpackChunkName: 'Accessibility' */
+    )
 )
 
 const Routes = () => (

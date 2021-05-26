@@ -1,10 +1,10 @@
 import { Suspense } from 'react'
 
-import Spinner from 'components/Spinner'
-import ScrollToTop from 'components/ScrollToTop'
+import Spinner from 'components/Spinner/Spinner.component'
+import ScrollToTop from 'components/ScrollToTop/ScrollToTop.component'
 import AccessibilityProvider from './context/app/accessibility.provider'
 
-import MainLayout from 'layouts/MainLayout'
+import MainLayout from 'layouts/MainLayout/MainLayout'
 
 import { ClientContextProvider } from 'react-fetching-library'
 import { Client } from './api/Client'
@@ -17,7 +17,7 @@ import './fontawesome'
 import 'animate.css/animate.min.css'
 import './index.css'
 
-import Routes from 'routes'
+import Routes from 'routes/Routes.component'
 
 const App = () => (
   <AccessibilityProvider>

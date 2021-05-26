@@ -1,4 +1,4 @@
-import Page from 'components/Page'
+import Page from 'components/Page/Page.component'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
 

@@ -1,10 +1,10 @@
-import Page from 'components/Page'
+import Page from 'components/Page/Page.component'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
 import Link from '@material-ui/core/Link'
 import Icon from '@material-ui/core/Icon'
 
-import Button from 'common/Button'
+import Button from 'common/Button/Button.component'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Community = () => (

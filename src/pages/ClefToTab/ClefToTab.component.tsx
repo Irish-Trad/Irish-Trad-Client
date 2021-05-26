@@ -1,9 +1,9 @@
-import Page from 'components/Page'
+import Page from 'components/Page/Page.component'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
 import Link from '@material-ui/core/Link'
 
-import Button from 'common/Button'
+import Button from 'common/Button/Button.component'
 
 const ClefToTab = () => (
   <Page
