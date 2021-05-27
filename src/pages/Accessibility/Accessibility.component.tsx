@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import React, { useContext } from 'react'
 import Page from 'components/Page/Page.component'
 
 import { AccessibilityContext } from 'context/app/accessibility.provider'

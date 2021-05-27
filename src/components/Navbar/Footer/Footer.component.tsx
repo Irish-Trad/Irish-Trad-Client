@@ -1,3 +1,4 @@
+import React from 'react'
 import { StyledFooter } from './Footer.styles'
 
 import DiscordIcon from 'icons/Discord/Discord.component'

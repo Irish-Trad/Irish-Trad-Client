@@ -1,3 +1,4 @@
+import React from 'react'
 import { StyledIcon } from 'icons/IconStyles'
 
 const Discord = () => (

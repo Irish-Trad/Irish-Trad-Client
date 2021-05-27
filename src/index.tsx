@@ -7,7 +7,7 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <CssBaseline />
       <App />
     </BrowserRouter>

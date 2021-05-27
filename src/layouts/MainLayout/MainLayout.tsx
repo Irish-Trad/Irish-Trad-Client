@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { Hidden, makeStyles } from '@material-ui/core'
 import NavBar from 'components/NavBar/NavBar.component'
 import TopBar from 'components/TopBar/TopBar.component'

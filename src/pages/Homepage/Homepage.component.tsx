@@ -1,3 +1,4 @@
+import React from 'react'
 // import Metadata from 'common/Metadata'
 // @ts-ignore
 import ScrollAnimation from 'react-animate-on-scroll'

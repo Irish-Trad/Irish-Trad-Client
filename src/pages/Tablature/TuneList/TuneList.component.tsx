@@ -1,3 +1,4 @@
+import React from 'react'
 import { Section, InternalLink } from './TuneList.styles'
 
 type Props = {

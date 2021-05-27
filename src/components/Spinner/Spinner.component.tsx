@@ -1,3 +1,4 @@
+import React from 'react'
 import { Icon } from './Spinner.styles'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

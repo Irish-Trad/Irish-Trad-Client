@@ -1,4 +1,4 @@
-import { Suspense } from 'react'
+import React, { Suspense } from 'react'
 
 import Spinner from 'components/Spinner/Spinner.component'
 import ScrollToTop from 'components/ScrollToTop/ScrollToTop.component'

@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import React, { ReactNode } from 'react'
 import { Helmet } from 'react-helmet'
 import { Box } from '@material-ui/core'
 

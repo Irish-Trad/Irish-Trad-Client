@@ -1,3 +1,4 @@
+import React from 'react'
 import Page from 'components/Page/Page.component'
 
 import { H1, Text, CenterText } from 'common/StyledComponents/StyledComponents'

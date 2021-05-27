@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import React, { ReactNode } from 'react'
 import { StyledButton } from './Button.styles'
 
 type Props = {
