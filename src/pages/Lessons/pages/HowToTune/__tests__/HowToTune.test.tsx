@@ -14,12 +14,6 @@ describe('HowToTune', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = renderComponent()
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('Title of the page is How To Tune An Instrument', () => {
     const { getByText } = renderComponent()
 

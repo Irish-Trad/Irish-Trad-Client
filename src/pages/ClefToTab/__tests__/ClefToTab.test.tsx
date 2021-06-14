@@ -15,12 +15,6 @@ describe('ClefToTab', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = renderComponent()
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('Title of the page is ClefToTab', () => {
     const { getByText } = renderComponent()
 

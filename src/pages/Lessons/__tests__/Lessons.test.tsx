@@ -14,12 +14,6 @@ describe('Lessons', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = renderComponent()
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('Title of the page is Lessons', () => {
     const { getByText } = renderComponent()
 

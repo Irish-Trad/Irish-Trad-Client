@@ -1,7 +1,8 @@
 import React from 'react'
-// import Metadata from 'common/Metadata'
 // @ts-ignore
 import ScrollAnimation from 'react-animate-on-scroll'
+
+import Page from 'components/Page/Page.component'
 
 import {
   H1,
@@ -13,13 +14,10 @@ import {
 } from './Homepage.styles'
 
 const Homepage = () => (
-  <>
-    {/* <Metadata
-      title="Irish-Trad.net - Home"
-      metaTitle="Irish-Trad.net - Home"
-      metaKeywords="Irish, Irish Trad, Irish Traditional Music, Irish Folk Music, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandola/Irish Tenor Banjo"
-    /> */}
+  <Page
+    title="Irish-Trad.net - Tablature"
+    metaDescription="Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+  >
     <IntroContainer>
       <ScrollAnimation
         animateIn="animate__fadeIn"
@@ -124,7 +122,7 @@ const Homepage = () => (
         </Text>
       </ScrollAnimation>
     </Divider>
-  </>
+  </Page>
 )
 
 export default Homepage

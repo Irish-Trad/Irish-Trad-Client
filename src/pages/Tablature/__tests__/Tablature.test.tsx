@@ -6,12 +6,6 @@ describe('Tablature', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = render(<Tablature />)
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('When user first visits Tab page they see GDAE tunes', () => {
     const { getByText } = render(<Tablature />)
 

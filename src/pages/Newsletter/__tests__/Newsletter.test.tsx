@@ -6,12 +6,6 @@ describe('Newsletter', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = render(<Newsletter />)
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('Title of the page is Newsletter', () => {
     const { getByText } = render(<Newsletter />)
 

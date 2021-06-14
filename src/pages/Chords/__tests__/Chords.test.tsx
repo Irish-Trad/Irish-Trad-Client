@@ -7,16 +7,6 @@ describe('Chords', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = render(
-      <HashRouter>
-        <Chords />
-      </HashRouter>
-    )
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('Title of the page is Chords', () => {
     const { getByText } = render(
       <HashRouter>

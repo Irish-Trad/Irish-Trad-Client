@@ -14,12 +14,6 @@ describe('HowToString', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = renderComponent()
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('Title of the page is How To String An Instrument', () => {
     const { getByText } = renderComponent()
 

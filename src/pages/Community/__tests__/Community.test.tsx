@@ -8,12 +8,6 @@ describe('Community', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = renderComponent()
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('Title of the page is Community', () => {
     const { getByText } = renderComponent()
 

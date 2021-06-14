@@ -14,12 +14,6 @@ describe('HowToReadTab', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = renderComponent()
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('Title of the page is How to read Tablature', () => {
     const { getByText } = renderComponent()
 
