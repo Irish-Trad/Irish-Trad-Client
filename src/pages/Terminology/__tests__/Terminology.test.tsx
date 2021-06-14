@@ -6,12 +6,6 @@ describe('Terminology', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = render(<Terminology />)
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('User will see Terminology as a title and terminologies', () => {
     const { getByText, getAllByText } = render(<Terminology />)
 

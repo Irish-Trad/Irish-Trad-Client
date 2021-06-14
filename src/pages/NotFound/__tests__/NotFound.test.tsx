@@ -7,16 +7,6 @@ describe('NotFound', () => {
     cleanup()
   })
 
-  it('Snapshot', () => {
-    const snapshot = render(
-      <HashRouter>
-        <NotFound />
-      </HashRouter>
-    )
-
-    expect(snapshot).toMatchSnapshot()
-  })
-
   it('If user ends up on this page they should see 404 and a button to return home', () => {
     const { getByText } = render(
       <HashRouter>

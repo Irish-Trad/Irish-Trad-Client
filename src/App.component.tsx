@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react'
 
 import Spinner from 'components/Spinner/Spinner.component'
-import ScrollToTop from 'components/ScrollToTop/ScrollToTop.component'
 import AccessibilityProvider from './context/app/accessibility.provider'
 
 import MainLayout from 'layouts/MainLayout/MainLayout'

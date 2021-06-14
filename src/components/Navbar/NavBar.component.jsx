@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Box, Drawer, Hidden, List, makeStyles } from '@material-ui/core'
 
-import Header from './Header/Header.component'
+import Header from './Header/Header.component.tsx'
 import NavItem from './NavItem/NavItem.component'
 import Footer from './Footer/Footer.component'
 
