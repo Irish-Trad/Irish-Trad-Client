@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import HowToString from '../HowToString.component'
+import HowToString from '..'
 import { HashRouter } from 'react-router-dom'
 
 const renderComponent = () =>

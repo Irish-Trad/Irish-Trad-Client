@@ -1,5 +1,5 @@
 import { render, cleanup, fireEvent, screen } from '@testing-library/react'
-import Tablature from '../Tablature.component'
+import Tablature from '..'
 
 describe('Tablature', () => {
   afterEach(() => {

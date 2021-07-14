@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import Community from '../Community.component'
+import Community from '..'
 
 const renderComponent = () => render(<Community />)
 

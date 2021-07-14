@@ -1,34 +1,27 @@
 import React, { Suspense } from 'react'
-
-import Spinner from 'components/Spinner/Spinner.component'
+import { BrowserRouter } from 'react-router-dom'
+import Spinner from 'components/Spinner'
 import AccessibilityProvider from './context/app/accessibility.provider'
-
-import MainLayout from 'layouts/MainLayout/MainLayout'
-
+import MainLayout from 'layouts/MainLayout'
 import { ClientContextProvider } from 'react-fetching-library'
 import { Client } from './api/Client'
-
-import { ThemeProvider } from '@material-ui/core'
+import Routes from 'routes'
 import GlobalStyles from 'common/GlobalStyles'
-import theme from 'theme'
-
 import './fontawesome'
 import 'animate.css/animate.min.css'
 import './index.css'
 
-import Routes from 'routes/Routes.component'
-
 const App = () => (
   <AccessibilityProvider>
-    <ThemeProvider theme={theme}>
-      <ClientContextProvider client={Client}>
+    <ClientContextProvider client={Client}>
+      <BrowserRouter>
         <MainLayout>
           <Suspense fallback={Spinner}>
             <Routes />
           </Suspense>
         </MainLayout>
-      </ClientContextProvider>
-    </ThemeProvider>
+      </BrowserRouter>
+    </ClientContextProvider>
   </AccessibilityProvider>
 )
 

@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import HowToReadTab from '../HowToReadTab.component'
+import HowToReadTab from '..'
 import { HashRouter } from 'react-router-dom'
 
 const renderComponent = () =>

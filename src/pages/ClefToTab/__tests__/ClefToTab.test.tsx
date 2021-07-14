@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import ClefToTab from '../ClefToTab.component'
+import ClefToTab from '..'
 import { HashRouter } from 'react-router-dom'
 
 const renderComponent = () => {

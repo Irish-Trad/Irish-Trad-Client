@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import Chords from '../Chords.component'
+import Chords from '..'
 import { HashRouter } from 'react-router-dom'
 
 describe('Chords', () => {

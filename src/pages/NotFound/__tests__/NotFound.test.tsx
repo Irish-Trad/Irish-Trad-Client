@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import NotFound from '../NotFound.component'
+import NotFound from '..'
 import { HashRouter } from 'react-router-dom'
 
 describe('NotFound', () => {

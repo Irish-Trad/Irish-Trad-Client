@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import Homepage from '../Homepage.component'
+import Homepage from '../'
 
 const renderComponent = () => render(<Homepage />)
 

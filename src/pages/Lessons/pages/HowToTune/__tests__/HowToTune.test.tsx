@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import HowToTune from '../HowToTune.component'
+import HowToTune from '..'
 import { HashRouter } from 'react-router-dom'
 
 const renderComponent = () =>

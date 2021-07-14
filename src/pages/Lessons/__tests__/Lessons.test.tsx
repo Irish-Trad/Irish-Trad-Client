@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import Lessons from '../Lessons.component'
+import Lessons from '..'
 import { HashRouter } from 'react-router-dom'
 
 const renderComponent = () =>
