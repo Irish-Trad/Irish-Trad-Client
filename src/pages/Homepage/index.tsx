@@ -1,4 +1,3 @@
-import React from 'react'
 import Page from 'components/Page'
 import { H1, H2, Text, IntroContainer, ExternalLink, Divider } from './styles'
 

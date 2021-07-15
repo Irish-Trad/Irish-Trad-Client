@@ -1,4 +1,3 @@
-import React from 'react'
 import { StyledIcon } from 'assets/icons/IconStyles'
 
 const MailChimp = () => (
