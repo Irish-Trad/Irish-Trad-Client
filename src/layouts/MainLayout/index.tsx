@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import NavBar from 'components/NavBar'
 import TopBar from 'components/TopBar'
+import Hamburger from 'components/Hamburger'
 
 const MainLayout = ({ children }: any) => {
   const [isMobileNavOpen, setMobileNavOpen] = useState(false)
@@ -20,17 +21,9 @@ const MainLayout = ({ children }: any) => {
             openMobile={isMobileNavOpen}
           />
         )} */}
-        <button
-          style={{
-            position: 'absolute',
-            top: '0',
-            background: 'red',
-            width: '200px',
-            height: '200px',
-            zIndex: 100,
-          }}
-          onClick={() => setIsDesktopNavOpen(!isDesktopNavOpen)}
-        ></button>
+        <Hamburger
+        // onClick={() => setIsDesktopNavOpen(!isDesktopNavOpen)}
+        />
         {children}
       </div>
     </div>
