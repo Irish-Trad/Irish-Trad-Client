@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import { lazy } from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 const Accessibility = lazy(() => import('pages/Accessibility'))

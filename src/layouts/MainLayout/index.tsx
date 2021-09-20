@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import NavBar from 'components/NavBar'
 import TopBar from 'components/TopBar'
 import Hamburger from 'components/Hamburger'
@@ -15,15 +15,13 @@ const MainLayout = ({ children }: any) => {
         {/* <TopBar onMobileNavOpen={() => setMobileNavOpen(true)} /> */}
       </div>
       <div>
-        {/* {isDesktopNavOpen && (
+        {isDesktopNavOpen && (
           <NavBar
             onMobileClose={() => setMobileNavOpen(false)}
             openMobile={isMobileNavOpen}
           />
-        )} */}
-        <Hamburger
-        // onClick={() => setIsDesktopNavOpen(!isDesktopNavOpen)}
-        />
+        )}
+        <Hamburger onClick={() => setIsDesktopNavOpen(!isDesktopNavOpen)} />
         {children}
       </div>
     </div>

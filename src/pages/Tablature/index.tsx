@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import TuneList from './TuneList'
 
 import * as GDAE from './routes/GDAE'

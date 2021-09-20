@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 
-import Header from './Header/index.tsx'
+import Header from './Header'
 import NavItem from './NavItem'
 import Footer from './Footer'
 
@@ -49,7 +49,6 @@ const items = [
 ]
 
 const NavBar = ({ onMobileClose, openMobile }) => {
-  const classes = useStyles()
   const location = useLocation()
 
   useEffect(() => {
@@ -63,16 +62,16 @@ const NavBar = ({ onMobileClose, openMobile }) => {
     <div>
       <Header />
       <div p={2} className={classes.navBarList}>
-        <List>
+        <div>
           {items.map((item) => (
-            <NavItem
+            <div
               href={item.href}
               key={item.title}
               title={item.title}
               icon={item.icon}
             />
           ))}
-        </List>
+        </div>
       </div>
       <Footer />
     </div>
@@ -82,7 +81,7 @@ const NavBar = ({ onMobileClose, openMobile }) => {
     <>
       {/* lgUp */}
       <div>
-        <Drawer
+        <div
           anchor="left"
           classes={{ paper: classes.mobileDrawer }}
           onClose={onMobileClose}
@@ -90,18 +89,18 @@ const NavBar = ({ onMobileClose, openMobile }) => {
           variant="temporary"
         >
           {content}
-        </Drawer>
+        </div>
       </div>
       {/* mdDown */}
       <div>
-        <Drawer
+        <div
           anchor="left"
           classes={{ paper: classes.desktopDrawer }}
           open
           variant="persistent"
         >
           {content}
-        </Drawer>
+        </div>
       </div>
     </>
   )
