@@ -1,4 +1,5 @@
 import Page from 'components/Page'
+
 import {
   H1,
   H2,

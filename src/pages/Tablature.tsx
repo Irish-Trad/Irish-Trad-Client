@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import TuneList from './TuneList/TuneList'
+import TuneList from './TuneList'
 
 import * as GDAE from './routes/GDAE'
 import * as GDAD from './routes/GDAD'
 
 import Page from 'components/Page'
 
-import Button from 'common/Button/Button'
+import Button from 'components/Button'
 
 const Tabs = () => {
   const [showGDAE, setShowGDAE] = useState<boolean>(true)

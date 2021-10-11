@@ -1,15 +1,11 @@
-import {
-  H1,
-  Button,
-  InternalLink,
-} from 'common/StyledComponents/StyledComponents'
+import { Link } from 'react-router-dom'
 
 const NotFound = () => (
   <>
-    <H1>404 - No Page Found</H1>
-    <InternalLink to={'/'}>
-      <Button>Click Here to Return Home</Button>
-    </InternalLink>
+    <h1>404 - No Page Found</h1>
+    <Link to={'/'}>
+      <button>Click Here to Return Home</button>
+    </Link>
   </>
 )
 

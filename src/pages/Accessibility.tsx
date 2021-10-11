@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import Page from 'components/Page'
 import { AccessibilityContext } from 'context/app/accessibility.provider'
-import Button from 'common/Button/Button'
+import Button from 'components/Button'
 
 const Accessibility = () => {
   const { dyslexicFontActive, toggleDyslexicFontActive } =

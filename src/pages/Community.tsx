@@ -1,6 +1,6 @@
 import Page from 'components/Page'
 
-import Button from 'common/Button/Button'
+import Button from 'components/Button'
 import Discord from 'assets/icons/Discord'
 
 const Community = () => (
