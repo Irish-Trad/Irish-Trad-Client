@@ -8,11 +8,4 @@ export default defineConfig({
     outDir: 'build',
   },
   plugins: [tsconfigPaths(), reactRefresh(), reactJsx()],
-  server: {
-    host: '0.0.0.0',
-    // port: 3000,
-    // strictPort: true,
-    // open: '/',
-    // hmr: true,
-  },
 })
