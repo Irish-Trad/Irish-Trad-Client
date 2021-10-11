@@ -169,6 +169,9 @@ psd
 thumb
 sketch
 
+# react build output
+build
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db

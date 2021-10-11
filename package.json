@@ -1,36 +1,32 @@
 {
   "name": "irish-trad.net",
-  "homepage": "https://irish-trad.net",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30",
-    "@fortawesome/free-brands-svg-icons": "^5.14.0",
-    "@fortawesome/free-solid-svg-icons": "^5.14.0",
-    "@fortawesome/react-fontawesome": "^0.1.11",
-    "@types/jest": "^26.0.10",
-    "@types/node": "^14.6.0",
-    "@types/react": "^16.9.47",
-    "@types/react-dom": "^16.9.8",
-    "@types/react-helmet": "^6.1.0",
-    "@types/react-router-dom": "^5.1.5",
-    "@types/react-router-hash-link": "^1.2.1",
-    "@types/styled-components": "^5.1.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@hookform/resolvers": "^1.3.5",
     "animate.css": "^4.1.1",
-    "react": "^16.13.1",
-    "react-animate-on-scroll": "^2.1.5",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-fetching-library": "^1.7.6",
     "react-helmet": "^6.1.0",
+    "react-hook-form": "^6.15.7",
     "react-router-dom": "^5.2.0",
-    "react-router-hash-link": "^2.0.0",
-    "react-scripts": "^3.4.3",
-    "styled-components": "^5.1.1"
+    "react-router-hash-link": "^2.4.3",
+    "styled-components": "^5.3.1",
+    "tailwind-styled-components": "^2.0.3",
+    "yup": "^0.32.9"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -48,8 +44,24 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^10.4.9",
-    "typescript": "^4.0.2"
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^14.17.1",
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
+    "@types/react-helmet": "^6.1.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-router-hash-link": "^1.2.1",
+    "@types/styled-components": "^5.1.9",
+    "@vitejs/plugin-react-refresh": "1.3.3",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15",
+    "gh-pages": "^3.2.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.4",
+    "vite-react-jsx": "^1.1.2",
+    "vite-tsconfig-paths": "^3.3.12"
   }
 }
