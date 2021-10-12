@@ -1,12 +1,12 @@
 import { render, cleanup } from '@testing-library/react'
-import Lessons from '../Lessons/Lessons'
-import { HashRouter } from 'react-router-dom'
+import Lessons from 'pages/Lessons'
+import { BrowserRouter } from 'react-router-dom'
 
 const renderComponent = () =>
   render(
-    <HashRouter>
+    <BrowserRouter>
       <Lessons />
-    </HashRouter>
+    </BrowserRouter>
   )
 
 describe('Lessons', () => {

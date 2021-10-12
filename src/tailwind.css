@@ -2,26 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'meathflfregular';
-  src: url('./fonts/meathflf-webfont.woff2') format('woff2'),
-    url('./fonts/meathflf-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@layer base {
+  /* Custom Fonts */
+  @font-face {
+    font-family: 'meathflfregular';
+    src: url('./fonts/meathflf-webfont.woff2') format('woff2'),
+      url('./fonts/meathflf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
 
-@font-face {
-  font-family: 'OpenDyslexic-Regular';
-  src: url('./fonts/OpenDyslexic-Regular.otf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+  @font-face {
+    font-family: 'OpenDyslexic-Regular';
+    src: url('./fonts/OpenDyslexic-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: meathflfregular;
+  /* Base Styles */
+  body {
+    @apply bg-gray-900;
+  }
+  * {
+    @apply text-white;
+  }
 }

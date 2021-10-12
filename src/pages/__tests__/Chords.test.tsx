@@ -1,6 +1,6 @@
 import { render, cleanup } from '@testing-library/react'
-import Chords from '../Chords'
-import { HashRouter } from 'react-router-dom'
+import Chords from 'pages/Chords'
+import { BrowserRouter } from 'react-router-dom'
 
 describe('Chords', () => {
   afterEach(() => {
@@ -9,9 +9,9 @@ describe('Chords', () => {
 
   it('Title of the page is Chords', () => {
     const { getByText } = render(
-      <HashRouter>
+      <BrowserRouter>
         <Chords />
-      </HashRouter>
+      </BrowserRouter>
     )
 
     expect(getByText('Chords')).toBeInTheDocument()

@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import Terminology from '../Terminology'
+import Terminology from 'pages/Terminology'
 
 describe('Terminology', () => {
   afterEach(() => {

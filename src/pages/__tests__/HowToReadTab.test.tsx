@@ -1,12 +1,12 @@
 import { render, cleanup } from '@testing-library/react'
-import HowToReadTab from '../HowToReadTab'
-import { HashRouter } from 'react-router-dom'
+import HowToReadTab from 'pages/HowToReadTab'
+import { BrowserRouter } from 'react-router-dom'
 
 const renderComponent = () =>
   render(
-    <HashRouter>
+    <BrowserRouter>
       <HowToReadTab />
-    </HashRouter>
+    </BrowserRouter>
   )
 
 describe('HowToReadTab', () => {

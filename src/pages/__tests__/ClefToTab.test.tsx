@@ -1,12 +1,12 @@
 import { render, cleanup } from '@testing-library/react'
-import ClefToTab from '../ClefToTab/ClefToTab'
-import { HashRouter } from 'react-router-dom'
+import ClefToTab from 'pages/ClefToTab'
+import { BrowserRouter } from 'react-router-dom'
 
 const renderComponent = () => {
   return render(
-    <HashRouter>
+    <BrowserRouter>
       <ClefToTab />
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
