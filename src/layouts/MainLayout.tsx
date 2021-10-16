@@ -1,12 +1,15 @@
-import MobileMenu from 'components/MobileMenu'
-import DesktopMenu from 'components/DesktopMenu'
+import MenuMobile from 'components/MenuMobile'
+import MenuDesktop from 'components/MenuDesktop'
+import { ReactNode } from 'react'
 
-// TODO: type children
-const MainLayout = ({ children }: any) => (
+type Props = {
+  children: ReactNode
+}
+const MainLayout = ({ children }: Props) => (
   <div className="flex flex-col">
-    <MobileMenu />
+    <MenuMobile />
     <div className="flex">
-      <DesktopMenu />
+      <MenuDesktop />
       {children}
     </div>
   </div>

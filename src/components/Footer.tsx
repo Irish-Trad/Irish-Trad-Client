@@ -1,13 +1,11 @@
-import { StyledFooter } from './Footer.styles'
-
 import DiscordIcon from 'assets/icons/Discord'
 import MailchimpIcon from 'assets/icons/Mailchimp'
 
 const Footer = () => (
-  <StyledFooter>
+  <footer className="flex justify-center">
     <DiscordIcon />
     <MailchimpIcon />
-  </StyledFooter>
+  </footer>
 )
 
 export default Footer

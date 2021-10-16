@@ -18,6 +18,6 @@ describe('ClefToTab', () => {
   it('Title of the page is ClefToTab', () => {
     const { getByText } = renderComponent()
 
-    expect(getByText('Cleft to Tablature')).toBeInTheDocument()
+    expect(getByText('Clef to Tablature')).toBeInTheDocument()
   })
 })

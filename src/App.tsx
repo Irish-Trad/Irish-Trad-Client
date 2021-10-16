@@ -10,7 +10,7 @@ import './tailwind.css'
 const App = () => (
   <BrowserRouter>
     <MainLayout>
-      <Suspense fallback={Spinner}>
+      <Suspense fallback={<Spinner />}>
         <Routes />
       </Suspense>
     </MainLayout>

@@ -8,7 +8,7 @@ const Newsletter = () => (
     title="Irish-Trad.net - Newsletter"
     metaDescription="Newsletter for Irish-Trad.net"
   >
-    <p>Newsletter</p>
+    <h1 className="text-center py-6 text-6xl">Newsletter</h1>
     <section>
       <p>
         Irish-Trad.net is a hobby project so progress is slow when developing

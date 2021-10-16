@@ -8,7 +8,7 @@ type Props = {
 }
 
 const Page = ({ children, title, metaDescription }: Props) => (
-  <div>
+  <div className="w-full px-4">
     <Helmet>
       <link rel="canonical" href={`${window.location}`} />
       <title>{title}</title>

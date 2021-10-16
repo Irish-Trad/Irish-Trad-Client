@@ -48,17 +48,6 @@ const Lessons = () => (
       </ExternalLink>
       <p>The best resource for traditional Irish sheet music.</p>
       <ExternalLink
-        href="https://www.atuneaweek.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <LinkText>A Tune A Week</LinkText>
-      </ExternalLink>
-      <p>
-        A great resource to keep you motivated and help choose what tune to
-        learn next.
-      </p>
-      <ExternalLink
         href="https://irish-music.net/"
         target="_blank"
         rel="noopener noreferrer"

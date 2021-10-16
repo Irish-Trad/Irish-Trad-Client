@@ -4,10 +4,10 @@ import Button from 'components/Button'
 
 const ClefToTab = () => (
   <Page
-    title="Irish-Trad.net - Cleft to TAB"
-    metaDescription="Treble Cleft to TAB - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
+    title="Irish-Trad.net - Clef to TAB"
+    metaDescription="Treble Clef to TAB - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
   >
-    <h1>Cleft to Tablature</h1>
+    <h1>Clef to Tablature</h1>
     <div>
       <a href="#clef-to-tab-GDAE">
         <Button>GDAE</Button>
