@@ -1,9 +1,5 @@
 const menuItems = [
   {
-    path: '/',
-    label: 'Home',
-  },
-  {
     path: '/tablature',
     label: 'Tablature',
   },

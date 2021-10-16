@@ -1,4 +1,4 @@
-import { StyledIcon } from 'assets/icons/IconStyles'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const MailChimp = () => (
   <a
@@ -6,7 +6,7 @@ const MailChimp = () => (
     target="_blank"
     rel="noreferrer"
   >
-    <StyledIcon icon={['fab', 'mailchimp']} />
+    <FontAwesomeIcon className="text-4xl" icon={['fab', 'mailchimp']} />
   </a>
 )
 

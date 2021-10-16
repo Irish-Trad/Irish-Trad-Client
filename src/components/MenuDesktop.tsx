@@ -10,8 +10,8 @@ const MenuDesktop = () => {
 
   return (
     <MenuDesktopContainer openmenu={openMenu.toString()}>
-      <div>
-        <div
+      <div className="flex flex-col flex-1 overflow-auto">
+        {/* <div
           className="flex justify-end"
           onClick={() => setOpenMenu(!openMenu)}
         >
@@ -19,14 +19,14 @@ const MenuDesktop = () => {
             className="text-white"
             icon={['fas', `${openMenu ? 'caret-left' : 'caret-right'}`]}
           />
-        </div>
+        </div> */}
         <Link
           to={'/'}
-          className="flex justify-center py-4 border-b-2 hover:bg-gray-900"
+          className="flex justify-center py-6 border-b-2 hover:bg-gray-900"
         >
           Irish-Trad.net
         </Link>
-        <div className="overflow-auto">
+        <div className="h-full max-h-full overflow-auto">
           {menuItems.map((item) => (
             <Link
               key={item.path}

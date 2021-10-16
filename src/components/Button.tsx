@@ -1,8 +1,12 @@
 import { HTMLProps } from 'react'
-import { StyledButton } from './Button.styles'
 
 const Button = ({ children, onClick }: HTMLProps<HTMLButtonElement>) => (
-  <StyledButton onClick={onClick}>{children}</StyledButton>
+  <button
+    className="px-4 py-2 border-2 rounded-md uppercase font-bold"
+    onClick={onClick}
+  >
+    {children}
+  </button>
 )
 
 export default Button

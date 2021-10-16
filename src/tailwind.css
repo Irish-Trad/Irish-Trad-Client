@@ -26,4 +26,12 @@
   * {
     @apply text-white;
   }
+
+  h1 {
+    @apply text-center text-4xl lg:text-9xl my-4;
+  }
+
+  p {
+    @apply my-4 lg:text-2xl;
+  }
 }
