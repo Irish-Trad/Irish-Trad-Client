@@ -1,5 +1,5 @@
-import { ChangeEvent, ChangeEventHandler, useState } from 'react'
-import TuneList from './TuneList'
+import { useState } from 'react'
+import TuneList from 'components/TuneList'
 
 import * as GDAE from './routes/GDAE'
 import * as GDAD from './routes/GDAD'
