@@ -17,8 +17,7 @@ const HowToReadTab = () => (
     title="Irish-Trad.net - How to read Tablature"
     metaDescription="How to read Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
   >
-    <Page>
-      <h1>How to read Tablature</h1>
+    <Page header="How to read Tablature">
       <ButtonContainer>
         <Link to="/lessons">
           <Button>Return to Lessons Page</Button>

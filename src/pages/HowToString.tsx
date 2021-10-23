@@ -19,8 +19,7 @@ const HowToString = () => (
     title="Irish-Trad.net - How To String"
     metaDescription="How To String Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
   >
-    <Page>
-      <h1>How To String An Instrument</h1>
+    <Page header="How To String An Instrument">
       <ButtonContainer>
         <Link to="/lessons">
           <Button>Return to Lessons Page</Button>

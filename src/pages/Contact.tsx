@@ -45,34 +45,30 @@ const Contact = () => {
       title="Irish-Trad.net - Contact"
       metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
     >
-      <Page>
-        <h1>Contact Form</h1>
-        <section>
-          <p>
-            If you have any enquiries, feedback or suggestions for future
-            material or find a broken page then you can use the contact form
-            correspond.
-          </p>
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <label htmlFor="name">Name</label>
-            <input type="text" name="name" ref={register} />
-            <p>{errors.name?.message}</p>
+      <Page header="Contact Form">
+        <p>
+          If you have any enquiries, feedback or suggestions for future material
+          or find a broken page then you can use the contact form correspond.
+        </p>
+        <form onSubmit={handleSubmit(onSubmit)}>
+          <label htmlFor="name">Name</label>
+          <input type="text" name="name" ref={register} />
+          <p>{errors.name?.message}</p>
 
-            <label htmlFor="email">Email</label>
-            <input type="email" name="email" ref={register} />
-            <p>{errors.email?.message}</p>
+          <label htmlFor="email">Email</label>
+          <input type="email" name="email" ref={register} />
+          <p>{errors.email?.message}</p>
 
-            <label htmlFor="message">Message</label>
-            <textarea name="message" ref={register} />
-            <p>{errors.message?.message}</p>
+          <label htmlFor="message">Message</label>
+          <textarea name="message" ref={register} />
+          <p>{errors.message?.message}</p>
 
-            {errorMessage && <p>{errorMessage}</p>}
+          {errorMessage && <p>{errorMessage}</p>}
 
-            {successMessage && <p>{successMessage}</p>}
+          {successMessage && <p>{successMessage}</p>}
 
-            {!loading ? <button type="submit">Submit</button> : <p>Loading</p>}
-          </form>
-        </section>
+          {!loading ? <button type="submit">Submit</button> : <p>Loading</p>}
+        </form>
       </Page>
     </PageMeta>
   )

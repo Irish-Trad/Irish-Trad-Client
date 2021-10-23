@@ -30,8 +30,7 @@ const Chords = () => (
     title="Irish-Trad.net - Chords"
     metaDescription="Chords - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
   >
-    <Page>
-      <h1>Chords</h1>
+    <Page header="Chords">
       <div className="flex justify-center">
         {chordButtons.map((item) => (
           <a className="mx-4 my-4" href={`${item.href}`}>

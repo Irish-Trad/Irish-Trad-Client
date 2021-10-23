@@ -6,7 +6,7 @@ type Props = {
   searchValue: string
 }
 
-const TuneList: React.FC<Props> = ({ search, tunes, searchValue }) => (
+const TuneList = ({ search, tunes, searchValue }: Props) => (
   <Section>
     {search
       ? tunes

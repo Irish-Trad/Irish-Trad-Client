@@ -13,8 +13,7 @@ const Accessibility = () => {
       title="Irish-Trad.net - Accessibility"
       metaDescription="Accessibility for Irish-Trad.net"
     >
-      <Page>
-        <h1>Accessibility</h1>
+      <Page header="Accessibility">
         <p>
           To improve accessibility on Irish-Trad.net you can use this page to
           change how content is displayed across all pages

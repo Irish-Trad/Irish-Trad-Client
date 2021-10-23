@@ -7,8 +7,7 @@ const ClefToTab = () => (
     title="Irish-Trad.net - Clef to TAB"
     metaDescription={`Treble Clef to TAB - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo`}
   >
-    <Page>
-      <h1>Clef to Tablature</h1>
+    <Page header="Clef to Tablature">
       <div>
         <a href="#clef-to-tab-GDAE">
           <Button>GDAE</Button>
