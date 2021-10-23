@@ -1,4 +1,4 @@
-import { sortTunesAtoZ } from './sortTunesAtoZ'
+import sortTunesAtoZ from 'utils/sortTunesAtoZ'
 
 type Props = {
   name: string

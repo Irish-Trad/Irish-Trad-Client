@@ -1,12 +1,12 @@
 import { render, cleanup } from '@testing-library/react'
-import HowToTune from '../HowToTune'
-import { HashRouter } from 'react-router-dom'
+import HowToTune from 'pages/HowToTune'
+import { BrowserRouter } from 'react-router-dom'
 
 const renderComponent = () =>
   render(
-    <HashRouter>
+    <BrowserRouter>
       <HowToTune />
-    </HashRouter>
+    </BrowserRouter>
   )
 
 describe('HowToTune', () => {

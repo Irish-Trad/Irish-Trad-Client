@@ -1,15 +1,14 @@
+import PageMeta from 'components/PageMeta'
 import Page from 'components/Page'
-
 import Button from 'components/Button'
 import Discord from 'assets/icons/Discord'
 
 const Community = () => (
-  <Page
+  <PageMeta
     title="Irish-Trad.net - Community"
     metaDescription="Community for Irish-Trad.net"
   >
-    <p>Community</p>
-    <section>
+    <Page header="Community">
       <p>
         I have created a Discord server to allow users of Irish-Trad.net to
         interact with each other and discuss various topics regarding Irish Trad
@@ -68,8 +67,8 @@ const Community = () => (
         The Discord icon can also be found in the footer of every page to make
         future access easier.
       </p>
-    </section>
-  </Page>
+    </Page>
+  </PageMeta>
 )
 
 export default Community

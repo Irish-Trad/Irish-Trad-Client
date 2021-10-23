@@ -1,12 +1,12 @@
 import { render, cleanup } from '@testing-library/react'
-import ClefToTab from '../ClefToTab/ClefToTab'
-import { HashRouter } from 'react-router-dom'
+import ClefToTab from 'pages/ClefToTab'
+import { BrowserRouter } from 'react-router-dom'
 
 const renderComponent = () => {
   return render(
-    <HashRouter>
+    <BrowserRouter>
       <ClefToTab />
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
@@ -18,6 +18,6 @@ describe('ClefToTab', () => {
   it('Title of the page is ClefToTab', () => {
     const { getByText } = renderComponent()
 
-    expect(getByText('Cleft to Tablature')).toBeInTheDocument()
+    expect(getByText('Clef to Tablature')).toBeInTheDocument()
   })
 })

@@ -65,12 +65,3 @@ export const Text = styled.p`
     padding: 0em 3.125em;
   }
 `
-
-export const Divider = styled.section`
-  box-shadow: inset 0 5px 0 0 rgba(0, 0, 0, 0.05),
-    inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
-
-  @media screen and (min-width: 1281px) {
-    padding: 3.125em 12.5em;
-  }
-`

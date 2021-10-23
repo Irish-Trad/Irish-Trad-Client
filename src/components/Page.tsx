@@ -1,25 +1,16 @@
 import { ReactNode } from 'react'
-import { Helmet } from 'react-helmet'
 
 type Props = {
+  header?: string
   children: ReactNode
-  title: string
-  metaDescription: string
 }
 
-const Page = ({ children, title, metaDescription }: Props) => (
-  <div>
-    <Helmet>
-      <link rel="canonical" href={`${window.location}`} />
-      <title>{title}</title>
-      <meta name="title" content={title} />
-      <meta
-        name="keywords"
-        content="Irish Trad, Irish Traditional, Irish Tenor Banjo, Irish Bouzouki, Bouzouki, Mandolin, Octave Mandolin, Mandola, Octave Mandola, Chords, TAB, Tablature"
-      />
-      <meta name="description" content={metaDescription} />
-    </Helmet>
-    {children}
+const Page = ({ header, children }: Props) => (
+  <div className="flex flex-col w-full h-screen overflow-auto items-center pt-16 lg:pt-0">
+    {header && <h1>{header}</h1>}
+    <section className="flex flex-col justify-center lg:max-w-5xl">
+      {children}
+    </section>
   </div>
 )
 

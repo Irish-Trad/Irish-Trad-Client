@@ -1,29 +1,42 @@
-import Page from 'components/Page'
+import PageMeta from 'components/PageMeta'
 import Button from 'components/Button'
+import Page from 'components/Page'
+
+const chordButtons = [
+  {
+    href: '#MajorChords',
+    label: 'Major Chords',
+  },
+  {
+    href: '#MinorChords',
+    label: 'Minor Chords',
+  },
+  {
+    href: '#Major7thChords',
+    label: 'Major 7th Chords',
+  },
+  {
+    href: '#Minor7thChords',
+    label: 'Minor 7th Chords',
+  },
+  {
+    href: '#Dominant7thChords',
+    label: 'Dominant 7th Chords',
+  },
+]
 
 const Chords = () => (
-  <Page
+  <PageMeta
     title="Irish-Trad.net - Chords"
     metaDescription="Chords - GDAE & GDAD for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
   >
-    <p>Chords</p>
-    <section>
-      <div>
-        <a href="#MajorChords">
-          <Button>Major Chords</Button>
-        </a>
-        <a href="#MinorChords">
-          <Button>Minor Chords</Button>
-        </a>
-        <a href="#Major7thChords">
-          <Button>Major 7th Chords</Button>
-        </a>
-        <a href="#Minor7thChords">
-          <Button>Minor 7th Chords</Button>
-        </a>
-        <a href="#Dominant7thChords">
-          <Button>Dominant 7th Chords</Button>
-        </a>
+    <Page header="Chords">
+      <div className="flex justify-center">
+        {chordButtons.map((item) => (
+          <a className="mx-4 my-4" href={`${item.href}`}>
+            <Button>{item.label}</Button>
+          </a>
+        ))}
       </div>
       <p>
         The chord diagrams found on this page showcase one way in which to play
@@ -335,8 +348,8 @@ const Chords = () => (
           />
         </a>
       </div>
-    </section>
-  </Page>
+    </Page>
+  </PageMeta>
 )
 
 export default Chords

@@ -1,3 +1,4 @@
+import PageMeta from 'components/PageMeta'
 import Page from 'components/Page'
 import { Link } from 'react-router-dom'
 
@@ -11,17 +12,16 @@ import {
 } from './HowToTune.styles'
 
 const HowToTune = () => (
-  <Page
+  <PageMeta
     title="Irish-Trad.net - How To Tune"
     metaDescription="How To Tune Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo/Irish Tenor Banjo"
   >
-    <h1>How To Tune An Instrument</h1>
-    <ButtonContainer>
-      <Link to="/lessons">
-        <Button>Return to Lessons Page</Button>
-      </Link>
-    </ButtonContainer>
-    <section>
+    <Page header="How To Tune An Instrument">
+      <ButtonContainer>
+        <Link to="/lessons">
+          <Button>Return to Lessons Page</Button>
+        </Link>
+      </ButtonContainer>
       <H2>Introduction:</H2>
       <p>
         Knowing how to tune your instrument is another vital skill that a
@@ -97,8 +97,8 @@ const HowToTune = () => (
         about 2-3 with tuning should be enough for a properly set-up instrument
         to retain tuning of new strings.
       </p>
-    </section>
-  </Page>
+    </Page>
+  </PageMeta>
 )
 
 export default HowToTune

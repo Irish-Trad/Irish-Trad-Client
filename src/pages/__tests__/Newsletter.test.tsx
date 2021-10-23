@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react'
-import Newsletter from '../Newsletter'
+import Newsletter from 'pages/Newsletter'
 
 describe('Newsletter', () => {
   afterEach(() => {

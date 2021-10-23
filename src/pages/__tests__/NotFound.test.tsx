@@ -1,6 +1,6 @@
 import { render, cleanup } from '@testing-library/react'
-import NotFound from '../NotFound'
-import { HashRouter } from 'react-router-dom'
+import NotFound from 'pages/NotFound'
+import { BrowserRouter } from 'react-router-dom'
 
 describe('NotFound', () => {
   afterEach(() => {
@@ -9,9 +9,9 @@ describe('NotFound', () => {
 
   it('If user ends up on this page they should see 404 and a button to return home', () => {
     const { getByText } = render(
-      <HashRouter>
+      <BrowserRouter>
         <NotFound />
-      </HashRouter>
+      </BrowserRouter>
     )
 
     expect(getByText('404 - No Page Found')).toBeInTheDocument()

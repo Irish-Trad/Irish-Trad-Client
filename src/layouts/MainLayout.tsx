@@ -1,31 +1,18 @@
-import { useState } from 'react'
-import NavBar from 'components/NavBar'
-import TopBar from 'components/TopBar'
-import Hamburger from 'components/Hamburger'
+import MenuMobile from 'components/MenuMobile'
+import MenuDesktop from 'components/MenuDesktop'
+import { ReactNode } from 'react'
 
-const MainLayout = ({ children }: any) => {
-  const [isMobileNavOpen, setMobileNavOpen] = useState(false)
-
-  const [isDesktopNavOpen, setIsDesktopNavOpen] = useState(false)
-
-  return (
-    <div>
-      {/* lgUp */}
-      <div>
-        {/* <TopBar onMobileNavOpen={() => setMobileNavOpen(true)} /> */}
-      </div>
-      <div>
-        {isDesktopNavOpen && (
-          <NavBar
-            onMobileClose={() => setMobileNavOpen(false)}
-            openMobile={isMobileNavOpen}
-          />
-        )}
-        <Hamburger onClick={() => setIsDesktopNavOpen(!isDesktopNavOpen)} />
-        {children}
-      </div>
-    </div>
-  )
+type Props = {
+  children: ReactNode
 }
+const MainLayout = ({ children }: Props) => (
+  <div className="flex flex-col">
+    <MenuMobile />
+    <div className="flex">
+      <MenuDesktop />
+      {children}
+    </div>
+  </div>
+)
 
 export default MainLayout

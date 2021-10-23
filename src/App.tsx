@@ -1,6 +1,6 @@
 import { Suspense } from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import Spinner from 'components/Spinner'
+import PageSpinner from 'components/PageSpinner'
 import MainLayout from 'layouts/MainLayout'
 import Routes from 'routes/Router'
 import './fontawesome'
@@ -10,7 +10,7 @@ import './tailwind.css'
 const App = () => (
   <BrowserRouter>
     <MainLayout>
-      <Suspense fallback={Spinner}>
+      <Suspense fallback={<PageSpinner />}>
         <Routes />
       </Suspense>
     </MainLayout>

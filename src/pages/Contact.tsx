@@ -1,5 +1,5 @@
+import PageMeta from 'components/PageMeta'
 import Page from 'components/Page'
-
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
@@ -41,12 +41,11 @@ const Contact = () => {
   }
 
   return (
-    <Page
+    <PageMeta
       title="Irish-Trad.net - Contact"
       metaDescription="Free Online Lessons and Resources for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
     >
-      <h1>Contact Form</h1>
-      <section>
+      <Page header="Contact Form">
         <p>
           If you have any enquiries, feedback or suggestions for future material
           or find a broken page then you can use the contact form correspond.
@@ -70,8 +69,8 @@ const Contact = () => {
 
           {!loading ? <button type="submit">Submit</button> : <p>Loading</p>}
         </form>
-      </section>
-    </Page>
+      </Page>
+    </PageMeta>
   )
 }
 

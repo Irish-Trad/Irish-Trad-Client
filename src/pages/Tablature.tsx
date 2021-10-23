@@ -1,12 +1,13 @@
 import { useState } from 'react'
-import TuneList from './TuneList'
+import TuneList from 'components/TuneList'
 
 import * as GDAE from './routes/GDAE'
 import * as GDAD from './routes/GDAD'
 
+import PageMeta from 'components/PageMeta'
 import Page from 'components/Page'
-
 import Button from 'components/Button'
+import Input from 'components/Input'
 
 const Tabs = () => {
   const [showGDAE, setShowGDAE] = useState<boolean>(true)
@@ -14,15 +15,11 @@ const Tabs = () => {
   const [search, setSearch] = useState<boolean>(false)
 
   return (
-    <Page
+    <PageMeta
       title="Irish-Trad.net - Tablature"
       metaDescription="Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo"
     >
-      <div>
-        <p>Tablature</p>
-      </div>
-
-      <div>
+      <Page header="Tablature">
         <p>
           For those more familiar with Tablature than standard music notation or
           ABC notation I have taken a number of tunes from TheSession.org and
@@ -40,89 +37,91 @@ const Tabs = () => {
             TheSession.org - Donation Page
           </a>
         </p>
-      </div>
 
-      <div>
-        <p>{showGDAE ? 'GDAE' : 'GDAD'}</p>
-      </div>
-
-      <div>
-        <Button onClick={() => setShowGDAE(!showGDAE)}>Toggle Tuning</Button>
-        <input
-          type="text"
-          value={searchValue}
-          onChange={(e) => setSearchValue(e.target.value)}
-          placeholder={'Search for Tune'}
-        />
-      </div>
-
-      <div>
-        <Button onClick={() => setSearch(true)}>Search</Button>
-        <Button
-          onClick={() => {
-            setSearch(false)
-            setSearchValue('')
-          }}
-        >
-          Reset
-        </Button>
-      </div>
-
-      {search && (
-        <div>
-          <p>Search Results</p>
+        <div className="flex justify-center">
+          <p>{showGDAE ? 'GDAE' : 'GDAD'}</p>
+          <Button onClick={() => setShowGDAE(!showGDAE)}>Toggle Tuning</Button>
         </div>
-      )}
 
-      <p>Barndances - {showGDAE ? 'GDAE' : 'GDAD'}</p>
-      <TuneList
-        search={search}
-        tunes={showGDAE ? GDAE.Barndance : GDAD.Barndance}
-        searchValue={searchValue}
-      />
-      <p>Hornpipes - {showGDAE ? 'GDAE' : 'GDAD'}</p>
-      <TuneList
-        search={search}
-        tunes={showGDAE ? GDAE.Hornpipe : GDAD.Hornpipe}
-        searchValue={searchValue}
-      />
-      <p>Jigs - {showGDAE ? 'GDAE' : 'GDAD'}</p>
-      <TuneList
-        search={search}
-        tunes={showGDAE ? GDAE.Jig : GDAD.Jig}
-        searchValue={searchValue}
-      />
-      <p>Marches - {showGDAE ? 'GDAE' : 'GDAD'}</p>
-      <TuneList
-        search={search}
-        tunes={showGDAE ? GDAE.March : GDAD.March}
-        searchValue={searchValue}
-      />
-      <p>Polkas - {showGDAE ? 'GDAE' : 'GDAD'}</p>
-      <TuneList
-        search={search}
-        tunes={showGDAE ? GDAE.Polka : GDAD.Polka}
-        searchValue={searchValue}
-      />
-      <p>Reels - {showGDAE ? 'GDAE' : 'GDAD'}</p>
-      <TuneList
-        search={search}
-        tunes={showGDAE ? GDAE.Reel : GDAD.Reel}
-        searchValue={searchValue}
-      />
-      <p>Slip-Jigs - {showGDAE ? 'GDAE' : 'GDAD'}</p>
-      <TuneList
-        search={search}
-        tunes={showGDAE ? GDAE.Slip : GDAD.Slip}
-        searchValue={searchValue}
-      />
-      <p>Waltzes - {showGDAE ? 'GDAE' : 'GDAD'}</p>
-      <TuneList
-        search={search}
-        tunes={showGDAE ? GDAE.Waltz : GDAD.Waltz}
-        searchValue={searchValue}
-      />
-    </Page>
+        <div>
+          <Input
+            type="text"
+            value={searchValue}
+            onChange={(e) =>
+              setSearchValue((e.target as HTMLInputElement).value)
+            }
+            placeholder="Search for Tune"
+          />
+        </div>
+
+        <div>
+          <Button onClick={() => setSearch(true)}>Search</Button>
+          <Button
+            onClick={() => {
+              setSearch(false)
+              setSearchValue('')
+            }}
+          >
+            Reset
+          </Button>
+        </div>
+
+        {search && (
+          <div>
+            <p>Search Results</p>
+          </div>
+        )}
+
+        <p>Barndances - {showGDAE ? 'GDAE' : 'GDAD'}</p>
+        <TuneList
+          search={search}
+          tunes={showGDAE ? GDAE.Barndance : GDAD.Barndance}
+          searchValue={searchValue}
+        />
+        <p>Hornpipes - {showGDAE ? 'GDAE' : 'GDAD'}</p>
+        <TuneList
+          search={search}
+          tunes={showGDAE ? GDAE.Hornpipe : GDAD.Hornpipe}
+          searchValue={searchValue}
+        />
+        <p>Jigs - {showGDAE ? 'GDAE' : 'GDAD'}</p>
+        <TuneList
+          search={search}
+          tunes={showGDAE ? GDAE.Jig : GDAD.Jig}
+          searchValue={searchValue}
+        />
+        <p>Marches - {showGDAE ? 'GDAE' : 'GDAD'}</p>
+        <TuneList
+          search={search}
+          tunes={showGDAE ? GDAE.March : GDAD.March}
+          searchValue={searchValue}
+        />
+        <p>Polkas - {showGDAE ? 'GDAE' : 'GDAD'}</p>
+        <TuneList
+          search={search}
+          tunes={showGDAE ? GDAE.Polka : GDAD.Polka}
+          searchValue={searchValue}
+        />
+        <p>Reels - {showGDAE ? 'GDAE' : 'GDAD'}</p>
+        <TuneList
+          search={search}
+          tunes={showGDAE ? GDAE.Reel : GDAD.Reel}
+          searchValue={searchValue}
+        />
+        <p>Slip-Jigs - {showGDAE ? 'GDAE' : 'GDAD'}</p>
+        <TuneList
+          search={search}
+          tunes={showGDAE ? GDAE.Slip : GDAD.Slip}
+          searchValue={searchValue}
+        />
+        <p>Waltzes - {showGDAE ? 'GDAE' : 'GDAD'}</p>
+        <TuneList
+          search={search}
+          tunes={showGDAE ? GDAE.Waltz : GDAD.Waltz}
+          searchValue={searchValue}
+        />
+      </Page>
+    </PageMeta>
   )
 }
 

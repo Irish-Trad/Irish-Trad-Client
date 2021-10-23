@@ -1,12 +1,12 @@
 import { render, cleanup } from '@testing-library/react'
-import HowToString from '../HowToString'
-import { HashRouter } from 'react-router-dom'
+import HowToString from 'pages/HowToString'
+import { BrowserRouter } from 'react-router-dom'
 
 const renderComponent = () =>
   render(
-    <HashRouter>
+    <BrowserRouter>
       <HowToString />
-    </HashRouter>
+    </BrowserRouter>
   )
 
 describe('HowToString', () => {
