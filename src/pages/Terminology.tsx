@@ -1,7 +1,7 @@
 import PageMeta from 'components/PageMeta'
 import Page from 'components/Page'
 
-const terms = [
+export const terms = [
   {
     term: `Arpeggio`,
     description: `The notes of a chord played individually.`,
@@ -95,7 +95,7 @@ const Terminology = () => (
   >
     <Page header="Terminology">
       {terms.map(({ term, description }) => (
-        <p>
+        <p key={term}>
           <b>{term}: </b>
           {description}
         </p>
