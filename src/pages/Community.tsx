@@ -19,9 +19,7 @@ const Community = () => (
         Icon or Button:
       </p>
       <div>
-        <a href="https://discord.gg/Mq9jeA8" target="_blank">
-          <Discord />
-        </a>
+        <Discord />
         <a href="https://discord.gg/Mq9jeA8" target="_blank">
           <Button>Click Here To Join Discord</Button>
         </a>
