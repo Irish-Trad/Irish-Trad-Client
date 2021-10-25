@@ -33,7 +33,7 @@ const Chords = () => (
     <Page header="Chords">
       <div className="flex justify-center">
         {chordButtons.map((item) => (
-          <a className="mx-4 my-4" href={`${item.href}`}>
+          <a key={item.label} className="mx-4 my-4" href={`${item.href}`}>
             <Button>{item.label}</Button>
           </a>
         ))}

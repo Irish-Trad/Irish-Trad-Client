@@ -14,7 +14,7 @@ describe('NotFound', () => {
       </BrowserRouter>
     )
 
-    expect(getByText('404 - No Page Found')).toBeInTheDocument()
+    expect(getByText('404 - Page Not Found')).toBeInTheDocument()
     expect(getByText('Click Here to Return Home')).toBeInTheDocument()
   })
 })
