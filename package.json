@@ -7,7 +7,7 @@
     "preinstall": "npx only-allow npm",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
+    "preview": "npm run build && vite preview",
     "test": "jest --max-workers=2",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
