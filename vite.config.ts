@@ -1,11 +1,10 @@
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
-import reactRefresh from '@vitejs/plugin-react-refresh'
-import reactJsx from 'vite-react-jsx'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   build: {
     outDir: 'build',
   },
-  plugins: [tsconfigPaths(), reactRefresh(), reactJsx()],
+  plugins: [react(), tsconfigPaths()],
 })

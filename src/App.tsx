@@ -8,7 +8,7 @@ import 'animate.css/animate.min.css'
 import './tailwind.css'
 
 const App = () => (
-  <BrowserRouter basename="/React">
+  <BrowserRouter>
     <MainLayout>
       <Suspense fallback={<PageSpinner />}>
         <Routes />
