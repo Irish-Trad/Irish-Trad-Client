@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-standardjs-tailwindcss-typescript-jest-cypress-template",
-  "description": "NextJS template using StandardJS (ts-standard), TypeScript, TailwindCSS, Jest, Cypress",
+  "name": "irish-trad.net",
+  "description": "Irish-Trad.net provides free online resources and lessons for a variety of stringed instruments commonly found in traditional Irish sessions such as the Irish Bouzouki, Mandolin, Octave Mandola and Irish Tenor Banjo. ",
   "private": true,
   "scripts": {
     "build": "next build",
