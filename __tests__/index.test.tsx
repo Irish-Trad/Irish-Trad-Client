@@ -1,10 +1,10 @@
-import { render } from '@testing-library/react'
-import IndexPage from 'pages/index'
+import { render } from "@testing-library/react";
+import Homepage from "pages/index";
 
-describe('Home', () => {
-  it('renders a heading', () => {
-    const { getByText } = render(<IndexPage />)
+describe("Home", () => {
+  it("renders a heading", () => {
+    const { getAllByText } = render(<Homepage />);
 
-    expect(getByText('Hello Next.js 👋')).toBeInTheDocument()
-  })
-})
+    expect(getAllByText("Irish-Trad.net")).toHaveLength(3);
+  });
+});
