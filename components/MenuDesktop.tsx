@@ -10,7 +10,7 @@ const MenuDesktop: FC = () => {
   return (
     <div
       className={`flex-col justify-between hidden bg-gray-700 lg:flex ${
-        openMenu ? 'w-36' : 'w-12'
+        openMenu ? 'w-60' : 'w-12'
       }`}
     >
       <div className='flex flex-col flex-1 overflow-auto'>
