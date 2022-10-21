@@ -1,105 +1,91 @@
-import type { FC } from 'react'
-import Layout from 'layouts/Layout'
+import type { FC } from "react";
+import Layout from "layouts/Layout";
+import { getStaticPaths, makeStaticProps } from "lib/getStatic";
+import { useTranslation } from "next-i18next";
 
 export const terms = [
   {
-    term: 'Arpeggio',
-    description: 'The notes of a chord played individually.'
+    term: "arpeggio",
+    description: "arpeggioDesc",
   },
   {
-    term: 'Bending',
-    description: `Pushing and pulling the string in a vertical plane after
-    sounding will cause the pitch to increase. Very common technique for
-    guitar players.`
+    term: "bending",
+    description: "bendingDesc",
   },
   {
-    term: 'BPM',
-    description: 'Beats per Minute.'
+    term: "bpm",
+    description: "bpmDesc",
   },
   {
-    term: 'CBOM',
-    description: 'Abbreviation for Cittern, Bouzouki, Octave Mandolin.'
+    term: "cbom",
+    description: "cbomDesc",
   },
   {
-    term: 'Chord',
-    description: 'Three or more notes played together form a chord.'
+    term: "chord",
+    description: "chordDesc",
   },
   {
-    term: 'GDAE',
-    description: `Tuning found on 4/8 string instruments used in traditional Irish music from lowest pitched to highest
-    pitched string.`
+    term: "gdae",
+    description: "gdaeDesc",
   },
   {
-    term: 'GDAD',
-    description: `Alternative tuning found on 4/8 string instruments used in traditional Irish music from lowest pitched to highest
-    pitched string.`
+    term: "gdad",
+    description: "gdadDesc",
   },
   {
-    term: 'Interval',
-    description: 'The distance between one note and another.'
+    term: "interval",
+    description: "intervalDesc",
   },
   {
-    term: 'Octave Mandolin',
-    description: `The Octave Mandolin is pitched one octave lower
-    than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe)
-    is interchangeable with the Octave Mandolin (America). They are the same
-    instrument.`
+    term: "octaveMandolin",
+    description: "octaveMandolinDesc",
   },
   {
-    term: 'Octave Mandola',
-    description: `The Octave Mandola is pitched one octave lower
-    than a standard mandolin (G2,D3,A3,E4). The name Octave Mandola (Europe)
-    is interchangeable with the Octave Mandolin (America). They are the same
-    instrument.`
+    term: "octaveMandola",
+    description: "octaveMandolaDesc",
   },
   {
-    term: 'Sounding Range',
-    description: `The range of notes that an instrument is capable
-    of producing naturally.`
+    term: "soundingRange",
+    description: "soundingRangeDesc",
   },
   {
-    term: 'String Gauge',
-    description: `The thickness of a string. As instrument strings
-    are normally sold in packs a musician will typically respond to a
-    question about the string gauge they use by referring to the thinnest
-    string. For example, "11's" would suggest a pack of strings with the
-    thinnest string in the pack being 11.`
+    term: "stringGauge",
+    description: "stringGaugeDesc",
   },
   {
-    term: 'Tempo',
-    description: `The speed at which a piece of music is played. The exact
-    pace is specified by BPM.`
+    term: "tempo",
+    description: "tempoDesc",
   },
   {
-    term: 'Treble',
-    description: `The same rhythm as a triplet while remaining
-    on the same note`
+    term: "treble",
+    description: "trebleDesc",
   },
   {
-    term: 'Trill',
-    description: `Rapid alteration between two notes. Normally achieved
-    through hammer-ons and pull-offs on the Irish Bouzouki.`
+    term: "trill",
+    description: "trillDesc",
   },
   {
-    term: 'Vibrato',
-    description: `Quick and repetitive micro-bends that create a
-    fluctuating pitch. Reminiscent of a vocalist who holds a note for a long
-    time.`
-  }
-]
+    term: "vibrato",
+    description: "vibratoDesc",
+  },
+];
 
-const Terminology: FC = () => (
-  <Layout
-    title='Irish-Trad.net - Terminology'
-    metaDescription='Terminology for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo'
-  >
-    {terms.map(({ term, description }) => (
-      <p key={term}>
-        <b>{term}: </b>
-        {description}
-      </p>
-    ))}
-  </Layout>
-)
+const Terminology: FC = () => {
+  const { t } = useTranslation(["terminology"]);
 
-export default Terminology
+  return (
+    <Layout title={t("head.title")} metaDescription={t("head.meta")}>
+      {terms.map(({ term, description }) => (
+        <p key={term}>
+          <b>{t(term)}: </b>
+          {t(description)}
+        </p>
+      ))}
+    </Layout>
+  );
+};
+
+export default Terminology;
+
+const getStaticProps = makeStaticProps(["terminology", "menu"]);
+export { getStaticPaths, getStaticProps };

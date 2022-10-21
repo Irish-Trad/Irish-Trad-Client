@@ -7,10 +7,7 @@ const Home: FC = () => {
   const { t } = useTranslation(['home', 'common'])
 
   return (
-    <Layout
-      title='Irish-Trad.net - Home'
-      metaDescription='Homepage for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo'
-    >
+    <Layout title={t('head.title')} metaDescription={t('head.meta')}>
       <section className='relative flex flex-col items-center justify-center w-full min-h-screen p-4'>
         <div
           id='bgImage'
