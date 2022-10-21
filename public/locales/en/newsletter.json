@@ -1,0 +1,10 @@
+{
+  "head": {
+    "title": "Irish-Trad.net - Newsletter",
+    "meta": "Newsletter for Irish-Trad.net"
+  },
+  "developing": "Irish-Trad.net is a hobby project so progress is slow when developing new resources or lessons.",
+  "receiveEmail": "If you would like to sign-up to receive an email when large changes have been made I have created a MailChimp subscription which can be found by clicking the following Icon or Button:",
+  "signUp": "Sign Up For Newsletter",
+  "unsubscribing": "MailChimp allows you to manage your subscription at anytime so unsubscribing is easy if you change your mind."
+}

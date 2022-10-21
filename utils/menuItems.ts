@@ -1,31 +1,31 @@
 const menuItems = [
   {
     path: '/tablature',
-    label: 'Tablature'
+    localeKey: 'tablature'
   },
   {
     path: '/lessons',
-    label: 'Lessons'
+    localeKey: 'lessons'
   },
   {
     path: '/chords',
-    label: 'Chords'
+    localeKey: 'chords'
   },
   {
     path: '/clef-to-tab',
-    label: 'Clef To TAB'
+    localeKey: 'clefToTAB'
   },
   {
     path: '/terminology',
-    label: 'Terminology'
+    localeKey: 'terminology'
   },
   {
     path: '/community',
-    label: 'Community'
+    localeKey: 'community'
   },
   {
     path: '/newsletter',
-    label: 'Newsletter'
+    localeKey: 'newsletter'
   }
 ]
 
