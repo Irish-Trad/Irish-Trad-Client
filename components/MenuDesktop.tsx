@@ -1,7 +1,7 @@
 import { FC, useState } from 'react'
 import Footer from 'components/Footer'
 import menuItems from 'utils/menuItems'
-import Link from 'next/link'
+import Link from 'components/Link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import LanguageSwitchLink from 'components/LanguageSwitchLink'
 import i18nextConfig from 'next-i18next.config'
@@ -45,7 +45,7 @@ const MenuDesktop: FC = () => {
           {menuItems.map((item) => {
             const localeKey = item.localeKey
             return (
-              <Link key={item.path} href={`${currentLocale}/${item.path}`}>
+              <Link key={item.path} href={item.path}>
                 <a className='flex justify-center py-6 text-white hover:bg-gray-900'>
                   {t(localeKey)}
                 </a>

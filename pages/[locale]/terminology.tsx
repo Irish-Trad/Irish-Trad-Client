@@ -1,91 +1,91 @@
-import type { FC } from "react";
-import Layout from "layouts/Layout";
-import { getStaticPaths, makeStaticProps } from "lib/getStatic";
-import { useTranslation } from "next-i18next";
+import type { FC } from 'react'
+import Layout from 'layouts/Layout'
+import { getStaticPaths, makeStaticProps } from 'lib/getStatic'
+import { useTranslation } from 'next-i18next'
 
 export const terms = [
   {
-    term: "arpeggio",
-    description: "arpeggioDesc",
+    termLocaleKey: 'arpeggio',
+    descriptionLocaleKey: 'arpeggioDesc'
   },
   {
-    term: "bending",
-    description: "bendingDesc",
+    termLocaleKey: 'bending',
+    descriptionLocaleKey: 'bendingDesc'
   },
   {
-    term: "bpm",
-    description: "bpmDesc",
+    termLocaleKey: 'bpm',
+    descriptionLocaleKey: 'bpmDesc'
   },
   {
-    term: "cbom",
-    description: "cbomDesc",
+    termLocaleKey: 'cbom',
+    descriptionLocaleKey: 'cbomDesc'
   },
   {
-    term: "chord",
-    description: "chordDesc",
+    termLocaleKey: 'chord',
+    descriptionLocaleKey: 'chordDesc'
   },
   {
-    term: "gdae",
-    description: "gdaeDesc",
+    termLocaleKey: 'gdae',
+    descriptionLocaleKey: 'gdaeDesc'
   },
   {
-    term: "gdad",
-    description: "gdadDesc",
+    termLocaleKey: 'gdad',
+    descriptionLocaleKey: 'gdadDesc'
   },
   {
-    term: "interval",
-    description: "intervalDesc",
+    termLocaleKey: 'interval',
+    descriptionLocaleKey: 'intervalDesc'
   },
   {
-    term: "octaveMandolin",
-    description: "octaveMandolinDesc",
+    termLocaleKey: 'octaveMandolin',
+    descriptionLocaleKey: 'octaveMandolinDesc'
   },
   {
-    term: "octaveMandola",
-    description: "octaveMandolaDesc",
+    termLocaleKey: 'octaveMandola',
+    descriptionLocaleKey: 'octaveMandolaDesc'
   },
   {
-    term: "soundingRange",
-    description: "soundingRangeDesc",
+    termLocaleKey: 'soundingRange',
+    descriptionLocaleKey: 'soundingRangeDesc'
   },
   {
-    term: "stringGauge",
-    description: "stringGaugeDesc",
+    termLocaleKey: 'stringGauge',
+    descriptionLocaleKey: 'stringGaugeDesc'
   },
   {
-    term: "tempo",
-    description: "tempoDesc",
+    termLocaleKey: 'tempo',
+    descriptionLocaleKey: 'tempoDesc'
   },
   {
-    term: "treble",
-    description: "trebleDesc",
+    termLocaleKey: 'treble',
+    descriptionLocaleKey: 'trebleDesc'
   },
   {
-    term: "trill",
-    description: "trillDesc",
+    termLocaleKey: 'trill',
+    descriptionLocaleKey: 'trillDesc'
   },
   {
-    term: "vibrato",
-    description: "vibratoDesc",
-  },
-];
+    termLocaleKey: 'vibrato',
+    descriptionLocaleKey: 'vibratoDesc'
+  }
+]
 
 const Terminology: FC = () => {
-  const { t } = useTranslation(["terminology"]);
+  const { t } = useTranslation(['terminology'])
 
   return (
-    <Layout title={t("head.title")} metaDescription={t("head.meta")}>
-      {terms.map(({ term, description }) => (
-        <p key={term}>
-          <b>{t(term)}: </b>
-          {t(description)}
+    <Layout title={t('head.title')} metaDescription={t('head.meta')}>
+      {terms.map(({ termLocaleKey, descriptionLocaleKey }) => (
+        <p key={termLocaleKey}>
+          <b>{t(termLocaleKey)}: </b>
+          {t(descriptionLocaleKey)}
         </p>
       ))}
     </Layout>
-  );
-};
+  )
+}
 
-export default Terminology;
+export default Terminology
 
-const getStaticProps = makeStaticProps(["terminology", "menu"]);
-export { getStaticPaths, getStaticProps };
+const getStaticProps = makeStaticProps(['terminology', 'menu'])
+export { getStaticPaths, getStaticProps }

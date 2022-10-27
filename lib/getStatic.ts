@@ -1,5 +1,6 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import i18nextConfig from 'next-i18next.config'
+import { NextPageContext } from 'next'
 
 export const getI18nPaths = () =>
   i18nextConfig.i18n.locales.map((lng) => ({
@@ -13,7 +14,7 @@ export const getStaticPaths = () => ({
   paths: getI18nPaths()
 })
 
-export const getI18nProps = async (ctx, ns = ['common']) => {
+export const getI18nProps = async (ctx: NextPageContext, ns = ['common']) => {
   const locale = ctx?.params?.locale
   const props = {
     ...(await serverSideTranslations(locale, ns))
@@ -21,6 +22,6 @@ export const getI18nProps = async (ctx, ns = ['common']) => {
   return props
 }
 
-export const makeStaticProps = (ns = []) => async (ctx) => ({
+export const makeStaticProps = (ns = []) => async (ctx: NextPageContext) => ({
   props: await getI18nProps(ctx, ns)
 })

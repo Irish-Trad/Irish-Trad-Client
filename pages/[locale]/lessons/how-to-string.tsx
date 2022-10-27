@@ -73,7 +73,8 @@ const HowToTune: FC = () => {
               src='assets/low-quality/How_To_String/step1.jpg'
               alt='Step 1: How To String'
               title='Step 1: How To String'
-              layout='fill' />
+              layout='fill'
+            />
           </a>
           <figcaption>Figure 1: Tailpiece cover removed</figcaption>
         </figure>
@@ -106,7 +107,8 @@ const HowToTune: FC = () => {
               src='assets/low-quality/How_To_String/step23.jpg'
               alt='Step 2 & 3: How To String'
               title='Step 2 & 3: How To String'
-              layout='fill' />
+              layout='fill'
+            />
           </a>
           <figcaption>
             Figure 2: Direction to feed string into tuning peg
@@ -122,7 +124,8 @@ const HowToTune: FC = () => {
               src='assets/low-quality/How_To_String/step45.jpg'
               alt='Step 4 & 5: How To String'
               title='Step 4 & 5: How To String'
-              layout='fill' />
+              layout='fill'
+            />
           </a>
           <figcaption>
             Figure 3: Direction to bring string to create a knot

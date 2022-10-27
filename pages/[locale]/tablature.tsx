@@ -1,41 +1,45 @@
 import { FC, useState } from 'react'
 import Layout from 'layouts/Layout'
+import { useTranslation } from 'next-i18next'
+import { getStaticPaths, makeStaticProps } from 'lib/getStatic'
 
 const Tablature: FC = () => {
   const [showGDAE, setShowGDAE] = useState(true)
   const [searchValue, setSearchValue] = useState('')
   const [search, setSearch] = useState(false)
 
+  const { t } = useTranslation(['tablature'])
+
   return (
-    <Layout
-      title='Irish-Trad.net - Tablature'
-      metaDescription='Tablature for Irish Bouzouki/Mandolin/Octave Mandolin/Irish Tenor Banjo'
-    >
+    <Layout title={t('head.title')} metaDescription={t('head.meta')}>
       <p>
-        For those more familiar with Tablature than standard music notation or
-        ABC notation I have taken a number of tunes from TheSession.org and
-        tabbed them out for both GDAE and GDAD.
-      </p>
-      <p>Clicking on each link below will open the file in a .pdf format.</p>
-      <p>
-        If you find these useful in anyway you should visit TheSession.org and
-        consider donating to the website. It has stood as a beacon for sharing
-        and educating on musicians on traditional irish music for many years.
+        {t('familiarWithTab')}
       </p>
       <p>
-        Donation Page for TheSession.org:{' '}
+        {t('clickingEachLink')}
+      </p>
+      <p>
+        {t('findTheseUseful')}
+
+      </p>
+      <p>
+        {t('donationPageFor')}{' '}
         <a
           href='https://thesession.org/donate'
           target='_blank'
           rel='noreferrer'
         >
-          TheSession.org - Donation Page
+          {t('donationPage')}
+
         </a>
       </p>
 
       <div className='flex justify-center'>
         <p>{showGDAE ? 'GDAE' : 'GDAD'}</p>
-        <button onClick={() => setShowGDAE(!showGDAE)}>Toggle Tuning</button>
+        <button onClick={() => setShowGDAE(!showGDAE)}>
+          {t('toggleTuning')}
+
+        </button>
       </div>
 
       <div>
@@ -43,25 +47,25 @@ const Tablature: FC = () => {
           type='text'
           value={searchValue}
           onChange={(e) => setSearchValue((e.target as HTMLInputElement).value)}
-          placeholder='Search for Tune'
+          placeholder={t('searchForTune')}
         />
       </div>
 
       <div>
-        <button onClick={() => setSearch(true)}>Search</button>
+        <button onClick={() => setSearch(true)}>{t('search')}</button>
         <button
           onClick={() => {
             setSearch(false)
             setSearchValue('')
           }}
         >
-          Reset
+          {t('reset')}
         </button>
       </div>
 
       {search && (
         <div>
-          <p>Search Results</p>
+          <p>{t('searchResults')}</p>
         </div>
       )}
 
@@ -118,3 +122,6 @@ const Tablature: FC = () => {
 }
 
 export default Tablature
+
+const getStaticProps = makeStaticProps(['tablature', 'menu'])
+export { getStaticPaths, getStaticProps }

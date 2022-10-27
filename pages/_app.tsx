@@ -12,7 +12,7 @@ import { appWithTranslation } from 'next-i18next'
 
 // library.add(faDiscord, faMailchimp, faBars, faSpinner, faArrowsLeftRightToLine)
 
-const MyApp = ({ Component, pageProps }) => (
+const MyApp: FC = ({ Component, pageProps }: AppProps) => (
   <Component {...pageProps} />
 )
 

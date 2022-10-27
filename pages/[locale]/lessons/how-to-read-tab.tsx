@@ -2,8 +2,9 @@ import Page from 'components/Page'
 import Link from 'next/link'
 import Layout from 'layouts/Layout'
 import Image from 'next/image'
+import { FC } from 'react'
 
-const HowToReadTab = () => {
+const HowToReadTab: FC = () => {
   return (
     <Layout
       title='Irish-Trad.net - How to read Tablature'
@@ -37,7 +38,8 @@ const HowToReadTab = () => {
               <Image
                 src='assets/low-quality/TAB_Lesson/TAB02.jpg'
                 alt='Standard Notation & Tablature'
-                title='Standard Notation & Tablature' />
+                title='Standard Notation & Tablature'
+              />
             </a>
             <figcaption>Figure 1: Standard Notation & Tablature</figcaption>
           </figure>
@@ -61,7 +63,8 @@ const HowToReadTab = () => {
               <Image
                 src='assets/low-quality/TAB_Lesson/TAB04.jpg'
                 alt='String Direction'
-                title='String Direction' />
+                title='String Direction'
+              />
             </a>
             <figcaption>Figure 2: String Direction</figcaption>
           </figure>
@@ -76,7 +79,8 @@ const HowToReadTab = () => {
               <Image
                 src='assets/low-quality/TAB_Lesson/TAB05.jpg'
                 alt='Single Note & Open String'
-                title='Single Note & Open String' />
+                title='Single Note & Open String'
+              />
             </a>
             <figcaption>Figure 3: Single Note & Open String</figcaption>
           </figure>
@@ -95,7 +99,8 @@ const HowToReadTab = () => {
               <Image
                 src='assets/low-quality/TAB_Lesson/TAB06.jpg'
                 alt='More Than One Note'
-                title='More Than One Note' />
+                title='More Than One Note'
+              />
             </a>
             <figcaption>Figure 4: More Than One Note</figcaption>
           </figure>
@@ -115,7 +120,8 @@ const HowToReadTab = () => {
               <Image
                 src='assets/low-quality/TAB_Lesson/TAB07.jpg'
                 alt='Full Chord'
-                title='Full Chord' />
+                title='Full Chord'
+              />
             </a>
             <figcaption>Figure 5: Full Chord</figcaption>
           </figure>
@@ -132,7 +138,8 @@ const HowToReadTab = () => {
               <Image
                 src='assets/low-quality/TAB_Lesson/TAB08.jpg'
                 alt='Playing Through A Scale'
-                title='Playing Through A Scale' />
+                title='Playing Through A Scale'
+              />
             </a>
             <figcaption>Figure 6: Playing Through A Scale</figcaption>
           </figure>
