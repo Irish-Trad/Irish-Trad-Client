@@ -5,68 +5,68 @@ import { useTranslation } from 'next-i18next'
 
 export const terms = [
   {
-    termLocaleKey: 'arpeggio',
-    descriptionLocaleKey: 'arpeggioDesc'
+    termLocaleKey: 'p1',
+    descriptionLocaleKey: 'p2'
   },
   {
-    termLocaleKey: 'bending',
-    descriptionLocaleKey: 'bendingDesc'
+    termLocaleKey: 'p3',
+    descriptionLocaleKey: 'p4'
   },
   {
-    termLocaleKey: 'bpm',
-    descriptionLocaleKey: 'bpmDesc'
+    termLocaleKey: 'p5',
+    descriptionLocaleKey: 'p6'
   },
   {
-    termLocaleKey: 'cbom',
-    descriptionLocaleKey: 'cbomDesc'
+    termLocaleKey: 'p7',
+    descriptionLocaleKey: 'p8'
   },
   {
-    termLocaleKey: 'chord',
-    descriptionLocaleKey: 'chordDesc'
+    termLocaleKey: 'p9',
+    descriptionLocaleKey: 'p10'
   },
   {
-    termLocaleKey: 'gdae',
-    descriptionLocaleKey: 'gdaeDesc'
+    termLocaleKey: 'p11',
+    descriptionLocaleKey: 'p12'
   },
   {
-    termLocaleKey: 'gdad',
-    descriptionLocaleKey: 'gdadDesc'
+    termLocaleKey: 'p13',
+    descriptionLocaleKey: 'p14'
   },
   {
-    termLocaleKey: 'interval',
-    descriptionLocaleKey: 'intervalDesc'
+    termLocaleKey: 'p15',
+    descriptionLocaleKey: 'p16'
   },
   {
-    termLocaleKey: 'octaveMandolin',
-    descriptionLocaleKey: 'octaveMandolinDesc'
+    termLocaleKey: 'p17',
+    descriptionLocaleKey: 'p18'
   },
   {
-    termLocaleKey: 'octaveMandola',
-    descriptionLocaleKey: 'octaveMandolaDesc'
+    termLocaleKey: 'p19',
+    descriptionLocaleKey: 'p20'
   },
   {
-    termLocaleKey: 'soundingRange',
-    descriptionLocaleKey: 'soundingRangeDesc'
+    termLocaleKey: 'p21',
+    descriptionLocaleKey: 'p22'
   },
   {
-    termLocaleKey: 'stringGauge',
-    descriptionLocaleKey: 'stringGaugeDesc'
+    termLocaleKey: 'p23',
+    descriptionLocaleKey: 'p24'
   },
   {
-    termLocaleKey: 'tempo',
-    descriptionLocaleKey: 'tempoDesc'
+    termLocaleKey: 'p25',
+    descriptionLocaleKey: 'p26'
   },
   {
-    termLocaleKey: 'treble',
-    descriptionLocaleKey: 'trebleDesc'
+    termLocaleKey: 'p27',
+    descriptionLocaleKey: 'p28'
   },
   {
-    termLocaleKey: 'trill',
-    descriptionLocaleKey: 'trillDesc'
+    termLocaleKey: 'p29',
+    descriptionLocaleKey: 'p30'
   },
   {
-    termLocaleKey: 'vibrato',
-    descriptionLocaleKey: 'vibratoDesc'
+    termLocaleKey: 'p31',
+    descriptionLocaleKey: 'p32'
   }
 ]
 
