@@ -1,9 +1,9 @@
 {
-  "tablature": "Tablature",
-  "lessons": "Ceachtanna",
-  "chords": "Chords",
-  "clefToTAB": "Clef a TAB",
-  "terminology": "Téarmaíocht",
-  "community": "Pobal",
-  "newsletter": "Nuachtlitir"
+  "m1": "Tablature",
+  "m2": "Ceachtanna",
+  "m3": "Chords",
+  "m4": "Clef a TAB",
+  "m5": "Téarmaíocht",
+  "m6": "Pobal",
+  "m7": "Nuachtlitir"
 }

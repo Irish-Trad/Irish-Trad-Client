@@ -1,3 +1,7 @@
 {
-  "provides": "Cuireann Irish-Trad.net acmhainní agus ceachtanna ar líne saor in aisce ar fáil d'éagsúlacht téaduirlisí a fhaightear go coitianta i seisiúin thraidisiúnta na hÉireann mar na Bouzouki Éireannach, Mandolin, Octave Mandola agus Banjo Tenor na hÉireann."
+  "head": {
+    "title": "Irish-Trad.net - Baile",
+    "meta": "Leathanach baile do Bouzouki/mandolin/mandolin octave/banjo tenor na hÉireann"
+  },
+  "p1": "Cuireann Irish-Trad.net acmhainní agus ceachtanna ar líne saor in aisce ar fáil d'éagsúlacht téaduirlisí a fhaightear go coitianta i seisiúin thraidisiúnta na hÉireann mar na Bouzouki Éireannach, Mandolin, Octave Mandola agus Banjo Tenor na hÉireann."
 }

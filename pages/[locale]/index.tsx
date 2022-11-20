@@ -20,7 +20,7 @@ const Home: FC = () => {
         <h1 className='py-12 text-6xl text-center text-white select-none lg:text-9xl font-celtic'>
           {t('common:website')}
         </h1>
-        <p className='text-white'>{t('provides')}</p>
+        <p className='text-white'>{t('p1')}</p>
       </section>
     </Layout>
   )

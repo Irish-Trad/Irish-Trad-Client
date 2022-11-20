@@ -1,9 +1,9 @@
 {
-  "tablature": "Tablature",
-  "lessons": "Lessons",
-  "chords": "Chords",
-  "clefToTAB": "Clef To TAB",
-  "terminology": "Terminology",
-  "community": "Community",
-  "newsletter": "Newsletter"
+  "m1": "Tablature",
+  "m2": "Lessons",
+  "m3": "Chords",
+  "m4": "Clef To TAB",
+  "m5": "Terminology",
+  "m6": "Community",
+  "m7": "Newsletter"
 }
