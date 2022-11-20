@@ -9,8 +9,8 @@ const Newsletter: FC = () => {
 
   return (
     <Layout title={t('head.title')} metaDescription={t('head.meta')}>
-      <p>{t('developing')}</p>
-      <p>{t('receiveEmail')}</p>
+      <p>{t('p1')}</p>
+      <p>{t('p2')}</p>
       <div className='flex justify-center my-4'>
         <Mailchimp />
         <a
@@ -19,10 +19,10 @@ const Newsletter: FC = () => {
           target='_blank'
           rel='noreferrer'
         >
-          <button>{t('signUp')}</button>
+          <button>{t('p3')}</button>
         </a>
       </div>
-      <p>{t('unsubscribing')}</p>
+      <p>{t('p4')}</p>
     </Layout>
   )
 }

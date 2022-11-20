@@ -10,27 +10,27 @@ const ClefToTab: FC = () => {
     <Layout title={t('head.title')} metaDescription={t('head.meta')}>
       <div>
         <a href='#clef-to-tab-GDAE'>
-          <button>{t('gdae')}</button>
+          <button>{t('p1')}</button>
         </a>
         <a href='#clef-to-tab-GDAD'>
-          <button>{t('gdad')}</button>
+          <button>{t('p2')}</button>
         </a>
       </div>
       <div>
-        <p>{t('popularSystem')}</p>
+        <p>{t('p3')}</p>
         <p>
-          {t('sheetMusic')}
+          {t('p4')}
           <a
             href='https://www.thesession.org/'
             target='_blank'
             rel='noreferrer'
           >
-            {t('theSession')}
+            {t('p5')}
           </a>
-          {t('musicBooks')}
+          {t('p6')}
         </p>
-        <p>{t('lowestPitch')}</p>
-        <p>{t('learningSheetMusic')}</p>
+        <p>{t('p7')}</p>
+        <p>{t('p8')}</p>
         <div>
           <a href='assets/high-quality/GDAE - Clef To TAB.pdf' target='_blank'>
             <img
