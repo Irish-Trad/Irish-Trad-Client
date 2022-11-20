@@ -12,24 +12,24 @@ const Tablature: FC = () => {
 
   return (
     <Layout title={t('head.title')} metaDescription={t('head.meta')}>
-      <p>{t('familiarWithTab')}</p>
-      <p>{t('clickingEachLink')}</p>
-      <p>{t('findTheseUseful')}</p>
+      <p>{t('p1')}</p>
+      <p>{t('p2')}</p>
+      <p>{t('p3')}</p>
       <p>
-        {t('donationPageFor')}{' '}
+        {t('p4')}
         <a
           href='https://thesession.org/donate'
           target='_blank'
           rel='noreferrer'
         >
-          {t('donationPage')}
+          {t('p5')}
         </a>
       </p>
 
       <div className='flex justify-center'>
         <p>{showGDAE ? 'GDAE' : 'GDAD'}</p>
         <button onClick={() => setShowGDAE(!showGDAE)}>
-          {t('toggleTuning')}
+          {t('p6')}
         </button>
       </div>
 
@@ -38,25 +38,25 @@ const Tablature: FC = () => {
           type='text'
           value={searchValue}
           onChange={(e) => setSearchValue((e.target as HTMLInputElement).value)}
-          placeholder={t('searchForTune')}
+          placeholder={t('p7')}
         />
       </div>
 
       <div>
-        <button onClick={() => setSearch(true)}>{t('search')}</button>
+        <button onClick={() => setSearch(true)}>{t('p8')}</button>
         <button
           onClick={() => {
             setSearch(false)
             setSearchValue('')
           }}
         >
-          {t('reset')}
+          {t('p9')}
         </button>
       </div>
 
       {search && (
         <div>
-          <p>{t('searchResults')}</p>
+          <p>{t('p10')}</p>
         </div>
       )}
 
