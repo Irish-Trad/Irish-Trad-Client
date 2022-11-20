@@ -9,44 +9,44 @@ const Lessons: FC = () => {
 
   return (
     <Layout title={t('head.title')} metaDescription={t('head.meta')}>
-      <h2>{t('preparation')}</h2>
+      <h2>{t('p1')}</h2>
       <Link href='/lessons/how-to-string'>
-        <a>{t('howToString')}</a>
+        <a>{t('p2')}</a>
       </Link>
-      <p>{t('knowingHowToString')}</p>
+      <p>{t('p3')}</p>
       <Link href='/lessons/how-to-tune'>
-        <a>{t('howToTune')}</a>
+        <a>{t('p4')}</a>
       </Link>
-      <p>{t('whenPlayingWithOther')}</p>
+      <p>{t('p5')}</p>
       <Link href='/lessons/how-to-read-tab'>
-        <a>{t('howToReadTablature')}</a>
+        <a>{t('p6')}</a>
       </Link>
-      <p>{t('tablatureIsNotation')}</p>
-      <h2>{t('usefulWebsites')}</h2>
+      <p>{t('p7')}</p>
+      <h2>{t('p8')}</h2>
       <a
         href='https://thesession.org/'
         target='_blank'
         rel='noopener noreferrer'
       >
-        {t('theSession')}
+        {t('p9')}
       </a>
-      <p>{t('bestSheetMusic')}</p>
+      <p>{t('p10')}</p>
       <a
         href='https://irish-music.net/'
         target='_blank'
         rel='noopener noreferrer'
       >
-        {t('irishMusic')}
+        {t('p11')}
       </a>
-      <p>{t('usefulResources')}</p>
+      <p>{t('p12')}</p>
       <a
         href='https://www.mandolessons.com/'
         target='_blank'
         rel='noopener noreferrer'
       >
-        {t('mandoLessons')}
+        {t('p13')}
       </a>
-      <p>{t('mandolinFocusedWebsite')}</p>
+      <p>{t('p14')}</p>
     </Layout>
   )
 }
