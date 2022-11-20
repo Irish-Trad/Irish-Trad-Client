@@ -12,16 +12,9 @@ const Tablature: FC = () => {
 
   return (
     <Layout title={t('head.title')} metaDescription={t('head.meta')}>
-      <p>
-        {t('familiarWithTab')}
-      </p>
-      <p>
-        {t('clickingEachLink')}
-      </p>
-      <p>
-        {t('findTheseUseful')}
-
-      </p>
+      <p>{t('familiarWithTab')}</p>
+      <p>{t('clickingEachLink')}</p>
+      <p>{t('findTheseUseful')}</p>
       <p>
         {t('donationPageFor')}{' '}
         <a
@@ -30,7 +23,6 @@ const Tablature: FC = () => {
           rel='noreferrer'
         >
           {t('donationPage')}
-
         </a>
       </p>
 
@@ -38,7 +30,6 @@ const Tablature: FC = () => {
         <p>{showGDAE ? 'GDAE' : 'GDAD'}</p>
         <button onClick={() => setShowGDAE(!showGDAE)}>
           {t('toggleTuning')}
-
         </button>
       </div>
 

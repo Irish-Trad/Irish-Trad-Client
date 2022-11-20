@@ -10,29 +10,19 @@ const HowToReadTab: FC = () => {
 
   return (
     <Layout title={t('head.title')} metaDescription={t('head.meta')}>
-      <h1>
-        {t('p1')}
-      </h1>
+      <h1>{t('p1')}</h1>
       <div>
         <Link href='/lessons'>
-          <a>      {t('p2')}
-          </a>
+          <a> {t('p2')}</a>
         </Link>
       </div>
       <section>
         <h2>{t('p3')}:</h2>
-        <p>
-          {t('p4')}
-        </p>
+        <p>{t('p4')}</p>
         <h2>{t('p5')}:</h2>
-        <p>
-          {t('p6')}
-        </p>
+        <p>{t('p6')}</p>
         <figure>
-          <a
-            href='assets/high-quality/TAB_Lesson/TAB02.jpg'
-            target='_blank'
-          >
+          <a href='assets/high-quality/TAB_Lesson/TAB02.jpg' target='_blank'>
             {/* <Image
               src='assets/low-quality/TAB_Lesson/TAB02.jpg'
               alt={t('p7')}
@@ -41,17 +31,10 @@ const HowToReadTab: FC = () => {
           </a>
           <figcaption>{t('p8')}</figcaption>
         </figure>
-        <p>
-          {t('p9')}
-        </p>
-        <p>
-          {t('p10')}
-        </p>
+        <p>{t('p9')}</p>
+        <p>{t('p10')}</p>
         <figure>
-          <a
-            href='assets/high-quality/TAB_Lesson/TAB04.jpg'
-            target='_blank'
-          >
+          <a href='assets/high-quality/TAB_Lesson/TAB04.jpg' target='_blank'>
             {/* <Image
               src='assets/low-quality/TAB_Lesson/TAB04.jpg'
               alt={t('p11')}
@@ -60,9 +43,7 @@ const HowToReadTab: FC = () => {
           </a>
           <figcaption>{t('p12')}</figcaption>
         </figure>
-        <p>
-          {t('p13')}
-        </p>
+        <p>{t('p13')}</p>
         <figure>
           <a href='assets/high-quality/TAB_Lesson/TAB05.jpg'>
             {/* <Image
@@ -73,14 +54,9 @@ const HowToReadTab: FC = () => {
           </a>
           <figcaption>{t('p15')}</figcaption>
         </figure>
-        <p>
-          {t('p16')}
-        </p>
+        <p>{t('p16')}</p>
         <figure>
-          <a
-            href='assets/high-quality/TAB_Lesson/TAB06.jpg'
-            target='_blank'
-          >
+          <a href='assets/high-quality/TAB_Lesson/TAB06.jpg' target='_blank'>
             {/* <Image
               src='assets/low-quality/TAB_Lesson/TAB06.jpg'
               alt={t('p17')}
@@ -89,14 +65,9 @@ const HowToReadTab: FC = () => {
           </a>
           <figcaption>{t('p18')}</figcaption>
         </figure>
-        <p>
-          {t('p19')}
-        </p>
+        <p>{t('p19')}</p>
         <figure>
-          <a
-            href='assets/high-quality/TAB_Lesson/TAB07.jpg'
-            target='_blank'
-          >
+          <a href='assets/high-quality/TAB_Lesson/TAB07.jpg' target='_blank'>
             {/* <Image
               src='assets/low-quality/TAB_Lesson/TAB07.jpg'
               alt={t('p20')}
@@ -105,14 +76,9 @@ const HowToReadTab: FC = () => {
           </a>
           <figcaption>{t('p21')}</figcaption>
         </figure>
-        <p>
-          {t('p22')}
-        </p>
+        <p>{t('p22')}</p>
         <figure>
-          <a
-            href='assets/high-quality/TAB_Lesson/TAB08.jpg'
-            target='_blank'
-          >
+          <a href='assets/high-quality/TAB_Lesson/TAB08.jpg' target='_blank'>
             {/* <Image
               src='assets/low-quality/TAB_Lesson/TAB08.jpg'
               alt={t('p23')}
@@ -122,12 +88,8 @@ const HowToReadTab: FC = () => {
           <figcaption>{t('p24')}</figcaption>
         </figure>
         <h2>{t('p25')}:</h2>
-        <p>
-          {t('p26')}
-        </p>
-        <p>
-          {t('p27')}
-        </p>
+        <p>{t('p26')}</p>
+        <p>{t('p27')}</p>
       </section>
     </Layout>
   )
