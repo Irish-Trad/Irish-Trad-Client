@@ -9,39 +9,35 @@ const Community: FC = () => {
 
   return (
     <Layout title={t('head.title')} metaDescription={t('head.meta')}>
-      <p>{t('interact')}</p>
-      <p>{t('toJoin')}</p>
+      <p>{t('p1')}</p>
+      <p>{t('p2')}</p>
       <div>
         <Discord />
         <a href='https://discord.gg/Mq9jeA8' target='_blank' rel='noreferrer'>
-          <button>{t('clickHere')}</button>
+          <button>{t('p3')}</button>
         </a>
       </div>
-      <p>{t('free')}</p>
-      <p>{t('image')}</p>
+      <p>{t('p4')}</p>
+      <p>{t('p5')}</p>
       <figure>
         <a href='public/discord.jpg' target='_blank'>
-          <img
-            src='public/discord.jpg'
-            alt={t('screenshot')}
-            title={t('screenshot')}
-          />
+          <img src='public/discord.jpg' alt={t('p6')} title={t('p6')} />
         </a>
-        <figcaption>{t('pictured')}</figcaption>
+        <figcaption>{t('p7')}</figcaption>
       </figure>
-      <p>{t('channels')}</p>
+      <p>{t('p8')}</p>
       <p>
-        {t('info')}{' '}
+        {t('p9')}
         <a
           href='https://discordapp.com/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          {t('website')}
+          {t('p10')}
         </a>
       </p>
-      <p>{t('accessed')}</p>
-      <p>{t('footer')}</p>
+      <p>{t('p11')}</p>
+      <p>{t('p12')}</p>
     </Layout>
   )
 }
