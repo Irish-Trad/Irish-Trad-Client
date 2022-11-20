@@ -6,23 +6,23 @@ import { useTranslation } from 'next-i18next'
 const chordButtons = [
   {
     href: '#MajorChords',
-    labelLocaleKey: 'majorChords'
+    labelLocaleKey: 'p1'
   },
   {
     href: '#MinorChords',
-    labelLocaleKey: 'minorChords'
+    labelLocaleKey: 'p2'
   },
   {
     href: '#Major7thChords',
-    labelLocaleKey: 'major7thChords'
+    labelLocaleKey: 'p3'
   },
   {
     href: '#Minor7thChords',
-    labelLocaleKey: 'minor7thChords'
+    labelLocaleKey: 'p4'
   },
   {
     href: '#Dominant7thChords',
-    labelLocaleKey: 'dominant7thChords'
+    labelLocaleKey: 'p5'
   }
 ]
 
@@ -42,30 +42,30 @@ const Chords: FC = () => {
           </a>
         ))}
       </div>
-      <p>{t('chordDiagramsFound')}</p>
-      <p>{t('theoreticalDescription')}</p>
-      <p>{t('patternsShowcased')}</p>
-      <p>{t('majorChords')}</p>
-      <p>{t('majorChordConsistsOfThreeNotes')}</p>
+      <p>{t('p6')}</p>
+      <p>{t('p7')}</p>
+      <p>{t('p8')}</p>
+      <p>{t('p1')}</p>
+      <p>{t('p9')}</p>
       <p>
-        <b>{t('cMajorScale')}</b>
+        <b>{t('p10')}</b>
       </p>
       <p>
-        <b>{t('eMajorScale')}</b>
+        <b>{t('p11')}</b>
       </p>
-      <p>{t('extractingThreeNotesRequired')}</p>
+      <p>{t('p12')}</p>
       <p>
-        <b>{t('majorChordFormula')}</b>
-      </p>
-      <p>
-        <b>{t('majorChordFormulaIntervals')}</b>
-      </p>
-      <p>{t('resultIsCMajorAndEMajor')}</p>
-      <p>
-        <b>{t('cMajorChord')}</b>
+        <b>{t('p13')}</b>
       </p>
       <p>
-        <b>{t('eMajorChord')}</b>
+        <b>{t('p14')}</b>
+      </p>
+      <p>{t('p15')}</p>
+      <p>
+        <b>{t('p16')}</b>
+      </p>
+      <p>
+        <b>{t('p17')}</b>
       </p>
       <div>
         <a
@@ -75,7 +75,7 @@ const Chords: FC = () => {
           <img
             id='MajorChords'
             src='assets/low-quality/GDAE_Chords/GDAE-Major-A4.jpg'
-            alt={t('majorChordsInGDAETuning')}
+            alt={t('p18')}
           />
         </a>
         <a
@@ -84,31 +84,31 @@ const Chords: FC = () => {
         >
           <img
             src='assets/low-quality/GDAD_Chords/GDAD-Major-A4.jpg'
-            alt={t('majorChordsInGDADTuning')}
+            alt={t('p19')}
           />
         </a>
       </div>
-      <p>{t('minorChords')}</p>
-      <p>{t('basicMinorChordConsistsOfThreeNotes')}</p>
+      <p>{t('p2')}</p>
+      <p>{t('p20')}</p>
       <p>
-        <b>{t('cMinorScale')}</b>
+        <b>{t('p21')}</b>
       </p>
       <p>
-        <b>{t('eMinorScale')}</b>
+        <b>{t('p22')}</b>
       </p>
-      <p>{t('extractingThreeNotesRequired')}</p>
+      <p>{t('p12')}</p>
       <p>
-        <b>{t('minorChordFormula')}</b>
-      </p>
-      <p>
-        <b>{t('minorChordFormulaIntervals')}</b>
-      </p>
-      <p>{t('resultIsCMinorAndEMinor')}</p>
-      <p>
-        <b>{t('cMinorChord')}</b>
+        <b>{t('p23')}</b>
       </p>
       <p>
-        <b>{t('eMinorChord')}</b>
+        <b>{t('p24')}</b>
+      </p>
+      <p>{t('p25')}</p>
+      <p>
+        <b>{t('p26')}</b>
+      </p>
+      <p>
+        <b>{t('p27')}</b>
       </p>
       <div>
         <a
@@ -118,7 +118,7 @@ const Chords: FC = () => {
           <img
             id='MinorChords'
             src='assets/low-quality/GDAE_Chords/GDAE-Minor-A4.jpg'
-            alt={t('minorChordsInGDAETuning')}
+            alt={t('p28')}
           />
         </a>
         <a
@@ -127,31 +127,31 @@ const Chords: FC = () => {
         >
           <img
             src='assets/low-quality/GDAD_Chords/GDAD-Minor-A4.jpg'
-            alt={t('minorChordsInGDADTuning')}
+            alt={t('p29')}
           />
         </a>
       </div>
-      <p>{t('major7thChords')}</p>
-      <p>{t('major7thChordsAreExtendedChords')}</p>
+      <p>{t('p3')}</p>
+      <p>{t('p30')}</p>
       <p>
-        <b>{t('cMajorScale')}</b>
+        <b>{t('p10')}</b>
       </p>
       <p>
-        <b>{t('eMajorScale')}</b>
+        <b>{t('p11')}</b>
       </p>
-      <p>{t('extractingFourNotesRequired')}</p>
+      <p>{t('p31')}</p>
       <p>
-        <b>{t('major7thChordFormula')}</b>
-      </p>
-      <p>
-        <b>{t('major7thChordFormulaIntervals')}</b>
-      </p>
-      <p>{t('resultIsCMajor7thAndEMajor7th')}</p>
-      <p>
-        <b>{t('cMajor7thChord')}</b>
+        <b>{t('p32')}</b>
       </p>
       <p>
-        <b>{t('eMajor7thChord')}</b>
+        <b>{t('p33')}</b>
+      </p>
+      <p>{t('p34')}</p>
+      <p>
+        <b>{t('p35')}</b>
+      </p>
+      <p>
+        <b>{t('p36')}</b>
       </p>
       <div>
         <a
@@ -161,7 +161,7 @@ const Chords: FC = () => {
           <img
             id='Major7thChords'
             src='assets/low-quality/GDAE_Chords/GDAE-Major7th-A4.jpg'
-            alt={t('major7thChordsInGDAETuning')}
+            alt={t('p37')}
           />
         </a>
         <a
@@ -170,31 +170,31 @@ const Chords: FC = () => {
         >
           <img
             src='assets/low-quality/GDAD_Chords/GDAD-Major7th-A4.jpg'
-            alt={t('major7thChordsInGDADTuning')}
+            alt={t('p38')}
           />
         </a>
       </div>
-      <p>{t('minor7thChords')}</p>
-      <p>{t('minor7thChordsAreExtendedChords')}</p>
+      <p>{t('p4')}</p>
+      <p>{t('p39')}</p>
       <p>
-        <b>{t('cMinorScale')}</b>
+        <b>{t('p21')}</b>
       </p>
       <p>
-        <b>{t('eMinorScale')}</b>
+        <b>{t('p22')}</b>
       </p>
-      <p>{t('extractingFourNotesRequired')}</p>
+      <p>{t('p31')}</p>
       <p>
-        <b>{t('minor7thChordFormula')}</b>
-      </p>
-      <p>
-        <b>{t('minor7thChordFormulaIntervals')}</b>
-      </p>
-      <p>{t('resultIsCMinor7thAndEMinor7th')}</p>
-      <p>
-        <b>{t('cMinor7thChord')}</b>
+        <b>{t('p40')}</b>
       </p>
       <p>
-        <b>{t('eMinor7thChord')}</b>
+        <b>{t('p41')}</b>
+      </p>
+      <p>{t('p42')}</p>
+      <p>
+        <b>{t('p43')}</b>
+      </p>
+      <p>
+        <b>{t('p44')}</b>
       </p>
       <div>
         <a
@@ -204,7 +204,7 @@ const Chords: FC = () => {
           <img
             id='Minor7thChords'
             src='assets/low-quality/GDAE_Chords/GDAE-Minor7th-A4.jpg'
-            alt={t('minor7thChordsInGDAETuning')}
+            alt={t('p45')}
           />
         </a>
         <a
@@ -213,37 +213,37 @@ const Chords: FC = () => {
         >
           <img
             src='assets/low-quality/GDAD_Chords/GDAD-Minor7th-A4.jpg'
-            alt={t('minor7thChordsInGDADTuning')}
+            alt={t('p46')}
           />
         </a>
       </div>
-      <p>{t('dominant7thChords')}</p>
-      <p>{t('dominant7thChordsAreExtendedChords')}</p>
+      <p>{t('p5')}</p>
+      <p>{t('p47')}</p>
       <p>
-        <b>{t('cMajorScale')}</b>
+        <b>{t('p10')}</b>
       </p>
       <p>
-        <b>{t('eMajorScale')}</b>
+        <b>{t('p11')}</b>
       </p>
       <p>
-        <b>{t('cMinorScale')}</b>
+        <b>{t('p21')}</b>
       </p>
       <p>
-        <b>{t('eMinorScale')}</b>
+        <b>{t('p22')}</b>
       </p>
-      <p>{t('extractingFourNotesRequired')}</p>
+      <p>{t('p31')}</p>
       <p>
-        <b>{t('dominant7thChordFormula')}</b>
-      </p>
-      <p>
-        <b>{t('dominant7thChordFormulaIntervals')}</b>
-      </p>
-      <p>{t('resultIsCDominant7thAndEDominant7th')}</p>
-      <p>
-        <b>{t('cDominant7thChord')}</b>
+        <b>{t('p48')}</b>
       </p>
       <p>
-        <b>{t('eDominant7thChord')}</b>
+        <b>{t('p49')}</b>
+      </p>
+      <p>{t('p50')}</p>
+      <p>
+        <b>{t('p51')}</b>
+      </p>
+      <p>
+        <b>{t('p52')}</b>
       </p>
       <div>
         <a
@@ -253,7 +253,7 @@ const Chords: FC = () => {
           <img
             id='Dominant7thChords'
             src='assets/low-quality/GDAE_Chords/GDAE-Dominant7th-A4.jpg'
-            alt={t('dominant7thChordsInGDAETuning')}
+            alt={t('p53')}
           />
         </a>
         <a
@@ -262,7 +262,7 @@ const Chords: FC = () => {
         >
           <img
             src='assets/low-quality/GDAD_Chords/GDAD-Dominant7th-A4.jpg'
-            alt={t('dominant7thChordsInGDADTuning')}
+            alt={t('p54')}
           />
         </a>
       </div>
