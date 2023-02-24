@@ -27,10 +27,14 @@ const LanguageSwitchLink: FC<Props> = ({ locale, ...rest }) => {
   }
 
   return (
-    <Link
-      href={href}
-    >
-      <button style={{ fontSize: 'small' }} className='text-white' onClick={() => (languageDetector as any).cache(locale)}>{locale.toUpperCase()}</button>
+    <Link href={href}>
+      <button
+        style={{ fontSize: 'small' }}
+        className='text-white'
+        onClick={() => (languageDetector as any).cache(locale)}
+      >
+        {locale.toUpperCase()}
+      </button>
     </Link>
   )
 }
