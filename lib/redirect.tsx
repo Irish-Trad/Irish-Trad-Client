@@ -15,15 +15,15 @@ export const useRedirect = (to) => {
       return
     }
 
-    (languageDetector as any).cache(detectedLng)
+    languageDetector.cache(detectedLng)
     router.replace('/' + detectedLng + to)
   })
 
   return <></>
 }
 
-export const Redirect = (to) => {
-  useRedirect(to)
+export const Redirect = () => {
+  useRedirect()
   return <></>
 }
 
