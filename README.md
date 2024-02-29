@@ -1,25 +1,22 @@
-# Irish-Trad.net
+# next-template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+```bash
+npx create-next-app -e https://github.com/shadcn/next-template
+```
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Next.js 13 App Directory
+- Radix UI Primitives
+- Tailwind CSS
+- Icons from [Lucide](https://lucide.dev)
+- Dark mode with `next-themes`
+- Tailwind CSS class sorting, merging and linting.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## License
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
