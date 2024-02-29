@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import { siteConfig } from "@/config/site"
+import { Route } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import PageLayout from "@/components/page-layout"
 
@@ -22,12 +22,7 @@ const HomePage = () => (
         </p> */}
       </div>
       <div className="flex gap-4">
-        <Link
-          href={siteConfig.links.docs}
-          target="_blank"
-          rel="noreferrer"
-          className={buttonVariants()}
-        >
+        <Link href={Route.Tabs} className={buttonVariants()}>
           Tablature
         </Link>
       </div>
