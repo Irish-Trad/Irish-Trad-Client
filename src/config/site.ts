@@ -1,5 +1,11 @@
 export type SiteConfig = typeof siteConfig
 
+export enum Route {
+  Home = "/",
+  Tabs = "/tabs",
+  Credits = "/credits",
+}
+
 export const siteConfig = {
   name: "IrishTrad.net",
   description:
@@ -7,15 +13,15 @@ export const siteConfig = {
   mainNav: [
     {
       title: "Home",
-      href: "/",
+      href: Route.Home,
     },
     {
       title: "Tablature",
-      href: "/tabs",
+      href: Route.Tabs,
     },
     {
       title: "Credits",
-      href: "/credits",
+      href: Route.Credits,
     },
   ],
   links: {
