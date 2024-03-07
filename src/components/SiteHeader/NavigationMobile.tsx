@@ -18,21 +18,15 @@ const NavigationMobile = ({ onClick }: NavigationMobileProps) => {
   const items = siteConfig.mainNav
 
   return (
-    <div className="absolute top-0 z-50 flex flex-col w-screen h-screen bg-background">
-      <div className="flex items-center justify-between h-16 gap-4 pl-4 border-b">
+    <div className="absolute top-0 z-50 flex h-screen w-screen flex-col bg-background">
+      <div className="flex h-16 items-center justify-between border-b p-4">
         <SiteHeaderLogo />
-
-        <div
-          className="grid w-16 h-16 cursor-pointer place-items-center"
-          onClick={onClick}
-        >
-          <Icons.X className="w-6 h-6" />
-        </div>
+        <Icons.X className="size-6 cursor-pointer" onClick={onClick} />
       </div>
 
-      <div className="grid m-4 place-items-center">
+      <div className="m-4 grid place-items-center">
         {items.length && (
-          <nav className="flex flex-col w-full gap-4">
+          <nav className="flex w-full flex-col gap-4">
             {items.map(
               (item, index) =>
                 item.href && (

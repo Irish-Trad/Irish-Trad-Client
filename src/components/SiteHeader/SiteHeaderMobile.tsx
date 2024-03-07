@@ -13,21 +13,15 @@ const SiteHeaderMobile = () => {
     setShowMobileNavigation(!showMobileNavigation)
   }
 
+  if (showMobileNavigation) {
+    return <NavigationMobile onClick={handleOnClick} />
+  }
+
   return (
-    <>
-      <div className="flex items-center justify-between h-16 gap-4 pl-4 lg:hidden">
-        <SiteHeaderLogo />
-
-        <div
-          className="grid w-16 h-16 cursor-pointer place-items-center"
-          onClick={handleOnClick}
-        >
-          <Icons.Menu className="w-6 h-6" />
-        </div>
-      </div>
-
-      {showMobileNavigation && <NavigationMobile onClick={handleOnClick} />}
-    </>
+    <div className="flex h-16 items-center justify-between p-4 lg:hidden">
+      <SiteHeaderLogo />
+      <Icons.Menu className="size-6 cursor-pointer" onClick={handleOnClick} />
+    </div>
   )
 }
 
