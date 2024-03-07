@@ -1,4 +1,4 @@
-import { Route } from "@/enums/Route"
+import Route from "@/enums/Route"
 
 export type SiteConfig = typeof siteConfig
 
@@ -14,6 +14,10 @@ export const siteConfig = {
     {
       title: "Tablature",
       href: Route.Tabs,
+    },
+    {
+      title: "Scales",
+      href: Route.Scales,
     },
     {
       title: "Credits",

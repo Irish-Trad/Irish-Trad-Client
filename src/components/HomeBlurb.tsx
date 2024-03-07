@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Route } from "@/enums/Route"
+import Route from "@/enums/Route"
 
 import { buttonVariants } from "@/components/ui/button"
 
