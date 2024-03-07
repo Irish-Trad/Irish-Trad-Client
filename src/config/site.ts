@@ -19,6 +19,10 @@ export const siteConfig = {
       title: "Credits",
       href: Route.Credits,
     },
+    {
+      title: "Contact",
+      href: Route.Contact,
+    },
   ],
   links: {
     twitter: "https://twitter.com/shadcn",
