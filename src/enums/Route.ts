@@ -1,0 +1,5 @@
+export enum Route {
+  Home = "/",
+  Tabs = "/tabs",
+  Credits = "/credits",
+}

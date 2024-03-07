@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import PageLayout from "@/components/page-layout"
+import PageLayout from "@/components/PageLayout"
 
 const CreditsPage = () => (
   <PageLayout>

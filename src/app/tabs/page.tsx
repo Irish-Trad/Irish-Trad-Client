@@ -5,7 +5,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import GDADTunes from "@/components/GDAD-tunes"
 import GDAETunes from "@/components/GDAE-tunes"
-import PageLayout from "@/components/page-layout"
+import PageLayout from "@/components/PageLayout"
 
 const TabsPage = () => {
   const [showGDAE, setShowGDAE] = useState(true)

@@ -1,10 +1,6 @@
-export type SiteConfig = typeof siteConfig
+import { Route } from "@/enums/Route"
 
-export enum Route {
-  Home = "/",
-  Tabs = "/tabs",
-  Credits = "/credits",
-}
+export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "IrishTrad.net",
