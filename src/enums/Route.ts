@@ -3,4 +3,5 @@ export enum Route {
   Tabs = "/tabs",
   Credits = "/credits",
   Contact = "/contact",
+  Settings = "/settings",
 }

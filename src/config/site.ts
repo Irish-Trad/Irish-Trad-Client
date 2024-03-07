@@ -23,6 +23,10 @@ export const siteConfig = {
       title: "Contact",
       href: Route.Contact,
     },
+    {
+      title: "Settings",
+      href: Route.Settings,
+    },
   ],
   links: {
     twitter: "https://twitter.com/shadcn",

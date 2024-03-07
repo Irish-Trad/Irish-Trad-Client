@@ -1,4 +1,3 @@
-import { siteConfig } from "@/config/site"
 import NavigationDesktop from "@/components/SiteHeader/NavigationDesktop"
 import ThemeToggle from "@/components/ThemeToggle"
 

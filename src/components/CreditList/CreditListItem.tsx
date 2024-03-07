@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 import CreditEntry from "@/components/CreditList/CreditEntry"
 
 type CreditListItemProps = {
@@ -13,9 +11,8 @@ type CreditListItemProps = {
 
 const CreditListItem = ({ category, credits }: CreditListItemProps) => (
   <>
-    <Link href={`#${category.toLowerCase()}`}>
-      <h2 className="text-2xl underline">{category}</h2>
-    </Link>
+    <h2 className="text-2xl underline">{category}</h2>
+
     {credits.map(({ name, description, link }) => (
       <CreditEntry name={name} description={description} link={link} />
     ))}
