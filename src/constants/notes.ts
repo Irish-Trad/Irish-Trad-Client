@@ -6,7 +6,7 @@ const notes = [
     value: Note.A,
   },
   {
-    label: "A#",
+    label: "A♯",
     value: Note.ASharp,
   },
   {
@@ -14,11 +14,15 @@ const notes = [
     value: Note.B,
   },
   {
+    label: "B♯",
+    value: Note.BSharp,
+  },
+  {
     label: "C",
     value: Note.C,
   },
   {
-    label: "C#",
+    label: "C♯",
     value: Note.CSharp,
   },
   {
@@ -26,7 +30,7 @@ const notes = [
     value: Note.D,
   },
   {
-    label: "D#",
+    label: "D♯",
     value: Note.DSharp,
   },
   {
@@ -38,7 +42,7 @@ const notes = [
     value: Note.F,
   },
   {
-    label: "F#",
+    label: "F♯",
     value: Note.FSharp,
   },
   {
@@ -46,7 +50,7 @@ const notes = [
     value: Note.G,
   },
   {
-    label: "G#",
+    label: "G♯",
     value: Note.GSharp,
   },
 ]
