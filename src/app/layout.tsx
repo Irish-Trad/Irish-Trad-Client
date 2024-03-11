@@ -3,11 +3,11 @@ import { Metadata } from "next"
 import { siteConfig } from "@/config/site"
 import { fontMeath, fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
-import { SiteHeader } from "@/components/site-header"
-import { TailwindIndicator } from "@/components/tailwind-indicator"
-import { ThemeProvider } from "@/components/theme-provider"
 
 import "@/styles/globals.css"
+import SiteHeader from "@/components/SiteHeader/SiteHeader"
+import TailwindIndicator from "@/components/TailwindIndicator"
+import ThemeProvider from "@/components/ThemeProvider"
 
 export const metadata: Metadata = {
   title: {
@@ -30,27 +30,27 @@ interface RootLayoutProps {
   children: React.ReactNode
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
-  return (
-    <>
-      <html lang="en" suppressHydrationWarning>
-        <head />
-        <body
-          className={cn(
-            "min-h-screen bg-background font-sans antialiased",
-            fontSans.variable,
-            fontMeath.variable
-          )}
-        >
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <div className="relative flex flex-col min-h-screen">
-              <SiteHeader />
-              {children}
-            </div>
-            <TailwindIndicator />
-          </ThemeProvider>
-        </body>
-      </html>
-    </>
-  )
-}
+const RootLayout = ({ children }: RootLayoutProps) => (
+  <>
+    <html lang="en" suppressHydrationWarning>
+      <head />
+      <body
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          fontSans.variable,
+          fontMeath.variable
+        )}
+      >
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <div className="relative flex flex-col min-h-screen">
+            <SiteHeader />
+            {children}
+          </div>
+          <TailwindIndicator />
+        </ThemeProvider>
+      </body>
+    </html>
+  </>
+)
+
+export default RootLayout
