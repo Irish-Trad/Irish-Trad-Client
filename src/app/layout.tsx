@@ -5,6 +5,8 @@ import { fontMeath, fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 
 import "@/styles/globals.css"
+import Head from "next/head"
+
 import SiteHeader from "@/components/SiteHeader/SiteHeader"
 import TailwindIndicator from "@/components/TailwindIndicator"
 import ThemeProvider from "@/components/ThemeProvider"
@@ -33,7 +35,9 @@ interface RootLayoutProps {
 const RootLayout = ({ children }: RootLayoutProps) => (
   <>
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <Head>
+        <title>IrishTrad.net</title>
+      </Head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
