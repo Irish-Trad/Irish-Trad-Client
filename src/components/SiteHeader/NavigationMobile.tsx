@@ -6,8 +6,8 @@ import { usePathname } from "next/navigation"
 import { siteConfig } from "@/config/site"
 import isActivePath from "@/lib/isActivePath"
 import { cn } from "@/lib/utils"
-import Icons from "@/components/Icons"
 import SiteHeaderLogo from "@/components/SiteHeader/SiteHeaderLogo"
+import Icons from "@/components/temp"
 
 type NavigationMobileProps = {
   onClick: () => void

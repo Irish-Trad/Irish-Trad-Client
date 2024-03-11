@@ -3,7 +3,7 @@
 import { useTheme } from "next-themes"
 
 import { Button } from "@/components/ui/button"
-import Icons from "@/components/Icons"
+import Icons from "@/components/temp"
 
 const ThemeToggle = () => {
   const { setTheme, theme } = useTheme()
