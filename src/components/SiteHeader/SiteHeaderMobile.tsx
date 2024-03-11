@@ -2,9 +2,9 @@
 
 import { useState } from "react"
 
+import Icons from "@/components/Icons"
 import NavigationMobile from "@/components/SiteHeader/NavigationMobile"
 import SiteHeaderLogo from "@/components/SiteHeader/SiteHeaderLogo"
-import Icons from "@/components/temp"
 
 const SiteHeaderMobile = () => {
   const [showMobileNavigation, setShowMobileNavigation] = useState(false)
