@@ -1,5 +1,5 @@
 import * as GDAE from "@/lib/GDAE"
-import TuneList from "@/components/tune-list"
+import TuneList from "@/components/TuneList"
 
 const GDAETunes = () => (
   <>
