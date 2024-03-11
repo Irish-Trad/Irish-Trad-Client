@@ -1,5 +1,5 @@
 import * as GDAD from "@/lib/GDAD"
-import TuneList from "@/components/tune-list"
+import TuneList from "@/components/TuneList"
 
 const GDADTunes = () => (
   <>
